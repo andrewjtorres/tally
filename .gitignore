@@ -1,0 +1,4 @@
+# Read about how to use .gitignore: https://help.github.com/articles/ignoring-files
+
+node_modules
+data/cache.json

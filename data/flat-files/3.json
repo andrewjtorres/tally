@@ -1,0 +1,13 @@
+{
+    "tags": ["dolor"],
+    "children": [
+        {
+            "foo": "bar",
+            "tags": ["ipsum", "dolor", "amet"]
+        },
+        {
+            "baz": "buzzle",
+            "tags": null
+        }
+    ]
+}
