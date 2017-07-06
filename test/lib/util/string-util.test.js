@@ -1,60 +1,37 @@
 'use strict';
 
+const test = require('ava');
 const stringUtil = require('../../../lib/util/string-util');
 
-describe('stringUtil', () => {
-  describe('.mprepend(strs, data)', () => {
-    it('should return an empty array', () => {
-      const result = stringUtil.mprepend([], 'golf hotel ');
+test('mprepend(): should return an empty array', t => {
+  const result = stringUtil.mprepend([], 'golf hotel ');
 
-      result.should.be.an('array');
-      result.should.be.empty;
-    });
+  t.true(Array.isArray(result));
+  t.is(result.length, 0);
+});
 
-    it('should return an array of strings with data prepended to each', () => {
-      stringUtil.mprepend([
-        'alpha',
-        'bravo',
-        'foxtrot'
-      ], 'golf hotel ').should.have.ordered.members([
-        'golf hotel alpha',
-        'golf hotel bravo',
-        'golf hotel foxtrot'
-      ]);
-    });
-  });
+test('mprepend(): should return an array of strings with data prepended to each', t => {
+  t.deepEqual(stringUtil.mprepend(['bravo', 'foxtrot'], 'golf hotel '), ['golf hotel bravo', 'golf hotel foxtrot']);
+});
 
-  describe('.padEnd(str, length, pad)', () => {
-    it('should return the provided string', () => {
-      stringUtil.padEnd('mike', 2, '#').should.equal('mike');
-    });
+test('padEnd(): should return the provided string', t => {
+  t.is(stringUtil.padEnd('mike', 2, '#'), 'mike');
+});
 
-    it('should return a string with spaces applied to the end', () => {
-      stringUtil.padEnd('yankee', 14).should.equal('yankee        ');
-    });
+test('padEnd(): should return a string with padding applied to the end', t => {
+  t.is(stringUtil.padEnd('yankee', 14), 'yankee        ');
+  t.is(stringUtil.padEnd('oscar', 10, '*'), 'oscar*****');
+});
 
-    it('should return a string with the provided padding applied to the end', () => {
-      stringUtil.padEnd('oscar', 10, '*').should.equal('oscar*****');
-    });
-  });
+test('padStart(): should return the provided string', t => {
+  t.is(stringUtil.padStart('romeo', 3, '@'), 'romeo');
+});
 
-  describe('.padStart(str, length, pad)', () => {
-    it('should return the provided string', () => {
-      stringUtil.padStart('romeo', 3, '@').should.equal('romeo');
-    });
+test('padStart(): should return a string with padding applied to the start', t => {
+  t.is(stringUtil.padStart('whiskey', 9), '  whiskey');
+  t.is(stringUtil.padStart('delta', 9, '!'), '!!!!delta');
+});
 
-    it('should return a string with spaces applied to the start', () => {
-      stringUtil.padStart('whiskey', 9).should.equal('  whiskey');
-    });
-
-    it('should return a string with the provided padding applied to the start', () => {
-      stringUtil.padStart('delta', 9, '!').should.equal('!!!!delta');
-    });
-  });
-
-  describe('.prepend(str, data)', () => {
-    it('should return a string with data prepended', () => {
-      stringUtil.prepend('bravo', 'golf hotel ').should.equal('golf hotel bravo');
-    });
-  });
+test('prepend(): should return a string with data prepended', t => {
+  t.is(stringUtil.prepend('bravo', 'golf hotel '), 'golf hotel bravo');
 });

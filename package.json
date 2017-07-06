@@ -4,9 +4,8 @@
   "bugs": "https://github.com/ajtorres9/tag-counter/issues",
   "description": "A simple Node.js CLI application",
   "devDependencies": {
-    "chai": "4.0.2",
-    "mocha": "3.4.2",
-    "sinon": "2.3.4",
+    "ava": "0.20.0",
+    "sinon": "2.3.6",
     "xo": "0.18.2"
   },
   "engines": {
@@ -22,14 +21,10 @@
   },
   "scripts": {
     "lint": "xo",
-    "test": "mocha"
+    "test": "ava"
   },
   "version": "1.0.0",
   "xo": {
-    "env": [
-      "mocha",
-      "node"
-    ],
-    "space": true
+    "space": 2
   }
 }

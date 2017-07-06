@@ -1,72 +1,67 @@
 'use strict';
 
 const fs = require('fs');
-const chai = require('chai');
 const sinon = require('sinon');
+const test = require('ava');
 const Options = require('../../lib/options');
 
-const should = chai.should();
+const file = 'file-a.txt';
 
-describe('Options', () => {
-  const file = 'file-a.txt';
-  let options;
+test.before(() => {
+  sinon.stub(fs, 'readFile');
 
-  before(() => {
-    sinon.stub(fs, 'readFile');
+  fs.readFile.withArgs(file, 'utf-8', sinon.match.func)
+    .callsArgWithAsync(2, null, 'alpha\ntango\nfoxtrot\nzulu\noscar\n');
+});
 
-    fs.readFile.withArgs(file, 'utf-8', sinon.match.func)
-      .callsArgWithAsync(2, null, 'alpha\ntango\nfoxtrot\nzulu\noscar\n');
+test.cb('get(): should return null', t => {
+  const options = new Options({file});
+
+  options.parse([], () => {
+    t.is(options.get('keyA'), null);
+    t.end();
   });
+});
 
-  beforeEach(() => {
-    options = new Options({file});
-  });
+test.cb('get(): should return an object containing the key-value pair', t => {
+  const options = new Options({file});
 
-  describe('.get(key)', () => {
-    it('should return null', done => {
-      options.parse([], () => {
-        should.equal(options.get('keyA'), null);
-        done();
-      });
+  options.parse([], () => {
+    const key = 'tags';
+
+    t.deepEqual(options.get(key), {
+      [key]: ['alpha', 'tango', 'foxtrot', 'zulu', 'oscar']
     });
-
-    it('should return an object containing the key-value pair', done => {
-      options.parse([], () => {
-        const key = 'tags';
-
-        options.get(key).should.deep.equal({
-          [key]: ['alpha', 'tango', 'foxtrot', 'zulu', 'oscar']
-        });
-        done();
-      });
-    });
+    t.end();
   });
+});
 
-  describe('.parse(args, callback)', () => {
-    it('should parse the default tags file', done => {
-      options.parse([], () => {
-        const key = 'tags';
+test.cb('parse(): should parse the default tags file', t => {
+  const options = new Options({file});
 
-        options.get(key).should.deep.equal({
-          [key]: ['alpha', 'tango', 'foxtrot', 'zulu', 'oscar']
-        });
-        done();
-      });
+  options.parse([], () => {
+    const key = 'tags';
+
+    t.deepEqual(options.get(key), {
+      [key]: ['alpha', 'tango', 'foxtrot', 'zulu', 'oscar']
     });
+    t.end();
+  });
+});
 
-    it('should parse the last value in the arguments array', done => {
-      options.parse(['', '', 'whiskey', 'charlie,india,bravo'], () => {
-        const key = 'tags';
+test.cb('parse(): should parse the last value in the arguments array', t => {
+  const options = new Options({file});
 
-        options.get(key).should.deep.equal({
-          [key]: ['charlie', 'india', 'bravo']
-        });
-        done();
-      });
+  options.parse(['', '', 'whiskey', 'charlie,india,bravo'], () => {
+    const key = 'tags';
+
+    t.deepEqual(options.get(key), {
+      [key]: ['charlie', 'india', 'bravo']
     });
+    t.end();
   });
+});
 
-  after(() => {
-    fs.readFile.restore();
-  });
+test.after(() => {
+  fs.readFile.restore();
 });

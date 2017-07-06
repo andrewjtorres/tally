@@ -1,103 +1,100 @@
 'use strict';
 
-const chai = require('chai');
+const test = require('ava');
 const Tags = require('../../lib/tags');
 
-const should = chai.should();
+test('maxLength: should return the max length of the keys', t => {
+  const tags = new Tags();
 
-describe('Tags', () => {
-  let tags;
+  tags.add('bravo', 2);
+  t.is(tags.maxLength, 5);
+});
 
-  beforeEach(() => {
-    tags = new Tags();
-  });
+test('add(): should update the max length of the keys', t => {
+  const tags = new Tags();
 
-  describe('.maxLength', () => {
-    it('should return the max length of the keys', () => {
-      tags.add('bravo', 2);
-      tags.maxLength.should.equal(5);
-    });
-  });
+  tags.add('tango', 4);
+  t.is(tags.maxLength, 5);
+  tags.add('foxtrot', 9);
+  t.is(tags.maxLength, 7);
+});
 
-  describe('.add(key, val = 0)', () => {
-    it('should update the max length of the keys', () => {
-      tags.add('tango', 4);
-      tags.maxLength.should.equal(5);
-      tags.add('foxtrot', 9);
-      tags.maxLength.should.equal(7);
-    });
+test('add(): should add key-value pair', t => {
+  const key = 'india';
+  const tags = new Tags();
 
-    it('should add key-value pair', () => {
-      const key = 'india';
+  t.is(tags.get(key), null);
+  tags.add(key, 9);
+  t.is(tags.get(key), 9);
+});
 
-      should.equal(tags.get(key), null);
-      tags.add(key, 9);
-      tags.get(key).should.equal(9);
-    });
+test('add(): should add value to the count associated to key', t => {
+  const key = 'november';
+  const tags = new Tags();
 
-    it('should add value to the count associated to key', () => {
-      const key = 'november';
+  tags.add(key, 1);
+  t.is(tags.get(key), 1);
+  tags.add(key, 14);
+  t.is(tags.get(key), 15);
+});
 
-      tags.add(key, 1);
-      tags.get(key).should.equal(1);
-      tags.add(key, 14);
-      tags.get(key).should.equal(15);
-    });
-  });
+test('get(): should return null', t => {
+  const tags = new Tags();
 
-  describe('.get(key)', () => {
-    it('should return null', () => {
-      should.equal(tags.get('juliet'), null);
-    });
+  t.is(tags.get('juliet'), null);
+});
 
-    it('should return the count associated to key', () => {
-      const key = 'lima';
-      const val = 8;
+test('get(): should return the count associated to key', t => {
+  const key = 'lima';
+  const tags = new Tags();
+  const val = 8;
 
-      tags.add(key, val);
-      tags.get(key).should.equal(val);
-    });
-  });
+  tags.add(key, val);
+  t.is(tags.get(key), val);
+});
 
-  describe('.sort(order = true)', () => {
-    it('should return an array of objects sorted in ascending order', () => {
-      tags.add('oscar', 6);
-      tags.add('romeo', 2);
-      tags.add('victor', 6);
+test('sort(): should return an array of objects sorted in ascending order', t => {
+  const tags = new Tags();
 
-      tags.sort().should.have.deep.ordered.members([
-        {name: 'romeo', count: 2},
-        {name: 'oscar', count: 6},
-        {name: 'victor', count: 6}
-      ]);
-    });
+  tags.add('oscar', 6);
+  tags.add('romeo', 2);
+  tags.add('victor', 6);
 
-    it('should return an array of objects sorted in descending order', () => {
-      tags.add('whiskey', 8);
-      tags.add('charlie', 1);
-      tags.add('zulu', 5);
+  t.deepEqual(tags.sort(), [
+    {name: 'romeo', count: 2},
+    {name: 'oscar', count: 6},
+    {name: 'victor', count: 6}
+  ]);
+});
 
-      tags.sort(false).should.have.deep.ordered.members([
-        {name: 'whiskey', count: 8},
-        {name: 'zulu', count: 5},
-        {name: 'charlie', count: 1}
-      ]);
-    });
-  });
+test('sort(): should return an array of objects sorted in descending order', t => {
+  const tags = new Tags();
 
-  describe('.toString(order = true)', () => {
-    it('should return an array of objects sorted in ascending order represented as a string', () => {
-      tags.add('golf', 12);
-      tags.add('hotel', 9);
+  tags.add('whiskey', 8);
+  tags.add('charlie', 1);
+  tags.add('zulu', 5);
 
-      tags.toString().should.equal('hotel  9\ngolf   12\n');
-    });
+  t.deepEqual(tags.sort(false), [
+    {name: 'whiskey', count: 8},
+    {name: 'zulu', count: 5},
+    {name: 'charlie', count: 1}
+  ]);
+});
 
-    it('should return an array of objects sorted in descending order represented as a string', () => {
-      tags.add('mike', 11);
-      tags.add('xray', 5);
+test('toString(): should return an array of objects sorted in ascending order represented as a string', t => {
+  const tags = new Tags();
 
-      tags.toString(false).should.equal('mike  11\nxray  5\n');
-    });
-  });
+  tags.add('golf', 12);
+  tags.add('hotel', 9);
+
+  t.is(tags.toString(), 'hotel  9\ngolf   12\n');
+});
+
+test('toString(): should return an array of objects sorted in descending order represented as a string', t => {
+  const tags = new Tags();
+
+  tags.add('mike', 11);
+  tags.add('xray', 5);
+
+  t.is(tags.toString(false), 'mike  11\nxray  5\n');
 });
