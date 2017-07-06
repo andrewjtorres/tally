@@ -2,6 +2,6 @@
 
 'use strict';
 
-const cli = require('../lib/cli');
+const cli = require('./cli');
 
 cli.execute(process.argv);

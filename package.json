@@ -1,19 +1,15 @@
 {
-  "author": "Andrew Torres <andrew.torres.personal@gmail.com>",
-  "bin": {
-    "tag-counter": "./bin/tag-counter.js"
-  },
-  "bugs": {
-    "url": "https://github.com/ajtorres9/tag-counter/issues"
-  },
-  "description": "Calculate how many times a specified tag appears within a directory of JSON files",
+  "author": "Andrew Torres <andrew.torres.personal@gmail.com> (https://andrewtorr.es)",
+  "bin": "./cli.js",
+  "bugs": "https://github.com/ajtorres9/tag-counter/issues",
+  "description": "A simple Node.js CLI application",
   "devDependencies": {
-    "chai": "^4.0.2",
-    "eslint": "^4.1.1",
-    "eslint-config-airbnb-base": "^11.2.0",
-    "eslint-plugin-import": "^2.6.1",
-    "mocha": "^3.4.2",
-    "sinon": "^2.3.6"
+    "chai": "4.0.2",
+    "eslint": "3.19.0",
+    "eslint-config-airbnb-base": "11.2.0",
+    "eslint-plugin-import": "2.3.0",
+    "mocha": "3.4.2",
+    "sinon": "2.3.4"
   },
   "engines": {
     "node": ">=8.1.3",
