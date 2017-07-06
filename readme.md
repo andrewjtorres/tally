@@ -1,4 +1,5 @@
 # Tag Counter
+[![Coverage Status](https://coveralls.io/repos/github/ajtorres9/tag-counter/badge.svg?branch=master)](https://coveralls.io/github/ajtorres9/tag-counter?branch=master)
 [![XO code style](https://img.shields.io/badge/code_style-XO-5ed9c7.svg)](https://github.com/sindresorhus/xo)
 
 A simple Node.js CLI application built using only core modules, plain callbacks, and
