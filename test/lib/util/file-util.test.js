@@ -1,11 +1,8 @@
 'use strict';
 
-const chai = require('chai');
 const fs = require('fs');
 const sinon = require('sinon');
 const fileUtil = require('../../../lib/util/file-util');
-
-const should = chai.should();
 
 describe('fileUtil', () => {
   const files = [];
@@ -13,22 +10,22 @@ describe('fileUtil', () => {
   before(() => {
     sinon.stub(fs, 'readFile');
 
-    let file = 'file_a.ini';
+    let file = 'file-a.ini';
     files.push(file);
     fs.readFile.withArgs(file, 'utf-8', sinon.match.func)
       .callsArgWithAsync(2, null, 'oscar = tango\n\n[*]\nlima = 4\nkilo = 10\n');
 
-    file = 'file_b.txt';
+    file = 'file-b.txt';
     files.push(file);
     fs.readFile.withArgs(file, 'utf-8', sinon.match.func)
       .callsArgWithAsync(2, null, 'uniform');
 
-    file = 'file_c.json';
+    file = 'file-c.json';
     files.push(file);
     fs.readFile.withArgs(file, 'utf-8', sinon.match.func)
       .callsArgWithAsync(2, null, {
-        key_a: 'papa',
-        key_b: [1, 2],
+        keyA: 'papa',
+        keyB: [1, 2]
       });
   });
 

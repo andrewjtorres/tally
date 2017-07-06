@@ -1,9 +1,6 @@
 'use strict';
 
-const chai = require('chai');
 const stringUtil = require('../../../lib/util/string-util');
-
-const should = chai.should();
 
 describe('stringUtil', () => {
   describe('.mprepend(strs, data)', () => {
@@ -18,11 +15,11 @@ describe('stringUtil', () => {
       stringUtil.mprepend([
         'alpha',
         'bravo',
-        'foxtrot',
+        'foxtrot'
       ], 'golf hotel ').should.have.ordered.members([
         'golf hotel alpha',
         'golf hotel bravo',
-        'golf hotel foxtrot',
+        'golf hotel foxtrot'
       ]);
     });
   });

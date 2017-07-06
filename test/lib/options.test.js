@@ -1,14 +1,14 @@
 'use strict';
 
-const chai = require('chai');
 const fs = require('fs');
+const chai = require('chai');
 const sinon = require('sinon');
 const Options = require('../../lib/options');
 
 const should = chai.should();
 
 describe('Options', () => {
-  const file = 'file_a.txt';
+  const file = 'file-a.txt';
   let options;
 
   before(() => {
@@ -19,13 +19,13 @@ describe('Options', () => {
   });
 
   beforeEach(() => {
-    options = new Options({ file });
+    options = new Options({file});
   });
 
   describe('.get(key)', () => {
     it('should return null', done => {
       options.parse([], () => {
-        should.equal(options.get('key_a'), null);
+        should.equal(options.get('keyA'), null);
         done();
       });
     });
@@ -35,7 +35,7 @@ describe('Options', () => {
         const key = 'tags';
 
         options.get(key).should.deep.equal({
-          [key]: ['alpha', 'tango', 'foxtrot', 'zulu', 'oscar'],
+          [key]: ['alpha', 'tango', 'foxtrot', 'zulu', 'oscar']
         });
         done();
       });
@@ -48,11 +48,10 @@ describe('Options', () => {
         const key = 'tags';
 
         options.get(key).should.deep.equal({
-          [key]: ['alpha', 'tango', 'foxtrot', 'zulu', 'oscar'],
+          [key]: ['alpha', 'tango', 'foxtrot', 'zulu', 'oscar']
         });
         done();
       });
-
     });
 
     it('should parse the last value in the arguments array', done => {
@@ -60,7 +59,7 @@ describe('Options', () => {
         const key = 'tags';
 
         options.get(key).should.deep.equal({
-          [key]: ['charlie', 'india', 'bravo'],
+          [key]: ['charlie', 'india', 'bravo']
         });
         done();
       });

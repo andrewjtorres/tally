@@ -1,8 +1,8 @@
 'use strict';
 
-const chai = require('chai');
 const fs = require('fs');
 const path = require('path');
+const chai = require('chai');
 const sinon = require('sinon');
 const Cache = require('../../lib/cache');
 const log = require('../../lib/log');
@@ -19,11 +19,11 @@ const should = chai.should();
 function testFormatter(arr, data) {
   const acc = arr === null ? [] : arr;
 
-  return acc.concat(objectUtil.flattenArray('key_a', data));
+  return acc.concat(objectUtil.flattenArray('keyA', data));
 }
 
 describe('Cache', () => {
-  const dataDir = 'data_dir';
+  const dataDir = 'data-dir';
   const files = [];
   let cache;
 
@@ -32,34 +32,34 @@ describe('Cache', () => {
     sinon.stub(fs, 'readdir');
     sinon.stub(log, 'error').callsFake(() => (true));
 
-    let file = 'file_a.json';
+    let file = 'file-a.json';
     files.push(file);
     fs.readFile.withArgs(`${dataDir}${path.sep}${file}`, 'utf-8', sinon.match.func)
       .callsArgWithAsync(2, null, JSON.stringify({
-        key_a: ['foxtrot', 'golf'],
-        key_b: [{ key_d: 'oscar', key_a: ['quebec']}, { key_d: 'foxtrot', key_a: null }],
+        keyA: ['foxtrot', 'golf'],
+        keyB: [{keyD: 'oscar', keyA: ['quebec']}, {keyD: 'foxtrot', keyA: null}]
       }));
 
-    file = 'file_b.json';
+    file = 'file-b.json';
     files.push(file);
     fs.readFile.withArgs(`${dataDir}${path.sep}${file}`, 'utf-8', sinon.match.func)
       .callsArgWithAsync(2, null, 'november');
 
-    file = 'file_c.json';
+    file = 'file-c.json';
     files.push(file);
     fs.readFile.withArgs(`${dataDir}${path.sep}${file}`, 'utf-8', sinon.match.func)
       .callsArgWithAsync(2, null, JSON.stringify({
-        key_a: ['alpha'],
-        key_c: 'echo',
+        keyA: ['alpha'],
+        keyC: 'echo'
       }));
 
     fs.readdir.withArgs(dataDir, sinon.match.func).callsArgWithAsync(1, null, files);
 
-    fs.readFile.withArgs('file_m.json', 'utf-8', sinon.match.func)
+    fs.readFile.withArgs('file-m.json', 'utf-8', sinon.match.func)
       .callsArgWithAsync(2, new Error('no such file or directory'));
-    fs.readFile.withArgs('file_n.json', 'utf-8', sinon.match.func)
+    fs.readFile.withArgs('file-n.json', 'utf-8', sinon.match.func)
       .callsArgWithAsync(2, null, JSON.stringify({
-        key_a: 'yankee',
+        keyA: 'yankee'
       }));
   });
 
@@ -69,11 +69,11 @@ describe('Cache', () => {
 
   describe('.get(key)', () => {
     it('should return null', () => {
-      should.equal(cache.get('key_z'), null);
+      should.equal(cache.get('keyZ'), null);
     });
 
     it('should return an object containing the key-value pair', () => {
-      const key = 'key_a';
+      const key = 'keyA';
       const val = ['sierra'];
 
       cache.set(key, val);
@@ -86,9 +86,9 @@ describe('Cache', () => {
   describe('.mset(keys, vals)', () => {
     it('should set the keys to the provided values', () => {
       const vals = {
-        key_a: { key_d: 4 },
-        key_b: 'oscar',
-        key_c: ['kilo'],
+        keyA: {keyD: 4},
+        keyB: 'oscar',
+        keyC: ['kilo']
       };
       const keys = Object.keys(vals);
       const length = keys.length;
@@ -105,7 +105,7 @@ describe('Cache', () => {
 
   describe('.set(key, val)', () => {
     it('should set the key to the provided value', () => {
-      const key = 'key_a';
+      const key = 'keyA';
       const val = 'tango';
 
       cache.set(key, val);
@@ -117,23 +117,23 @@ describe('Cache', () => {
 
   describe('.load(callback)', () => {
     it('should load the files from the data directory', done => {
-      const key = 'key_a';
+      const key = 'keyA';
       const val = 'romeo';
 
       cache = new Cache({
         dataDir,
-        file: 'file_m.json',
-        formatters: [{ name: key, formatter: testFormatter }],
+        file: 'file-m.json',
+        formatters: [{name: key, formatter: testFormatter}]
       });
 
       cache.set(key, val);
       cache.get(key).should.deep.equal({
-        [key]: val,
+        [key]: val
       });
       cache.load(() => {
         should.equal(log.error.calledOnce, true);
         cache.get(key).should.deep.equal({
-          [key]: ['foxtrot', 'golf', 'quebec', 'alpha'],
+          [key]: ['foxtrot', 'golf', 'quebec', 'alpha']
         });
 
         done();
@@ -141,20 +141,20 @@ describe('Cache', () => {
     });
 
     it('should load the cache file', done => {
-      const key = 'key_a';
+      const key = 'keyA';
       const val = 'romeo';
 
       cache = new Cache({
-        file: 'file_n.json',
+        file: 'file-n.json'
       });
 
       cache.set(key, val);
       cache.get(key).should.deep.equal({
-        [key]: val,
+        [key]: val
       });
       cache.load(() => {
         cache.get(key).should.deep.equal({
-          [key]: 'yankee',
+          [key]: 'yankee'
         });
 
         done();

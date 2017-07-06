@@ -66,9 +66,9 @@ describe('Tags', () => {
       tags.add('victor', 6);
 
       tags.sort().should.have.deep.ordered.members([
-        { name: 'romeo', count: 2 },
-        { name: 'oscar', count: 6 },
-        { name: 'victor', count: 6 },
+        {name: 'romeo', count: 2},
+        {name: 'oscar', count: 6},
+        {name: 'victor', count: 6}
       ]);
     });
 
@@ -78,9 +78,9 @@ describe('Tags', () => {
       tags.add('zulu', 5);
 
       tags.sort(false).should.have.deep.ordered.members([
-        { name: 'whiskey', count: 8 },
-        { name: 'zulu', count: 5 },
-        { name: 'charlie', count: 1 },
+        {name: 'whiskey', count: 8},
+        {name: 'zulu', count: 5},
+        {name: 'charlie', count: 1}
       ]);
     });
   });

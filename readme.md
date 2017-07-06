@@ -1,5 +1,7 @@
 # Tag Counter
-A Node.js application built using only core modules, plain callbacks, and
+[![XO code style](https://img.shields.io/badge/code_style-XO-5ed9c7.svg)](https://github.com/sindresorhus/xo)
+
+A simple Node.js CLI application built using only core modules, plain callbacks, and
 asynchronous I/O functions
 
 ## Obeys the Following
