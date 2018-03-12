@@ -80,7 +80,7 @@ test('mset(): should set the keys to the provided values', t => {
     keyC: ['kilo']
   };
   const keys = Object.keys(vals);
-  const length = keys.length;
+  const {length} = keys;
 
   cache.mset(keys, vals);
 

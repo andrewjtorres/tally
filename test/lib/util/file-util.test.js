@@ -42,7 +42,7 @@ test.cb('readFiles(): should provide an array of objects containing error and da
     t.true(Array.isArray(data));
     t.is(data.length, 3);
 
-    const length = files.length;
+    const {length} = files;
 
     for (let i = 0; i < length; ++i) {
       t.true('data' in data[i]);
