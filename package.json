@@ -4,11 +4,11 @@
   "bugs": "https://github.com/ajtorres9/tag-counter/issues",
   "description": "A simple Node.js CLI application",
   "devDependencies": {
-    "ava": "0.20.0",
-    "coveralls": "2.13.1",
-    "nyc": "11.0.3",
-    "sinon": "2.3.6",
-    "xo": "0.18.2"
+    "ava": "0.25.0",
+    "coveralls": "3.0.0",
+    "nyc": "11.4.1",
+    "sinon": "4.4.3",
+    "xo": "0.20.3"
   },
   "engines": {
     "node": ">=8.1.3",
