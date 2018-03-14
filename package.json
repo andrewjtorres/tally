@@ -1,5 +1,5 @@
 {
-  "author": "Andrew Torres <andrew.torres.personal@gmail.com> (https://andrewtorr.es)",
+  "author": "Andrew Torres <andrew.jonathan.torres@gmail.com> (https://andrewtorr.es)",
   "bin": "./cli.js",
   "bugs": "https://github.com/ajtorres9/tag-counter/issues",
   "description": "A simple Node.js CLI application",

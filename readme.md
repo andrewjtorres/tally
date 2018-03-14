@@ -1,7 +1,7 @@
 # Tag Counter
 [![Build Status](https://travis-ci.org/ajtorres9/tag-counter.svg?branch=master)](https://travis-ci.org/ajtorres9/tag-counter)
-[![Coverage Status](https://coveralls.io/repos/github/ajtorres9/tag-counter/badge.svg?branch=master)](https://coveralls.io/github/ajtorres9/tag-counter?branch=master)
-[![XO Code Style](https://img.shields.io/badge/code_style-XO-5ed9c7.svg)](https://github.com/sindresorhus/xo)
+[![Coverage](https://coveralls.io/repos/github/ajtorres9/tag-counter/badge.svg?branch=master)](https://coveralls.io/github/ajtorres9/tag-counter?branch=master)
+[![Code Style](https://img.shields.io/badge/code_style-XO-5ed9c7.svg)](https://github.com/sindresorhus/xo)
 
 A simple Node.js CLI application built using only core modules, plain callbacks, and
 asynchronous I/O functions
@@ -29,4 +29,4 @@ sit    0
 ```
 
 ## License
-[MIT](https://github.com/ajtorres9/tag-counter/blob/master/license)
+[MIT](https://github.com/backspin/backspin/blob/master/license) &copy; [Andrew Torres](https://andrewtorr.es)
