@@ -5,7 +5,7 @@
   "description": "A simple Node.js CLI application",
   "devDependencies": {
     "ava": "0.25.0",
-    "coveralls": "3.0.0",
+    "coveralls": "3.0.1",
     "nyc": "11.4.1",
     "sinon": "4.4.3",
     "xo": "0.20.3"
