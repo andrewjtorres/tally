@@ -1,6 +1,12 @@
-# Read about how to use .gitignore: https://help.github.com/articles/ignoring-files
+# Dependencies
+node_modules
 
+# Test and Code Coverage
 .nyc_output
 coverage
-node_modules
+
+# Logs
+*.log*
+
+# Miscellaneous
 cache.json
