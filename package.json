@@ -20,8 +20,11 @@
     "url": "git+https://github.com/ajtorres9/tag-counter.git"
   },
   "scripts": {
-    "lint": "xo",
-    "test": "nyc ava"
+    "lint": "yarn lint-files && yarn lint-scripts",
+    "lint-files": "prettylint --ignore-path .gitignore **/*.{json,md,yml}",
+    "lint-scripts": "eslint --cache --ignore-path .gitignore --ignore-pattern !**/.* **/*.js",
+    "test": "yarn test-units",
+    "test-units": "nyc ava"
   },
   "config": {
     "commitizen": {
@@ -32,16 +35,23 @@
     "ava": "^2.0.0",
     "coveralls": "^3.0.4",
     "cz-conventional-changelog": "^2.1.0",
+    "eslint": "^5.16.0",
+    "eslint-config-prettier": "^4.3.0",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-plugin-import": "^2.17.3",
+    "eslint-plugin-node": "^9.1.0",
+    "eslint-plugin-prettier": "^3.1.0",
+    "eslint-plugin-promise": "^4.1.1",
+    "eslint-plugin-standard": "^4.0.0",
+    "eslint-plugin-unicorn": "^9.0.0",
     "nyc": "^14.1.1",
-    "sinon": "^7.3.2",
-    "xo": "^0.24.0"
+    "prettier": "^1.18.2",
+    "prettylint": "^1.0.0",
+    "sinon": "^7.3.2"
   },
   "engines": {
     "node": ">=8.16.0",
     "yarn": ">=1.16.0"
   },
-  "private": true,
-  "xo": {
-    "space": 2
-  }
+  "private": true
 }

@@ -5,7 +5,7 @@
 
 [![Travis CI](https://flat.badgen.net/travis/ajtorres9/tag-counter/master)](https://travis-ci.org/ajtorres9/tag-counter)
 [![Coveralls](https://flat.badgen.net/coveralls/c/github/ajtorres9/tag-counter/master)](https://coveralls.io/github/ajtorres9/tag-counter?branch=master)
-[![Code Style](https://flat.badgen.net/badge/code%20style/XO/5ed9c7)](https://github.com/sindresorhus/xo)
+[![Code Style](https://flat.badgen.net/badge/code%20style/prettier/ff69b4)](https://github.com/prettier/prettier)
 [![Commitizen](https://flat.badgen.net/badge/commitizen/friendly/green)](https://github.com/commitizen/cz-cli)
 [![License](https://flat.badgen.net/github/license/ajtorres9/tag-counter)](license)
 
