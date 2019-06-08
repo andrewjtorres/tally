@@ -2,7 +2,7 @@
   "projectName": "tag-counter",
   "projectOwner": "ajtorres9",
   "repoType": "github",
-  "repoHost": "https://www.github.com/",
+  "repoHost": "https://github.com",
   "files": [
     "readme.md"
   ],
@@ -15,7 +15,7 @@
       "login": "ajtorres9",
       "name": "Andrew Torres",
       "avatar_url": "https://avatars2.githubusercontent.com/u/450495?v=4",
-      "profile": "https://andrewjtorr.es/",
+      "profile": "https://andrewjtorr.es",
       "contributions": [
         "code",
         "doc",
