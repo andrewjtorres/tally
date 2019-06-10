@@ -1,10 +1,11 @@
 language: node_js
 node_js:
   - '8'
-before_install:
-  - npm install --global npm
+  - '10'
+  - '12'
 script:
-  - npm run lint
-  - npm run test
+  - yarn --silent lint:files
+  - yarn --silent lint:scripts
+  - yarn --silent test:units --coverage --runInBand
 after_success:
-  - ./node_modules/.bin/nyc report --reporter=text-lcov | ./node_modules/.bin/coveralls
+  - yarn --silent codecov

@@ -4,7 +4,7 @@
 > callbacks, and asynchronous I/O functions
 
 [![Travis CI](https://flat.badgen.net/travis/ajtorres9/tag-counter/master)](https://travis-ci.org/ajtorres9/tag-counter)
-[![Coveralls](https://flat.badgen.net/coveralls/c/github/ajtorres9/tag-counter/master)](https://coveralls.io/github/ajtorres9/tag-counter?branch=master)
+[![Codecov](https://flat.badgen.net/codecov/c/github/ajtorres9/tag-counter/master)](https://codecov.io/gh/ajtorres9/tag-counter)
 [![Code Style](https://flat.badgen.net/badge/code%20style/prettier/ff69b4)](https://github.com/prettier/prettier)
 [![All Contributors](https://flat.badgen.net/badge/all%20contributors/1/orange)](#contributors)
 [![Commitizen](https://flat.badgen.net/badge/commitizen/friendly/green)](https://github.com/commitizen/cz-cli)
