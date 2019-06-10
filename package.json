@@ -47,12 +47,13 @@
     "husky": "^2.4.0",
     "jest": "^24.8.0",
     "jest-circus": "^24.8.0",
+    "jest-junit": "^6.4.0",
     "lint-staged": "^8.2.0",
     "prettier": "^1.18.2",
     "prettylint": "^1.0.0"
   },
   "engines": {
-    "node": ">=8.16.0",
+    "node": ">=10.15.3",
     "yarn": ">=1.16.0"
   },
   "private": true,
