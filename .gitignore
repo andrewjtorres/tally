@@ -2,7 +2,6 @@
 node_modules
 
 # Test and Code Coverage
-.nyc_output
 coverage
 
 # Logs
