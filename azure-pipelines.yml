@@ -42,4 +42,4 @@ jobs:
         condition: succeededOrFailed()
         inputs:
           testResultsFiles: '**/*.xml'
-          searchFolder: $(System.DefaultWorkingDirectory)/$(workingDirectory)/$(reportsDirectory)
+          searchFolder: $(System.DefaultWorkingDirectory)/$(reportsDirectory)
