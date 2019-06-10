@@ -19,7 +19,7 @@ jobs:
         displayName: Setup
       - script: |
           yarn --silent lint-files
-          yarn --silent lint-scripts --format junit-xml --output-file $(reportsDirectory)/lint-scripts.xml
+          yarn --silent lint-scripts --format junit --output-file $(reportsDirectory)/lint-scripts.xml
         displayName: Run static analysis
       - script: yarn --silent test-units --coverage --runInBand --reporters default jest-junit
         displayName: Run tests
