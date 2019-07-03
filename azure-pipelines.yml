@@ -19,13 +19,13 @@ jobs:
         displayName: Setup
       - script: |
           npm run --silent lint-files
-          npm run --silent lint-scripts --format junit --output-file $(reportsDirectory)/lint-scripts.xml
+          npm run --silent lint-scripts -- --format junit --output-file $(reportsDirectory)/lint-scripts.xml
         displayName: Run static analysis
-      - script: npm run --silent test-units --coverage --runInBand --reporters default jest-junit
+      - script: npm run --silent test-units -- --coverage --runInBand --reporters default jest-junit
         displayName: Run tests
         env:
           JEST_JUNIT_OUTPUT: $(reportsDirectory)/test-units.xml
-      - script: npm run --silent codecov --token=$(codecovToken)
+      - script: npx codecov --token=$(codecovToken)
         displayName: Publish code coverage results
       - task: PublishPipelineArtifact@0
         displayName: Publish coverage artifact
