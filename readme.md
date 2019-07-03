@@ -1,14 +1,14 @@
-# Tag Counter
+# tag-counter-cli
 
 > A simple Node.js CLI application built using only core modules, plain
 > callbacks, and asynchronous I/O functions
 
-[![Azure Pipelines](https://flat.badgen.net/azure-pipelines/ajtorres9/tag-counter/ajtorres9.tag-counter/master?label=build)](https://dev.azure.com/ajtorres9/tag-counter/_build/latest?definitionId=2)
-[![Codecov](https://flat.badgen.net/codecov/c/github/ajtorres9/tag-counter/master)](https://codecov.io/gh/ajtorres9/tag-counter)
+[![Azure Pipelines](https://flat.badgen.net/azure-pipelines/ajtorres9/tag-counter-cli/ajtorres9.tag-counter-cli/master?label=build)](https://dev.azure.com/ajtorres9/tag-counter-cli/_build/latest?definitionId=2)
+[![Codecov](https://flat.badgen.net/codecov/c/github/ajtorres9/tag-counter-cli/master)](https://codecov.io/gh/ajtorres9/tag-counter-cli)
 [![Code Style](https://flat.badgen.net/badge/code%20style/prettier/ff69b4)](https://github.com/prettier/prettier)
 [![All Contributors](https://flat.badgen.net/badge/all%20contributors/1/orange)](#contributors)
 [![Commitizen](https://flat.badgen.net/badge/commitizen/friendly/green)](https://github.com/commitizen/cz-cli)
-[![License](https://flat.badgen.net/github/license/ajtorres9/tag-counter)](license)
+[![License](https://flat.badgen.net/github/license/ajtorres9/tag-counter-cli)](license)
 
 ## Obeys the Following
 
@@ -39,12 +39,12 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore -->
-<table><tr><td align="center"><a href="https://andrewjtorr.es"><img src="https://avatars2.githubusercontent.com/u/450495?v=4" width="100px;" alt="Andrew Torres"/><br /><sub><b>Andrew Torres</b></sub></a><br /><a href="https://github.com/ajtorres9/tag-counter/commits?author=ajtorres9" title="Code">💻</a> <a href="https://github.com/ajtorres9/tag-counter/commits?author=ajtorres9" title="Documentation">📖</a> <a href="#ideas-ajtorres9" title="Ideas, Planning, & Feedback">🤔</a> <a href="#infra-ajtorres9" title="Infrastructure (Hosting, Build-Tools, etc)">🚇</a> <a href="https://github.com/ajtorres9/tag-counter/commits?author=ajtorres9" title="Tests">⚠️</a></td></tr></table>
+<table><tr><td align="center"><a href="https://andrewjtorr.es"><img src="https://avatars2.githubusercontent.com/u/450495?v=4" width="100px;" alt="Andrew Torres"/><br /><sub><b>Andrew Torres</b></sub></a><br /><a href="https://github.com/ajtorres9/tag-counter-cli/commits?author=ajtorres9" title="Code">💻</a> <a href="https://github.com/ajtorres9/tag-counter-cli/commits?author=ajtorres9" title="Documentation">📖</a> <a href="#ideas-ajtorres9" title="Ideas, Planning, & Feedback">🤔</a> <a href="#infra-ajtorres9" title="Infrastructure (Hosting, Build-Tools, etc)">🚇</a> <a href="https://github.com/ajtorres9/tag-counter-cli/commits?author=ajtorres9" title="Tests">⚠️</a></td></tr></table>
 
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
-This project follows the [all-contributors](https://allcontributors.org)
-specification. Contributions of any kind are welcome!
+This project follows the [all-contributors](https://allcontributors.org) specification. Contributions of any
+kind are welcome!
 
 ## License
 

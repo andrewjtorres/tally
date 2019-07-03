@@ -1,6 +1,6 @@
 {
-  "name": "tag-counter",
-  "version": "1.0.0",
+  "name": "tag-counter-cli",
+  "version": "0.1.0",
   "description": "A simple Node.js CLI application built using only core modules, plain callbacks, and asynchronous I/O functions",
   "keywords": [
     "asynchronous",
@@ -10,20 +10,22 @@
     "json-parsing",
     "nodejs"
   ],
-  "homepage": "https://github.com/ajtorres9/tag-counter#readme",
-  "bugs": "https://github.com/ajtorres9/tag-counter/issues",
+  "homepage": "https://github.com/ajtorres9/tag-counter-cli#readme",
+  "bugs": "https://github.com/ajtorres9/tag-counter-cli/issues",
   "license": "MIT",
   "author": "Andrew Torres <andrew.jonathan.torres@gmail.com> (https://andrewjtorr.es)",
-  "bin": "./cli.js",
+  "bin": {
+    "tag-counter": "./cli.js"
+  },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ajtorres9/tag-counter.git"
+    "url": "git+https://github.com/ajtorres9/tag-counter-cli.git"
   },
   "scripts": {
-    "lint": "yarn lint-files && yarn lint-scripts",
+    "lint": "npm run lint-files && npm run lint-scripts",
     "lint-files": "prettylint --ignore-path .gitignore '**/*.{json,md,yml}'",
     "lint-scripts": "eslint --cache --ignore-path .gitignore --ignore-pattern '!**/.*' '**/*.js'",
-    "test": "yarn test-units",
+    "test": "npm run test-units",
     "test-units": "jest"
   },
   "config": {
@@ -53,8 +55,8 @@
     "prettylint": "^1.0.0"
   },
   "engines": {
-    "node": ">=10.15.3",
-    "yarn": ">=1.16.0"
+    "node": ">=10.16.0",
+    "npm": ">=6.9.0"
   },
   "private": true,
   "husky": {
@@ -63,16 +65,14 @@
     }
   },
   "lint-staged": {
-    "linters": {
-      "*.js": [
-        "eslint --fix",
-        "jest --bail --findRelatedTests",
-        "git add"
-      ],
-      "*.{json,md,yml}": [
-        "prettylint --fix",
-        "git add"
-      ]
-    }
+    "*.js": [
+      "eslint --fix",
+      "jest --bail --findRelatedTests",
+      "git add"
+    ],
+    "*.{json,md,yml}": [
+      "prettylint --fix",
+      "git add"
+    ]
   }
 }
