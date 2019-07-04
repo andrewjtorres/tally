@@ -13,7 +13,8 @@ jobs:
       - name: args
         value:
       - ${{ if eq(parameters.os, 'linux') }}:
-        value: --coverage
+          - name: args
+            value: --coverage
     steps:
       - task: NodeTool@0
         displayName: Install Node
