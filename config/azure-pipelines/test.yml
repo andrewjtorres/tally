@@ -8,6 +8,8 @@ jobs:
     pool:
       vmImage: ${{ parameters.vmImage }}
     variables:
+      - name: args
+        value:
       - ${{ if eq(parameters.os, 'linux') }}:
           - name: args
             value: --coverage
