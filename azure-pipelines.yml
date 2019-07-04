@@ -1,59 +1,63 @@
 variables:
-  nodeVersion: '>=10.16.0'
-stages:
-  - stage: root
-    displayName: Root
-    variables:
-      - name: coverageDirectory
-        value: coverage
-      - name: reportsDirectory
-        value: reports
-    jobs:
-      - template: config/azure-pipelines/setup.yml
-        parameters:
-          displayName: Setup on Linux
-          os: linux
-          vmImage: ubuntu-16.04
-      - template: config/azure-pipelines/setup.yml
-        parameters:
-          displayName: Setup on macOS
-          os: macos
-          vmImage: macOS-10.14
-      - template: config/azure-pipelines/setup.yml
-        parameters:
-          displayName: Setup on Windows
-          os: windows
-          vmImage: windows-2019
-      - template: config/azure-pipelines/static-analysis.yml
-        parameters:
-          displayName: Static Analysis on Linux
-          os: linux
-          vmImage: ubuntu-16.04
-      - template: config/azure-pipelines/static-analysis.yml
-        parameters:
-          displayName: Static Analysis on macOS
-          os: macos
-          vmImage: macOS-10.14
-      - template: config/azure-pipelines/static-analysis.yml
-        parameters:
-          displayName: Static Analysis on Windows
-          os: windows
-          vmImage: windows-2019
-      - template: config/azure-pipelines/test.yml
-        parameters:
-          displayName: Test on Linux
-          os: linux
-          vmImage: ubuntu-16.04
-      - template: config/azure-pipelines/test.yml
-        parameters:
-          displayName: Test on macOS
-          os: macos
-          vmImage: macOS-10.14
-      - template: config/azure-pipelines/test.yml
-        parameters:
-          displayName: Test on Windows
-          os: windows
-          vmImage: windows-2019
+  - name: coverageDirectory
+    value: coverage
+  - name: nodeVersion
+    value: '>=10.16.0'
+  - name: reportsDirectory
+    value: reports
+jobs:
+  - job: setup
+    displayName: Setup
+    pool:
+      vmImage: ubuntu-16.04
+    steps:
+      - script: mkdir --parents $(coverageDirectory) $(reportsDirectory)/{linux,macos,windows}
+        displayName: Setup
+  - template: config/azure-pipelines/setup.yml
+    parameters:
+      displayName: Setup on Linux
+      os: linux
+      vmImage: ubuntu-16.04
+  - template: config/azure-pipelines/setup.yml
+    parameters:
+      displayName: Setup on macOS
+      os: macos
+      vmImage: macOS-10.14
+  - template: config/azure-pipelines/setup.yml
+    parameters:
+      displayName: Setup on Windows
+      os: windows
+      vmImage: windows-2019
+  - template: config/azure-pipelines/static-analysis.yml
+    parameters:
+      displayName: Static Analysis on Linux
+      os: linux
+      vmImage: ubuntu-16.04
+  - template: config/azure-pipelines/static-analysis.yml
+    parameters:
+      displayName: Static Analysis on macOS
+      os: macos
+      vmImage: macOS-10.14
+  - template: config/azure-pipelines/static-analysis.yml
+    parameters:
+      displayName: Static Analysis on Windows
+      os: windows
+      vmImage: windows-2019
+  - template: config/azure-pipelines/test.yml
+    parameters:
+      displayName: Test on Linux
+      os: linux
+      vmImage: ubuntu-16.04
+  - template: config/azure-pipelines/test.yml
+    parameters:
+      displayName: Test on macOS
+      os: macos
+      vmImage: macOS-10.14
+  - template: config/azure-pipelines/test.yml
+    parameters:
+      displayName: Test on Windows
+      os: windows
+      vmImage: windows-2019
 trigger:
   branches:
     include:

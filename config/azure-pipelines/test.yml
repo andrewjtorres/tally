@@ -13,9 +13,12 @@ jobs:
       - name: args
         value:
       - ${{ if eq(parameters.os, 'linux') }}:
-          - name: args
-            value: --coverage
+        value: --coverage
     steps:
+      - task: NodeTool@0
+        displayName: Install Node
+        inputs:
+          versionSpec: $(nodeVersion)
       - script: npm install
         displayName: Install Node dependencies
       - script: npm run --silent test-units -- $(args) --runInBand --reporters default jest-junit
