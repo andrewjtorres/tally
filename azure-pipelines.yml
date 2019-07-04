@@ -1,3 +1,5 @@
+variables:
+  nodeVersion: '>=10.16.0'
 stages:
   - stage: root
     displayName: Root
@@ -7,6 +9,21 @@ stages:
       - name: reportsDirectory
         value: reports
     jobs:
+      - template: config/azure-pipelines/setup.yml
+        parameters:
+          displayName: Setup on Linux
+          os: linux
+          vmImage: ubuntu-16.04
+      - template: config/azure-pipelines/setup.yml
+        parameters:
+          displayName: Setup on macOS
+          os: macos
+          vmImage: macOS-10.14
+      - template: config/azure-pipelines/setup.yml
+        parameters:
+          displayName: Setup on Windows
+          os: windows
+          vmImage: windows-2019
       - template: config/azure-pipelines/static-analysis.yml
         parameters:
           displayName: Static Analysis on Linux
