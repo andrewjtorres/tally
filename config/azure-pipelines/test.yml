@@ -26,22 +26,22 @@ jobs:
           versionSpec: $(nodeVersion)
       - script: npm install
         displayName: Install Node dependencies
-      - script: npm run --silent test-units -- $(args) --runInBand --reporters default jest-junit
+      - script: npm run test-units -- $(args) --runInBand --reporters default jest-junit
         displayName: Run tests
         env:
           JEST_JUNIT_OUTPUT: $(reportsDirectory)/test-units.xml
       - ${{ if eq(parameters.os, 'linux') }}:
-          # - script: npx codecov --token=$(codecovToken)
-          #   displayName: Publish code coverage results
+          - script: npx codecov --token=$(codecovToken)
+            displayName: Publish code coverage results
           - publish: $(coverageDirectory)
             displayName: Publish coverage artifact
             artifact: coverage
       - publish: $(reportsDirectory)
         displayName: Publish reports artifact
         artifact: test-${{ parameters.os }}
-      # - task: PublishTestResults@2
-      #   displayName: Publish tests results
-      #   condition: succeededOrFailed()
-      #   inputs:
-      #     testResultsFiles: '**/*.xml'
-      #     searchFolder: $(System.DefaultWorkingDirectory)/$(reportsDirectory)
+      - task: PublishTestResults@2
+        displayName: Publish tests results
+        condition: succeededOrFailed()
+        inputs:
+          testResultsFiles: '**/*.xml'
+          searchFolder: $(System.DefaultWorkingDirectory)/$(reportsDirectory)
