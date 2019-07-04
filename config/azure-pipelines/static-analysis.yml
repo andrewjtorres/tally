@@ -18,8 +18,8 @@ jobs:
       - script: npm install
         displayName: Install Node dependencies
       - script: |
-          # npm run lint-files
-          npm run lint-scripts -- --format junit --output-file $(reportsDirectory)/lint-scripts.xml
+          npm run --silent lint-files
+          npm run --silent lint-scripts -- --format junit --output-file $(reportsDirectory)/lint-scripts.xml
         displayName: Run static analysis
       - publish: $(reportsDirectory)
         displayName: Publish reports artifact
