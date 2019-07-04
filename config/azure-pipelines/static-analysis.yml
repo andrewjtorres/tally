@@ -9,6 +9,9 @@ jobs:
       - setup
     pool:
       vmImage: ${{ parameters.vmImage }}
+    variables:
+      - name: reportsDirectory
+      - value: static-analysis-${{ parameters.os }}
     steps:
       - task: NodeTool@0
         displayName: Install Node
@@ -16,13 +19,10 @@ jobs:
           versionSpec: $(nodeVersion)
       - script: npm install
         displayName: Install Node dependencies
-      - download: current
-        displayName: Download reports artifact
-        artifact: reports
       - script: |
           npm run --silent lint-files
-          npm run --silent lint-scripts -- --format junit --output-file $(reportsDirectory)/${{ parameters.os }}/lint-scripts.xml
+          npm run --silent lint-scripts -- --format junit --output-file $(reportsDirectory)/lint-scripts.xml
         displayName: Run static analysis
-
-      - ${{ if ne(parameters.os, 'windows') }}:
-          - script: ls -ahl reports/${{ parameters.os }}
+      - publish: $(reportsDirectory)
+        displayName: Publish reports artifact
+        artifact: $(reportsDirectory)
