@@ -34,4 +34,5 @@ jobs:
         env:
           JEST_JUNIT_OUTPUT: $(reportsDirectory)/${{ parameters.os }}/test-units.xml
 
-      - script: ls -ahl reports
+      - ${{ if ne(parameters.os, 'windows') }}:
+          - script: ls -ahl reports/${{ parameters.os }} coverage

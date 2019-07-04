@@ -24,4 +24,5 @@ jobs:
           npm run --silent lint-scripts -- --format junit --output-file $(reportsDirectory)/${{ parameters.os }}/lint-scripts.xml
         displayName: Run static analysis
 
-      - script: ls -ahl reports
+      - ${{ if ne(parameters.os, 'windows') }}:
+          - script: ls -ahl reports/${{ parameters.os }}
