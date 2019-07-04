@@ -31,7 +31,7 @@ jobs:
         env:
           JEST_JUNIT_OUTPUT: $(reportsDirectory)/test-units.xml
       - ${{ if eq(parameters.os, 'linux') }}:
-          - script: npx codecov --token $(codecovToken)
+          - script: npx codecov -t $(codecovToken)
             displayName: Publish code coverage results
           - publish: $(coverageDirectory)
             displayName: Publish coverage artifact
