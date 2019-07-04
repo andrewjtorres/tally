@@ -24,7 +24,7 @@
   "scripts": {
     "lint": "npm run lint-files && npm run lint-scripts",
     "lint-files": "prettylint --ignore-path .gitignore \"**/*.{json,md,yml}\"",
-    "lint-scripts": "eslint --cache --ignore-path .gitignore --ignore-pattern \"!**/.*\" \"**/*.{js,ts}\"",
+    "lint-scripts": "eslint --cache --ignore-path .gitignore --ignore-pattern \"!**/.*\" \"**/*.js\"",
     "test": "npm run test-units",
     "test-units": "jest"
   },
