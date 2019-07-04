@@ -24,8 +24,4 @@ jobs:
           npm run --silent lint-scripts -- --format junit --output-file $(reportsDirectory)/${{ parameters.os }}/lint-scripts.xml
         displayName: Run static analysis
 
-      - script: ls -ahl
-
-      - publish: $(reportsDirectory)
-        displayName: Publish reports artifact
-        artifact: reports
+      - script: ls -ahl reports

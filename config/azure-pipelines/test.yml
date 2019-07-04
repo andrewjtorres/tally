@@ -22,7 +22,16 @@ jobs:
           versionSpec: $(nodeVersion)
       - script: npm install
         displayName: Install Node dependencies
+      - ${{ if eq(parameters.os, 'linux') }}:
+          - download: current
+            displayName: Download coverage artifact
+            artifact: coverage
+      - download: current
+        displayName: Download reports artifact
+        artifact: reports
       - script: npm run --silent test-units -- $(args) --runInBand --reporters default jest-junit
         displayName: Run tests
         env:
           JEST_JUNIT_OUTPUT: $(reportsDirectory)/${{ parameters.os }}/test-units.xml
+
+      - script: ls -ahl reports
