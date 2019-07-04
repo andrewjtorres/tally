@@ -13,21 +13,6 @@ jobs:
     steps:
       - script: mkdir --parents $(coverageDirectory) $(reportsDirectory)/{linux,macos,windows}
         displayName: Setup
-  - template: config/azure-pipelines/setup.yml
-    parameters:
-      displayName: Setup on Linux
-      os: linux
-      vmImage: ubuntu-16.04
-  - template: config/azure-pipelines/setup.yml
-    parameters:
-      displayName: Setup on macOS
-      os: macos
-      vmImage: macOS-10.14
-  - template: config/azure-pipelines/setup.yml
-    parameters:
-      displayName: Setup on Windows
-      os: windows
-      vmImage: windows-2019
   - template: config/azure-pipelines/static-analysis.yml
     parameters:
       displayName: Static Analysis on Linux
