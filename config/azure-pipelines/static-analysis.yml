@@ -18,7 +18,7 @@ jobs:
       - script: npm install
         displayName: Install Node dependencies
       - script: |
-          npm run lint-files
+          npx prettylint
           npm run --silent lint-scripts -- --format junit --output-file $(reportsDirectory)/lint-scripts.xml
         displayName: Run static analysis
       - publish: $(reportsDirectory)
