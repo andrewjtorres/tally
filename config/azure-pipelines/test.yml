@@ -16,7 +16,7 @@ jobs:
           - name: args
             value: --coverage
       - name: reportsDirectory
-      - value: test-${{ parameters.os }}
+        value: test-${{ parameters.os }}
     steps:
       - task: NodeTool@0
         displayName: Install Node
@@ -30,4 +30,4 @@ jobs:
           JEST_JUNIT_OUTPUT: $(reportsDirectory)/test-units.xml
       - publish: $(reportsDirectory)
         displayName: Publish reports artifact
-        artifact: test-${{ parameters.os }}
+        artifact: $(reportsDirectory)
