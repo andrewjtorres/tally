@@ -16,7 +16,7 @@ jobs:
     parameters:
       displayName: Static Analysis on Windows
       os: windows
-      vmImage: vs2017-win2016
+      vmImage: windows-2019
   - template: config/azure-pipelines/test.yml
     parameters:
       displayName: Test on Linux
@@ -31,7 +31,7 @@ jobs:
     parameters:
       displayName: Test on Windows
       os: windows
-      vmImage: vs2017-win2016
+      vmImage: windows-2019
 trigger:
   branches:
     include:
