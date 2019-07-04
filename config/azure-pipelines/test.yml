@@ -26,7 +26,7 @@ jobs:
           versionSpec: $(nodeVersion)
       - script: npm install
         displayName: Install Node dependencies
-      - script: npm run test-units -- $(args) --runInBand --reporters default jest-junit
+      - script: npm run --silent test-units -- $(args) --runInBand --reporters default jest-junit
         displayName: Run tests
         env:
           JEST_JUNIT_OUTPUT: $(reportsDirectory)/test-units.xml
