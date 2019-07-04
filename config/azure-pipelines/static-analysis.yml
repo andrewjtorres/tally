@@ -1,0 +1,16 @@
+parameters:
+  displayName: ''
+  os: ''
+  vmImage: ''
+jobs:
+  - job: static_analysis_${{ parameters.os }}
+    displayName: ${{ parameters.displayName }}
+    pool:
+      vmImage: ${{ parameters.vmImage }}
+    steps:
+      - script: npm install
+        displayName: Install Node dependencies
+      - script: |
+          npm run --silent lint-files
+          npm run --silent lint-scripts -- --format junit --output-file $(reportsDirectory)/${{ parameters.os }}/lint-scripts.xml
+        displayName: Run static analysis

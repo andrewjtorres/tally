@@ -1,0 +1,20 @@
+parameters:
+  displayName: ''
+  os: ''
+  vmImage: ''
+jobs:
+  - job: test_${{ parameters.os }}
+    displayName: ${{ parameters.displayName }}
+    pool:
+      vmImage: ${{ parameters.vmImage }}
+    variables:
+      - ${{ if eq(parameters.os, 'linux') }}:
+          - name: args
+            value: --coverage
+    steps:
+      - script: npm install
+        displayName: Install Node dependencies
+      - script: npm run --silent test-units -- $(args) --runInBand --reporters default jest-junit
+        displayName: Run tests
+        env:
+          JEST_JUNIT_OUTPUT: $(reportsDirectory)/${{ parameters.os }}/test-units.xml
