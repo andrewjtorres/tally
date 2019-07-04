@@ -25,4 +25,4 @@ jobs:
         displayName: Run static analysis
       - publish: $(reportsDirectory)
         displayName: Publish reports artifact
-        artifact: $(reportsDirectory)
+        artifact: static-analysis-${{ parameters.os }}

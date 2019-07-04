@@ -30,4 +30,4 @@ jobs:
           JEST_JUNIT_OUTPUT: $(reportsDirectory)/test-units.xml
       - publish: $(reportsDirectory)
         displayName: Publish reports artifact
-        artifact: $(reportsDirectory)
+        artifact: test-${{ parameters.os }}
