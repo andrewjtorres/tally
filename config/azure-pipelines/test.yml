@@ -14,9 +14,11 @@ jobs:
         value:
       - ${{ if eq(parameters.os, 'linux') }}:
           - name: args
-            value: --coverage
+            value: --coverage --coverageDirectory $(coverageDirectory)
+          - name: coverageDirectory
+            value: coverage
       - name: reportsDirectory
-        value: test-${{ parameters.os }}
+        value: test/${{ parameters.os }}
     steps:
       - task: NodeTool@0
         displayName: Install Node
@@ -28,6 +30,18 @@ jobs:
         displayName: Run tests
         env:
           JEST_JUNIT_OUTPUT: $(reportsDirectory)/test-units.xml
+      - ${{ if eq(parameters.os, 'linux') }}:
+          # - script: npx codecov --token=$(codecovToken)
+          #   displayName: Publish code coverage results
+          - publish: $(coverageDirectory)
+            displayName: Publish coverage artifact
+            artifact: coverage
       - publish: $(reportsDirectory)
         displayName: Publish reports artifact
-        artifact: $(reportsDirectory)
+        artifact: test-${{ parameters.os }}
+      - task: PublishTestResults@2
+        displayName: Publish tests results
+        condition: succeededOrFailed()
+        inputs:
+          testResultsFiles: '**/*.xml'
+          searchFolder: $(System.DefaultWorkingDirectory)/$(reportsDirectory)

@@ -9,7 +9,7 @@ jobs:
       vmImage: ${{ parameters.vmImage }}
     variables:
       - name: reportsDirectory
-        value: static-analysis-${{ parameters.os }}
+        value: static-analysis/${{ parameters.os }}
     steps:
       - task: NodeTool@0
         displayName: Install Node
@@ -23,4 +23,10 @@ jobs:
         displayName: Run static analysis
       - publish: $(reportsDirectory)
         displayName: Publish reports artifact
-        artifact: $(reportsDirectory)
+        artifact: static-analysis-${{ parameters.os }}
+      - task: PublishTestResults@2
+        displayName: Publish tests results
+        condition: succeededOrFailed()
+        inputs:
+          testResultsFiles: '**/*.xml'
+          searchFolder: $(System.DefaultWorkingDirectory)/$(reportsDirectory)
