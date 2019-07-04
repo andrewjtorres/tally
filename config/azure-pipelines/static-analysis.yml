@@ -5,6 +5,8 @@ parameters:
 jobs:
   - job: static_analysis_${{ parameters.os }}
     displayName: ${{ parameters.displayName }}
+    dependsOn:
+      - setup_${{ parameters.os }}
     pool:
       vmImage: ${{ parameters.vmImage }}
     steps:
