@@ -13,6 +13,12 @@ jobs:
     steps:
       - script: mkdir --parents $(coverageDirectory) $(reportsDirectory)/{linux,macos,windows}
         displayName: Setup
+      - publish: $(coverageDirectory)
+        displayName: Publish coverage artifact
+        artifact: coverage
+      - publish: $(reportsDirectory)
+        displayName: Publish reports artifact
+        artifact: reports
   - template: config/azure-pipelines/static-analysis.yml
     parameters:
       displayName: Static Analysis on Linux
