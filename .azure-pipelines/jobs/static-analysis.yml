@@ -1,0 +1,32 @@
+parameters:
+  displayName: ''
+  os: ''
+  vmImage: ''
+jobs:
+  - job: static_analysis_${{ parameters.os }}
+    displayName: ${{ parameters.displayName }}
+    pool:
+      vmImage: ${{ parameters.vmImage }}
+    variables:
+      - name: REPORTS_DIRECTORY
+        value: static-analysis/${{ parameters.os }}
+    steps:
+      - task: NodeTool@0
+        displayName: Install Node
+        inputs:
+          versionSpec: $(NODE_VERSION)
+      - script: npm install
+        displayName: Install Node dependencies
+      - script: npm run --silent lint-files
+        displayName: Lint files
+      - script: npm run --silent lint-scripts -- --format junit --output-file $(REPORTS_DIRECTORY)/lint-scripts.xml
+        displayName: Lint scripts
+      - publish: $(REPORTS_DIRECTORY)
+        displayName: Publish reports artifact
+        artifact: static-analysis-${{ parameters.os }}
+      - task: PublishTestResults@2
+        displayName: Publish tests results
+        condition: succeededOrFailed()
+        inputs:
+          testResultsFiles: '**/*.xml'
+          searchFolder: $(System.DefaultWorkingDirectory)/$(REPORTS_DIRECTORY)
