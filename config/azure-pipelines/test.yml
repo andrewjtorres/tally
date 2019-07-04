@@ -10,33 +10,33 @@ jobs:
     pool:
       vmImage: ${{ parameters.vmImage }}
     variables:
-      - name: args
+      - name: ARGS
         value:
       - ${{ if eq(parameters.os, 'linux') }}:
-          - name: args
-            value: --coverage --coverageDirectory $(coverageDirectory)
-          - name: coverageDirectory
+          - name: ARGS
+            value: --coverage --coverageDirectory $(COVERAGE_DIRECTORY)
+          - name: COVERAGE_DIRECTORY
             value: coverage
-      - name: reportsDirectory
+      - name: REPORTS_DIRECTORY
         value: test/${{ parameters.os }}
     steps:
       - task: NodeTool@0
         displayName: Install Node
         inputs:
-          versionSpec: $(nodeVersion)
+          versionSpec: $(NODE_VERSION)
       - script: npm install
         displayName: Install Node dependencies
-      - script: npm run --silent test-units -- $(args) --runInBand --reporters default jest-junit
+      - script: npm run --silent test-units -- $(ARGS) --runInBand --reporters default jest-junit
         displayName: Test units
         env:
-          JEST_JUNIT_OUTPUT: $(reportsDirectory)/test-units.xml
+          JEST_JUNIT_OUTPUT: $(REPORTS_DIRECTORY)/test-units.xml
       - ${{ if eq(parameters.os, 'linux') }}:
-          - script: npx codecov -t $(codecovToken)
+          - script: npx codecov -t $(CODECOV_TOKEN)
             displayName: Publish code coverage results
-          - publish: $(coverageDirectory)
+          - publish: $(COVERAGE_DIRECTORY)
             displayName: Publish coverage artifact
             artifact: coverage
-      - publish: $(reportsDirectory)
+      - publish: $(REPORTS_DIRECTORY)
         displayName: Publish reports artifact
         artifact: test-${{ parameters.os }}
       - task: PublishTestResults@2
@@ -44,4 +44,4 @@ jobs:
         condition: succeededOrFailed()
         inputs:
           testResultsFiles: '**/*.xml'
-          searchFolder: $(System.DefaultWorkingDirectory)/$(reportsDirectory)
+          searchFolder: $(System.DefaultWorkingDirectory)/$(REPORTS_DIRECTORY)

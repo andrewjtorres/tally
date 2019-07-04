@@ -1,37 +1,40 @@
 variables:
-  - name: nodeVersion
+  - name: NODE_VERSION
     value: '>=10.16.0'
-jobs:
-  - template: config/azure-pipelines/static-analysis.yml
-    parameters:
-      displayName: Static Analysis on Linux
-      os: linux
-      vmImage: ubuntu-16.04
-  - template: config/azure-pipelines/static-analysis.yml
-    parameters:
-      displayName: Static Analysis on macOS
-      os: macos
-      vmImage: macOS-10.14
-  - template: config/azure-pipelines/static-analysis.yml
-    parameters:
-      displayName: Static Analysis on Windows
-      os: windows
-      vmImage: windows-2019
-  - template: config/azure-pipelines/test.yml
-    parameters:
-      displayName: Test on Linux
-      os: linux
-      vmImage: ubuntu-16.04
-  - template: config/azure-pipelines/test.yml
-    parameters:
-      displayName: Test on macOS
-      os: macos
-      vmImage: macOS-10.14
-  - template: config/azure-pipelines/test.yml
-    parameters:
-      displayName: Test on Windows
-      os: windows
-      vmImage: windows-2019
+stages:
+  - stage: root
+    displayName: Root
+    jobs:
+      - template: config/azure-pipelines/static-analysis.yml
+        parameters:
+          displayName: Static Analysis on Linux
+          os: linux
+          vmImage: ubuntu-16.04
+      - template: config/azure-pipelines/static-analysis.yml
+        parameters:
+          displayName: Static Analysis on macOS
+          os: macos
+          vmImage: macOS-10.14
+      - template: config/azure-pipelines/static-analysis.yml
+        parameters:
+          displayName: Static Analysis on Windows
+          os: windows
+          vmImage: windows-2019
+      - template: config/azure-pipelines/test.yml
+        parameters:
+          displayName: Test on Linux
+          os: linux
+          vmImage: ubuntu-16.04
+      - template: config/azure-pipelines/test.yml
+        parameters:
+          displayName: Test on macOS
+          os: macos
+          vmImage: macOS-10.14
+      - template: config/azure-pipelines/test.yml
+        parameters:
+          displayName: Test on Windows
+          os: windows
+          vmImage: windows-2019
 trigger:
   branches:
     include:
