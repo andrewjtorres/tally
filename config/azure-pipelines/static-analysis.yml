@@ -17,8 +17,10 @@ jobs:
           versionSpec: $(nodeVersion)
       - script: npm install
         displayName: Install Node dependencies
-      - script: npx prettylint --ignore-path .gitignore **/*.{json,md,yml}
+      - script: npm run --silent lint-files
+        displayName: Lint files
       - script: npm run --silent lint-scripts -- --format junit --output-file $(reportsDirectory)/lint-scripts.xml
+        displayName: Lint scripts
       - publish: $(reportsDirectory)
         displayName: Publish reports artifact
         artifact: static-analysis-${{ parameters.os }}

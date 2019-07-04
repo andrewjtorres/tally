@@ -27,11 +27,11 @@ jobs:
       - script: npm install
         displayName: Install Node dependencies
       - script: npm run --silent test-units -- $(args) --runInBand --reporters default jest-junit
-        displayName: Run tests
+        displayName: Test units
         env:
           JEST_JUNIT_OUTPUT: $(reportsDirectory)/test-units.xml
       - ${{ if eq(parameters.os, 'linux') }}:
-          - script: npx codecov --token=$(codecovToken)
+          - script: npx codecov --token $(codecovToken)
             displayName: Publish code coverage results
           - publish: $(coverageDirectory)
             displayName: Publish coverage artifact
