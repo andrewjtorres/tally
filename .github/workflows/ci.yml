@@ -39,6 +39,7 @@ jobs:
             os: Linux
           - host: windows-2019
             os: Windows
+
   test:
     name: Test on ${{ matrix.os }} with Node ${{ matrix.node_version }}
     runs-on: ${{ matrix.host }}
