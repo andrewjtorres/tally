@@ -3,7 +3,6 @@
 > A simple Node.js CLI application built using only core modules, plain
 > callbacks, and asynchronous I/O functions
 
-[![Azure Pipelines](https://flat.badgen.net/azure-pipelines/ajtorres9/tag-counter-cli/ajtorres9.tag-counter-cli/master?label=build)](https://dev.azure.com/ajtorres9/tag-counter-cli/_build/latest?definitionId=2)
 [![Codecov](https://flat.badgen.net/codecov/c/github/ajtorres9/tag-counter-cli/master)](https://codecov.io/gh/ajtorres9/tag-counter-cli)
 [![Code Style](https://flat.badgen.net/badge/code%20style/prettier/ff69b4)](https://github.com/prettier/prettier)
 [![All Contributors](https://flat.badgen.net/badge/all%20contributors/1/orange)](#contributors)
