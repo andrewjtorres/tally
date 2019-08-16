@@ -22,11 +22,11 @@
     "url": "git+https://github.com/ajtorres9/tag-counter-cli.git"
   },
   "scripts": {
-    "lint": "npm run lint-files && npm run lint-scripts",
-    "lint-files": "prettylint --ignore-path .gitignore \"**/*.{json,md,yml}\"",
-    "lint-scripts": "eslint --cache --ignore-path .gitignore --ignore-pattern \"!**/.*\" \"**/*.js\"",
-    "test": "npm run test-units",
-    "test-units": "jest"
+    "lint": "yarn lint:files && yarn lint:scripts",
+    "lint:files": "prettylint --ignore-path .gitignore \"**/*.{json,md,yml}\"",
+    "lint:scripts": "eslint --cache --ignore-path .gitignore --ignore-pattern \"!**/.*\" \"**/*.js\"",
+    "test": "yarn test:units",
+    "test:units": "jest"
   },
   "config": {
     "commitizen": {
@@ -55,8 +55,8 @@
     "prettylint": "^1.0.0"
   },
   "engines": {
-    "node": ">=10.16.0",
-    "npm": ">=6.9.0"
+    "node": ">=10.16.3",
+    "yarn": ">=1.16.0"
   },
   "private": true,
   "husky": {
