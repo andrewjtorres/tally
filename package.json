@@ -34,7 +34,6 @@
     }
   },
   "devDependencies": {
-    "codecov": "^3.6.1",
     "cz-conventional-changelog": "^3.0.2",
     "eslint": "^6.5.1",
     "eslint-config-prettier": "^6.4.0",
