@@ -3,12 +3,12 @@
 const { defaults } = require('jest-config')
 
 module.exports = {
-  collectCoverageFrom: ['lib/**/*.js'],
+  collectCoverageFrom: ['src/**/*.js'],
   coverageDirectory: 'coverage',
   errorOnDeprecated: true,
-  moduleDirectories: [...defaults.moduleDirectories, '<rootDir>/lib'],
+  moduleDirectories: [...defaults.moduleDirectories, '<rootDir>/src'],
   restoreMocks: true,
-  testMatch: ['<rootDir>/lib/**/*(*.)test.js'],
+  testMatch: ['<rootDir>/src/**/*(*.)test.js'],
   testRunner: 'jest-circus/runner',
   transform: {
     '^(?!.*\\.(js|json)$)': '<rootDir>/config/jest/file-transformer.js',

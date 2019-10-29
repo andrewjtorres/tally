@@ -33,8 +33,8 @@ module.exports = {
     {
       files: [
         'config/jest/**/*.js',
-        'lib/**/__mocks__/**/*.js',
-        'lib/**/?(*.)test.js',
+        'src/**/__mocks__/**/*.js',
+        'src/**/?(*.)test.js',
       ],
       globals: jestPlugin.environments.globals.globals,
       plugins: jestPlugin.configs.recommended.plugins,

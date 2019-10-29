@@ -1,13 +1,13 @@
 'use strict'
 
+jest.mock('fs')
+jest.mock('../logger')
+
 const fs = require('fs')
 
 const Cache = require('./cache')
 const logger = require('../logger')
 const { flattenArrayDeep } = require('../utilities/object')
-
-jest.mock('fs')
-jest.mock('../logger')
 
 /**
  * Returns an array of merged values

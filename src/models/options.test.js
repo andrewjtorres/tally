@@ -1,10 +1,10 @@
 'use strict'
 
+jest.mock('fs')
+
 const fs = require('fs')
 
 const Options = require('./options')
-
-jest.mock('fs')
 
 describe('Options', () => {
   describe('get', () => {
