@@ -3,11 +3,11 @@
   "version": "0.1.0",
   "description": "A simple Node.js CLI application built using only core modules, plain callbacks, and asynchronous I/O functions",
   "keywords": [
-    "asynchronous",
-    "cli-application",
-    "es2015",
+    "async",
+    "cli",
+    "cli-app",
+    "cross-platform",
     "javascript",
-    "json-parsing",
     "nodejs"
   ],
   "homepage": "https://github.com/ajtorres9/tag-counter-cli#readme",
