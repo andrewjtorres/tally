@@ -23,7 +23,7 @@
   },
   "scripts": {
     "lint": "yarn lint:files && yarn lint:scripts",
-    "lint:files": "prettylint --ignore-path .gitignore \"**/*.{json,md,yml}\"",
+    "lint:files": "prettylint \"**/*.{json,md,yml}\"",
     "lint:scripts": "eslint --cache --ignore-path .gitignore --ignore-pattern \"!**/.*\" \"**/*.js\"",
     "test": "yarn test:units",
     "test:units": "jest"

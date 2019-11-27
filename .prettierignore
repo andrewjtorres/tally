@@ -1,3 +1,18 @@
+# Dependencies
+node_modules
+
+# Test and Code Coverage
+coverage
+
+# Logs
+*.log*
+
+# Lock Files
+package-lock.json
+yarn.lock
+
 # Miscellaneous
 .all-contributorsrc
+.eslintcache
+cache.json
 invalid.json
