@@ -1,5 +1,5 @@
 {
-  "name": "tag-counter-cli",
+  "name": "tally",
   "version": "0.1.0",
   "description": "A simple Node.js CLI application built using only core modules, plain callbacks, and asynchronous I/O functions",
   "keywords": [
@@ -10,16 +10,16 @@
     "javascript",
     "nodejs"
   ],
-  "homepage": "https://github.com/ajtorres9/tag-counter-cli#readme",
-  "bugs": "https://github.com/ajtorres9/tag-counter-cli/issues",
+  "homepage": "https://github.com/ajtorres9/tally#readme",
+  "bugs": "https://github.com/ajtorres9/tally/issues",
   "license": "MIT",
   "author": "Andrew Torres <andrew.jonathan.torres@gmail.com> (https://andrewjtorr.es)",
   "bin": {
-    "tag-counter": "./cli.js"
+    "tally": "./cli.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ajtorres9/tag-counter-cli.git"
+    "url": "git+https://github.com/ajtorres9/tally.git"
   },
   "scripts": {
     "lint": "yarn lint:files && yarn lint:scripts",
