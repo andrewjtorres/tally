@@ -1,5 +1,7 @@
 'use strict'
 
+const typescriptPlugin = require('@typescript-eslint/eslint-plugin')
+const prettierTypescriptConfig = require('eslint-config-prettier/@typescript-eslint')
 const jestPlugin = require('eslint-plugin-jest')
 
 module.exports = {
@@ -31,14 +33,35 @@ module.exports = {
   },
   overrides: [
     {
+      files: ['**/*.ts', '**/.*/**/*.ts'],
+      parser: typescriptPlugin.configs.base.parser,
+      parserOptions: { project: 'tsconfig.json' },
+      plugins: typescriptPlugin.configs.base.plugins,
+      rules: {
+        ...typescriptPlugin.configs.recommended.rules,
+        ...typescriptPlugin.configs['recommended-requiring-type-checking']
+          .rules,
+        '@typescript-eslint/explicit-function-return-type': 'off',
+        'import/named': 'off',
+        ...prettierTypescriptConfig.rules,
+      },
+    },
+    {
       files: [
-        'config/jest/**/*.js',
-        'src/**/__mocks__/**/*.js',
-        'src/**/?(*.)test.js',
+        'config/jest/**/*.?(js|ts)',
+        'src/**/__mocks__/**/*.?(js|ts)',
+        'src/**/?(*.)test.?(js|ts)',
       ],
       globals: jestPlugin.environments.globals.globals,
       plugins: jestPlugin.configs.recommended.plugins,
       rules: jestPlugin.configs.recommended.rules,
     },
   ],
+  settings: {
+    'import/extensions': ['.d.ts', '.js', '.ts'],
+    'import/parsers': { '@typescript-eslint/parser': ['.d.ts', '.ts'] },
+    'import/resolver': {
+      typescript: { alwaysTryTypes: true, directory: 'tsconfig.json' },
+    },
+  },
 }

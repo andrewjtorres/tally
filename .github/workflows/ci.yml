@@ -25,6 +25,8 @@ jobs:
         run: yarn --silent lint:files
       - name: Lint scripts
         run: yarn --silent lint:scripts
+      - name: Lint types
+        run: yarn --silent lint:types
   test:
     name: Test
     runs-on: ubuntu-18.04

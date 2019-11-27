@@ -8,7 +8,8 @@
     "cli-app",
     "cross-platform",
     "javascript",
-    "nodejs"
+    "nodejs",
+    "typescript"
   ],
   "homepage": "https://github.com/ajtorres9/tally#readme",
   "bugs": "https://github.com/ajtorres9/tally/issues",
@@ -22,9 +23,11 @@
     "url": "git+https://github.com/ajtorres9/tally.git"
   },
   "scripts": {
-    "lint": "yarn lint:files && yarn lint:scripts",
+    "build": "tsc",
+    "lint": "yarn lint:files && yarn lint:scripts && yarn lint:types",
     "lint:files": "prettylint \"**/*.{json,md,yml}\"",
-    "lint:scripts": "eslint --cache --ignore-path .gitignore --ignore-pattern \"!**/.*\" \"**/*.js\"",
+    "lint:scripts": "eslint --cache --ignore-path .gitignore --ignore-pattern \"!**/.*\" \"**/*.{js,ts}\"",
+    "lint:types": "tsc --noEmit",
     "test": "yarn test:units",
     "test:units": "jest"
   },
@@ -34,10 +37,15 @@
     }
   },
   "devDependencies": {
+    "@types/jest": "^24.0.23",
+    "@types/node": "^12.12.14",
+    "@typescript-eslint/eslint-plugin": "^2.9.0",
+    "@typescript-eslint/parser": "^2.9.0",
     "cz-conventional-changelog": "^3.0.2",
     "eslint": "^6.7.1",
     "eslint-config-prettier": "^6.7.0",
     "eslint-config-standard": "^14.1.0",
+    "eslint-import-resolver-typescript": "^2.0.0",
     "eslint-plugin-import": "^2.18.2",
     "eslint-plugin-jest": "^23.0.5",
     "eslint-plugin-node": "^10.0.0",
@@ -51,7 +59,9 @@
     "jest-config": "^24.9.0",
     "lint-staged": "^9.5.0",
     "prettier": "^1.19.1",
-    "prettylint": "^1.0.0"
+    "prettylint": "^1.0.0",
+    "ts-jest": "^24.2.0",
+    "typescript": "~3.7.2"
   },
   "engines": {
     "node": ">=12.13",
@@ -64,7 +74,7 @@
     }
   },
   "lint-staged": {
-    "*.js": [
+    "*.{js,ts}": [
       "eslint --fix",
       "jest --bail --findRelatedTests",
       "git add"
