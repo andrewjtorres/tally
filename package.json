@@ -61,7 +61,7 @@
     "prettier": "^1.19.1",
     "prettylint": "^1.0.0",
     "ts-jest": "^24.2.0",
-    "typescript": "~3.7.2"
+    "typescript": "~3.7.3"
   },
   "engines": {
     "node": ">=12.13",
