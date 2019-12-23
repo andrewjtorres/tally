@@ -64,7 +64,7 @@
     "typescript": "~3.7.4"
   },
   "engines": {
-    "node": ">=12.13",
+    "node": ">=12.14",
     "yarn": ">=1.21"
   },
   "private": true,
