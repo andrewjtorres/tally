@@ -43,7 +43,7 @@
     "@typescript-eslint/parser": "^2.13.0",
     "cz-conventional-changelog": "^3.0.2",
     "eslint": "^6.8.0",
-    "eslint-config-prettier": "^6.7.0",
+    "eslint-config-prettier": "^6.8.0",
     "eslint-config-standard": "^14.1.0",
     "eslint-import-resolver-typescript": "^2.0.0",
     "eslint-plugin-import": "^2.19.1",
