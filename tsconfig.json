@@ -1,10 +1,8 @@
 {
-  "exclude": ["lib", "node_modules"],
-  "include": ["**/*", "**/.*/**/*"],
+  "include": ["src/**/*.ts", "types/**/*.d.ts"],
   "compilerOptions": {
     "allowSyntheticDefaultImports": true,
     "baseUrl": ".",
-    "declaration": true,
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
     "module": "commonjs",
@@ -14,13 +12,11 @@
     "noImplicitReturns": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
-    "outDir": "lib",
     "paths": { "*": ["src/*"] },
     "removeComments": true,
-    "rootDir": "src",
+    "rootDirs": ["src"],
     "sourceMap": true,
     "strict": true,
-    "target": "es2020",
-    "types": ["jest", "node"]
+    "target": "es2020"
   }
 }

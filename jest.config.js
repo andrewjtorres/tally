@@ -6,6 +6,7 @@ module.exports = {
   collectCoverageFrom: ['src/**/*.?(js|ts)'],
   coverageDirectory: 'coverage',
   errorOnDeprecated: true,
+  globals: { 'ts-jest': { tsConfig: 'tsconfig.jest.json' } },
   moduleDirectories: [...defaults.moduleDirectories, '<rootDir>/src'],
   modulePathIgnorePatterns: ['<rootDir>/lib'],
   restoreMocks: true,

@@ -1,0 +1,14 @@
+{
+  "exclude": [
+    "src/**/__mocks__/**/*.ts",
+    "src/**/*.test.ts",
+    "src/**/test.ts",
+    "types/node/fs.d.ts"
+  ],
+  "extends": "./tsconfig",
+  "compilerOptions": {
+    "declaration": true,
+    "outDir": "lib",
+    "types": ["node"]
+  }
+}

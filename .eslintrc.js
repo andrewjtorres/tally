@@ -35,7 +35,7 @@ module.exports = {
     {
       files: ['**/*.ts', '**/.*/**/*.ts'],
       parser: typescriptPlugin.configs.base.parser,
-      parserOptions: { project: 'tsconfig.json' },
+      parserOptions: { project: 'tsconfig.?(jest|node).json' },
       plugins: typescriptPlugin.configs.base.plugins,
       rules: {
         ...typescriptPlugin.configs.recommended.rules,
@@ -61,7 +61,10 @@ module.exports = {
     'import/extensions': ['.d.ts', '.js', '.ts'],
     'import/parsers': { '@typescript-eslint/parser': ['.d.ts', '.ts'] },
     'import/resolver': {
-      typescript: { alwaysTryTypes: true, directory: 'tsconfig.json' },
+      typescript: {
+        alwaysTryTypes: true,
+        directory: 'tsconfig.?(jest|node).json',
+      },
     },
   },
 }

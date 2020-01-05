@@ -27,7 +27,9 @@
     "lint": "npm-run-all --parallel \"lint:*\"",
     "lint:files": "prettylint \"**/*.{json,md,yml}\"",
     "lint:scripts": "eslint --cache --ignore-path .gitignore --ignore-pattern \"!**/.*\" \"**/*.{js,ts}\"",
-    "lint:types": "tsc --noEmit",
+    "lint:types": "npm-run-all --parallel \"lint:types:*\"",
+    "lint:types:jest": "tsc --noEmit --project tsconfig.jest.json",
+    "lint:types:node": "tsc --noEmit --project tsconfig.node.json",
     "test": "npm-run-all --parallel \"test:*\"",
     "test:units": "jest"
   },
