@@ -7,7 +7,7 @@ const fs = require('fs')
 
 const Cache = require('./cache')
 const logger = require('../logger')
-const { flattenArrayDeep } = require('../utilities/object')
+const { flattenArrayDeep } = require('../utils/object')
 
 /**
  * Returns an array of merged values

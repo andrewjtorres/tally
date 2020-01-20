@@ -3,7 +3,7 @@
 const fs = require('fs')
 
 const logger = require('../logger')
-const { parseDelimitedString } = require('../utilities/string')
+const { parseDelimitedString } = require('../utils/string')
 
 class Options {
   constructor({ filename = '' } = {}) {
