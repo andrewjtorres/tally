@@ -4,8 +4,8 @@ const fs = require('fs')
 const { sep } = require('path')
 
 const logger = require('../logger')
-const { readFiles } = require('../utilities/file')
-const { mprepend } = require('../utilities/string')
+const { readFiles } = require('../utils/file')
+const { mprepend } = require('../utils/string')
 
 /**
  * Returns the accumulated results of the formatted cache
