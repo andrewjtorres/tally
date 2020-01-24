@@ -24,7 +24,7 @@
   the processing continues
 - The results of the JSON parsing are stored in a `data/cache.json` file to
   speed up subsequent executions
-- The final output prints the tag name and associated count in ascending order:
+- The final output prints the tag name and associated count in descending order:
 
 ```text
 ipsum  3
