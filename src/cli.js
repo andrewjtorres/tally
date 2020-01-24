@@ -5,7 +5,7 @@ const { resolve } = require('path')
 const log = require('./logger')
 const Cache = require('./models/cache')
 const Options = require('./models/options')
-const Tags = require('./models/tags')
+const Tags = require('./models/js-tags')
 const { flattenArrayDeep } = require('./utils/object')
 
 const cacheFilename = resolve(__dirname, '../data/cache.json')

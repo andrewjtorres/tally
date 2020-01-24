@@ -3,17 +3,21 @@
 const { defaults } = require('jest-config')
 
 module.exports = {
-  collectCoverageFrom: ['src/**/*.?(js|ts)'],
+  collectCoverageFrom: ['src/**/*.ts'],
   coverageDirectory: 'coverage',
+  coverageThreshold: {
+    global: { branches: 100, functions: 100, lines: 100, statements: 100 },
+  },
   errorOnDeprecated: true,
   globals: { 'ts-jest': { tsConfig: 'tsconfig.jest.json' } },
   moduleDirectories: [...defaults.moduleDirectories, '<rootDir>/src'],
   modulePathIgnorePatterns: ['<rootDir>/lib'],
   restoreMocks: true,
+  snapshotSerializers: ['<rootDir>/config/jest/snapshot-serializers/string.js'],
   testMatch: ['<rootDir>/src/**/*(*.)test.?(js|ts)'],
   testRunner: 'jest-circus/runner',
   transform: {
-    '^(?!.*\\.(js|json|ts)$)': '<rootDir>/config/jest/file-transformer.js',
+    '^(?!.*\\.(js|json|ts)$)': '<rootDir>/config/jest/transformers/file.js',
     '^.+\\.ts$': require.resolve('ts-jest'),
   },
   transformIgnorePatterns: ['[/\\\\]node_modules[/\\\\].+\\.js$'],

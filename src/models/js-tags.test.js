@@ -1,6 +1,6 @@
 'use strict'
 
-const Tags = require('./tags')
+const Tags = require('./js-tags')
 
 describe('Tags', () => {
   describe('maxLength', () => {
@@ -107,9 +107,9 @@ describe('Tags', () => {
       tags.add('hotel', 9)
 
       expect(tags.toString()).toMatchInlineSnapshot(`
-        "hotel  9
+        hotel  9
         golf   12
-        "
+
       `)
     })
 
@@ -120,9 +120,9 @@ describe('Tags', () => {
       tags.add('xray', 5)
 
       expect(tags.toString(false)).toMatchInlineSnapshot(`
-        "mike  11
+        mike  11
         xray  5
-        "
+
       `)
     })
   })
