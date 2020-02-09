@@ -18,7 +18,7 @@ jobs:
         with:
           node-version: 12.14
       - name: Install Yarn
-        run: npm install --global yarn@1.21
+        run: npm install --global yarn@1.22
       - name: Install Node dependencies
         run: yarn install --frozen-lockfile
       - name: Lint files, scripts, and types
@@ -34,7 +34,7 @@ jobs:
         with:
           node-version: 12.14
       - name: Install Yarn
-        run: npm install --global yarn@1.21
+        run: npm install --global yarn@1.22
       - name: Install Node dependencies
         run: yarn install --frozen-lockfile
       - name: Test units
