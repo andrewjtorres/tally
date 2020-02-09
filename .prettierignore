@@ -7,10 +7,6 @@ coverage
 # Logs
 *.log*
 
-# Lock Files
-package-lock.json
-yarn.lock
-
 # Miscellaneous
 .all-contributorsrc
 .eslintcache
