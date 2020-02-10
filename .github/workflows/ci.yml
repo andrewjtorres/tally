@@ -31,7 +31,7 @@ jobs:
             ${{ runner.os }}-yarn-cache-
             ${{ runner.os }}-
       - name: Install Node dependencies
-        run: yarn install --immutable --immutable-cache
+        run: yarn install --immutable
       - name: Lint files, scripts, and types
         run: yarn lint
   test:
@@ -58,7 +58,7 @@ jobs:
             ${{ runner.os }}-yarn-cache-
             ${{ runner.os }}-
       - name: Install Node dependencies
-        run: yarn install --immutable --immutable-cache
+        run: yarn install --immutable
       - name: Test units
         run: yarn test:units --coverage --runInBand
       - name: Publish code coverage results
