@@ -15,18 +15,16 @@
   "bugs": "https://github.com/ajtorres9/tally/issues",
   "license": "MIT",
   "author": "Andrew Torres <andrew.jonathan.torres@gmail.com> (https://andrewjtorr.es)",
-  "bin": {
-    "tally": "./cli.js"
-  },
+  "bin": "./cli.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ajtorres9/tally.git"
   },
   "scripts": {
-    "build": "tsc",
+    "build": "tsc --project tsconfig.node.json",
     "lint": "npm-run-all --parallel \"lint:*\"",
     "lint:files": "prettylint \"**/*.{json,md,yml}\"",
-    "lint:scripts": "eslint --cache --ignore-path .gitignore --ignore-pattern \"!**/.*\" \"**/*.{js,ts}\"",
+    "lint:scripts": "eslint --ignore-path .gitignore \"**/*.{js,ts}\"",
     "lint:types": "tsc --noEmit --project tsconfig.jest.json && tsc --noEmit --project tsconfig.node.json",
     "test": "npm-run-all --parallel \"test:*\"",
     "test:units": "jest"
@@ -56,13 +54,14 @@
     "husky": "^4.2.1",
     "jest": "^25.1.0",
     "jest-circus": "^25.1.0",
-    "jest-config": "^25.1.0",
     "lint-staged": "^10.0.7",
     "npm-run-all": "^4.1.5",
     "prettier": "^1.19.1",
     "prettylint": "^1.0.0",
+    "rxjs": "^6.5.4",
     "ts-jest": "^25.2.0",
-    "typescript": "^3.7.5"
+    "typescript": "^3.7.5",
+    "utils": "link:src/utils"
   },
   "engines": {
     "node": ">=12.14",

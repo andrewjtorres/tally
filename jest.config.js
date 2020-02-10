@@ -1,7 +1,5 @@
 'use strict'
 
-const { defaults } = require('jest-config')
-
 module.exports = {
   collectCoverageFrom: ['src/**/*.ts'],
   coverageDirectory: 'coverage',
@@ -9,8 +7,9 @@ module.exports = {
     global: { branches: 100, functions: 100, lines: 100, statements: 100 },
   },
   errorOnDeprecated: true,
-  globals: { 'ts-jest': { tsConfig: 'tsconfig.jest.json' } },
-  moduleDirectories: [...defaults.moduleDirectories, '<rootDir>/src'],
+  globals: {
+    'ts-jest': { packageJson: 'package.json', tsConfig: 'tsconfig.jest.json' },
+  },
   modulePathIgnorePatterns: ['<rootDir>/lib'],
   restoreMocks: true,
   snapshotSerializers: ['<rootDir>/config/jest/snapshot-serializers/string.js'],
@@ -20,5 +19,4 @@ module.exports = {
     '^(?!.*\\.(js|json|ts)$)': '<rootDir>/config/jest/transformers/file.js',
     '^.+\\.ts$': require.resolve('ts-jest'),
   },
-  transformIgnorePatterns: ['[/\\\\]node_modules[/\\\\].+\\.js$'],
 }

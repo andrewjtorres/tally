@@ -12,7 +12,6 @@
     "noImplicitReturns": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
-    "paths": { "*": ["src/*"] },
     "removeComments": true,
     "rootDirs": ["src"],
     "sourceMap": true,
