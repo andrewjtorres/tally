@@ -15,7 +15,7 @@ module.exports = {
     'prettier/standard',
     'prettier/unicorn',
   ],
-  ignorePatterns: ['!**/.*', '**/.git', '**/.yarn'],
+  ignorePatterns: ['!**/.*', '.git', '.yarn', '.pnp.js'],
   rules: {
     'no-console': ['error', { allow: ['error', 'info', 'warn'] }],
     'no-param-reassign': ['error', { props: true }],
