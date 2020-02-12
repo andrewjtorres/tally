@@ -4,7 +4,7 @@
 
 # For the following file types, normalize line endings to LF on check-in and
 # prevent conversion to CRLF when they are checked out
-*.zip  binary
+*.zip   binary
 
 .*      text eol=lf
 *.js    text eol=lf
