@@ -2191,9 +2191,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-unicorn@npm:^16.1.0":
-  version: 16.1.0
-  resolution: "eslint-plugin-unicorn@npm:16.1.0"
+"eslint-plugin-unicorn@npm:^16.1.1":
+  version: 16.1.1
+  resolution: "eslint-plugin-unicorn@npm:16.1.1"
   dependencies:
     ci-info: ^2.0.0
     clean-regexp: ^1.0.0
@@ -2213,7 +2213,7 @@ __metadata:
     semver: ^7.1.2
   peerDependencies:
     eslint: ">=6.7.1"
-  checksum: 24a5f08f1caa5cc7a9fe98365ebd2633742d23ec5dcaf84bd5b867cde978ce05b856a6e738f2d19ac3af3788cca09c0d7c1516f64bf9153ea8f065a24bb5c095
+  checksum: 65805cb2c2418757952db8331b1622ca17dfccd8d97a9841a92424f8ceb7fbcc11efd4c0b55ca76b441985ee7dc5bac418afcaa57ee7c0ff9a0eef386f1d11f3
   languageName: node
   linkType: hard
 
@@ -6859,7 +6859,7 @@ resolve@1.1.7:
     eslint-plugin-prettier: ^3.1.2
     eslint-plugin-promise: ^4.2.1
     eslint-plugin-standard: ^4.0.1
-    eslint-plugin-unicorn: ^16.1.0
+    eslint-plugin-unicorn: ^16.1.1
     husky: ^4.2.2
     jest: ^25.1.0
     jest-circus: ^25.1.0
