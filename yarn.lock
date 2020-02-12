@@ -2191,9 +2191,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-unicorn@npm:^16.0.0":
-  version: 16.0.0
-  resolution: "eslint-plugin-unicorn@npm:16.0.0"
+"eslint-plugin-unicorn@npm:^16.1.0":
+  version: 16.1.0
+  resolution: "eslint-plugin-unicorn@npm:16.1.0"
   dependencies:
     ci-info: ^2.0.0
     clean-regexp: ^1.0.0
@@ -2213,7 +2213,7 @@ __metadata:
     semver: ^7.1.2
   peerDependencies:
     eslint: ">=6.7.1"
-  checksum: 86c4514f368260155ec10d6c91ec349b721fadad1dcf2e8673a5cdddc013f49e512de17e71d8f812ce1555171c9e2b9aa1fa37ee0600f88a1ee72ea5f4d53409
+  checksum: 24a5f08f1caa5cc7a9fe98365ebd2633742d23ec5dcaf84bd5b867cde978ce05b856a6e738f2d19ac3af3788cca09c0d7c1516f64bf9153ea8f065a24bb5c095
   languageName: node
   linkType: hard
 
@@ -2503,10 +2503,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"extsprintf@npm:1.3.0, extsprintf@npm:^1.2.0":
+"extsprintf@npm:1.3.0":
   version: 1.3.0
   resolution: "extsprintf@npm:1.3.0"
   checksum: 8cf20d3044b6333076eacb7b134fa56586273e9d47ad4fa3e396ce0b6f79d575c32212c579db2de1c1991c02b58f71ad269cfdffdbd193fa040b0bfff233955f
+  languageName: node
+  linkType: hard
+
+"extsprintf@npm:^1.2.0":
+  version: 1.4.0
+  resolution: "extsprintf@npm:1.4.0"
+  checksum: 5ce016ed485f47f742ac65cc26a49fd2a05515beec3f860baaf1e201cf26c1f15e3a97847c19ce82a926d820ec21a3356c7190b64fb74c42ac7dabc879a47a3e
   languageName: node
   linkType: hard
 
@@ -3002,7 +3009,7 @@ fsevents@^2.1.2:
   languageName: node
   linkType: hard
 
-"har-validator@npm:~5.1.0":
+"har-validator@npm:~5.1.3":
   version: 5.1.3
   resolution: "har-validator@npm:5.1.3"
   dependencies:
@@ -5688,7 +5695,7 @@ fsevents@^2.1.2:
   languageName: node
   linkType: hard
 
-"psl@npm:^1.1.24, psl@npm:^1.1.28":
+"psl@npm:^1.1.28":
   version: 1.7.0
   resolution: "psl@npm:1.7.0"
   checksum: 1982fcd4cdc3a0417eafb0fd97c778b1156807a4891d25a4e6677b6d262d2d175150d7e557a2a3a263bc1e13d4a118f9bbe93f116fc22f479810199629ad13e3
@@ -5702,13 +5709,6 @@ fsevents@^2.1.2:
     end-of-stream: ^1.1.0
     once: ^1.3.1
   checksum: 09633ba0f0d3d09f68afa6d7ad46e05e4860ec0549d9e55a87baa28fca048c3b87d1debdf1b3fac9bbbd21cdb0c3e11c527cb63471569cf88bcc0daeb466b32e
-  languageName: node
-  linkType: hard
-
-"punycode@npm:^1.4.1":
-  version: 1.4.1
-  resolution: "punycode@npm:1.4.1"
-  checksum: 747838f367f6e00bd688e968fe7d510d33fbd8d75e4dd6a7919bbbaf51fbd1c1e861ff24ced239adee076b4a5fcb08cdc3a26d88e7980e94efd9a96a950b0014
   languageName: node
   linkType: hard
 
@@ -5954,8 +5954,8 @@ fsevents@^2.1.2:
   linkType: hard
 
 "request@npm:^2.88.0":
-  version: 2.88.0
-  resolution: "request@npm:2.88.0"
+  version: 2.88.2
+  resolution: "request@npm:2.88.2"
   dependencies:
     aws-sign2: ~0.7.0
     aws4: ^1.8.0
@@ -5964,7 +5964,7 @@ fsevents@^2.1.2:
     extend: ~3.0.2
     forever-agent: ~0.6.1
     form-data: ~2.3.2
-    har-validator: ~5.1.0
+    har-validator: ~5.1.3
     http-signature: ~1.2.0
     is-typedarray: ~1.0.0
     isstream: ~0.1.2
@@ -5974,10 +5974,10 @@ fsevents@^2.1.2:
     performance-now: ^2.1.0
     qs: ~6.5.2
     safe-buffer: ^5.1.2
-    tough-cookie: ~2.4.3
+    tough-cookie: ~2.5.0
     tunnel-agent: ^0.6.0
     uuid: ^3.3.2
-  checksum: 828fafdf57036d5f22d8829c44157a8c112f149b08709e6fd61f43e4f152ca448dd7713cb15861955c71964085f7595443851fa8c7eebcae749be7c63fff9e45
+  checksum: 4db1bc9abe42c52dd1c605689a21351d2226d8681d3b1fa99723deff71ee99e2fa0bbbae37fd94bb6ee15cc64b1b999fcacc2c4b0942cd8b0fbdac616d2a8c93
   languageName: node
   linkType: hard
 
@@ -6171,7 +6171,14 @@ resolve@1.1.7:
   languageName: node
   linkType: hard
 
-"safe-buffer@npm:^5.0.1, safe-buffer@npm:^5.1.2, safe-buffer@npm:~5.1.0, safe-buffer@npm:~5.1.1":
+"safe-buffer@npm:^5.0.1, safe-buffer@npm:^5.1.2":
+  version: 5.2.0
+  resolution: "safe-buffer@npm:5.2.0"
+  checksum: 4577ff3526b671703fa907756021c0cf1360d664c7a4b2db07fedaf3a63df00f6638a16aa8d43d56658e73bd56eab432767b5b2ae3d138e77b875f77529338f3
+  languageName: node
+  linkType: hard
+
+"safe-buffer@npm:~5.1.0, safe-buffer@npm:~5.1.1":
   version: 5.1.2
   resolution: "safe-buffer@npm:5.1.2"
   checksum: 55f6e9116b875a5459a13fd1949d90ed6932f1c6fef70460896abcdf666852cb2119a12435ebbe823416ec49bc3fa5716ff2cc0dd36b9512631148e5113c145e
@@ -6852,7 +6859,7 @@ resolve@1.1.7:
     eslint-plugin-prettier: ^3.1.2
     eslint-plugin-promise: ^4.2.1
     eslint-plugin-standard: ^4.0.1
-    eslint-plugin-unicorn: ^16.0.0
+    eslint-plugin-unicorn: ^16.1.0
     husky: ^4.2.1
     jest: ^25.1.0
     jest-circus: ^25.1.0
@@ -7004,7 +7011,7 @@ resolve@1.1.7:
   languageName: node
   linkType: hard
 
-"tough-cookie@npm:^2.3.3":
+"tough-cookie@npm:^2.3.3, tough-cookie@npm:~2.5.0":
   version: 2.5.0
   resolution: "tough-cookie@npm:2.5.0"
   dependencies:
@@ -7022,16 +7029,6 @@ resolve@1.1.7:
     psl: ^1.1.28
     punycode: ^2.1.1
   checksum: d52fe9e7df8571fa0b603c94d69cc1d57b91bac72ff4bdb9c1453d30eb6a4876be5354a75a8de3d235025a0665873524345629cec411965274fe960a06447bd9
-  languageName: node
-  linkType: hard
-
-"tough-cookie@npm:~2.4.3":
-  version: 2.4.3
-  resolution: "tough-cookie@npm:2.4.3"
-  dependencies:
-    psl: ^1.1.24
-    punycode: ^1.4.1
-  checksum: 4fb852840d622e9e8bb789aa8da960cc03997fd18262b41e038e02bd00ef3a8d190ffae426412d5fef6990af5d42501b8d4adb2a9c8e1100251e1bf5f5166017
   languageName: node
   linkType: hard
 
