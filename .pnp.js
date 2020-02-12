@@ -134,7 +134,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["eslint-plugin-promise", "npm:4.2.1"],
             ["eslint-plugin-standard", "virtual:00f4dc5b5716c66b9aa8875c8c4f1330987e76fef068c4603f5f9e455c250cf6e6ff4f903024ff6dc767cbf872b43e1107107a49deabae009044d51254405fbb#npm:4.0.1"],
             ["eslint-plugin-unicorn", "virtual:00f4dc5b5716c66b9aa8875c8c4f1330987e76fef068c4603f5f9e455c250cf6e6ff4f903024ff6dc767cbf872b43e1107107a49deabae009044d51254405fbb#npm:16.1.0"],
-            ["husky", "npm:4.2.1"],
+            ["husky", "npm:4.2.2"],
             ["jest", "npm:25.1.0"],
             ["jest-circus", "npm:25.1.0"],
             ["lint-staged", "npm:10.0.7"],
@@ -360,10 +360,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["@cnakazawa/watch", [
-        ["npm:1.0.3", {
-          "packageLocation": "./.yarn/cache/@cnakazawa-watch-npm-1.0.3-e2afda3405-1.zip/node_modules/@cnakazawa/watch/",
+        ["npm:1.0.4", {
+          "packageLocation": "./.yarn/cache/@cnakazawa-watch-npm-1.0.4-ee43493884-1.zip/node_modules/@cnakazawa/watch/",
           "packageDependencies": [
-            ["@cnakazawa/watch", "npm:1.0.3"],
+            ["@cnakazawa/watch", "npm:1.0.4"],
             ["exec-sh", "npm:0.3.4"],
             ["minimist", "npm:1.2.0"]
           ],
@@ -1649,10 +1649,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["chownr", [
-        ["npm:1.1.3", {
-          "packageLocation": "./.yarn/cache/chownr-npm-1.1.3-706dbfd282-1.zip/node_modules/chownr/",
+        ["npm:1.1.4", {
+          "packageLocation": "./.yarn/cache/chownr-npm-1.1.4-5bd400ab08-1.zip/node_modules/chownr/",
           "packageDependencies": [
-            ["chownr", "npm:1.1.3"]
+            ["chownr", "npm:1.1.4"]
           ],
           "linkType": "HARD"
         }]
@@ -2686,7 +2686,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["regexpp", "npm:3.0.0"],
             ["reserved-words", "npm:0.1.2"],
             ["safe-regex", "npm:2.1.1"],
-            ["semver", "npm:7.1.2"]
+            ["semver", "npm:7.1.3"]
           ],
           "packagePeers": [
             "eslint"
@@ -3679,10 +3679,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["husky", [
-        ["npm:4.2.1", {
-          "packageLocation": "./.yarn/cache/husky-npm-4.2.1-aa787446b4-1.zip/node_modules/husky/",
+        ["npm:4.2.2", {
+          "packageLocation": "./.yarn/cache/husky-npm-4.2.2-60c5957d10-1.zip/node_modules/husky/",
           "packageDependencies": [
-            ["husky", "npm:4.2.1"],
+            ["husky", "npm:4.2.2"],
             ["chalk", "npm:3.0.0"],
             ["ci-info", "npm:2.0.0"],
             ["compare-versions", "npm:3.5.1"],
@@ -4747,7 +4747,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["mkdirp", "npm:0.5.1"],
             ["natural-compare", "npm:1.4.0"],
             ["pretty-format", "npm:25.1.0"],
-            ["semver", "npm:7.1.2"]
+            ["semver", "npm:7.1.3"]
           ],
           "linkType": "HARD"
         }]
@@ -7025,7 +7025,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/sane-npm-4.1.0-8ab7d6a963-1.zip/node_modules/sane/",
           "packageDependencies": [
             ["sane", "npm:4.1.0"],
-            ["@cnakazawa/watch", "npm:1.0.3"],
+            ["@cnakazawa/watch", "npm:1.0.4"],
             ["anymatch", "npm:2.0.0"],
             ["capture-exit", "npm:2.0.0"],
             ["exec-sh", "npm:0.3.4"],
@@ -7063,10 +7063,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],
           "linkType": "HARD"
         }],
-        ["npm:7.1.2", {
-          "packageLocation": "./.yarn/cache/semver-npm-7.1.2-04062a75e3-1.zip/node_modules/semver/",
+        ["npm:7.1.3", {
+          "packageLocation": "./.yarn/cache/semver-npm-7.1.3-1741df6bad-1.zip/node_modules/semver/",
           "packageDependencies": [
-            ["semver", "npm:7.1.2"]
+            ["semver", "npm:7.1.3"]
           ],
           "linkType": "HARD"
         }]
@@ -7722,7 +7722,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["eslint-plugin-promise", "npm:4.2.1"],
             ["eslint-plugin-standard", "virtual:00f4dc5b5716c66b9aa8875c8c4f1330987e76fef068c4603f5f9e455c250cf6e6ff4f903024ff6dc767cbf872b43e1107107a49deabae009044d51254405fbb#npm:4.0.1"],
             ["eslint-plugin-unicorn", "virtual:00f4dc5b5716c66b9aa8875c8c4f1330987e76fef068c4603f5f9e455c250cf6e6ff4f903024ff6dc767cbf872b43e1107107a49deabae009044d51254405fbb#npm:16.1.0"],
-            ["husky", "npm:4.2.1"],
+            ["husky", "npm:4.2.2"],
             ["jest", "npm:25.1.0"],
             ["jest-circus", "npm:25.1.0"],
             ["lint-staged", "npm:10.0.7"],
@@ -7742,7 +7742,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/tar-npm-4.4.13-2a4e7ee80f-1.zip/node_modules/tar/",
           "packageDependencies": [
             ["tar", "npm:4.4.13"],
-            ["chownr", "npm:1.1.3"],
+            ["chownr", "npm:1.1.4"],
             ["fs-minipass", "npm:1.2.7"],
             ["minipass", "npm:2.9.0"],
             ["minizlib", "npm:1.3.3"],
