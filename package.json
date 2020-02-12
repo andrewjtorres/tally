@@ -22,6 +22,7 @@
   },
   "scripts": {
     "build": "tsc --project tsconfig.node.json",
+    "hook:pre-commit": "lint-staged",
     "lint": "npm-run-all --parallel \"lint:*\"",
     "lint:files": "prettylint \"**/*.{json,md,yml}\"",
     "lint:scripts": "eslint --ignore-path .gitignore \"**/*.{js,ts}\"",
@@ -78,7 +79,7 @@
   "private": true,
   "husky": {
     "hooks": {
-      "pre-commit": "lint-staged"
+      "pre-commit": "hook:pre-commit"
     }
   },
   "lint-staged": {
