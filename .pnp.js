@@ -134,7 +134,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["eslint-plugin-promise", "npm:4.2.1"],
             ["eslint-plugin-standard", "virtual:00f4dc5b5716c66b9aa8875c8c4f1330987e76fef068c4603f5f9e455c250cf6e6ff4f903024ff6dc767cbf872b43e1107107a49deabae009044d51254405fbb#npm:4.0.1"],
             ["eslint-plugin-unicorn", "virtual:00f4dc5b5716c66b9aa8875c8c4f1330987e76fef068c4603f5f9e455c250cf6e6ff4f903024ff6dc767cbf872b43e1107107a49deabae009044d51254405fbb#npm:16.1.1"],
-            ["husky", "npm:4.2.2"],
+            ["husky", "npm:4.2.3"],
             ["jest", "npm:25.1.0"],
             ["jest-circus", "npm:25.1.0"],
             ["lint-staged", "npm:10.0.7"],
@@ -2408,7 +2408,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["eslint-utils", "npm:1.4.3"],
             ["eslint-visitor-keys", "npm:1.1.0"],
             ["espree", "npm:6.1.2"],
-            ["esquery", "npm:1.0.1"],
+            ["esquery", "npm:1.1.0"],
             ["esutils", "npm:2.0.3"],
             ["file-entry-cache", "npm:5.0.1"],
             ["functional-red-black-tree", "npm:1.0.1"],
@@ -2682,7 +2682,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["lodash.snakecase", "npm:4.1.1"],
             ["lodash.upperfirst", "npm:4.3.1"],
             ["read-pkg-up", "npm:7.0.1"],
-            ["regexp-tree", "npm:0.1.18"],
+            ["regexp-tree", "npm:0.1.19"],
             ["regexpp", "npm:3.0.0"],
             ["reserved-words", "npm:0.1.2"],
             ["safe-regex", "npm:2.1.1"],
@@ -2770,10 +2770,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["esquery", [
-        ["npm:1.0.1", {
-          "packageLocation": "./.yarn/cache/esquery-npm-1.0.1-b909fe9deb-1.zip/node_modules/esquery/",
+        ["npm:1.1.0", {
+          "packageLocation": "./.yarn/cache/esquery-npm-1.1.0-c20dd2327f-1.zip/node_modules/esquery/",
           "packageDependencies": [
-            ["esquery", "npm:1.0.1"],
+            ["esquery", "npm:1.1.0"],
             ["estraverse", "npm:4.3.0"]
           ],
           "linkType": "HARD"
@@ -3679,10 +3679,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["husky", [
-        ["npm:4.2.2", {
-          "packageLocation": "./.yarn/cache/husky-npm-4.2.2-60c5957d10-1.zip/node_modules/husky/",
+        ["npm:4.2.3", {
+          "packageLocation": "./.yarn/cache/husky-npm-4.2.3-b5c1a5429e-1.zip/node_modules/husky/",
           "packageDependencies": [
-            ["husky", "npm:4.2.2"],
+            ["husky", "npm:4.2.3"],
             ["chalk", "npm:3.0.0"],
             ["ci-info", "npm:2.0.0"],
             ["compare-versions", "npm:3.5.1"],
@@ -4305,7 +4305,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [
             ["istanbul-lib-report", "npm:3.0.0"],
             ["istanbul-lib-coverage", "npm:3.0.0"],
-            ["make-dir", "npm:3.0.0"],
+            ["make-dir", "npm:3.0.2"],
             ["supports-color", "npm:7.1.0"]
           ],
           "linkType": "HARD"
@@ -5345,10 +5345,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["make-dir", [
-        ["npm:3.0.0", {
-          "packageLocation": "./.yarn/cache/make-dir-npm-3.0.0-0e0619ca41-1.zip/node_modules/make-dir/",
+        ["npm:3.0.2", {
+          "packageLocation": "./.yarn/cache/make-dir-npm-3.0.2-b7b9bd0dd2-1.zip/node_modules/make-dir/",
           "packageDependencies": [
-            ["make-dir", "npm:3.0.0"],
+            ["make-dir", "npm:3.0.2"],
             ["semver", "npm:6.3.0"]
           ],
           "linkType": "HARD"
@@ -6665,10 +6665,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["regexp-tree", [
-        ["npm:0.1.18", {
-          "packageLocation": "./.yarn/cache/regexp-tree-npm-0.1.18-f4d57e623a-1.zip/node_modules/regexp-tree/",
+        ["npm:0.1.19", {
+          "packageLocation": "./.yarn/cache/regexp-tree-npm-0.1.19-ca0ef084ba-1.zip/node_modules/regexp-tree/",
           "packageDependencies": [
-            ["regexp-tree", "npm:0.1.18"]
+            ["regexp-tree", "npm:0.1.19"]
           ],
           "linkType": "HARD"
         }]
@@ -7006,7 +7006,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/safe-regex-npm-2.1.1-4438cded67-1.zip/node_modules/safe-regex/",
           "packageDependencies": [
             ["safe-regex", "npm:2.1.1"],
-            ["regexp-tree", "npm:0.1.18"]
+            ["regexp-tree", "npm:0.1.19"]
           ],
           "linkType": "HARD"
         }]
@@ -7722,7 +7722,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["eslint-plugin-promise", "npm:4.2.1"],
             ["eslint-plugin-standard", "virtual:00f4dc5b5716c66b9aa8875c8c4f1330987e76fef068c4603f5f9e455c250cf6e6ff4f903024ff6dc767cbf872b43e1107107a49deabae009044d51254405fbb#npm:4.0.1"],
             ["eslint-plugin-unicorn", "virtual:00f4dc5b5716c66b9aa8875c8c4f1330987e76fef068c4603f5f9e455c250cf6e6ff4f903024ff6dc767cbf872b43e1107107a49deabae009044d51254405fbb#npm:16.1.1"],
-            ["husky", "npm:4.2.2"],
+            ["husky", "npm:4.2.3"],
             ["jest", "npm:25.1.0"],
             ["jest-circus", "npm:25.1.0"],
             ["lint-staged", "npm:10.0.7"],

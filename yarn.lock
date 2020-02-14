@@ -2334,11 +2334,11 @@ __metadata:
   linkType: hard
 
 "esquery@npm:^1.0.1":
-  version: 1.0.1
-  resolution: "esquery@npm:1.0.1"
+  version: 1.1.0
+  resolution: "esquery@npm:1.1.0"
   dependencies:
     estraverse: ^4.0.0
-  checksum: fed7218581ac6d17a44d5773eeffe6bca6745a8eb79d56445fe0794e36808c20a979afb73c0840ea20a101c82ddb74415e87159eebe4422a16586de90945a04e
+  checksum: 1d9f0e0b4647ec515b5e66bd8a061847dc2e58220a9505acf06827f956f827e66fb8bc578d2167a7d5f78a93a1647b763d4859a1d31b35c80a49e9da4d9543bb
   languageName: node
   linkType: hard
 
@@ -3154,9 +3154,9 @@ fsevents@^2.1.2:
   languageName: node
   linkType: hard
 
-"husky@npm:^4.2.2":
-  version: 4.2.2
-  resolution: "husky@npm:4.2.2"
+"husky@npm:^4.2.3":
+  version: 4.2.3
+  resolution: "husky@npm:4.2.3"
   dependencies:
     chalk: ^3.0.0
     ci-info: ^2.0.0
@@ -3171,7 +3171,7 @@ fsevents@^2.1.2:
   bin:
     husky-run: bin/run.js
     husky-upgrade: lib/upgrader/bin.js
-  checksum: 7c6408e58bdec449b68afeece53931a7391c042881fe0fe138c8ab214ee7fe5d670e8726a47ca8749318dadfd8143d9d15dc760899e95543c30f3f85ce818879
+  checksum: 60614c0dfcadb2ada6a5c52a235b3974b84c560133370cc9166da57bc001bece2d765a33a779f8fe1a0086254064bc658d80b3aad9c26b3e0ae5f8c981be1b70
   languageName: node
   linkType: hard
 
@@ -4681,11 +4681,11 @@ fsevents@^2.1.2:
   linkType: hard
 
 "make-dir@npm:^3.0.0":
-  version: 3.0.0
-  resolution: "make-dir@npm:3.0.0"
+  version: 3.0.2
+  resolution: "make-dir@npm:3.0.2"
   dependencies:
     semver: ^6.0.0
-  checksum: 089579ddb85ede1affe2b172ed9dc4fde1a22b5135f63f0da47e983a00f743472efefa1d19c06eee515e1c9b9f81a86f9a89c9e334129a3e22a55bb799ebc0f0
+  checksum: 06cffbaaeada2dc7a158e3b37ebc7676f0e218297a1650bfae0f537a5418092956ff3385c8e627e9a220eb8326b9c3024b1ce37c3ce7d960c1a6524620341896
   languageName: node
   linkType: hard
 
@@ -5877,11 +5877,11 @@ fsevents@^2.1.2:
   linkType: hard
 
 "regexp-tree@npm:^0.1.17, regexp-tree@npm:~0.1.1":
-  version: 0.1.18
-  resolution: "regexp-tree@npm:0.1.18"
+  version: 0.1.19
+  resolution: "regexp-tree@npm:0.1.19"
   bin:
     regexp-tree: bin/regexp-tree
-  checksum: 4f31df915c0361a40de91ee30835be82ccddfefb9a054d9c449562d627e9ec727041543faf3f87f4aa75aba8174a66a0af3f40e722a17f3a16176174c2e2bb9e
+  checksum: 841a5f057b269e30f2ba35a2ea3be8efe92777bfc9c63371566eeb9d93026a06a6a8655825d5a53c644684ad58594092bf74b48d86a969de73cfc093fb81c912
   languageName: node
   linkType: hard
 
@@ -6860,7 +6860,7 @@ resolve@1.1.7:
     eslint-plugin-promise: ^4.2.1
     eslint-plugin-standard: ^4.0.1
     eslint-plugin-unicorn: ^16.1.1
-    husky: ^4.2.2
+    husky: ^4.2.3
     jest: ^25.1.0
     jest-circus: ^25.1.0
     lint-staged: ^10.0.7
