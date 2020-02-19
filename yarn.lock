@@ -448,11 +448,11 @@ __metadata:
   linkType: hard
 
 "@sinonjs/commons@npm:^1.7.0":
-  version: 1.7.0
-  resolution: "@sinonjs/commons@npm:1.7.0"
+  version: 1.7.1
+  resolution: "@sinonjs/commons@npm:1.7.1"
   dependencies:
     type-detect: 4.0.8
-  checksum: 055aaf061f9d00753964e8920b28fc00a9e7fed797b0deb4322099cfccb14f6a539d14d3a374059e3382261489ce70e7c00afd4c28df4398c6ba19fce7609a81
+  checksum: 3d8deee1f11f83170e854bb3ba301d3872437adf412ec311a6d5fbcf8f4f6f32ba8504794f27b25b18431679360acdb6c690aeab42263965bc6198909f5b0f8f
   languageName: node
   linkType: hard
 
@@ -537,13 +537,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/jest@npm:^25.1.2":
-  version: 25.1.2
-  resolution: "@types/jest@npm:25.1.2"
+"@types/jest@npm:^25.1.3":
+  version: 25.1.3
+  resolution: "@types/jest@npm:25.1.3"
   dependencies:
     jest-diff: ^25.1.0
     pretty-format: ^25.1.0
-  checksum: 4128ae82b11bfc2553f5e5ff5029b94ec10ec7feaf9942cdfed2438200a05f042b63ebd13a3326cd503a6106fbdab8bfddbce5c0f74da77d0cb366119d288ce4
+  checksum: fdb4eb3507d339bf3ba260d94617feffd8f43ba8b303b7ada6da041e4e7c29a08947a0697913d4cf305e64d8289ceba75d4a98550bc934b99b19e26f56c5f684
   languageName: node
   linkType: hard
 
@@ -562,9 +562,9 @@ __metadata:
   linkType: hard
 
 "@types/node@npm:^13.7.2":
-  version: 13.7.2
-  resolution: "@types/node@npm:13.7.2"
-  checksum: a477a756bcc9b18ec5f5ac902e902ce2ceb01cfad1ff9211ea88227c5cc1f7074d42d91c002c4769f2cd075cd96f1e03f46369fe0e63076a149eec56fd47f5c6
+  version: 13.7.4
+  resolution: "@types/node@npm:13.7.4"
+  checksum: 6ebab7d5907a9da1f67aebaa8d616390211f8849a2b6fd4eeba75c47b88701bc5a24b6703c03c547e38f584af62bb33bc22414552fb26f405b3dcc81d35ef65c
   languageName: node
   linkType: hard
 
@@ -6837,7 +6837,7 @@ resolve@1.1.7:
   version: 0.0.0-use.local
   resolution: "tally@workspace:."
   dependencies:
-    "@types/jest": ^25.1.2
+    "@types/jest": ^25.1.3
     "@types/node": ^13.7.2
     "@typescript-eslint/eslint-plugin": ^2.20.0
     "@typescript-eslint/parser": ^2.20.0
