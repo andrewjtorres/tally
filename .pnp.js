@@ -142,7 +142,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["prettier", "npm:1.19.1"],
             ["prettylint", "virtual:00f4dc5b5716c66b9aa8875c8c4f1330987e76fef068c4603f5f9e455c250cf6e6ff4f903024ff6dc767cbf872b43e1107107a49deabae009044d51254405fbb#npm:1.0.0"],
             ["rxjs", "npm:6.5.4"],
-            ["ts-jest", "virtual:00f4dc5b5716c66b9aa8875c8c4f1330987e76fef068c4603f5f9e455c250cf6e6ff4f903024ff6dc767cbf872b43e1107107a49deabae009044d51254405fbb#npm:25.2.0"],
+            ["ts-jest", "virtual:00f4dc5b5716c66b9aa8875c8c4f1330987e76fef068c4603f5f9e455c250cf6e6ff4f903024ff6dc767cbf872b43e1107107a49deabae009044d51254405fbb#npm:25.2.1"],
             ["typescript", "patch:typescript@npm%3A3.7.5#builtin<compat/typescript>::version=3.7.5&hash=226bd1"],
             ["utils", "link:src/utils::locator=tally%40workspace%3A."]
           ],
@@ -1558,13 +1558,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/camelcase-npm-2.1.1-2ed296a336-1.zip/node_modules/camelcase/",
           "packageDependencies": [
             ["camelcase", "npm:2.1.1"]
-          ],
-          "linkType": "HARD"
-        }],
-        ["npm:4.1.0", {
-          "packageLocation": "./.yarn/cache/camelcase-npm-4.1.0-6903b265cd-1.zip/node_modules/camelcase/",
-          "packageDependencies": [
-            ["camelcase", "npm:4.1.0"]
           ],
           "linkType": "HARD"
         }],
@@ -5355,10 +5348,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["make-error", [
-        ["npm:1.3.5", {
-          "packageLocation": "./.yarn/cache/make-error-npm-1.3.5-be4b06e941-1.zip/node_modules/make-error/",
+        ["npm:1.3.6", {
+          "packageLocation": "./.yarn/cache/make-error-npm-1.3.6-ccb85d9458-1.zip/node_modules/make-error/",
           "packageDependencies": [
-            ["make-error", "npm:1.3.5"]
+            ["make-error", "npm:1.3.6"]
           ],
           "linkType": "HARD"
         }]
@@ -7730,7 +7723,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["prettier", "npm:1.19.1"],
             ["prettylint", "virtual:00f4dc5b5716c66b9aa8875c8c4f1330987e76fef068c4603f5f9e455c250cf6e6ff4f903024ff6dc767cbf872b43e1107107a49deabae009044d51254405fbb#npm:1.0.0"],
             ["rxjs", "npm:6.5.4"],
-            ["ts-jest", "virtual:00f4dc5b5716c66b9aa8875c8c4f1330987e76fef068c4603f5f9e455c250cf6e6ff4f903024ff6dc767cbf872b43e1107107a49deabae009044d51254405fbb#npm:25.2.0"],
+            ["ts-jest", "virtual:00f4dc5b5716c66b9aa8875c8c4f1330987e76fef068c4603f5f9e455c250cf6e6ff4f903024ff6dc767cbf872b43e1107107a49deabae009044d51254405fbb#npm:25.2.1"],
             ["typescript", "patch:typescript@npm%3A3.7.5#builtin<compat/typescript>::version=3.7.5&hash=226bd1"],
             ["utils", "link:src/utils::locator=tally%40workspace%3A."]
           ],
@@ -7925,21 +7918,22 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["ts-jest", [
-        ["virtual:00f4dc5b5716c66b9aa8875c8c4f1330987e76fef068c4603f5f9e455c250cf6e6ff4f903024ff6dc767cbf872b43e1107107a49deabae009044d51254405fbb#npm:25.2.0", {
-          "packageLocation": "./.yarn/$$virtual/ts-jest-virtual-7f3a5a930f/0/cache/ts-jest-npm-25.2.0-b41fae278b-1.zip/node_modules/ts-jest/",
+        ["virtual:00f4dc5b5716c66b9aa8875c8c4f1330987e76fef068c4603f5f9e455c250cf6e6ff4f903024ff6dc767cbf872b43e1107107a49deabae009044d51254405fbb#npm:25.2.1", {
+          "packageLocation": "./.yarn/$$virtual/ts-jest-virtual-08711c8769/0/cache/ts-jest-npm-25.2.1-abe6e4496f-1.zip/node_modules/ts-jest/",
           "packageDependencies": [
-            ["ts-jest", "virtual:00f4dc5b5716c66b9aa8875c8c4f1330987e76fef068c4603f5f9e455c250cf6e6ff4f903024ff6dc767cbf872b43e1107107a49deabae009044d51254405fbb#npm:25.2.0"],
+            ["ts-jest", "virtual:00f4dc5b5716c66b9aa8875c8c4f1330987e76fef068c4603f5f9e455c250cf6e6ff4f903024ff6dc767cbf872b43e1107107a49deabae009044d51254405fbb#npm:25.2.1"],
             ["bs-logger", "npm:0.2.6"],
             ["buffer-from", "npm:1.1.1"],
             ["fast-json-stable-stringify", "npm:2.1.0"],
             ["jest", "npm:25.1.0"],
+            ["jest-config", "npm:25.1.0"],
             ["json5", "npm:2.1.1"],
             ["lodash.memoize", "npm:4.1.2"],
-            ["make-error", "npm:1.3.5"],
+            ["make-error", "npm:1.3.6"],
             ["mkdirp", "npm:0.5.1"],
             ["resolve", "patch:resolve@npm%3A1.15.1#builtin<compat/resolve>::version=1.15.1&hash=8fccd0"],
             ["semver", "npm:5.7.1"],
-            ["yargs-parser", "npm:10.1.0"]
+            ["yargs-parser", "npm:16.1.0"]
           ],
           "packagePeers": [
             "jest"
@@ -8475,14 +8469,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["yargs-parser", [
-        ["npm:10.1.0", {
-          "packageLocation": "./.yarn/cache/yargs-parser-npm-10.1.0-04b00264c9-1.zip/node_modules/yargs-parser/",
-          "packageDependencies": [
-            ["yargs-parser", "npm:10.1.0"],
-            ["camelcase", "npm:4.1.0"]
-          ],
-          "linkType": "HARD"
-        }],
         ["npm:16.1.0", {
           "packageLocation": "./.yarn/cache/yargs-parser-npm-16.1.0-084aea60f5-1.zip/node_modules/yargs-parser/",
           "packageDependencies": [

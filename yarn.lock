@@ -1259,13 +1259,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"camelcase@npm:^4.1.0":
-  version: 4.1.0
-  resolution: "camelcase@npm:4.1.0"
-  checksum: e43e9bf50c4537311e658a0192f5295e6fc0eb8404e42485a1385dbfb735a0e76c899c17b41defda58f7984248ec11e6f92907dda0a5548690747777e5967bfc
-  languageName: node
-  linkType: hard
-
 "camelcase@npm:^5.0.0, camelcase@npm:^5.3.1":
   version: 5.3.1
   resolution: "camelcase@npm:5.3.1"
@@ -3798,7 +3791,7 @@ fsevents@^2.1.2:
   languageName: node
   linkType: hard
 
-"jest-config@npm:^25.1.0":
+"jest-config@npm:*, jest-config@npm:^25.1.0":
   version: 25.1.0
   resolution: "jest-config@npm:25.1.0"
   dependencies:
@@ -4690,9 +4683,9 @@ fsevents@^2.1.2:
   linkType: hard
 
 "make-error@npm:1.x":
-  version: 1.3.5
-  resolution: "make-error@npm:1.3.5"
-  checksum: 93393c8e18caf7e82314636039d07a3541c73bfd5ddb6534f355c618927c8d0d000655981a773988deec14f7af95abe92c3654b880d9d1998abbe2ead4241d2c
+  version: 1.3.6
+  resolution: "make-error@npm:1.3.6"
+  checksum: e45e9bc9cfc037b2df4c3dcfd690e0171ea72955fe7ac878f383452b25f3471512f3886b67214e1a8bd7b06880cda708f3744ba3d027964d7e9e2bbb031606f5
   languageName: node
   linkType: hard
 
@@ -6868,7 +6861,7 @@ resolve@1.1.7:
     prettier: ^1.19.1
     prettylint: ^1.0.0
     rxjs: ^6.5.4
-    ts-jest: ^25.2.0
+    ts-jest: ^25.2.1
     typescript: ^3.7.5
     utils: "link:src/utils"
   dependenciesMeta:
@@ -7048,9 +7041,9 @@ resolve@1.1.7:
   languageName: node
   linkType: hard
 
-"ts-jest@npm:^25.2.0":
-  version: 25.2.0
-  resolution: "ts-jest@npm:25.2.0"
+"ts-jest@npm:^25.2.1":
+  version: 25.2.1
+  resolution: "ts-jest@npm:25.2.1"
   dependencies:
     bs-logger: 0.x
     buffer-from: 1.x
@@ -7061,12 +7054,12 @@ resolve@1.1.7:
     mkdirp: 0.x
     resolve: 1.x
     semver: ^5.5
-    yargs-parser: 10.x
+    yargs-parser: ^16.1.0
   peerDependencies:
     jest: ">=25 <26"
   bin:
     ts-jest: cli.js
-  checksum: d7348e4cc837027557fd27a1c19f7dd781b47b60058aa75539b2478b733405f6c50f7e1a974962f0071de9bce1cfd499594aeda2df63dfaa78b8f2212e37c437
+  checksum: 00aa8cef313af4c45980504c68dae0bd04878b42e95018e8a657a5db11493a20618ec506fbc67620d13ebac632988ffe7cce340f436771a8ab88d851c306d96a
   languageName: node
   linkType: hard
 
@@ -7513,15 +7506,6 @@ typescript@^3.7.5:
   dependencies:
     "@babel/runtime": ^7.6.3
   checksum: da4a4934a50c9e434219ccd009021cbcc7ba13a17763e37a75ccb43aacbf7bd90216d9bb44f3b0b0214c6a8885848adf7d2370f5016196bebe9cb82e4e1d4d67
-  languageName: node
-  linkType: hard
-
-"yargs-parser@npm:10.x":
-  version: 10.1.0
-  resolution: "yargs-parser@npm:10.1.0"
-  dependencies:
-    camelcase: ^4.1.0
-  checksum: 3b9acbc2631668870d58762101d588666410f0c55fa403abd7bd48a9c0b72c2d8e8da06e712db2cdd8399f2be5286539ff98d02d5046a12086a3ac8eae2f6cc6
   languageName: node
   linkType: hard
 
