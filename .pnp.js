@@ -118,8 +118,8 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         [null, {
           "packageLocation": "./",
           "packageDependencies": [
-            ["@types/jest", "npm:25.1.2"],
-            ["@types/node", "npm:13.7.2"],
+            ["@types/jest", "npm:25.1.3"],
+            ["@types/node", "npm:13.7.4"],
             ["@typescript-eslint/eslint-plugin", "virtual:00f4dc5b5716c66b9aa8875c8c4f1330987e76fef068c4603f5f9e455c250cf6e6ff4f903024ff6dc767cbf872b43e1107107a49deabae009044d51254405fbb#npm:2.20.0"],
             ["@typescript-eslint/parser", "virtual:00f4dc5b5716c66b9aa8875c8c4f1330987e76fef068c4603f5f9e455c250cf6e6ff4f903024ff6dc767cbf872b43e1107107a49deabae009044d51254405fbb#npm:2.20.0"],
             ["cz-conventional-changelog", "npm:3.1.0"],
@@ -629,10 +629,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["@sinonjs/commons", [
-        ["npm:1.7.0", {
-          "packageLocation": "./.yarn/cache/@sinonjs-commons-npm-1.7.0-1df9026921-1.zip/node_modules/@sinonjs/commons/",
+        ["npm:1.7.1", {
+          "packageLocation": "./.yarn/cache/@sinonjs-commons-npm-1.7.1-76665b5d83-1.zip/node_modules/@sinonjs/commons/",
           "packageDependencies": [
-            ["@sinonjs/commons", "npm:1.7.0"],
+            ["@sinonjs/commons", "npm:1.7.1"],
             ["type-detect", "npm:4.0.8"]
           ],
           "linkType": "HARD"
@@ -732,10 +732,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["@types/jest", [
-        ["npm:25.1.2", {
-          "packageLocation": "./.yarn/cache/@types-jest-npm-25.1.2-652fa5e4f8-1.zip/node_modules/@types/jest/",
+        ["npm:25.1.3", {
+          "packageLocation": "./.yarn/cache/@types-jest-npm-25.1.3-4b452691b4-1.zip/node_modules/@types/jest/",
           "packageDependencies": [
-            ["@types/jest", "npm:25.1.2"],
+            ["@types/jest", "npm:25.1.3"],
             ["jest-diff", "npm:25.1.0"],
             ["pretty-format", "npm:25.1.0"]
           ],
@@ -761,10 +761,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["@types/node", [
-        ["npm:13.7.2", {
-          "packageLocation": "./.yarn/cache/@types-node-npm-13.7.2-83da2dd0d0-1.zip/node_modules/@types/node/",
+        ["npm:13.7.4", {
+          "packageLocation": "./.yarn/cache/@types-node-npm-13.7.4-30a6fafb1a-1.zip/node_modules/@types/node/",
           "packageDependencies": [
-            ["@types/node", "npm:13.7.2"]
+            ["@types/node", "npm:13.7.4"]
           ],
           "linkType": "HARD"
         }]
@@ -5312,7 +5312,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/lolex-npm-5.1.2-bbf21736b7-1.zip/node_modules/lolex/",
           "packageDependencies": [
             ["lolex", "npm:5.1.2"],
-            ["@sinonjs/commons", "npm:1.7.0"]
+            ["@sinonjs/commons", "npm:1.7.1"]
           ],
           "linkType": "HARD"
         }]
@@ -7699,8 +7699,8 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./",
           "packageDependencies": [
             ["tally", "workspace:."],
-            ["@types/jest", "npm:25.1.2"],
-            ["@types/node", "npm:13.7.2"],
+            ["@types/jest", "npm:25.1.3"],
+            ["@types/node", "npm:13.7.4"],
             ["@typescript-eslint/eslint-plugin", "virtual:00f4dc5b5716c66b9aa8875c8c4f1330987e76fef068c4603f5f9e455c250cf6e6ff4f903024ff6dc767cbf872b43e1107107a49deabae009044d51254405fbb#npm:2.20.0"],
             ["@typescript-eslint/parser", "virtual:00f4dc5b5716c66b9aa8875c8c4f1330987e76fef068c4603f5f9e455c250cf6e6ff4f903024ff6dc767cbf872b43e1107107a49deabae009044d51254405fbb#npm:2.20.0"],
             ["cz-conventional-changelog", "npm:3.1.0"],
