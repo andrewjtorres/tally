@@ -7926,6 +7926,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["buffer-from", "npm:1.1.1"],
             ["fast-json-stable-stringify", "npm:2.1.0"],
             ["jest", "npm:25.1.0"],
+            ["jest-config", "npm:25.1.0"],
             ["json5", "npm:2.1.1"],
             ["lodash.memoize", "npm:4.1.2"],
             ["make-error", "npm:1.3.6"],

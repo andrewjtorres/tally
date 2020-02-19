@@ -3791,7 +3791,7 @@ fsevents@^2.1.2:
   languageName: node
   linkType: hard
 
-"jest-config@npm:^25.1.0":
+"jest-config@npm:*, jest-config@npm:^25.1.0":
   version: 25.1.0
   resolution: "jest-config@npm:25.1.0"
   dependencies:
