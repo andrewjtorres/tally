@@ -457,15 +457,15 @@ __metadata:
   linkType: hard
 
 "@types/babel__core@npm:^7.1.0":
-  version: 7.1.4
-  resolution: "@types/babel__core@npm:7.1.4"
+  version: 7.1.5
+  resolution: "@types/babel__core@npm:7.1.5"
   dependencies:
     "@babel/parser": ^7.1.0
     "@babel/types": ^7.0.0
     "@types/babel__generator": "*"
     "@types/babel__template": "*"
     "@types/babel__traverse": "*"
-  checksum: a6f041871395e0d2c9372e67f79745b82c87089f73dfba4d608aaabf992d713eee22b0e00c745731cb3ca1af599c92d76cbcb87b131f0b0ac29fae5b569622e7
+  checksum: 2df7b829021d0a1355d14c4672d17409f1ed79bd92fa6c3d012cb27f7414e9a1e9c2157253c876fb8b117ed7adcbbaf4ce5301b1d689acfe098cd358bc690153
   languageName: node
   linkType: hard
 
@@ -489,11 +489,11 @@ __metadata:
   linkType: hard
 
 "@types/babel__traverse@npm:*, @types/babel__traverse@npm:^7.0.6":
-  version: 7.0.8
-  resolution: "@types/babel__traverse@npm:7.0.8"
+  version: 7.0.9
+  resolution: "@types/babel__traverse@npm:7.0.9"
   dependencies:
     "@babel/types": ^7.3.0
-  checksum: 7a986813639f6c245b3c9a0d02e6eb7a4fd3856c8eb40827ff32b0b9b6cfa2c974200a1c394be4280845a82f2b9509cf37f4e5e88b0f251b7917d2ad240cec35
+  checksum: 4a9f0d4432aa424d8cccc4d9cd926db4bcd0f80a8a6227856c4dc1d0987b8bfdeccfc8ba226042f6b69101a447be1265c3e8cc605f9f6e96d113d38a36b512b5
   languageName: node
   linkType: hard
 
@@ -5870,11 +5870,11 @@ fsevents@^2.1.2:
   linkType: hard
 
 "regexp-tree@npm:^0.1.17, regexp-tree@npm:~0.1.1":
-  version: 0.1.19
-  resolution: "regexp-tree@npm:0.1.19"
+  version: 0.1.20
+  resolution: "regexp-tree@npm:0.1.20"
   bin:
     regexp-tree: bin/regexp-tree
-  checksum: 841a5f057b269e30f2ba35a2ea3be8efe92777bfc9c63371566eeb9d93026a06a6a8655825d5a53c644684ad58594092bf74b48d86a969de73cfc093fb81c912
+  checksum: f1e484bb3aed6fbf6219446912f2e0d6866eacbce08224e330e55c258813daf48082c8e26f23584f60e34ae28ebaa8192b5dd4cca9d636e1b314240e1ebc8243
   languageName: node
   linkType: hard
 
@@ -6862,7 +6862,7 @@ resolve@1.1.7:
     prettylint: ^1.0.0
     rxjs: ^6.5.4
     ts-jest: ^25.2.1
-    typescript: ^3.7.5
+    typescript: ^3.8.2
     utils: "link:src/utils"
   dependenciesMeta:
     core-js:
@@ -7076,9 +7076,9 @@ resolve@1.1.7:
   linkType: hard
 
 "tslib@npm:^1.8.0, tslib@npm:^1.8.1, tslib@npm:^1.9.0":
-  version: 1.10.0
-  resolution: "tslib@npm:1.10.0"
-  checksum: 626387669b38797372530d84df93dafcc0eca2b3bad31b109c7308b2e8d9c4ed0ba94113eb08a6946aa1fbee3b619fb69dd81f8681654bbc806cf8f208caeb47
+  version: 1.11.0
+  resolution: "tslib@npm:1.11.0"
+  checksum: fbcebf11bd2a1d10c1de5dfb03ab6c3758035b00d2d0eb132e91ddb30135b4c0fe376b9402174a98079b55a44c8c91d053fee39a4e94b68c82bb9fca799d2dd0
   languageName: node
   linkType: hard
 
@@ -7148,23 +7148,23 @@ resolve@1.1.7:
   languageName: node
   linkType: hard
 
-typescript@^3.7.5:
-  version: 3.7.5
-  resolution: "typescript@npm:3.7.5"
+typescript@^3.8.2:
+  version: 3.8.2
+  resolution: "typescript@npm:3.8.2"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
-  checksum: d95ec853853af51cd766dd56b2495a18893b1a137ba317e10ef35fa4fcfb94e6b84cec6593fd44b67a16efd645619e990f09428cce7caf8cd3d26e736e1f0037
+  checksum: f55bd7176a71b4f8715dfaccd1a589baa10261d8a7a4d024a4646e6042192577834d3cf688f621036f07303307b39e652477ac4c7a49eebe948acd45704204cb
   languageName: node
   linkType: hard
 
-"typescript@patch:typescript@^3.7.5#builtin<compat/typescript>":
-  version: 3.7.5
-  resolution: "typescript@patch:typescript@npm%3A3.7.5#builtin<compat/typescript>::version=3.7.5&hash=226bd1"
+"typescript@patch:typescript@^3.8.2#builtin<compat/typescript>":
+  version: 3.8.2
+  resolution: "typescript@patch:typescript@npm%3A3.8.2#builtin<compat/typescript>::version=3.8.2&hash=226bd1"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
-  checksum: de497e57cffec3ddf3cd6b7e96d62aaeaad18fccee70e8f63bea194210578e74d0c2ec2c1471851c91ce6c2030cca3ce35cf7d10beb2c016de3724e182935333
+  checksum: 9bc0350ddbc467ad8d02eb2dc505d1b6c94fa8e0f966658a1273bb6d53500d231e6a6a12167c2a543427b79e75b12c326503a06599d32274ac234f865566b559
   languageName: node
   linkType: hard
 
