@@ -735,14 +735,14 @@ __metadata:
   linkType: hard
 
 "ajv@npm:^6.10.0, ajv@npm:^6.10.2, ajv@npm:^6.5.5":
-  version: 6.11.0
-  resolution: "ajv@npm:6.11.0"
+  version: 6.12.0
+  resolution: "ajv@npm:6.12.0"
   dependencies:
     fast-deep-equal: ^3.1.1
     fast-json-stable-stringify: ^2.0.0
     json-schema-traverse: ^0.4.1
     uri-js: ^4.2.2
-  checksum: 5c9986f9572b85e6452a9620670501244c8db9b30257a155dcb1cb7333f6571b7bff94b70614676f779a018019236d0acdfeb1cbbaff34955c92cc3003cef10d
+  checksum: 601f67d73030717b42f62de7c83660d507a314e1653c5bc8656f9a65c6a2f22017d90728c0f335bda5424c292a1a83bdb7faee0964786b4462a5c7c42e2b0802
   languageName: node
   linkType: hard
 
@@ -2117,14 +2117,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-jest@npm:^23.7.0":
-  version: 23.7.0
-  resolution: "eslint-plugin-jest@npm:23.7.0"
+"eslint-plugin-jest@npm:^23.8.0":
+  version: 23.8.0
+  resolution: "eslint-plugin-jest@npm:23.8.0"
   dependencies:
     "@typescript-eslint/experimental-utils": ^2.5.0
   peerDependencies:
     eslint: ">=5"
-  checksum: 898c8278164c5c6b6899ae3e102a41c5b9606b368c743931dae5f34f809f710f67519ce5b4ab3a44efbff664b52554fb0614e8b7451d246b2748981ca30e4b9c
+  checksum: 9bacd49acfb2c02cc7c6fdc4f0c0d5e9708552c5324d06d556ce5587e1b4e1680b1547c95e1044d8b26a049428118b40f69a28d0fe00df2e5f0876901d37a2f5
   languageName: node
   linkType: hard
 
@@ -6847,7 +6847,7 @@ resolve@1.1.7:
     eslint-config-standard: ^14.1.0
     eslint-import-resolver-typescript: ^2.0.0
     eslint-plugin-import: ^2.20.1
-    eslint-plugin-jest: ^23.7.0
+    eslint-plugin-jest: ^23.8.0
     eslint-plugin-node: ^11.0.0
     eslint-plugin-prettier: ^3.1.2
     eslint-plugin-promise: ^4.2.1
