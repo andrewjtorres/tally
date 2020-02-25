@@ -137,7 +137,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["husky", "npm:4.2.3"],
             ["jest", "npm:25.1.0"],
             ["jest-circus", "npm:25.1.0"],
-            ["lint-staged", "npm:10.0.7"],
+            ["lint-staged", "npm:10.0.8"],
             ["npm-run-all", "npm:4.1.5"],
             ["prettier", "npm:1.19.1"],
             ["prettylint", "virtual:00f4dc5b5716c66b9aa8875c8c4f1330987e76fef068c4603f5f9e455c250cf6e6ff4f903024ff6dc767cbf872b43e1107107a49deabae009044d51254405fbb#npm:1.0.0"],
@@ -600,7 +600,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["realpath-native", "npm:1.1.0"],
             ["slash", "npm:3.0.0"],
             ["source-map", "npm:0.6.1"],
-            ["write-file-atomic", "npm:3.0.1"]
+            ["write-file-atomic", "npm:3.0.3"]
           ],
           "linkType": "HARD"
         }]
@@ -5033,10 +5033,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["lint-staged", [
-        ["npm:10.0.7", {
-          "packageLocation": "./.yarn/cache/lint-staged-npm-10.0.7-b01253a176-1.zip/node_modules/lint-staged/",
+        ["npm:10.0.8", {
+          "packageLocation": "./.yarn/cache/lint-staged-npm-10.0.8-90c448f980-1.zip/node_modules/lint-staged/",
           "packageDependencies": [
-            ["lint-staged", "npm:10.0.7"],
+            ["lint-staged", "npm:10.0.8"],
             ["chalk", "npm:3.0.0"],
             ["commander", "npm:4.1.1"],
             ["cosmiconfig", "npm:6.0.0"],
@@ -7718,7 +7718,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["husky", "npm:4.2.3"],
             ["jest", "npm:25.1.0"],
             ["jest-circus", "npm:25.1.0"],
-            ["lint-staged", "npm:10.0.7"],
+            ["lint-staged", "npm:10.0.8"],
             ["npm-run-all", "npm:4.1.5"],
             ["prettier", "npm:1.19.1"],
             ["prettylint", "virtual:00f4dc5b5716c66b9aa8875c8c4f1330987e76fef068c4603f5f9e455c250cf6e6ff4f903024ff6dc767cbf872b43e1107107a49deabae009044d51254405fbb#npm:1.0.0"],
@@ -8375,10 +8375,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["write-file-atomic", [
-        ["npm:3.0.1", {
-          "packageLocation": "./.yarn/cache/write-file-atomic-npm-3.0.1-40bde155c8-1.zip/node_modules/write-file-atomic/",
+        ["npm:3.0.3", {
+          "packageLocation": "./.yarn/cache/write-file-atomic-npm-3.0.3-d948a237da-1.zip/node_modules/write-file-atomic/",
           "packageDependencies": [
-            ["write-file-atomic", "npm:3.0.1"],
+            ["write-file-atomic", "npm:3.0.3"],
             ["imurmurhash", "npm:0.1.4"],
             ["is-typedarray", "npm:1.0.0"],
             ["signal-exit", "npm:3.0.2"],
