@@ -4399,9 +4399,9 @@ fsevents@^2.1.2:
   languageName: node
   linkType: hard
 
-"lint-staged@npm:^10.0.7":
-  version: 10.0.7
-  resolution: "lint-staged@npm:10.0.7"
+"lint-staged@npm:^10.0.8":
+  version: 10.0.8
+  resolution: "lint-staged@npm:10.0.8"
   dependencies:
     chalk: ^3.0.0
     commander: ^4.0.1
@@ -4418,7 +4418,7 @@ fsevents@^2.1.2:
     stringify-object: ^3.3.0
   bin:
     lint-staged: bin/lint-staged.js
-  checksum: 29f85a46ee322fd830262f9456d2c81f9a92ae8ca3dacbc6816d6bdc3d71dd5a2d7c127acb6f449e6a3a4a0114bb1528d082bf5f3f5d0bc4c5fc54de5dc09c69
+  checksum: cbe913fbcc32f5145c8dd61e031446a95548d6f9a91426e7828e84f5c5b09de8efd9323012fce74a24f717c6dcee97c5357b8874112cd9edb65faa891bb3330e
   languageName: node
   linkType: hard
 
@@ -6856,7 +6856,7 @@ resolve@1.1.7:
     husky: ^4.2.3
     jest: ^25.1.0
     jest-circus: ^25.1.0
-    lint-staged: ^10.0.7
+    lint-staged: ^10.0.8
     npm-run-all: ^4.1.5
     prettier: ^1.19.1
     prettylint: ^1.0.0
@@ -7437,14 +7437,14 @@ typescript@^3.8.2:
   linkType: hard
 
 "write-file-atomic@npm:^3.0.0":
-  version: 3.0.1
-  resolution: "write-file-atomic@npm:3.0.1"
+  version: 3.0.3
+  resolution: "write-file-atomic@npm:3.0.3"
   dependencies:
     imurmurhash: ^0.1.4
     is-typedarray: ^1.0.0
     signal-exit: ^3.0.2
     typedarray-to-buffer: ^3.1.5
-  checksum: 7a0e3bdc0d61bbd7bfb3ac1c2371cc3ebad0c9f6950ab72b304e09585fc0b5640f4ff7695a22a91cb72f2966655c4700cb09b04aa37870e334ef2a9d9917483c
+  checksum: 0a246b177f87b50b75d8a287cf24293f7123e2bc1215e5913734d725781bc263787d495fddd5cc9601057dc4e58590317de8845846d1e8aaed47549a1861402e
   languageName: node
   linkType: hard
 
