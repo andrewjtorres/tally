@@ -457,15 +457,15 @@ __metadata:
   linkType: hard
 
 "@types/babel__core@npm:^7.1.0":
-  version: 7.1.5
-  resolution: "@types/babel__core@npm:7.1.5"
+  version: 7.1.6
+  resolution: "@types/babel__core@npm:7.1.6"
   dependencies:
     "@babel/parser": ^7.1.0
     "@babel/types": ^7.0.0
     "@types/babel__generator": "*"
     "@types/babel__template": "*"
     "@types/babel__traverse": "*"
-  checksum: 2df7b829021d0a1355d14c4672d17409f1ed79bd92fa6c3d012cb27f7414e9a1e9c2157253c876fb8b117ed7adcbbaf4ce5301b1d689acfe098cd358bc690153
+  checksum: d5319a21dc265a8a1c6a9d52b1163ea1ec3fd144c3e887d200aa8c99fe53d2d8f732ff14862383f43725d811d355087c43029d178198760567140ba3a47174d6
   languageName: node
   linkType: hard
 
@@ -561,10 +561,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:^13.7.4":
-  version: 13.7.4
-  resolution: "@types/node@npm:13.7.4"
-  checksum: 6ebab7d5907a9da1f67aebaa8d616390211f8849a2b6fd4eeba75c47b88701bc5a24b6703c03c547e38f584af62bb33bc22414552fb26f405b3dcc81d35ef65c
+"@types/node@npm:^13.7.5":
+  version: 13.7.5
+  resolution: "@types/node@npm:13.7.5"
+  checksum: 5088248d98e55422c2666decd3d4e67275606f2f866037fdd13c82894b436700a57cf54566129799a9a8ca03ff3e9184483b3c064a230e58098e0418ded67417
   languageName: node
   linkType: hard
 
@@ -3107,9 +3107,9 @@ fsevents@^2.1.2:
   linkType: hard
 
 "hosted-git-info@npm:^2.1.4":
-  version: 2.8.5
-  resolution: "hosted-git-info@npm:2.8.5"
-  checksum: a368aa0416665c6edb09d9c35f03a223b8ff84f0fd4aaada0fa0cf32f14116b3c41fd74ad84ec9574f9f1aa14aef8accbf2f2f5626d879a1d2747a6825c93d9b
+  version: 2.8.6
+  resolution: "hosted-git-info@npm:2.8.6"
+  checksum: 4ca0dd16b469b1249c5fa70f376b772f39c84ee466a53b9a311287055d39fde7657b4cddb6bfbaf8055ad4ff9f1a5e539fe27246531dd486907c9056cf3525c9
   languageName: node
   linkType: hard
 
@@ -6838,7 +6838,7 @@ resolve@1.1.7:
   resolution: "tally@workspace:."
   dependencies:
     "@types/jest": ^25.1.3
-    "@types/node": ^13.7.4
+    "@types/node": ^13.7.5
     "@typescript-eslint/eslint-plugin": ^2.21.0
     "@typescript-eslint/parser": ^2.21.0
     cz-conventional-changelog: ^3.1.0
