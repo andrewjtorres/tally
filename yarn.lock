@@ -561,10 +561,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:^13.7.5":
-  version: 13.7.5
-  resolution: "@types/node@npm:13.7.5"
-  checksum: 5088248d98e55422c2666decd3d4e67275606f2f866037fdd13c82894b436700a57cf54566129799a9a8ca03ff3e9184483b3c064a230e58098e0418ded67417
+"@types/node@npm:^13.7.6":
+  version: 13.7.6
+  resolution: "@types/node@npm:13.7.6"
+  checksum: aab1d82f99be6bcf64c8dc9db005e4954050eb5759f22e4882275de4e509939dd0a780e2b02db0c27265312e594e534fe24ad586c21aab187d6fab827e64be21
   languageName: node
   linkType: hard
 
@@ -597,11 +597,11 @@ __metadata:
   linkType: hard
 
 "@types/yargs@npm:^15.0.0":
-  version: 15.0.3
-  resolution: "@types/yargs@npm:15.0.3"
+  version: 15.0.4
+  resolution: "@types/yargs@npm:15.0.4"
   dependencies:
     "@types/yargs-parser": "*"
-  checksum: 70b8f2d0d4f80e5375555383ad7601326f07bdc4d528a8f88d7f404ab7ccbdf8592041417965584522491e13f8b924480ee593db06abb71b775afc693e4220d9
+  checksum: 6c428e953b58f45bf5daf755a02b31ba2b7fc3cc4c87dc7e04aea19541e4b66777c768156d194d9f95ec1980608215e0c0226189f240f2db4e368a9d4c3e4f92
   languageName: node
   linkType: hard
 
@@ -6838,7 +6838,7 @@ resolve@1.1.7:
   resolution: "tally@workspace:."
   dependencies:
     "@types/jest": ^25.1.3
-    "@types/node": ^13.7.5
+    "@types/node": ^13.7.6
     "@typescript-eslint/eslint-plugin": ^2.21.0
     "@typescript-eslint/parser": ^2.21.0
     cz-conventional-changelog: ^3.1.0

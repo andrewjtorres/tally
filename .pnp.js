@@ -119,7 +119,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./",
           "packageDependencies": [
             ["@types/jest", "npm:25.1.3"],
-            ["@types/node", "npm:13.7.5"],
+            ["@types/node", "npm:13.7.6"],
             ["@typescript-eslint/eslint-plugin", "virtual:00f4dc5b5716c66b9aa8875c8c4f1330987e76fef068c4603f5f9e455c250cf6e6ff4f903024ff6dc767cbf872b43e1107107a49deabae009044d51254405fbb#npm:2.21.0"],
             ["@typescript-eslint/parser", "virtual:00f4dc5b5716c66b9aa8875c8c4f1330987e76fef068c4603f5f9e455c250cf6e6ff4f903024ff6dc767cbf872b43e1107107a49deabae009044d51254405fbb#npm:2.21.0"],
             ["cz-conventional-changelog", "npm:3.1.0"],
@@ -612,7 +612,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@jest/types", "npm:25.1.0"],
             ["@types/istanbul-lib-coverage", "npm:2.0.1"],
             ["@types/istanbul-reports", "npm:1.1.1"],
-            ["@types/yargs", "npm:15.0.3"],
+            ["@types/yargs", "npm:15.0.4"],
             ["chalk", "npm:3.0.0"]
           ],
           "linkType": "HARD"
@@ -761,10 +761,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["@types/node", [
-        ["npm:13.7.5", {
-          "packageLocation": "./.yarn/cache/@types-node-npm-13.7.5-acf2b4b60d-1.zip/node_modules/@types/node/",
+        ["npm:13.7.6", {
+          "packageLocation": "./.yarn/cache/@types-node-npm-13.7.6-3d3aec8abb-1.zip/node_modules/@types/node/",
           "packageDependencies": [
-            ["@types/node", "npm:13.7.5"]
+            ["@types/node", "npm:13.7.6"]
           ],
           "linkType": "HARD"
         }]
@@ -797,10 +797,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["@types/yargs", [
-        ["npm:15.0.3", {
-          "packageLocation": "./.yarn/cache/@types-yargs-npm-15.0.3-59f40ab61e-1.zip/node_modules/@types/yargs/",
+        ["npm:15.0.4", {
+          "packageLocation": "./.yarn/cache/@types-yargs-npm-15.0.4-4311b7c654-1.zip/node_modules/@types/yargs/",
           "packageDependencies": [
-            ["@types/yargs", "npm:15.0.3"],
+            ["@types/yargs", "npm:15.0.4"],
             ["@types/yargs-parser", "npm:15.0.0"]
           ],
           "linkType": "HARD"
@@ -4691,7 +4691,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@jest/test-result", "npm:25.1.0"],
             ["@jest/transform", "npm:25.1.0"],
             ["@jest/types", "npm:25.1.0"],
-            ["@types/yargs", "npm:15.0.3"],
+            ["@types/yargs", "npm:15.0.4"],
             ["chalk", "npm:3.0.0"],
             ["collect-v8-coverage", "npm:1.0.0"],
             ["exit", "npm:0.1.2"],
@@ -7700,7 +7700,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [
             ["tally", "workspace:."],
             ["@types/jest", "npm:25.1.3"],
-            ["@types/node", "npm:13.7.5"],
+            ["@types/node", "npm:13.7.6"],
             ["@typescript-eslint/eslint-plugin", "virtual:00f4dc5b5716c66b9aa8875c8c4f1330987e76fef068c4603f5f9e455c250cf6e6ff4f903024ff6dc767cbf872b43e1107107a49deabae009044d51254405fbb#npm:2.21.0"],
             ["@typescript-eslint/parser", "virtual:00f4dc5b5716c66b9aa8875c8c4f1330987e76fef068c4603f5f9e455c250cf6e6ff4f903024ff6dc767cbf872b43e1107107a49deabae009044d51254405fbb#npm:2.21.0"],
             ["cz-conventional-changelog", "npm:3.1.0"],
