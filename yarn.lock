@@ -2117,14 +2117,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-jest@npm:^23.8.0":
-  version: 23.8.0
-  resolution: "eslint-plugin-jest@npm:23.8.0"
+"eslint-plugin-jest@npm:^23.8.1":
+  version: 23.8.1
+  resolution: "eslint-plugin-jest@npm:23.8.1"
   dependencies:
     "@typescript-eslint/experimental-utils": ^2.5.0
   peerDependencies:
     eslint: ">=5"
-  checksum: 9bacd49acfb2c02cc7c6fdc4f0c0d5e9708552c5324d06d556ce5587e1b4e1680b1547c95e1044d8b26a049428118b40f69a28d0fe00df2e5f0876901d37a2f5
+  checksum: b71f8ac94da33ab0532c3e4911d49e5560df63251d5e9b6b8365d3aea6a9cab44ef586382612f4fd11a44120067b3bdede310c421b9af2d169d46bc789e2fd1c
   languageName: node
   linkType: hard
 
@@ -6847,7 +6847,7 @@ resolve@1.1.7:
     eslint-config-standard: ^14.1.0
     eslint-import-resolver-typescript: ^2.0.0
     eslint-plugin-import: ^2.20.1
-    eslint-plugin-jest: ^23.8.0
+    eslint-plugin-jest: ^23.8.1
     eslint-plugin-node: ^11.0.0
     eslint-plugin-prettier: ^3.1.2
     eslint-plugin-promise: ^4.2.1
