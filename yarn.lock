@@ -137,7 +137,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/runtime@npm:^7.6.3":
+"@babel/runtime@npm:^7.8.7":
   version: 7.8.7
   resolution: "@babel/runtime@npm:7.8.7"
   dependencies:
@@ -537,13 +537,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/jest@npm:^25.1.3":
-  version: 25.1.3
-  resolution: "@types/jest@npm:25.1.3"
+"@types/jest@npm:^25.1.4":
+  version: 25.1.4
+  resolution: "@types/jest@npm:25.1.4"
   dependencies:
     jest-diff: ^25.1.0
     pretty-format: ^25.1.0
-  checksum: fdb4eb3507d339bf3ba260d94617feffd8f43ba8b303b7ada6da041e4e7c29a08947a0697913d4cf305e64d8289ceba75d4a98550bc934b99b19e26f56c5f684
+  checksum: 9bfc80c67b1280c9b36be7c05b8fe4a55510be8485e2f551bcb30353ebc26fceb26c0b0b07707cef76705b62ffa83612dbe2f721e7600d4af0c1eadbf3b9dc3a
   languageName: node
   linkType: hard
 
@@ -2184,29 +2184,24 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-unicorn@npm:^16.1.1":
-  version: 16.1.1
-  resolution: "eslint-plugin-unicorn@npm:16.1.1"
+"eslint-plugin-unicorn@npm:^17.0.1":
+  version: 17.0.1
+  resolution: "eslint-plugin-unicorn@npm:17.0.1"
   dependencies:
     ci-info: ^2.0.0
     clean-regexp: ^1.0.0
     eslint-ast-utils: ^1.1.0
     eslint-template-visitor: ^1.1.0
     import-modules: ^2.0.0
-    lodash.camelcase: ^4.3.0
-    lodash.defaultsdeep: ^4.6.1
-    lodash.kebabcase: ^4.1.1
-    lodash.snakecase: ^4.1.1
-    lodash.upperfirst: ^4.3.1
+    lodash: ^4.17.15
     read-pkg-up: ^7.0.1
-    regexp-tree: ^0.1.17
-    regexpp: ^3.0.0
+    regexp-tree: ^0.1.20
     reserved-words: ^0.1.2
     safe-regex: ^2.1.1
     semver: ^7.1.2
   peerDependencies:
     eslint: ">=6.7.1"
-  checksum: 65805cb2c2418757952db8331b1622ca17dfccd8d97a9841a92424f8ceb7fbcc11efd4c0b55ca76b441985ee7dc5bac418afcaa57ee7c0ff9a0eef386f1d11f3
+  checksum: 563be5ff8b86c1ccaf3a2f02024f282883386177d1258aa87df0f28eec49c50f5d448b834ff788f3baa208b3cb62f45243f6864548a2b7558badda3dc7badbc9
   languageName: node
   linkType: hard
 
@@ -4532,31 +4527,10 @@ fsevents@^2.1.2:
   languageName: node
   linkType: hard
 
-"lodash.camelcase@npm:^4.3.0":
-  version: 4.3.0
-  resolution: "lodash.camelcase@npm:4.3.0"
-  checksum: 5df5fe503d5d96beeba060fa425264ed4f77ddc3e820b90e4cf803b487499c22f134b5fb20bcabd1c0e3b631e4f80a30093037cb7e58ebbeff3b2baf4930d14a
-  languageName: node
-  linkType: hard
-
-"lodash.defaultsdeep@npm:^4.6.1":
-  version: 4.6.1
-  resolution: "lodash.defaultsdeep@npm:4.6.1"
-  checksum: ddd42707705d8e21a14386d2cb1beec7abc8e2f2713622a96919469bc45ac9a2aabf306a8fefb77ca302d380814d0f4f26a020f1ce8a3b85af336093ee421db5
-  languageName: node
-  linkType: hard
-
 "lodash.get@npm:^4.4.2":
   version: 4.4.2
   resolution: "lodash.get@npm:4.4.2"
   checksum: 37d69a668f582807bb89c5d53664c798aaa5e52ba131b9bed9af4fead1b753a32404bf63cdc68ca774ae776f832ec830ed692059dedeec3165f8b235451f1a6b
-  languageName: node
-  linkType: hard
-
-"lodash.kebabcase@npm:^4.1.1":
-  version: 4.1.1
-  resolution: "lodash.kebabcase@npm:4.1.1"
-  checksum: 1b5d27315062d9d5d671af4e5f934896278fab537ca71f33bc5fc8c43f653e2b81420c91b1870aa535746d41af5464c9bfb000580a49bf9db6cf886d28e02a2e
   languageName: node
   linkType: hard
 
@@ -4574,24 +4548,10 @@ fsevents@^2.1.2:
   languageName: node
   linkType: hard
 
-"lodash.snakecase@npm:^4.1.1":
-  version: 4.1.1
-  resolution: "lodash.snakecase@npm:4.1.1"
-  checksum: f459850f490905187020d58d982abe52224d7e5d2c0eb264b7d64cb51e9ef01b22b720b891714b5a750e903f6d10007d9ae15ec5f066d8f07bde1f37ffdde865
-  languageName: node
-  linkType: hard
-
 "lodash.sortby@npm:^4.7.0":
   version: 4.7.0
   resolution: "lodash.sortby@npm:4.7.0"
   checksum: 64438e6debe410ee3f322caa22f4d8c953753c90b468a047ace001852772ace148595562a0243c087d38573d0dc32b26b31639ce5ec4efd57c7125e99e52dfa6
-  languageName: node
-  linkType: hard
-
-"lodash.upperfirst@npm:^4.3.1":
-  version: 4.3.1
-  resolution: "lodash.upperfirst@npm:4.3.1"
-  checksum: a85c437482a1cf3e4054165630dce0d636cc65a58bbe25dae42abc60ff1010d38f0e5a83bfd7c3eb23cc62d52f11e39949a6f9f8a6ca29883be8fe74f34c8733
   languageName: node
   linkType: hard
 
@@ -5869,7 +5829,7 @@ fsevents@^2.1.2:
   languageName: node
   linkType: hard
 
-"regexp-tree@npm:^0.1.17, regexp-tree@npm:~0.1.1":
+"regexp-tree@npm:^0.1.20, regexp-tree@npm:~0.1.1":
   version: 0.1.20
   resolution: "regexp-tree@npm:0.1.20"
   bin:
@@ -6837,7 +6797,7 @@ resolve@1.1.7:
   version: 0.0.0-use.local
   resolution: "tally@workspace:."
   dependencies:
-    "@types/jest": ^25.1.3
+    "@types/jest": ^25.1.4
     "@types/node": ^13.9.0
     "@typescript-eslint/eslint-plugin": ^2.22.0
     "@typescript-eslint/parser": ^2.22.0
@@ -6852,7 +6812,7 @@ resolve@1.1.7:
     eslint-plugin-prettier: ^3.1.2
     eslint-plugin-promise: ^4.2.1
     eslint-plugin-standard: ^4.0.1
-    eslint-plugin-unicorn: ^16.1.1
+    eslint-plugin-unicorn: ^17.0.1
     husky: ^4.2.3
     jest: ^25.1.0
     jest-circus: ^25.1.0
@@ -7465,8 +7425,8 @@ typescript@^3.8.3:
   linkType: hard
 
 "ws@npm:^7.0.0":
-  version: 7.2.1
-  resolution: "ws@npm:7.2.1"
+  version: 7.2.2
+  resolution: "ws@npm:7.2.2"
   peerDependencies:
     bufferutil: ^4.0.1
     utf-8-validate: ^5.0.2
@@ -7475,7 +7435,7 @@ typescript@^3.8.3:
       optional: true
     utf-8-validate:
       optional: true
-  checksum: 78bd611c32a4de962cff870fdd686ee9e6de6035054547c2c0c41933bd7a470ea2604dac8b96b192c5b7db7f08acdb48084a32e042b9367b505241bcb136c006
+  checksum: bbbefbaf809e9abb1580ed450525d7658c7a5e2540ac7bbec3fc38f677299721817e3482ed9c48805124544fa3e587ea91a2abbc384b7b0389f0e52abf5aacb4
   languageName: node
   linkType: hard
 
@@ -7508,11 +7468,11 @@ typescript@^3.8.3:
   linkType: hard
 
 "yaml@npm:^1.7.2":
-  version: 1.7.2
-  resolution: "yaml@npm:1.7.2"
+  version: 1.8.0
+  resolution: "yaml@npm:1.8.0"
   dependencies:
-    "@babel/runtime": ^7.6.3
-  checksum: da4a4934a50c9e434219ccd009021cbcc7ba13a17763e37a75ccb43aacbf7bd90216d9bb44f3b0b0214c6a8885848adf7d2370f5016196bebe9cb82e4e1d4d67
+    "@babel/runtime": ^7.8.7
+  checksum: ae9b51bec1b31d2f68b905dfc80bbdd8bd6db4ec3456341266eb48f8535f6b01ccbd656cc0052d5dd25be84f243330e1e790e84b8c20b04187f1310933c8c8ca
   languageName: node
   linkType: hard
 
