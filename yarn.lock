@@ -2184,9 +2184,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-unicorn@npm:^17.0.1":
-  version: 17.0.1
-  resolution: "eslint-plugin-unicorn@npm:17.0.1"
+"eslint-plugin-unicorn@npm:^17.1.0":
+  version: 17.1.0
+  resolution: "eslint-plugin-unicorn@npm:17.1.0"
   dependencies:
     ci-info: ^2.0.0
     clean-regexp: ^1.0.0
@@ -2201,7 +2201,7 @@ __metadata:
     semver: ^7.1.2
   peerDependencies:
     eslint: ">=6.7.1"
-  checksum: 563be5ff8b86c1ccaf3a2f02024f282883386177d1258aa87df0f28eec49c50f5d448b834ff788f3baa208b3cb62f45243f6864548a2b7558badda3dc7badbc9
+  checksum: ceff2fa067e6979e94dec2a9e817fbb7360f11a0f57a678cf21c7986e99a84004d891a644219bef6f4f4c1122d9352943b445755804ede94e6574981ee25ef15
   languageName: node
   linkType: hard
 
@@ -6812,7 +6812,7 @@ resolve@1.1.7:
     eslint-plugin-prettier: ^3.1.2
     eslint-plugin-promise: ^4.2.1
     eslint-plugin-standard: ^4.0.1
-    eslint-plugin-unicorn: ^17.0.1
+    eslint-plugin-unicorn: ^17.1.0
     husky: ^4.2.3
     jest: ^25.1.0
     jest-circus: ^25.1.0
@@ -7425,8 +7425,8 @@ typescript@^3.8.3:
   linkType: hard
 
 "ws@npm:^7.0.0":
-  version: 7.2.2
-  resolution: "ws@npm:7.2.2"
+  version: 7.2.3
+  resolution: "ws@npm:7.2.3"
   peerDependencies:
     bufferutil: ^4.0.1
     utf-8-validate: ^5.0.2
@@ -7435,7 +7435,7 @@ typescript@^3.8.3:
       optional: true
     utf-8-validate:
       optional: true
-  checksum: bbbefbaf809e9abb1580ed450525d7658c7a5e2540ac7bbec3fc38f677299721817e3482ed9c48805124544fa3e587ea91a2abbc384b7b0389f0e52abf5aacb4
+  checksum: 78c494a44f23939724a7f47db97e140f5b61c797ad140fe61ae054507fa927ee27d6e2c0c1786dbdde975b80bd435b7dfa42173aee56e2d514f0c70f88ee8dbb
   languageName: node
   linkType: hard
 
