@@ -37,14 +37,14 @@ __metadata:
   linkType: hard
 
 "@babel/generator@npm:^7.8.6, @babel/generator@npm:^7.8.7":
-  version: 7.8.7
-  resolution: "@babel/generator@npm:7.8.7"
+  version: 7.8.8
+  resolution: "@babel/generator@npm:7.8.8"
   dependencies:
     "@babel/types": ^7.8.7
     jsesc: ^2.5.1
     lodash: ^4.17.13
     source-map: ^0.5.0
-  checksum: c8da5aa93ee49dabff2e6069893ed82c543f0f241c36a44de941d92de6906151eb31238752afd85a3ad1eb63e2aed2db565448d73924e03ba937757c5dbcecf9
+  checksum: 8fc3fb7922853ccff15bdb4a994ab5dea92661fa9c8548702d4e1650663cb1e89795f05eaff5f4d1614aa4ff08d7a1b476c427231d7718ebca51146eeb20383e
   languageName: node
   linkType: hard
 
@@ -107,11 +107,11 @@ __metadata:
   linkType: hard
 
 "@babel/parser@npm:^7.1.0, @babel/parser@npm:^7.7.5, @babel/parser@npm:^7.8.6, @babel/parser@npm:^7.8.7":
-  version: 7.8.7
-  resolution: "@babel/parser@npm:7.8.7"
+  version: 7.8.8
+  resolution: "@babel/parser@npm:7.8.8"
   bin:
     parser: ./bin/babel-parser.js
-  checksum: 575a43b1dc72b6acf2d91d145817f64838bc0dbe8092d814ff0611e070a9298f28e7f00ebe98189ec86ac320207da8638b679849a13bacc85dec231a2465be5f
+  checksum: 99cfda065945ab52aa92bd9c76aeacd7745220d80e7ba3f19333fccaf95c0f75de8d1e49b7cbd7b677b140e9a4325534e974aeb21d189a95e0b899126cb1933a
   languageName: node
   linkType: hard
 
@@ -561,10 +561,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:^13.9.0":
-  version: 13.9.0
-  resolution: "@types/node@npm:13.9.0"
-  checksum: b236f874e8354f396b40020b9cb497fe2d3efa385f5b5672e503423aa9a2cb08c9d24b2ddb92ab620c9b06271d4515e786bfa07075149d4ffc6b4399da60e9e4
+"@types/node@npm:^13.9.1":
+  version: 13.9.1
+  resolution: "@types/node@npm:13.9.1"
+  checksum: f8b38cc2dfb6f67e823660026083a96027af36ffb58f1efd333497e856c55005b61fe43c1c63da0ebfe2913b00071f76b234f925220788609e945abde6dd785a
   languageName: node
   linkType: hard
 
@@ -4805,9 +4805,9 @@ fsevents@^2.1.2:
   linkType: hard
 
 "minimist@npm:^1.1.1, minimist@npm:^1.1.3, minimist@npm:^1.2.0":
-  version: 1.2.3
-  resolution: "minimist@npm:1.2.3"
-  checksum: 632edb9fc8fd96410b5358e9408bd938050ed5a77973fe779a702da265410383f7a68276ddb7ebfa9216a73facea019aa126d47aece5a169e8393830f617b510
+  version: 1.2.5
+  resolution: "minimist@npm:1.2.5"
+  checksum: 5ac4259ffedd770e1533f352a5ddf4e6196fb296c2ab43b982b30ddf47ae348e6fe8b9f4c359092fe110ac4385315e70fd7d029e306622f87f6f71676460f006
   languageName: node
   linkType: hard
 
@@ -5820,9 +5820,9 @@ fsevents@^2.1.2:
   linkType: hard
 
 "regenerator-runtime@npm:^0.13.4":
-  version: 0.13.4
-  resolution: "regenerator-runtime@npm:0.13.4"
-  checksum: 4e9b00f08a04285a8fd0f3600b0592aebb03408f47b19e046d74a9086df01099461e85a7fa2c0ff1995aa875a160360779731284e927d0e71047fa45980baa48
+  version: 0.13.5
+  resolution: "regenerator-runtime@npm:0.13.5"
+  checksum: f6a81bcc6dc940fad36708583394072db70c1eedd813d29bb45ffd8855ed7e8f5437c2c79a7a09c3e027188f42510586d6aa05f2558ddf582c936fe5f151212f
   languageName: node
   linkType: hard
 
@@ -6805,7 +6805,7 @@ resolve@1.1.7:
   resolution: "tally@workspace:."
   dependencies:
     "@types/jest": ^25.1.4
-    "@types/node": ^13.9.0
+    "@types/node": ^13.9.1
     "@typescript-eslint/eslint-plugin": ^2.23.0
     "@typescript-eslint/parser": ^2.23.0
     cz-conventional-changelog: ^3.1.0
