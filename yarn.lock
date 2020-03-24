@@ -633,7 +633,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:^13.9.1":
+"@types/node@npm:^13.9.3":
   version: 13.9.3
   resolution: "@types/node@npm:13.9.3"
   checksum: 4ed174ab233f544b2e455690322b9897f410da7d0f65ff3d44333409481cb0f48bdf2adcec66b41ba75780998cc86da342dae15397170df73be3354619ba27c3
@@ -677,7 +677,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@typescript-eslint/eslint-plugin@npm:^2.24.0":
+"@typescript-eslint/eslint-plugin@npm:^2.25.0":
   version: 2.25.0
   resolution: "@typescript-eslint/eslint-plugin@npm:2.25.0"
   dependencies:
@@ -2093,7 +2093,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-config-standard@npm:^14.1.0":
+"eslint-config-standard@npm:^14.1.1":
   version: 14.1.1
   resolution: "eslint-config-standard@npm:14.1.1"
   peerDependencies:
@@ -4466,7 +4466,7 @@ fsevents@^2.1.2:
   languageName: node
   linkType: hard
 
-"lint-staged@npm:^10.0.8":
+"lint-staged@npm:^10.0.9":
   version: 10.0.9
   resolution: "lint-staged@npm:10.0.9"
   dependencies:
@@ -6863,13 +6863,13 @@ resolve@1.1.7:
   resolution: "tally@workspace:."
   dependencies:
     "@types/jest": ^25.1.4
-    "@types/node": ^13.9.1
-    "@typescript-eslint/eslint-plugin": ^2.24.0
+    "@types/node": ^13.9.3
+    "@typescript-eslint/eslint-plugin": ^2.25.0
     "@typescript-eslint/parser": ^2.25.0
     cz-conventional-changelog: ^3.1.0
     eslint: ^6.8.0
     eslint-config-prettier: ^6.10.1
-    eslint-config-standard: ^14.1.0
+    eslint-config-standard: ^14.1.1
     eslint-import-resolver-typescript: ^2.0.0
     eslint-plugin-import: ^2.20.1
     eslint-plugin-jest: ^23.8.2
@@ -6881,7 +6881,7 @@ resolve@1.1.7:
     husky: ^4.2.3
     jest: ^25.1.0
     jest-circus: ^25.1.0
-    lint-staged: ^10.0.8
+    lint-staged: ^10.0.9
     npm-run-all: ^4.1.5
     prettier: ^1.19.1
     prettylint: ^1.0.0
