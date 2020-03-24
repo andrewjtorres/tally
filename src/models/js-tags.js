@@ -52,7 +52,7 @@ class Tags {
       .sort((a, b) =>
         order ? this._data[a] - this._data[b] : this._data[b] - this._data[a]
       )
-      .map(key => ({ name: key, count: this._data[key] }))
+      .map((key) => ({ name: key, count: this._data[key] }))
   }
 
   /**

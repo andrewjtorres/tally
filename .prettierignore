@@ -5,6 +5,7 @@ lib
 .yarn/unplugged
 .yarn/build-state.yml
 node_modules
+.pnp.js
 
 # Test and Code Coverage
 coverage

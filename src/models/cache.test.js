@@ -43,7 +43,7 @@ describe('Cache', () => {
 
   describe('load', () => {
     test('should load the files from the data directory', () =>
-      new Promise(resolve => {
+      new Promise((resolve) => {
         fs.setMockFiles({
           './data/1.json':
             '{"a":["foxtrot","golf"],"b":[{"d":"oscar","a":["quebec"]},{"d":"foxtrot","a":null}]}',
@@ -76,7 +76,7 @@ describe('Cache', () => {
       }))
 
     test('should load the cache file', () =>
-      new Promise(resolve => {
+      new Promise((resolve) => {
         fs.setMockFiles({ './file.json': '{"a":"yankee"}' })
 
         const cache = new Cache({ filename: './file.json' })

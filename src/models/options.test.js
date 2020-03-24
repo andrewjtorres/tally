@@ -9,7 +9,7 @@ const Options = require('./options')
 describe('Options', () => {
   describe('get', () => {
     test('should return null', () =>
-      new Promise(resolve => {
+      new Promise((resolve) => {
         const filename = './file.txt'
         const options = new Options({ filename })
 
@@ -25,7 +25,7 @@ describe('Options', () => {
       }))
 
     test('should return an object containing the key-value pair', () =>
-      new Promise(resolve => {
+      new Promise((resolve) => {
         const filename = './file.txt'
         const key = 'tags'
         const options = new Options({ filename })
@@ -46,7 +46,7 @@ describe('Options', () => {
 
   describe('parse', () => {
     test('should parse the default tags file', () =>
-      new Promise(resolve => {
+      new Promise((resolve) => {
         const filename = './file.txt'
         const key = 'tags'
         const options = new Options({ filename })
@@ -65,7 +65,7 @@ describe('Options', () => {
       }))
 
     test('should parse the last value in the arguments array', () =>
-      new Promise(resolve => {
+      new Promise((resolve) => {
         const key = 'tags'
         const options = new Options({ filename: './file.txt' })
 

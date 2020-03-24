@@ -39,7 +39,7 @@ fs.resetMockFiles = () => {
   mockFiles = Object.freeze(Object.create(null))
 }
 
-fs.setMockFiles = files => {
+fs.setMockFiles = (files) => {
   mockFiles = Object.create(null)
 
   for (const element in files) {

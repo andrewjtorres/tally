@@ -49,7 +49,7 @@ const processTags = (opts, data) => {
  * @param {Array} args
  * @returns {void}
  */
-const execute = args => {
+const execute = (args) => {
   const cache = new Cache({
     dataDir,
     filename: cacheFilename,
