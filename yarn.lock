@@ -2093,7 +2093,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-config-standard@npm:^14.1.0":
+"eslint-config-standard@npm:^14.1.1":
   version: 14.1.1
   resolution: "eslint-config-standard@npm:14.1.1"
   peerDependencies:
@@ -6883,7 +6883,7 @@ resolve@1.1.7:
     cz-conventional-changelog: ^3.1.0
     eslint: ^6.8.0
     eslint-config-prettier: ^6.10.0
-    eslint-config-standard: ^14.1.0
+    eslint-config-standard: ^14.1.1
     eslint-import-resolver-typescript: ^2.0.0
     eslint-plugin-import: ^2.20.1
     eslint-plugin-jest: ^23.8.2
