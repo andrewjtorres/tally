@@ -2499,7 +2499,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["levn", "npm:0.3.0"],
             ["lodash", "npm:4.17.15"],
             ["minimatch", "npm:3.0.4"],
-            ["mkdirp", "npm:0.5.4"],
+            ["mkdirp", "npm:0.5.3"],
             ["natural-compare", "npm:1.4.0"],
             ["optionator", "npm:0.8.3"],
             ["progress", "npm:2.0.3"],
@@ -4821,7 +4821,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["jest-matcher-utils", "npm:25.1.0"],
             ["jest-message-util", "npm:25.1.0"],
             ["jest-resolve", "npm:25.1.0"],
-            ["mkdirp", "npm:0.5.4"],
+            ["mkdirp", "npm:0.5.3"],
             ["natural-compare", "npm:1.4.0"],
             ["pretty-format", "npm:25.1.0"],
             ["semver", "npm:7.1.3"]
@@ -4837,7 +4837,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@jest/types", "npm:25.1.0"],
             ["chalk", "npm:3.0.0"],
             ["is-ci", "npm:2.0.0"],
-            ["mkdirp", "npm:0.5.4"]
+            ["mkdirp", "npm:0.5.3"]
           ],
           "linkType": "HARD"
         }]
@@ -5604,10 +5604,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["mkdirp", [
-        ["npm:0.5.4", {
-          "packageLocation": "./.yarn/cache/mkdirp-npm-0.5.4-544383b09d-1.zip/node_modules/mkdirp/",
+        ["npm:0.5.3", {
+          "packageLocation": "./.yarn/cache/mkdirp-npm-0.5.3-2727087057-1.zip/node_modules/mkdirp/",
           "packageDependencies": [
-            ["mkdirp", "npm:0.5.4"],
+            ["mkdirp", "npm:0.5.3"],
             ["minimist", "npm:1.2.5"]
           ],
           "linkType": "HARD"
@@ -5700,7 +5700,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["env-paths", "npm:2.2.0"],
             ["glob", "npm:7.1.6"],
             ["graceful-fs", "npm:4.2.3"],
-            ["mkdirp", "npm:0.5.4"],
+            ["mkdirp", "npm:0.5.3"],
             ["nopt", "npm:4.0.3"],
             ["npmlog", "npm:4.1.2"],
             ["request", "npm:2.88.2"],
@@ -7778,7 +7778,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["fs-minipass", "npm:1.2.7"],
             ["minipass", "npm:2.9.0"],
             ["minizlib", "npm:1.3.3"],
-            ["mkdirp", "npm:0.5.4"],
+            ["mkdirp", "npm:0.5.3"],
             ["safe-buffer", "npm:5.2.0"],
             ["yallist", "npm:3.1.1"]
           ],
@@ -7969,7 +7969,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["json5", "npm:2.1.2"],
             ["lodash.memoize", "npm:4.1.2"],
             ["make-error", "npm:1.3.6"],
-            ["mkdirp", "npm:0.5.4"],
+            ["mkdirp", "npm:0.5.3"],
             ["resolve", "patch:resolve@npm%3A1.15.1#builtin<compat/resolve>::version=1.15.1&hash=8fccd0"],
             ["semver", "npm:5.7.1"],
             ["yargs-parser", "npm:16.1.0"]
@@ -8415,7 +8415,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/write-npm-1.0.3-1bac756049-1.zip/node_modules/write/",
           "packageDependencies": [
             ["write", "npm:1.0.3"],
-            ["mkdirp", "npm:0.5.4"]
+            ["mkdirp", "npm:0.5.3"]
           ],
           "linkType": "HARD"
         }]
