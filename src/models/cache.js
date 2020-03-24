@@ -81,7 +81,7 @@ class Cache {
         return callback()
       }
 
-      readDataDirectory(this._dataDir, cache => {
+      readDataDirectory(this._dataDir, (cache) => {
         for (const { formatter, name } of this._formatters) {
           this.set(name, formatCache(formatter, cache))
         }

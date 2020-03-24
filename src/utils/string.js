@@ -16,7 +16,7 @@ const prepend = (str, data) => `${data}${str}`
  * @param {string} data
  * @returns {Array}
  */
-const mprepend = (strs, data) => strs.map(value => prepend(value, data))
+const mprepend = (strs, data) => strs.map((value) => prepend(value, data))
 
 /**
  * Returns an array containing substrings of the provided string
