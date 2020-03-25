@@ -3056,13 +3056,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["extsprintf", "npm:1.3.0"]
           ],
           "linkType": "HARD"
-        }],
-        ["npm:1.4.0", {
-          "packageLocation": "./.yarn/cache/extsprintf-npm-1.4.0-2b015bcaab-1.zip/node_modules/extsprintf/",
-          "packageDependencies": [
-            ["extsprintf", "npm:1.4.0"]
-          ],
-          "linkType": "HARD"
         }]
       ]],
       ["fast-deep-equal", [
@@ -5596,7 +5589,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/minipass-npm-2.9.0-6335fbe4af-1.zip/node_modules/minipass/",
           "packageDependencies": [
             ["minipass", "npm:2.9.0"],
-            ["safe-buffer", "npm:5.2.0"],
+            ["safe-buffer", "npm:5.1.2"],
             ["yallist", "npm:3.1.1"]
           ],
           "linkType": "HARD"
@@ -6787,7 +6780,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["oauth-sign", "npm:0.9.0"],
             ["performance-now", "npm:2.1.0"],
             ["qs", "npm:6.5.2"],
-            ["safe-buffer", "npm:5.2.0"],
+            ["safe-buffer", "npm:5.1.2"],
             ["tough-cookie", "npm:2.5.0"],
             ["tunnel-agent", "npm:0.6.0"],
             ["uuid", "npm:3.4.0"]
@@ -7022,13 +7015,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/safe-buffer-npm-5.1.2-c27fedf6c4-1.zip/node_modules/safe-buffer/",
           "packageDependencies": [
             ["safe-buffer", "npm:5.1.2"]
-          ],
-          "linkType": "HARD"
-        }],
-        ["npm:5.2.0", {
-          "packageLocation": "./.yarn/cache/safe-buffer-npm-5.2.0-ceb420bcee-1.zip/node_modules/safe-buffer/",
-          "packageDependencies": [
-            ["safe-buffer", "npm:5.2.0"]
           ],
           "linkType": "HARD"
         }]
@@ -7787,7 +7773,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["minipass", "npm:2.9.0"],
             ["minizlib", "npm:1.3.3"],
             ["mkdirp", "npm:0.5.4"],
-            ["safe-buffer", "npm:5.2.0"],
+            ["safe-buffer", "npm:5.1.2"],
             ["yallist", "npm:3.1.1"]
           ],
           "linkType": "HARD"
@@ -8041,7 +8027,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/tunnel-agent-npm-0.6.0-64345ab7eb-1.zip/node_modules/tunnel-agent/",
           "packageDependencies": [
             ["tunnel-agent", "npm:0.6.0"],
-            ["safe-buffer", "npm:5.2.0"]
+            ["safe-buffer", "npm:5.1.2"]
           ],
           "linkType": "HARD"
         }]
@@ -8243,7 +8229,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["verror", "npm:1.10.0"],
             ["assert-plus", "npm:1.0.0"],
             ["core-util-is", "npm:1.0.2"],
-            ["extsprintf", "npm:1.4.0"]
+            ["extsprintf", "npm:1.3.0"]
           ],
           "linkType": "HARD"
         }]
