@@ -2268,9 +2268,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-unicorn@npm:^17.2.0":
-  version: 17.2.0
-  resolution: "eslint-plugin-unicorn@npm:17.2.0"
+"eslint-plugin-unicorn@npm:^18.0.0":
+  version: 18.0.0
+  resolution: "eslint-plugin-unicorn@npm:18.0.0"
   dependencies:
     ci-info: ^2.0.0
     clean-regexp: ^1.0.0
@@ -2279,13 +2279,13 @@ __metadata:
     import-modules: ^2.0.0
     lodash: ^4.17.15
     read-pkg-up: ^7.0.1
-    regexp-tree: ^0.1.20
+    regexp-tree: ^0.1.21
     reserved-words: ^0.1.2
     safe-regex: ^2.1.1
-    semver: ^7.1.2
+    semver: ^7.1.3
   peerDependencies:
-    eslint: ">=6.7.1"
-  checksum: 2ea743235503c54d80a1d4a1b6639a34fa8d8fd0eb41561b450f7ae219fbc2333310e2bcf3eed7b44e1efcf2f3c10efef5d223901d1d999a62caa3acb9756baa
+    eslint: ">=6.8.0"
+  checksum: 0cdebd09c9e2dc4cc41f9d3e0f0c37638c77b61da219cff142afa4908ec80e2361add127b74af52cc6ca430c6ea8751cb9da9665df261c6244de88714096b6fb
   languageName: node
   linkType: hard
 
@@ -2582,17 +2582,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"extsprintf@npm:1.3.0":
+"extsprintf@npm:1.3.0, extsprintf@npm:^1.2.0":
   version: 1.3.0
   resolution: "extsprintf@npm:1.3.0"
   checksum: 8cf20d3044b6333076eacb7b134fa56586273e9d47ad4fa3e396ce0b6f79d575c32212c579db2de1c1991c02b58f71ad269cfdffdbd193fa040b0bfff233955f
-  languageName: node
-  linkType: hard
-
-"extsprintf@npm:^1.2.0":
-  version: 1.4.0
-  resolution: "extsprintf@npm:1.4.0"
-  checksum: 5ce016ed485f47f742ac65cc26a49fd2a05515beec3f860baaf1e201cf26c1f15e3a97847c19ce82a926d820ec21a3356c7190b64fb74c42ac7dabc879a47a3e
   languageName: node
   linkType: hard
 
@@ -3810,12 +3803,12 @@ fsevents@^2.1.2:
   linkType: hard
 
 "istanbul-reports@npm:^3.0.0":
-  version: 3.0.0
-  resolution: "istanbul-reports@npm:3.0.0"
+  version: 3.0.1
+  resolution: "istanbul-reports@npm:3.0.1"
   dependencies:
     html-escaper: ^2.0.0
     istanbul-lib-report: ^3.0.0
-  checksum: fd078ac03dab3ff45b0b5ddfdf289bb74cf5002842554463b68228e8169214edfc3f6b0c64d50fc877df990aa4746d85767a08231bbc5ab0553fe2fbe4eee37f
+  checksum: f7e5484bb54efa8a3b47172938d52a72fe842006edd5f478d394b7c7f27e1179f8d3047c3dd11c726dddaaf3469b9ae93e2e936e492e5d006791e1b32f63adcd
   languageName: node
   linkType: hard
 
@@ -3830,7 +3823,7 @@ fsevents@^2.1.2:
   languageName: node
   linkType: hard
 
-"jest-circus@npm:^25.2.0":
+"jest-circus@npm:^25.2.2":
   version: 25.2.2
   resolution: "jest-circus@npm:25.2.2"
   dependencies:
@@ -5913,7 +5906,7 @@ fsevents@^2.1.2:
   languageName: node
   linkType: hard
 
-"regexp-tree@npm:^0.1.20, regexp-tree@npm:~0.1.1":
+"regexp-tree@npm:^0.1.21, regexp-tree@npm:~0.1.1":
   version: 0.1.21
   resolution: "regexp-tree@npm:0.1.21"
   bin:
@@ -6208,14 +6201,7 @@ resolve@1.1.7:
   languageName: node
   linkType: hard
 
-"safe-buffer@npm:^5.0.1, safe-buffer@npm:^5.1.2":
-  version: 5.2.0
-  resolution: "safe-buffer@npm:5.2.0"
-  checksum: 4577ff3526b671703fa907756021c0cf1360d664c7a4b2db07fedaf3a63df00f6638a16aa8d43d56658e73bd56eab432767b5b2ae3d138e77b875f77529338f3
-  languageName: node
-  linkType: hard
-
-"safe-buffer@npm:~5.1.0, safe-buffer@npm:~5.1.1":
+"safe-buffer@npm:^5.0.1, safe-buffer@npm:^5.1.2, safe-buffer@npm:~5.1.0, safe-buffer@npm:~5.1.1":
   version: 5.1.2
   resolution: "safe-buffer@npm:5.1.2"
   checksum: 55f6e9116b875a5459a13fd1949d90ed6932f1c6fef70460896abcdf666852cb2119a12435ebbe823416ec49bc3fa5716ff2cc0dd36b9512631148e5113c145e
@@ -6307,7 +6293,7 @@ resolve@1.1.7:
   languageName: node
   linkType: hard
 
-"semver@npm:^7.1.2":
+"semver@npm:^7.1.3":
   version: 7.1.3
   resolution: "semver@npm:7.1.3"
   bin:
@@ -6896,10 +6882,10 @@ resolve@1.1.7:
     eslint-plugin-prettier: ^3.1.2
     eslint-plugin-promise: ^4.2.1
     eslint-plugin-standard: ^4.0.1
-    eslint-plugin-unicorn: ^17.2.0
+    eslint-plugin-unicorn: ^18.0.0
     husky: ^4.2.3
     jest: ^25.2.2
-    jest-circus: ^25.2.0
+    jest-circus: ^25.2.2
     lint-staged: ^10.0.9
     npm-run-all: ^4.1.5
     prettier: ^2.0.2
@@ -7559,12 +7545,12 @@ typescript@^3.8.3:
   linkType: hard
 
 "yargs-parser@npm:^18.1.1":
-  version: 18.1.1
-  resolution: "yargs-parser@npm:18.1.1"
+  version: 18.1.2
+  resolution: "yargs-parser@npm:18.1.2"
   dependencies:
     camelcase: ^5.0.0
     decamelize: ^1.2.0
-  checksum: 36ea8be926aac1513090723e3ad6720db262bbfa57342677a448b2d5c5c827636564eea86684fdd909aa93f82d02f13bf3d956a93c0a044a41d5f85d9824e73b
+  checksum: 65b569f52eba07fe84d73973b7bc164e8d79a5dee17b7acb7c23ecb30be8f225451159c01e4a2a29d45aa163815437bd3b2b196c0ab52a5144522a41ce841386
   languageName: node
   linkType: hard
 
