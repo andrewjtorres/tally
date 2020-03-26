@@ -3842,9 +3842,9 @@ fsevents@^2.1.2:
   languageName: node
   linkType: hard
 
-"jest-circus@npm:^25.2.0":
-  version: 25.2.1
-  resolution: "jest-circus@npm:25.2.1"
+"jest-circus@npm:^25.2.2":
+  version: 25.2.2
+  resolution: "jest-circus@npm:25.2.2"
   dependencies:
     "@babel/traverse": ^7.1.0
     "@jest/environment": ^25.2.1
@@ -3862,7 +3862,7 @@ fsevents@^2.1.2:
     pretty-format: ^25.2.1
     stack-utils: ^1.0.1
     throat: ^5.0.0
-  checksum: 0eb99e54392416a87cf8ce5cd8413e62952141c6b8edccd322df56a8ceca293b4aeccb9a44d08dd330efa0a0770bbf96f72434ef39e82182ae4d7caf173509ef
+  checksum: e2105ceda51173ce090402f8c975e6c80e33eb560dfb178e8df5ac77033b5ca255ea6dcffc05a9be4146db3f12a45c221aadc414fe0972f7fae91be6348cb810
   languageName: node
   linkType: hard
 
@@ -7037,7 +7037,7 @@ resolve@1.1.7:
     eslint-plugin-unicorn: ^18.0.0
     husky: ^4.2.3
     jest: ^25.2.0
-    jest-circus: ^25.2.0
+    jest-circus: ^25.2.2
     lint-staged: ^10.0.9
     npm-run-all: ^4.1.5
     prettier: ^2.0.2

@@ -138,7 +138,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["eslint-plugin-unicorn", "virtual:00f4dc5b5716c66b9aa8875c8c4f1330987e76fef068c4603f5f9e455c250cf6e6ff4f903024ff6dc767cbf872b43e1107107a49deabae009044d51254405fbb#npm:18.0.0"],
             ["husky", "npm:4.2.3"],
             ["jest", "npm:25.2.1"],
-            ["jest-circus", "npm:25.2.1"],
+            ["jest-circus", "npm:25.2.2"],
             ["lint-staged", "npm:10.0.9"],
             ["npm-run-all", "npm:4.1.5"],
             ["prettier", "npm:2.0.2"],
@@ -4463,10 +4463,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["jest-circus", [
-        ["npm:25.2.1", {
-          "packageLocation": "./.yarn/cache/jest-circus-npm-25.2.1-43c0b7bd58-1.zip/node_modules/jest-circus/",
+        ["npm:25.2.2", {
+          "packageLocation": "./.yarn/cache/jest-circus-npm-25.2.2-303c39e092-1.zip/node_modules/jest-circus/",
           "packageDependencies": [
-            ["jest-circus", "npm:25.2.1"],
+            ["jest-circus", "npm:25.2.2"],
             ["@babel/traverse", "npm:7.9.0"],
             ["@jest/environment", "npm:25.2.1"],
             ["@jest/test-result", "npm:25.2.1"],
@@ -7895,7 +7895,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["eslint-plugin-unicorn", "virtual:00f4dc5b5716c66b9aa8875c8c4f1330987e76fef068c4603f5f9e455c250cf6e6ff4f903024ff6dc767cbf872b43e1107107a49deabae009044d51254405fbb#npm:18.0.0"],
             ["husky", "npm:4.2.3"],
             ["jest", "npm:25.2.1"],
-            ["jest-circus", "npm:25.2.1"],
+            ["jest-circus", "npm:25.2.2"],
             ["lint-staged", "npm:10.0.9"],
             ["npm-run-all", "npm:4.1.5"],
             ["prettier", "npm:2.0.2"],
