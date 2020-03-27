@@ -631,10 +631,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:^13.9.4":
-  version: 13.9.4
-  resolution: "@types/node@npm:13.9.4"
-  checksum: cde0e05bab35348b9232ee1c50b8f83328afb014110ca9e83c76c8c62acf3667816d9c68a856eeea32f63cae9be391c28fe4eae43f873f6e61eddd9a8102a8a2
+"@types/node@npm:^13.9.5":
+  version: 13.9.5
+  resolution: "@types/node@npm:13.9.5"
+  checksum: afc38c9906e6870eebb8f666a784fa5c7e4fbe966243c8a7f4710ac2f334121a0db9a92455575f4ebc312223a6f5d632a93d52764b41a96a682471853f13004e
   languageName: node
   linkType: hard
 
@@ -3209,9 +3209,9 @@ fsevents@^2.1.2:
   linkType: hard
 
 "html-escaper@npm:^2.0.0":
-  version: 2.0.1
-  resolution: "html-escaper@npm:2.0.1"
-  checksum: 2c52bec586d1a8f935b67701a2333143ef9ce05adf72beec225711c4963f8a29e5bd18a7451f394b4d9afa43669d8900cdb98c4c02d2058079e180e8a4ff6796
+  version: 2.0.2
+  resolution: "html-escaper@npm:2.0.2"
+  checksum: e237311863bfe5797dffac031ce6bb2816250e2f362b7c67457b8f8bdfe9749cb5eec970c81f4103d7e399a02e6acfc8755a7d01fce9d1f1c991bd4eab6a2ea8
   languageName: node
   linkType: hard
 
@@ -6882,7 +6882,7 @@ resolve@1.1.7:
   resolution: "tally@workspace:."
   dependencies:
     "@types/jest": ^25.1.4
-    "@types/node": ^13.9.4
+    "@types/node": ^13.9.5
     "@typescript-eslint/eslint-plugin": ^2.25.0
     "@typescript-eslint/parser": ^2.25.0
     cz-conventional-changelog: ^3.1.0

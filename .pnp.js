@@ -121,7 +121,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./",
           "packageDependencies": [
             ["@types/jest", "npm:25.1.4"],
-            ["@types/node", "npm:13.9.4"],
+            ["@types/node", "npm:13.9.5"],
             ["@typescript-eslint/eslint-plugin", "virtual:00f4dc5b5716c66b9aa8875c8c4f1330987e76fef068c4603f5f9e455c250cf6e6ff4f903024ff6dc767cbf872b43e1107107a49deabae009044d51254405fbb#npm:2.25.0"],
             ["@typescript-eslint/parser", "virtual:00f4dc5b5716c66b9aa8875c8c4f1330987e76fef068c4603f5f9e455c250cf6e6ff4f903024ff6dc767cbf872b43e1107107a49deabae009044d51254405fbb#npm:2.25.0"],
             ["cz-conventional-changelog", "npm:3.1.0"],
@@ -841,10 +841,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["@types/node", [
-        ["npm:13.9.4", {
-          "packageLocation": "./.yarn/cache/@types-node-npm-13.9.4-2c8636aea7-1.zip/node_modules/@types/node/",
+        ["npm:13.9.5", {
+          "packageLocation": "./.yarn/cache/@types-node-npm-13.9.5-ea997862ab-1.zip/node_modules/@types/node/",
           "packageDependencies": [
-            ["@types/node", "npm:13.9.4"]
+            ["@types/node", "npm:13.9.5"]
           ],
           "linkType": "HARD"
         }]
@@ -3742,10 +3742,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["html-escaper", [
-        ["npm:2.0.1", {
-          "packageLocation": "./.yarn/cache/html-escaper-npm-2.0.1-a9c2809554-1.zip/node_modules/html-escaper/",
+        ["npm:2.0.2", {
+          "packageLocation": "./.yarn/cache/html-escaper-npm-2.0.2-38e51ef294-1.zip/node_modules/html-escaper/",
           "packageDependencies": [
-            ["html-escaper", "npm:2.0.1"]
+            ["html-escaper", "npm:2.0.2"]
           ],
           "linkType": "HARD"
         }]
@@ -4421,7 +4421,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/istanbul-reports-npm-3.0.1-791101abc8-1.zip/node_modules/istanbul-reports/",
           "packageDependencies": [
             ["istanbul-reports", "npm:3.0.1"],
-            ["html-escaper", "npm:2.0.1"],
+            ["html-escaper", "npm:2.0.2"],
             ["istanbul-lib-report", "npm:3.0.0"]
           ],
           "linkType": "HARD"
@@ -7748,7 +7748,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [
             ["tally", "workspace:."],
             ["@types/jest", "npm:25.1.4"],
-            ["@types/node", "npm:13.9.4"],
+            ["@types/node", "npm:13.9.5"],
             ["@typescript-eslint/eslint-plugin", "virtual:00f4dc5b5716c66b9aa8875c8c4f1330987e76fef068c4603f5f9e455c250cf6e6ff4f903024ff6dc767cbf872b43e1107107a49deabae009044d51254405fbb#npm:2.25.0"],
             ["@typescript-eslint/parser", "virtual:00f4dc5b5716c66b9aa8875c8c4f1330987e76fef068c4603f5f9e455c250cf6e6ff4f903024ff6dc767cbf872b43e1107107a49deabae009044d51254405fbb#npm:2.25.0"],
             ["cz-conventional-changelog", "npm:3.1.0"],
