@@ -135,7 +135,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["eslint-plugin-prettier", "virtual:00f4dc5b5716c66b9aa8875c8c4f1330987e76fef068c4603f5f9e455c250cf6e6ff4f903024ff6dc767cbf872b43e1107107a49deabae009044d51254405fbb#npm:3.1.2"],
             ["eslint-plugin-promise", "npm:4.2.1"],
             ["eslint-plugin-standard", "virtual:00f4dc5b5716c66b9aa8875c8c4f1330987e76fef068c4603f5f9e455c250cf6e6ff4f903024ff6dc767cbf872b43e1107107a49deabae009044d51254405fbb#npm:4.0.1"],
-            ["eslint-plugin-unicorn", "virtual:00f4dc5b5716c66b9aa8875c8c4f1330987e76fef068c4603f5f9e455c250cf6e6ff4f903024ff6dc767cbf872b43e1107107a49deabae009044d51254405fbb#npm:18.0.0"],
+            ["eslint-plugin-unicorn", "virtual:00f4dc5b5716c66b9aa8875c8c4f1330987e76fef068c4603f5f9e455c250cf6e6ff4f903024ff6dc767cbf872b43e1107107a49deabae009044d51254405fbb#npm:18.0.1"],
             ["husky", "npm:4.2.3"],
             ["jest", "npm:25.2.3"],
             ["jest-circus", "npm:25.2.3"],
@@ -2757,15 +2757,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["eslint-plugin-unicorn", [
-        ["virtual:00f4dc5b5716c66b9aa8875c8c4f1330987e76fef068c4603f5f9e455c250cf6e6ff4f903024ff6dc767cbf872b43e1107107a49deabae009044d51254405fbb#npm:18.0.0", {
-          "packageLocation": "./.yarn/$$virtual/eslint-plugin-unicorn-virtual-bdba6799ba/0/cache/eslint-plugin-unicorn-npm-18.0.0-9f798b168e-1.zip/node_modules/eslint-plugin-unicorn/",
+        ["virtual:00f4dc5b5716c66b9aa8875c8c4f1330987e76fef068c4603f5f9e455c250cf6e6ff4f903024ff6dc767cbf872b43e1107107a49deabae009044d51254405fbb#npm:18.0.1", {
+          "packageLocation": "./.yarn/$$virtual/eslint-plugin-unicorn-virtual-213c229f4c/0/cache/eslint-plugin-unicorn-npm-18.0.1-af047fd3ca-1.zip/node_modules/eslint-plugin-unicorn/",
           "packageDependencies": [
-            ["eslint-plugin-unicorn", "virtual:00f4dc5b5716c66b9aa8875c8c4f1330987e76fef068c4603f5f9e455c250cf6e6ff4f903024ff6dc767cbf872b43e1107107a49deabae009044d51254405fbb#npm:18.0.0"],
+            ["eslint-plugin-unicorn", "virtual:00f4dc5b5716c66b9aa8875c8c4f1330987e76fef068c4603f5f9e455c250cf6e6ff4f903024ff6dc767cbf872b43e1107107a49deabae009044d51254405fbb#npm:18.0.1"],
             ["ci-info", "npm:2.0.0"],
             ["clean-regexp", "npm:1.0.0"],
             ["eslint", "npm:6.8.0"],
             ["eslint-ast-utils", "npm:1.1.0"],
-            ["eslint-template-visitor", "virtual:bdba6799ba5d3353a38281e3f47bb17dd3551649d828d2b56b40caaae922dc9bbf76991cdba3568ecc9fb08f09e71ad2a77789c6366e0313c76ffc147722abf6#npm:1.1.0"],
+            ["eslint-template-visitor", "virtual:213c229f4c953c42b6be5ca9d1b9147e221955c56aadaf212c65dafa0c24874574e9bb5d4d5d400d7c141b47887415ccbad2ad51bdf3be22b1f0395fd657787e#npm:1.1.0"],
             ["import-modules", "npm:2.0.0"],
             ["lodash", "npm:4.17.15"],
             ["read-pkg-up", "npm:7.0.1"],
@@ -2792,10 +2792,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["eslint-template-visitor", [
-        ["virtual:bdba6799ba5d3353a38281e3f47bb17dd3551649d828d2b56b40caaae922dc9bbf76991cdba3568ecc9fb08f09e71ad2a77789c6366e0313c76ffc147722abf6#npm:1.1.0", {
-          "packageLocation": "./.yarn/$$virtual/eslint-template-visitor-virtual-8d89f48016/0/cache/eslint-template-visitor-npm-1.1.0-6100463f58-1.zip/node_modules/eslint-template-visitor/",
+        ["virtual:213c229f4c953c42b6be5ca9d1b9147e221955c56aadaf212c65dafa0c24874574e9bb5d4d5d400d7c141b47887415ccbad2ad51bdf3be22b1f0395fd657787e#npm:1.1.0", {
+          "packageLocation": "./.yarn/$$virtual/eslint-template-visitor-virtual-63044e775d/0/cache/eslint-template-visitor-npm-1.1.0-6100463f58-1.zip/node_modules/eslint-template-visitor/",
           "packageDependencies": [
-            ["eslint-template-visitor", "virtual:bdba6799ba5d3353a38281e3f47bb17dd3551649d828d2b56b40caaae922dc9bbf76991cdba3568ecc9fb08f09e71ad2a77789c6366e0313c76ffc147722abf6#npm:1.1.0"],
+            ["eslint-template-visitor", "virtual:213c229f4c953c42b6be5ca9d1b9147e221955c56aadaf212c65dafa0c24874574e9bb5d4d5d400d7c141b47887415ccbad2ad51bdf3be22b1f0395fd657787e#npm:1.1.0"],
             ["eslint", "npm:6.8.0"],
             ["eslint-visitor-keys", "npm:1.1.0"],
             ["espree", "npm:6.2.1"],
@@ -5816,7 +5816,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["cross-spawn", "npm:6.0.5"],
             ["memorystream", "npm:0.3.1"],
             ["minimatch", "npm:3.0.4"],
-            ["pidtree", "npm:0.3.0"],
+            ["pidtree", "npm:0.3.1"],
             ["read-pkg", "npm:3.0.0"],
             ["shell-quote", "npm:1.7.2"],
             ["string.prototype.padend", "npm:3.1.0"]
@@ -6313,10 +6313,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["pidtree", [
-        ["npm:0.3.0", {
-          "packageLocation": "./.yarn/cache/pidtree-npm-0.3.0-8a43549807-1.zip/node_modules/pidtree/",
+        ["npm:0.3.1", {
+          "packageLocation": "./.yarn/cache/pidtree-npm-0.3.1-70dda1cc59-1.zip/node_modules/pidtree/",
           "packageDependencies": [
-            ["pidtree", "npm:0.3.0"]
+            ["pidtree", "npm:0.3.1"]
           ],
           "linkType": "HARD"
         }]
@@ -7762,7 +7762,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["eslint-plugin-prettier", "virtual:00f4dc5b5716c66b9aa8875c8c4f1330987e76fef068c4603f5f9e455c250cf6e6ff4f903024ff6dc767cbf872b43e1107107a49deabae009044d51254405fbb#npm:3.1.2"],
             ["eslint-plugin-promise", "npm:4.2.1"],
             ["eslint-plugin-standard", "virtual:00f4dc5b5716c66b9aa8875c8c4f1330987e76fef068c4603f5f9e455c250cf6e6ff4f903024ff6dc767cbf872b43e1107107a49deabae009044d51254405fbb#npm:4.0.1"],
-            ["eslint-plugin-unicorn", "virtual:00f4dc5b5716c66b9aa8875c8c4f1330987e76fef068c4603f5f9e455c250cf6e6ff4f903024ff6dc767cbf872b43e1107107a49deabae009044d51254405fbb#npm:18.0.0"],
+            ["eslint-plugin-unicorn", "virtual:00f4dc5b5716c66b9aa8875c8c4f1330987e76fef068c4603f5f9e455c250cf6e6ff4f903024ff6dc767cbf872b43e1107107a49deabae009044d51254405fbb#npm:18.0.1"],
             ["husky", "npm:4.2.3"],
             ["jest", "npm:25.2.3"],
             ["jest-circus", "npm:25.2.3"],

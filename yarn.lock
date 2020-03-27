@@ -2268,9 +2268,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-unicorn@npm:^18.0.0":
-  version: 18.0.0
-  resolution: "eslint-plugin-unicorn@npm:18.0.0"
+"eslint-plugin-unicorn@npm:^18.0.1":
+  version: 18.0.1
+  resolution: "eslint-plugin-unicorn@npm:18.0.1"
   dependencies:
     ci-info: ^2.0.0
     clean-regexp: ^1.0.0
@@ -2285,7 +2285,7 @@ __metadata:
     semver: ^7.1.3
   peerDependencies:
     eslint: ">=6.8.0"
-  checksum: 0cdebd09c9e2dc4cc41f9d3e0f0c37638c77b61da219cff142afa4908ec80e2361add127b74af52cc6ca430c6ea8751cb9da9665df261c6244de88714096b6fb
+  checksum: 7bf4b61f7be9aac1a44942235ae566ed3e538c462db9a675059008c785115b4dfed6c0d0bc2a9a218b9a6aaa0795b678619b6eb862f50bfabd4e9683d964b48b
   languageName: node
   linkType: hard
 
@@ -4259,7 +4259,7 @@ fsevents@^2.1.2:
   languageName: node
   linkType: hard
 
-"jest@npm:^25.2.2":
+"jest@npm:^25.2.3":
   version: 25.2.3
   resolution: "jest@npm:25.2.3"
   dependencies:
@@ -5557,11 +5557,11 @@ fsevents@^2.1.2:
   linkType: hard
 
 "pidtree@npm:^0.3.0":
-  version: 0.3.0
-  resolution: "pidtree@npm:0.3.0"
+  version: 0.3.1
+  resolution: "pidtree@npm:0.3.1"
   bin:
-    pidtree: ./bin/pidtree.js
-  checksum: 40e9b3a462d927c58d6fdd2b418f92e6ff33ff6220ad786065a396514953cb33bf8f767192cc8c283726adcbc63d224046b1b30ac6aa2997e9e41045dd4f1755
+    pidtree: bin/pidtree.js
+  checksum: 137391e07763a8c1e9f5a63af9283d1e3a2abbb65982ea99658c46bc015b80425a6f6d001c72cd8b711626c0bd63dc09d7537d175c01017e1b0b2161d55657f5
   languageName: node
   linkType: hard
 
@@ -6896,9 +6896,9 @@ resolve@1.1.7:
     eslint-plugin-prettier: ^3.1.2
     eslint-plugin-promise: ^4.2.1
     eslint-plugin-standard: ^4.0.1
-    eslint-plugin-unicorn: ^18.0.0
+    eslint-plugin-unicorn: ^18.0.1
     husky: ^4.2.3
-    jest: ^25.2.2
+    jest: ^25.2.3
     jest-circus: ^25.2.3
     lint-staged: ^10.0.9
     npm-run-all: ^4.1.5
