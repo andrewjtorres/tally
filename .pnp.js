@@ -138,8 +138,8 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["eslint-plugin-unicorn", "virtual:00f4dc5b5716c66b9aa8875c8c4f1330987e76fef068c4603f5f9e455c250cf6e6ff4f903024ff6dc767cbf872b43e1107107a49deabae009044d51254405fbb#npm:18.0.1"],
             ["husky", "npm:4.2.3"],
             ["jest", "npm:25.2.3"],
-            ["jest-circus", "npm:25.2.3"],
-            ["lint-staged", "npm:10.0.9"],
+            ["jest-circus", "npm:25.2.4"],
+            ["lint-staged", "npm:10.0.10"],
             ["npm-run-all", "npm:4.1.5"],
             ["prettier", "npm:2.0.2"],
             ["prettylint", "virtual:00f4dc5b5716c66b9aa8875c8c4f1330987e76fef068c4603f5f9e455c250cf6e6ff4f903024ff6dc767cbf872b43e1107107a49deabae009044d51254405fbb#npm:1.0.0"],
@@ -4551,23 +4551,23 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["jest-circus", [
-        ["npm:25.2.3", {
-          "packageLocation": "./.yarn/cache/jest-circus-npm-25.2.3-91c5a112bc-1.zip/node_modules/jest-circus/",
+        ["npm:25.2.4", {
+          "packageLocation": "./.yarn/cache/jest-circus-npm-25.2.4-ee2a8d6920-1.zip/node_modules/jest-circus/",
           "packageDependencies": [
-            ["jest-circus", "npm:25.2.3"],
+            ["jest-circus", "npm:25.2.4"],
             ["@babel/traverse", "npm:7.9.0"],
-            ["@jest/environment", "npm:25.2.3"],
-            ["@jest/test-result", "npm:25.2.3"],
+            ["@jest/environment", "npm:25.2.4"],
+            ["@jest/test-result", "npm:25.2.4"],
             ["@jest/types", "npm:25.2.3"],
             ["chalk", "npm:3.0.0"],
             ["co", "npm:4.6.0"],
-            ["expect", "npm:25.2.3"],
+            ["expect", "npm:25.2.4"],
             ["is-generator-fn", "npm:2.1.0"],
             ["jest-each", "npm:25.2.3"],
             ["jest-matcher-utils", "npm:25.2.3"],
-            ["jest-message-util", "npm:25.2.3"],
+            ["jest-message-util", "npm:25.2.4"],
             ["jest-runtime", "npm:25.2.4"],
-            ["jest-snapshot", "npm:25.2.3"],
+            ["jest-snapshot", "npm:25.2.4"],
             ["jest-util", "npm:25.2.3"],
             ["pretty-format", "npm:25.2.3"],
             ["stack-utils", "npm:1.0.2"],
@@ -5406,10 +5406,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["lint-staged", [
-        ["npm:10.0.9", {
-          "packageLocation": "./.yarn/cache/lint-staged-npm-10.0.9-175b30f517-1.zip/node_modules/lint-staged/",
+        ["npm:10.0.10", {
+          "packageLocation": "./.yarn/cache/lint-staged-npm-10.0.10-87fe2241ea-1.zip/node_modules/lint-staged/",
           "packageDependencies": [
-            ["lint-staged", "npm:10.0.9"],
+            ["lint-staged", "npm:10.0.10"],
             ["chalk", "npm:3.0.0"],
             ["commander", "npm:4.1.1"],
             ["cosmiconfig", "npm:6.0.0"],
@@ -8033,8 +8033,8 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["eslint-plugin-unicorn", "virtual:00f4dc5b5716c66b9aa8875c8c4f1330987e76fef068c4603f5f9e455c250cf6e6ff4f903024ff6dc767cbf872b43e1107107a49deabae009044d51254405fbb#npm:18.0.1"],
             ["husky", "npm:4.2.3"],
             ["jest", "npm:25.2.3"],
-            ["jest-circus", "npm:25.2.3"],
-            ["lint-staged", "npm:10.0.9"],
+            ["jest-circus", "npm:25.2.4"],
+            ["lint-staged", "npm:10.0.10"],
             ["npm-run-all", "npm:4.1.5"],
             ["prettier", "npm:2.0.2"],
             ["prettylint", "virtual:00f4dc5b5716c66b9aa8875c8c4f1330987e76fef068c4603f5f9e455c250cf6e6ff4f903024ff6dc767cbf872b43e1107107a49deabae009044d51254405fbb#npm:1.0.0"],

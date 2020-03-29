@@ -2302,7 +2302,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-node@npm:^11.0.0":
+"eslint-plugin-node@npm:^11.1.0":
   version: 11.1.0
   resolution: "eslint-plugin-node@npm:11.1.0"
   dependencies:
@@ -3934,27 +3934,28 @@ fsevents@^2.1.2:
   languageName: node
   linkType: hard
 
-"jest-circus@npm:^25.2.3":
-  version: 25.2.3
-  resolution: "jest-circus@npm:25.2.3"
+"jest-circus@npm:^25.2.4":
+  version: 25.2.4
+  resolution: "jest-circus@npm:25.2.4"
   dependencies:
     "@babel/traverse": ^7.1.0
-    "@jest/environment": ^25.2.3
-    "@jest/test-result": ^25.2.3
+    "@jest/environment": ^25.2.4
+    "@jest/test-result": ^25.2.4
     "@jest/types": ^25.2.3
     chalk: ^3.0.0
     co: ^4.6.0
-    expect: ^25.2.3
+    expect: ^25.2.4
     is-generator-fn: ^2.0.0
     jest-each: ^25.2.3
     jest-matcher-utils: ^25.2.3
-    jest-message-util: ^25.2.3
-    jest-snapshot: ^25.2.3
+    jest-message-util: ^25.2.4
+    jest-runtime: ^25.2.4
+    jest-snapshot: ^25.2.4
     jest-util: ^25.2.3
     pretty-format: ^25.2.3
     stack-utils: ^1.0.1
     throat: ^5.0.0
-  checksum: 01158c90742129cd4db3014225a2dd9e4b994419ed9682dae84774aa43123eecdf33b88d49914b9801b321766a441be46a2b73a5130e6f327510f5db9159fd20
+  checksum: 07f92c7952dc0269ea1ae189acbbe31f498c2a954750c50d620e1cd50c86f718c03079a015249c12653f3bb3c4a37fc0cca34e03b2c48d2171cee0b982d4594b
   languageName: node
   linkType: hard
 
@@ -4773,9 +4774,9 @@ fsevents@^2.1.2:
   languageName: node
   linkType: hard
 
-"lint-staged@npm:^10.0.9":
-  version: 10.0.9
-  resolution: "lint-staged@npm:10.0.9"
+"lint-staged@npm:^10.0.10":
+  version: 10.0.10
+  resolution: "lint-staged@npm:10.0.10"
   dependencies:
     chalk: ^3.0.0
     commander: ^4.0.1
@@ -4792,7 +4793,7 @@ fsevents@^2.1.2:
     stringify-object: ^3.3.0
   bin:
     lint-staged: bin/lint-staged.js
-  checksum: 16ad70ebc9959c03bc0ec99d7258db32717f00aeed96413b039936422ee95571a7f9c5ef588cc7df8954716f86005454f2c837d00b4c2b260156a10ba66e62e7
+  checksum: 7466a76ffe10c9f97586c8feef359594bedaafb0c2fce83eb61b265b3a03350792a4f345a2b32ec2b8ceb8baf9b1e53648412a6056426c589debd5c5a6a48871
   languageName: node
   linkType: hard
 
@@ -7175,15 +7176,15 @@ resolve@1.1.7:
     eslint-import-resolver-typescript: ^2.0.0
     eslint-plugin-import: ^2.20.2
     eslint-plugin-jest: ^23.8.2
-    eslint-plugin-node: ^11.0.0
+    eslint-plugin-node: ^11.1.0
     eslint-plugin-prettier: ^3.1.2
     eslint-plugin-promise: ^4.2.1
     eslint-plugin-standard: ^4.0.1
     eslint-plugin-unicorn: ^18.0.1
     husky: ^4.2.3
     jest: ^25.2.3
-    jest-circus: ^25.2.3
-    lint-staged: ^10.0.9
+    jest-circus: ^25.2.4
+    lint-staged: ^10.0.10
     npm-run-all: ^4.1.5
     prettier: ^2.0.2
     prettylint: ^1.0.0
