@@ -2302,7 +2302,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-node@npm:^11.0.0":
+"eslint-plugin-node@npm:^11.1.0":
   version: 11.1.0
   resolution: "eslint-plugin-node@npm:11.1.0"
   dependencies:
@@ -7175,7 +7175,7 @@ resolve@1.1.7:
     eslint-import-resolver-typescript: ^2.0.0
     eslint-plugin-import: ^2.20.1
     eslint-plugin-jest: ^23.8.2
-    eslint-plugin-node: ^11.0.0
+    eslint-plugin-node: ^11.1.0
     eslint-plugin-prettier: ^3.1.2
     eslint-plugin-promise: ^4.2.1
     eslint-plugin-standard: ^4.0.1
