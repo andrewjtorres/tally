@@ -2248,12 +2248,12 @@ __metadata:
   linkType: hard
 
 "eslint-module-utils@npm:^2.4.1":
-  version: 2.5.2
-  resolution: "eslint-module-utils@npm:2.5.2"
+  version: 2.6.0
+  resolution: "eslint-module-utils@npm:2.6.0"
   dependencies:
     debug: ^2.6.9
     pkg-dir: ^2.0.0
-  checksum: 138156cfc3b600b86b624ed13c44c14604ebde98ea5b020cd8c757b1ec4fd35e5597021726ab35440dc2f4922ec8c283ca07c67b054d70662580c13c2c8ff19f
+  checksum: f746de7ff0730672c9a0ac7b6982337b93815d9ab12494d36f8b2344b8eb4f0ff71130bb1f31c13ff148828e3634437cb95f0287f53a987e4564519fffc3bad0
   languageName: node
   linkType: hard
 
@@ -2270,8 +2270,8 @@ __metadata:
   linkType: hard
 
 "eslint-plugin-import@npm:^2.20.1":
-  version: 2.20.1
-  resolution: "eslint-plugin-import@npm:2.20.1"
+  version: 2.20.2
+  resolution: "eslint-plugin-import@npm:2.20.2"
   dependencies:
     array-includes: ^3.0.3
     array.prototype.flat: ^1.2.1
@@ -2287,7 +2287,7 @@ __metadata:
     resolve: ^1.12.0
   peerDependencies:
     eslint: 2.x - 6.x
-  checksum: 226c98abbd17e8892245387abaa87147832dcd95e181a3bf0f10ad1e1b146270a7b5ab3914837cda36dfdfc619aba58355cbff83e78b60b82bda64f0a96fe0d1
+  checksum: abab6a9c35147d5c15b9ced2245213c4c9702c03c36153045dba4f78a19b9dd729a858775dc4afe0c67b8898e8b3912fcf9c0c7ebf56721da2cfeb2ea8f8fb32
   languageName: node
   linkType: hard
 
@@ -2874,9 +2874,9 @@ __metadata:
   linkType: hard
 
 "flatted@npm:^2.0.0":
-  version: 2.0.1
-  resolution: "flatted@npm:2.0.1"
-  checksum: 78dc8bde7def9f1395b900603da6fd3f8d6323346ce4fd7488fabb603ebeb4a6095c4cdc35d3c6ceef3f845792a0573726bd0e1fb4eb56eb028a75456ffd789f
+  version: 2.0.2
+  resolution: "flatted@npm:2.0.2"
+  checksum: a4a352aed430b4d4239de533b71f9facd28cc6a0cd12c2f6547ba4b7bfa4eb07f6f5a13aaaa766c24642252a2ec222b86f35e1283a0ebc6447030bb2c460736e
   languageName: node
   linkType: hard
 
@@ -4773,9 +4773,9 @@ fsevents@^2.1.2:
   languageName: node
   linkType: hard
 
-"lint-staged@npm:^10.0.9":
-  version: 10.0.9
-  resolution: "lint-staged@npm:10.0.9"
+"lint-staged@npm:^10.0.10":
+  version: 10.0.10
+  resolution: "lint-staged@npm:10.0.10"
   dependencies:
     chalk: ^3.0.0
     commander: ^4.0.1
@@ -4792,7 +4792,7 @@ fsevents@^2.1.2:
     stringify-object: ^3.3.0
   bin:
     lint-staged: bin/lint-staged.js
-  checksum: 16ad70ebc9959c03bc0ec99d7258db32717f00aeed96413b039936422ee95571a7f9c5ef588cc7df8954716f86005454f2c837d00b4c2b260156a10ba66e62e7
+  checksum: 7466a76ffe10c9f97586c8feef359594bedaafb0c2fce83eb61b265b3a03350792a4f345a2b32ec2b8ceb8baf9b1e53648412a6056426c589debd5c5a6a48871
   languageName: node
   linkType: hard
 
@@ -7183,7 +7183,7 @@ resolve@1.1.7:
     husky: ^4.2.3
     jest: ^25.2.3
     jest-circus: ^25.2.3
-    lint-staged: ^10.0.9
+    lint-staged: ^10.0.10
     npm-run-all: ^4.1.5
     prettier: ^2.0.2
     prettylint: ^1.0.0
