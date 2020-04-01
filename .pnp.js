@@ -121,7 +121,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./",
           "packageDependencies": [
             ["@types/jest", "npm:25.1.4"],
-            ["@types/node", "npm:13.9.5"],
+            ["@types/node", "npm:13.9.8"],
             ["@typescript-eslint/eslint-plugin", "virtual:00f4dc5b5716c66b9aa8875c8c4f1330987e76fef068c4603f5f9e455c250cf6e6ff4f903024ff6dc767cbf872b43e1107107a49deabae009044d51254405fbb#npm:2.26.0"],
             ["@typescript-eslint/parser", "virtual:00f4dc5b5716c66b9aa8875c8c4f1330987e76fef068c4603f5f9e455c250cf6e6ff4f903024ff6dc767cbf872b43e1107107a49deabae009044d51254405fbb#npm:2.26.0"],
             ["cz-conventional-changelog", "npm:3.1.0"],
@@ -139,7 +139,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["husky", "npm:4.2.3"],
             ["jest", "npm:25.2.4"],
             ["jest-circus", "npm:25.2.4"],
-            ["lint-staged", "npm:10.1.0"],
+            ["lint-staged", "npm:10.1.1"],
             ["npm-run-all", "npm:4.1.5"],
             ["prettier", "npm:2.0.2"],
             ["prettylint", "virtual:00f4dc5b5716c66b9aa8875c8c4f1330987e76fef068c4603f5f9e455c250cf6e6ff4f903024ff6dc767cbf872b43e1107107a49deabae009044d51254405fbb#npm:1.0.0"],
@@ -841,10 +841,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["@types/node", [
-        ["npm:13.9.5", {
-          "packageLocation": "./.yarn/cache/@types-node-npm-13.9.5-ea997862ab-1.zip/node_modules/@types/node/",
+        ["npm:13.9.8", {
+          "packageLocation": "./.yarn/cache/@types-node-npm-13.9.8-71b44edd15-1.zip/node_modules/@types/node/",
           "packageDependencies": [
-            ["@types/node", "npm:13.9.5"]
+            ["@types/node", "npm:13.9.8"]
           ],
           "linkType": "HARD"
         }]
@@ -5138,10 +5138,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["lint-staged", [
-        ["npm:10.1.0", {
-          "packageLocation": "./.yarn/cache/lint-staged-npm-10.1.0-76265c29fc-1.zip/node_modules/lint-staged/",
+        ["npm:10.1.1", {
+          "packageLocation": "./.yarn/cache/lint-staged-npm-10.1.1-56cf0814bf-1.zip/node_modules/lint-staged/",
           "packageDependencies": [
-            ["lint-staged", "npm:10.1.0"],
+            ["lint-staged", "npm:10.1.1"],
             ["chalk", "npm:3.0.0"],
             ["commander", "npm:4.1.1"],
             ["cosmiconfig", "npm:6.0.0"],
@@ -7779,7 +7779,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [
             ["tally", "workspace:."],
             ["@types/jest", "npm:25.1.4"],
-            ["@types/node", "npm:13.9.5"],
+            ["@types/node", "npm:13.9.8"],
             ["@typescript-eslint/eslint-plugin", "virtual:00f4dc5b5716c66b9aa8875c8c4f1330987e76fef068c4603f5f9e455c250cf6e6ff4f903024ff6dc767cbf872b43e1107107a49deabae009044d51254405fbb#npm:2.26.0"],
             ["@typescript-eslint/parser", "virtual:00f4dc5b5716c66b9aa8875c8c4f1330987e76fef068c4603f5f9e455c250cf6e6ff4f903024ff6dc767cbf872b43e1107107a49deabae009044d51254405fbb#npm:2.26.0"],
             ["cz-conventional-changelog", "npm:3.1.0"],
@@ -7797,7 +7797,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["husky", "npm:4.2.3"],
             ["jest", "npm:25.2.4"],
             ["jest-circus", "npm:25.2.4"],
-            ["lint-staged", "npm:10.1.0"],
+            ["lint-staged", "npm:10.1.1"],
             ["npm-run-all", "npm:4.1.5"],
             ["prettier", "npm:2.0.2"],
             ["prettylint", "virtual:00f4dc5b5716c66b9aa8875c8c4f1330987e76fef068c4603f5f9e455c250cf6e6ff4f903024ff6dc767cbf872b43e1107107a49deabae009044d51254405fbb#npm:1.0.0"],

@@ -631,10 +631,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:^13.9.5":
-  version: 13.9.5
-  resolution: "@types/node@npm:13.9.5"
-  checksum: afc38c9906e6870eebb8f666a784fa5c7e4fbe966243c8a7f4710ac2f334121a0db9a92455575f4ebc312223a6f5d632a93d52764b41a96a682471853f13004e
+"@types/node@npm:^13.9.8":
+  version: 13.9.8
+  resolution: "@types/node@npm:13.9.8"
+  checksum: bed2d450eb982e39d8090b0f5a01c3f69d71fb382108ca38be812a1d8aa3dddf829427632db51b9e5f9bba57679485264208ec4f8cbd0de2f3340a9070cef60a
   languageName: node
   linkType: hard
 
@@ -4491,9 +4491,9 @@ fsevents@^2.1.2:
   languageName: node
   linkType: hard
 
-"lint-staged@npm:^10.0.10":
-  version: 10.1.0
-  resolution: "lint-staged@npm:10.1.0"
+"lint-staged@npm:^10.1.1":
+  version: 10.1.1
+  resolution: "lint-staged@npm:10.1.1"
   dependencies:
     chalk: ^3.0.0
     commander: ^4.0.1
@@ -4510,7 +4510,7 @@ fsevents@^2.1.2:
     stringify-object: ^3.3.0
   bin:
     lint-staged: bin/lint-staged.js
-  checksum: 6dabcb0933ac5f98db808e4f5a0601548b31b323ddc31c7afad040f3c7081f74c0d448fc527733d774cc3d699e1c846f983f93dbb48e47ea3ca58b89758f99ba
+  checksum: 18e14045ee6d172ebfd413888920874bbece8f99385da09010907c6ec2a2208c6e731e23bf40b33b3880e87f77e135a5e579ad8f24e035a3c9b59c7a5e608b04
   languageName: node
   linkType: hard
 
@@ -6914,7 +6914,7 @@ resolve@1.1.7:
   resolution: "tally@workspace:."
   dependencies:
     "@types/jest": ^25.1.4
-    "@types/node": ^13.9.5
+    "@types/node": ^13.9.8
     "@typescript-eslint/eslint-plugin": ^2.25.0
     "@typescript-eslint/parser": ^2.26.0
     cz-conventional-changelog: ^3.1.0
@@ -6932,12 +6932,12 @@ resolve@1.1.7:
     husky: ^4.2.3
     jest: ^25.2.4
     jest-circus: ^25.2.4
-    lint-staged: ^10.0.10
+    lint-staged: ^10.1.1
     npm-run-all: ^4.1.5
     prettier: ^2.0.2
     prettylint: ^1.0.0
     rxjs: ^6.5.4
-    ts-jest: ^25.2.1
+    ts-jest: ^25.3.0
     typescript: ^3.8.3
     utils: "link:src/utils"
   dependenciesMeta:
@@ -7117,7 +7117,7 @@ resolve@1.1.7:
   languageName: node
   linkType: hard
 
-"ts-jest@npm:^25.2.1":
+"ts-jest@npm:^25.3.0":
   version: 25.3.0
   resolution: "ts-jest@npm:25.3.0"
   dependencies:
