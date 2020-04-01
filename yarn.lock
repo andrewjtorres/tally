@@ -682,7 +682,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@typescript-eslint/eslint-plugin@npm:^2.25.0":
+"@typescript-eslint/eslint-plugin@npm:^2.26.0":
   version: 2.26.0
   resolution: "@typescript-eslint/eslint-plugin@npm:2.26.0"
   dependencies:
@@ -6915,7 +6915,7 @@ resolve@1.1.7:
   dependencies:
     "@types/jest": ^25.1.4
     "@types/node": ^13.9.8
-    "@typescript-eslint/eslint-plugin": ^2.25.0
+    "@typescript-eslint/eslint-plugin": ^2.26.0
     "@typescript-eslint/parser": ^2.26.0
     cz-conventional-changelog: ^3.1.0
     eslint: ^6.8.0
