@@ -495,7 +495,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@jest/types@npm:^25.1.0, @jest/types@npm:^25.2.6":
+"@jest/types@npm:^25.2.6":
   version: 25.2.6
   resolution: "@jest/types@npm:25.2.6"
   dependencies:
@@ -606,13 +606,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/jest@npm:^25.1.4":
-  version: 25.1.5
-  resolution: "@types/jest@npm:25.1.5"
+"@types/jest@npm:^25.2.1":
+  version: 25.2.1
+  resolution: "@types/jest@npm:25.2.1"
   dependencies:
-    jest-diff: 25.1.0
-    pretty-format: 25.1.0
-  checksum: 0c91e20f5dcc879358035b82eb69e27d836dd712773dc2903e080ce9dd09248a0ae608ee04b997f4ce1309424a68e95642f8516a71e0afc3a480f1da769a7cff
+    jest-diff: ^25.2.1
+    pretty-format: ^25.2.1
+  checksum: 4d8517cddaeda45a17a6633b6cd8821afbc9f0b184e0a6a14358900bee4ae19ccb3cd1ab891085d84fe853db1826467b21203db998f0c42cbbcbe727a7cd4cb0
   languageName: node
   linkType: hard
 
@@ -1934,7 +1934,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"diff-sequences@npm:^25.1.0, diff-sequences@npm:^25.2.6":
+"diff-sequences@npm:^25.2.6":
   version: 25.2.6
   resolution: "diff-sequences@npm:25.2.6"
   checksum: 519346e0af1410ff3e22a0588f301431eb03535e8f470f3fce61221b88519096989bb55ce3176336d25f39a862b8ef5aed9ee25099053b937fb34bd8dd49112c
@@ -3823,12 +3823,12 @@ fsevents@^2.1.2:
   linkType: hard
 
 "istanbul-reports@npm:^3.0.0":
-  version: 3.0.1
-  resolution: "istanbul-reports@npm:3.0.1"
+  version: 3.0.2
+  resolution: "istanbul-reports@npm:3.0.2"
   dependencies:
     html-escaper: ^2.0.0
     istanbul-lib-report: ^3.0.0
-  checksum: f7e5484bb54efa8a3b47172938d52a72fe842006edd5f478d394b7c7f27e1179f8d3047c3dd11c726dddaaf3469b9ae93e2e936e492e5d006791e1b32f63adcd
+  checksum: 4dcab0bfc7c3795d6d3408ce795372997e9192410005463a8c6c3e8b22620d722b515f42a0708b9672d5295697811523fddf3559edcff5bb13cee2cb7d252f82
   languageName: node
   linkType: hard
 
@@ -3917,19 +3917,7 @@ fsevents@^2.1.2:
   languageName: node
   linkType: hard
 
-"jest-diff@npm:25.1.0":
-  version: 25.1.0
-  resolution: "jest-diff@npm:25.1.0"
-  dependencies:
-    chalk: ^3.0.0
-    diff-sequences: ^25.1.0
-    jest-get-type: ^25.1.0
-    pretty-format: ^25.1.0
-  checksum: 5e36a2123c1a9ffd0e18393217d78cfe8eef62db3b41eb21a5763210b14c33d69de4e61a72836d364856099047acc79b3dc195a5ce639cfd837c98c5128d10e8
-  languageName: node
-  linkType: hard
-
-"jest-diff@npm:^25.2.6":
+"jest-diff@npm:^25.2.1, jest-diff@npm:^25.2.6":
   version: 25.2.6
   resolution: "jest-diff@npm:25.2.6"
   dependencies:
@@ -3998,7 +3986,7 @@ fsevents@^2.1.2:
   languageName: node
   linkType: hard
 
-"jest-get-type@npm:^25.1.0, jest-get-type@npm:^25.2.6":
+"jest-get-type@npm:^25.2.6":
   version: 25.2.6
   resolution: "jest-get-type@npm:25.2.6"
   checksum: e9c14cf759353e12682465906c5e4e063a3a8c8adf34cb446222f659d5ac73664758bc8e67733d526ffc9a20fd24617f54a14e569ea5ed83add87eafacaa5837
@@ -4875,6 +4863,16 @@ fsevents@^2.1.2:
   languageName: node
   linkType: hard
 
+"micromatch@npm:4.x, micromatch@npm:^4.0.2":
+  version: 4.0.2
+  resolution: "micromatch@npm:4.0.2"
+  dependencies:
+    braces: ^3.0.1
+    picomatch: ^2.0.5
+  checksum: b1d0aa38e74bbd99ef769a364327324f1c58ef38de729532cbdb4ff1fb0d47f012f4284745bc3fad69a9939ee5edae48611953b18ae0efa0a0b1c63fae56a2a8
+  languageName: node
+  linkType: hard
+
 "micromatch@npm:^3.0.4, micromatch@npm:^3.1.4":
   version: 3.1.10
   resolution: "micromatch@npm:3.1.10"
@@ -4893,16 +4891,6 @@ fsevents@^2.1.2:
     snapdragon: ^0.8.1
     to-regex: ^3.0.2
   checksum: 35191828fe5cab8a8340d0bd1cb01038de956321de18040617c210a49de5e4d1957272eb227ea2f09ba462aef7ba7ec41868ca07e846ba0e567e21f258e032d5
-  languageName: node
-  linkType: hard
-
-"micromatch@npm:^4.0.2":
-  version: 4.0.2
-  resolution: "micromatch@npm:4.0.2"
-  dependencies:
-    braces: ^3.0.1
-    picomatch: ^2.0.5
-  checksum: b1d0aa38e74bbd99ef769a364327324f1c58ef38de729532cbdb4ff1fb0d47f012f4284745bc3fad69a9939ee5edae48611953b18ae0efa0a0b1c63fae56a2a8
   languageName: node
   linkType: hard
 
@@ -4989,22 +4977,22 @@ fsevents@^2.1.2:
   linkType: hard
 
 "mkdirp@npm:1.x":
-  version: 1.0.3
-  resolution: "mkdirp@npm:1.0.3"
+  version: 1.0.4
+  resolution: "mkdirp@npm:1.0.4"
   bin:
     mkdirp: bin/cmd.js
-  checksum: 8c3f00e9bba32181159cbe3be25afe25f51e106d13327d8d20b5e43e7414eb8e98c1bfb3b2a2a60417dc16e4cf40cf683e7b481167ee107026cfe93be165a34b
+  checksum: 8117ee178626ce3b785a48e511944b9cf5ec77855b2f1ed496a886ff84d05cc1c1750ad58f9971967574cf6737a51d6b653c224236fa43e6de36d308fdbd851f
   languageName: node
   linkType: hard
 
 "mkdirp@npm:^0.5.0, mkdirp@npm:^0.5.1":
-  version: 0.5.4
-  resolution: "mkdirp@npm:0.5.4"
+  version: 0.5.5
+  resolution: "mkdirp@npm:0.5.5"
   dependencies:
     minimist: ^1.2.5
   bin:
     mkdirp: bin/cmd.js
-  checksum: 6b1f4f33650506c289d99a12689c93ab3c161f41b0d16a09fda0c7a026ce828f827946d2f9bb0563d6d5f93ee8e5a17c5165d8aaa316d792b64a1891daf3bdd3
+  checksum: 2feda58ba711f4a8e3eb377b24f44f273b78d19361033894292b677b1d50d6dd926a4c2c06213a78dead4196efca06e4fe4aa3ad0173faa19924f1197a924fdb
   languageName: node
   linkType: hard
 
@@ -5747,19 +5735,7 @@ fsevents@^2.1.2:
   languageName: node
   linkType: hard
 
-"pretty-format@npm:25.1.0":
-  version: 25.1.0
-  resolution: "pretty-format@npm:25.1.0"
-  dependencies:
-    "@jest/types": ^25.1.0
-    ansi-regex: ^5.0.0
-    ansi-styles: ^4.0.0
-    react-is: ^16.12.0
-  checksum: 7d4f659dc022265640b5ae9070534c99a9b0c8c27ab5d8292f10d8222c0f98501a209ef5ef380593bdfe3a9aaa852e81bfe400c19a908e08e751210da101c8b8
-  languageName: node
-  linkType: hard
-
-"pretty-format@npm:^25.1.0, pretty-format@npm:^25.2.6":
+"pretty-format@npm:^25.2.1, pretty-format@npm:^25.2.6":
   version: 25.2.6
   resolution: "pretty-format@npm:25.2.6"
   dependencies:
@@ -6983,7 +6959,7 @@ resolve@1.1.7:
   version: 0.0.0-use.local
   resolution: "tally@workspace:."
   dependencies:
-    "@types/jest": ^25.1.4
+    "@types/jest": ^25.2.1
     "@types/node": ^13.9.8
     "@typescript-eslint/eslint-plugin": ^2.26.0
     "@typescript-eslint/parser": ^2.26.0
@@ -7188,8 +7164,8 @@ resolve@1.1.7:
   linkType: hard
 
 "ts-jest@npm:^25.3.0":
-  version: 25.3.0
-  resolution: "ts-jest@npm:25.3.0"
+  version: 25.3.1
+  resolution: "ts-jest@npm:25.3.1"
   dependencies:
     bs-logger: 0.x
     buffer-from: 1.x
@@ -7197,15 +7173,16 @@ resolve@1.1.7:
     json5: 2.x
     lodash.memoize: 4.x
     make-error: 1.x
+    micromatch: 4.x
     mkdirp: 1.x
     resolve: 1.x
     semver: 6.x
-    yargs-parser: ^18.1.1
+    yargs-parser: 18.x
   peerDependencies:
     jest: ">=25 <26"
   bin:
     ts-jest: cli.js
-  checksum: 14ee2c9cf07b6bd73a8c30adf6f05888240e8026457e9e0d7b8f2775150c2249853c8114defa4a35baf37f4fc42b935a6fb527746fb683ba32ee50c3250a9d30
+  checksum: aa8127151344f97b4c5f782d48e8c68249af8b3aaab18f63baccf3bdffa12928757a15931abfc72664fa4efff22cc5e9be1db94884fc7db6d5451aa5021673d4
   languageName: node
   linkType: hard
 
@@ -7650,7 +7627,7 @@ typescript@^3.8.3:
   languageName: node
   linkType: hard
 
-"yargs-parser@npm:^18.1.1":
+"yargs-parser@npm:18.x, yargs-parser@npm:^18.1.1":
   version: 18.1.2
   resolution: "yargs-parser@npm:18.1.2"
   dependencies:
