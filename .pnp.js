@@ -138,7 +138,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["eslint-plugin-unicorn", "virtual:00f4dc5b5716c66b9aa8875c8c4f1330987e76fef068c4603f5f9e455c250cf6e6ff4f903024ff6dc767cbf872b43e1107107a49deabae009044d51254405fbb#npm:18.0.1"],
             ["husky", "npm:4.2.3"],
             ["jest", "npm:25.2.7"],
-            ["jest-circus", "npm:25.2.7"],
+            ["jest-circus", "npm:25.2.6"],
             ["lint-staged", "npm:10.1.1"],
             ["npm-run-all", "npm:4.1.5"],
             ["prettier", "npm:2.0.2"],
@@ -2977,6 +2977,19 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["expect", [
+        ["npm:25.2.6", {
+          "packageLocation": "./.yarn/cache/expect-npm-25.2.6-98affb0111-1.zip/node_modules/expect/",
+          "packageDependencies": [
+            ["expect", "npm:25.2.6"],
+            ["@jest/types", "npm:25.2.6"],
+            ["ansi-styles", "npm:4.2.1"],
+            ["jest-get-type", "npm:25.2.6"],
+            ["jest-matcher-utils", "npm:25.2.6"],
+            ["jest-message-util", "npm:25.2.6"],
+            ["jest-regex-util", "npm:25.2.6"]
+          ],
+          "linkType": "HARD"
+        }],
         ["npm:25.2.7", {
           "packageLocation": "./.yarn/cache/expect-npm-25.2.7-c3e62d8d64-1.zip/node_modules/expect/",
           "packageDependencies": [
@@ -4451,23 +4464,23 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["jest-circus", [
-        ["npm:25.2.7", {
-          "packageLocation": "./.yarn/cache/jest-circus-npm-25.2.7-e52684108c-1.zip/node_modules/jest-circus/",
+        ["npm:25.2.6", {
+          "packageLocation": "./.yarn/cache/jest-circus-npm-25.2.6-5f8284e769-1.zip/node_modules/jest-circus/",
           "packageDependencies": [
-            ["jest-circus", "npm:25.2.7"],
+            ["jest-circus", "npm:25.2.6"],
             ["@babel/traverse", "npm:7.9.0"],
             ["@jest/environment", "npm:25.2.6"],
             ["@jest/test-result", "npm:25.2.6"],
             ["@jest/types", "npm:25.2.6"],
             ["chalk", "npm:3.0.0"],
             ["co", "npm:4.6.0"],
-            ["expect", "npm:25.2.7"],
+            ["expect", "npm:25.2.6"],
             ["is-generator-fn", "npm:2.1.0"],
             ["jest-each", "npm:25.2.6"],
-            ["jest-matcher-utils", "npm:25.2.7"],
+            ["jest-matcher-utils", "npm:25.2.6"],
             ["jest-message-util", "npm:25.2.6"],
             ["jest-runtime", "npm:25.2.7"],
-            ["jest-snapshot", "npm:25.2.7"],
+            ["jest-snapshot", "npm:25.2.6"],
             ["jest-util", "npm:25.2.6"],
             ["pretty-format", "npm:25.2.6"],
             ["stack-utils", "npm:1.0.2"],
@@ -4678,6 +4691,17 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["jest-matcher-utils", [
+        ["npm:25.2.6", {
+          "packageLocation": "./.yarn/cache/jest-matcher-utils-npm-25.2.6-db70ccb1f2-1.zip/node_modules/jest-matcher-utils/",
+          "packageDependencies": [
+            ["jest-matcher-utils", "npm:25.2.6"],
+            ["chalk", "npm:3.0.0"],
+            ["jest-diff", "npm:25.2.6"],
+            ["jest-get-type", "npm:25.2.6"],
+            ["pretty-format", "npm:25.2.6"]
+          ],
+          "linkType": "HARD"
+        }],
         ["npm:25.2.7", {
           "packageLocation": "./.yarn/cache/jest-matcher-utils-npm-25.2.7-df6ff1ad7d-1.zip/node_modules/jest-matcher-utils/",
           "packageDependencies": [
@@ -4837,6 +4861,27 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["jest-snapshot", [
+        ["npm:25.2.6", {
+          "packageLocation": "./.yarn/cache/jest-snapshot-npm-25.2.6-a59e747c95-1.zip/node_modules/jest-snapshot/",
+          "packageDependencies": [
+            ["jest-snapshot", "npm:25.2.6"],
+            ["@babel/types", "npm:7.9.0"],
+            ["@jest/types", "npm:25.2.6"],
+            ["@types/prettier", "npm:1.19.1"],
+            ["chalk", "npm:3.0.0"],
+            ["expect", "npm:25.2.6"],
+            ["jest-diff", "npm:25.2.6"],
+            ["jest-get-type", "npm:25.2.6"],
+            ["jest-matcher-utils", "npm:25.2.6"],
+            ["jest-message-util", "npm:25.2.6"],
+            ["jest-resolve", "npm:25.2.6"],
+            ["make-dir", "npm:3.0.2"],
+            ["natural-compare", "npm:1.4.0"],
+            ["pretty-format", "npm:25.2.6"],
+            ["semver", "npm:6.3.0"]
+          ],
+          "linkType": "HARD"
+        }],
         ["npm:25.2.7", {
           "packageLocation": "./.yarn/cache/jest-snapshot-npm-25.2.7-8c0f57b62b-1.zip/node_modules/jest-snapshot/",
           "packageDependencies": [
@@ -7816,7 +7861,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["eslint-plugin-unicorn", "virtual:00f4dc5b5716c66b9aa8875c8c4f1330987e76fef068c4603f5f9e455c250cf6e6ff4f903024ff6dc767cbf872b43e1107107a49deabae009044d51254405fbb#npm:18.0.1"],
             ["husky", "npm:4.2.3"],
             ["jest", "npm:25.2.7"],
-            ["jest-circus", "npm:25.2.7"],
+            ["jest-circus", "npm:25.2.6"],
             ["lint-staged", "npm:10.1.1"],
             ["npm-run-all", "npm:4.1.5"],
             ["prettier", "npm:2.0.2"],
