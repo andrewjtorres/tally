@@ -6935,7 +6935,7 @@ resolve@1.1.7:
     prettier: ^2.0.2
     prettylint: ^1.0.0
     rxjs: ^6.5.5
-    ts-jest: ^25.3.0
+    ts-jest: ^25.3.1
     typescript: ^3.8.3
     utils: "link:src/utils"
   dependenciesMeta:
@@ -7115,7 +7115,7 @@ resolve@1.1.7:
   languageName: node
   linkType: hard
 
-"ts-jest@npm:^25.3.0":
+"ts-jest@npm:^25.3.1":
   version: 25.3.1
   resolution: "ts-jest@npm:25.3.1"
   dependencies:
