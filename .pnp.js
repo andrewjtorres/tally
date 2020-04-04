@@ -120,7 +120,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         [null, {
           "packageLocation": "./",
           "packageDependencies": [
-            ["@types/jest", "npm:25.1.5"],
+            ["@types/jest", "npm:25.2.1"],
             ["@types/node", "npm:13.11.0"],
             ["@typescript-eslint/eslint-plugin", "virtual:00f4dc5b5716c66b9aa8875c8c4f1330987e76fef068c4603f5f9e455c250cf6e6ff4f903024ff6dc767cbf872b43e1107107a49deabae009044d51254405fbb#npm:2.26.0"],
             ["@typescript-eslint/parser", "virtual:00f4dc5b5716c66b9aa8875c8c4f1330987e76fef068c4603f5f9e455c250cf6e6ff4f903024ff6dc767cbf872b43e1107107a49deabae009044d51254405fbb#npm:2.26.0"],
@@ -811,12 +811,12 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["@types/jest", [
-        ["npm:25.1.5", {
-          "packageLocation": "./.yarn/cache/@types-jest-npm-25.1.5-1266be9e88-1.zip/node_modules/@types/jest/",
+        ["npm:25.2.1", {
+          "packageLocation": "./.yarn/cache/@types-jest-npm-25.2.1-90a4950495-1.zip/node_modules/@types/jest/",
           "packageDependencies": [
-            ["@types/jest", "npm:25.1.5"],
-            ["jest-diff", "npm:25.1.0"],
-            ["pretty-format", "npm:25.1.0"]
+            ["@types/jest", "npm:25.2.1"],
+            ["jest-diff", "npm:25.2.6"],
+            ["pretty-format", "npm:25.2.6"]
           ],
           "linkType": "HARD"
         }]
@@ -2514,7 +2514,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["levn", "npm:0.3.0"],
             ["lodash", "npm:4.17.15"],
             ["minimatch", "npm:3.0.4"],
-            ["mkdirp", "npm:0.5.4"],
+            ["mkdirp", "npm:0.5.5"],
             ["natural-compare", "npm:1.4.0"],
             ["optionator", "npm:0.8.3"],
             ["progress", "npm:2.0.3"],
@@ -4526,17 +4526,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["jest-diff", [
-        ["npm:25.1.0", {
-          "packageLocation": "./.yarn/cache/jest-diff-npm-25.1.0-da9321ef86-1.zip/node_modules/jest-diff/",
-          "packageDependencies": [
-            ["jest-diff", "npm:25.1.0"],
-            ["chalk", "npm:3.0.0"],
-            ["diff-sequences", "npm:25.2.6"],
-            ["jest-get-type", "npm:25.2.6"],
-            ["pretty-format", "npm:25.2.6"]
-          ],
-          "linkType": "HARD"
-        }],
         ["npm:25.2.6", {
           "packageLocation": "./.yarn/cache/jest-diff-npm-25.2.6-9bf50074a0-1.zip/node_modules/jest-diff/",
           "packageDependencies": [
@@ -5634,10 +5623,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["mkdirp", [
-        ["npm:0.5.4", {
-          "packageLocation": "./.yarn/cache/mkdirp-npm-0.5.4-544383b09d-1.zip/node_modules/mkdirp/",
+        ["npm:0.5.5", {
+          "packageLocation": "./.yarn/cache/mkdirp-npm-0.5.5-6bc76534fc-1.zip/node_modules/mkdirp/",
           "packageDependencies": [
-            ["mkdirp", "npm:0.5.4"],
+            ["mkdirp", "npm:0.5.5"],
             ["minimist", "npm:1.2.5"]
           ],
           "linkType": "HARD"
@@ -5737,7 +5726,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["env-paths", "npm:2.2.0"],
             ["glob", "npm:7.1.6"],
             ["graceful-fs", "npm:4.2.3"],
-            ["mkdirp", "npm:0.5.4"],
+            ["mkdirp", "npm:0.5.5"],
             ["nopt", "npm:4.0.3"],
             ["npmlog", "npm:4.1.2"],
             ["request", "npm:2.88.2"],
@@ -6467,17 +6456,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["pretty-format", [
-        ["npm:25.1.0", {
-          "packageLocation": "./.yarn/cache/pretty-format-npm-25.1.0-b10baea8e2-1.zip/node_modules/pretty-format/",
-          "packageDependencies": [
-            ["pretty-format", "npm:25.1.0"],
-            ["@jest/types", "npm:25.2.6"],
-            ["ansi-regex", "npm:5.0.0"],
-            ["ansi-styles", "npm:4.2.1"],
-            ["react-is", "npm:16.13.1"]
-          ],
-          "linkType": "HARD"
-        }],
         ["npm:25.2.6", {
           "packageLocation": "./.yarn/cache/pretty-format-npm-25.2.6-673dd67e8a-1.zip/node_modules/pretty-format/",
           "packageDependencies": [
@@ -7798,7 +7776,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./",
           "packageDependencies": [
             ["tally", "workspace:."],
-            ["@types/jest", "npm:25.1.5"],
+            ["@types/jest", "npm:25.2.1"],
             ["@types/node", "npm:13.11.0"],
             ["@typescript-eslint/eslint-plugin", "virtual:00f4dc5b5716c66b9aa8875c8c4f1330987e76fef068c4603f5f9e455c250cf6e6ff4f903024ff6dc767cbf872b43e1107107a49deabae009044d51254405fbb#npm:2.26.0"],
             ["@typescript-eslint/parser", "virtual:00f4dc5b5716c66b9aa8875c8c4f1330987e76fef068c4603f5f9e455c250cf6e6ff4f903024ff6dc767cbf872b43e1107107a49deabae009044d51254405fbb#npm:2.26.0"],
@@ -7838,7 +7816,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["fs-minipass", "npm:1.2.7"],
             ["minipass", "npm:2.9.0"],
             ["minizlib", "npm:1.3.3"],
-            ["mkdirp", "npm:0.5.4"],
+            ["mkdirp", "npm:0.5.5"],
             ["safe-buffer", "npm:5.2.0"],
             ["yallist", "npm:3.1.1"]
           ],
@@ -8463,7 +8441,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/write-npm-1.0.3-1bac756049-1.zip/node_modules/write/",
           "packageDependencies": [
             ["write", "npm:1.0.3"],
-            ["mkdirp", "npm:0.5.4"]
+            ["mkdirp", "npm:0.5.5"]
           ],
           "linkType": "HARD"
         }]
