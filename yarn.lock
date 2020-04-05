@@ -1703,13 +1703,13 @@ __metadata:
   linkType: hard
 
 "cross-spawn@npm:^7.0.0":
-  version: 7.0.1
-  resolution: "cross-spawn@npm:7.0.1"
+  version: 7.0.2
+  resolution: "cross-spawn@npm:7.0.2"
   dependencies:
     path-key: ^3.1.0
     shebang-command: ^2.0.0
     which: ^2.0.1
-  checksum: 63d23ab6119e61fd9fc1c008b7e03bd59282962978dc3bd83f227203c35007bbfe83cd329b1a50393e5f655c2de1236eab59c2a715977ae7784d596f1b119540
+  checksum: b1dd4360115a6dfe4699bad4584fe7b017772ac9a7a576f5a52419802e55e3853e9fc60157696f6be0687091d4d28b788b6251ffc73a8359cf6b94b3eb9ca851
   languageName: node
   linkType: hard
 
@@ -4381,13 +4381,13 @@ fsevents@^2.1.2:
   linkType: hard
 
 "json5@npm:2.x, json5@npm:^2.1.2":
-  version: 2.1.2
-  resolution: "json5@npm:2.1.2"
+  version: 2.1.3
+  resolution: "json5@npm:2.1.3"
   dependencies:
     minimist: ^1.2.5
   bin:
     json5: lib/cli.js
-  checksum: f6b06eae4aab6d7ab70669158fdf3a415b9e56ab18ee22ea0865c81957b59a9668e8fc881207ac50c2a5cb5bfc4c796e8829305d87f2c7c289f226c2a718b976
+  checksum: a44220153d63a977a1a5ba08ecb8df2d76b1d0428332748cccf44da04c0ff1d86af957783971d45b59a5428eafd492d5d4d9d961a37fec9db8f252c9b01f57c4
   languageName: node
   linkType: hard
 
@@ -4489,9 +4489,9 @@ fsevents@^2.1.2:
   languageName: node
   linkType: hard
 
-"lint-staged@npm:^10.1.1":
-  version: 10.1.1
-  resolution: "lint-staged@npm:10.1.1"
+"lint-staged@npm:^10.1.2":
+  version: 10.1.2
+  resolution: "lint-staged@npm:10.1.2"
   dependencies:
     chalk: ^3.0.0
     commander: ^4.0.1
@@ -4508,7 +4508,7 @@ fsevents@^2.1.2:
     stringify-object: ^3.3.0
   bin:
     lint-staged: bin/lint-staged.js
-  checksum: 18e14045ee6d172ebfd413888920874bbece8f99385da09010907c6ec2a2208c6e731e23bf40b33b3880e87f77e135a5e579ad8f24e035a3c9b59c7a5e608b04
+  checksum: 266da02fd77f89218166f5b3f2e5df86608bc7df35a73e0a466d49b285004024b9eafe4522ba34a7bbf0a103aae78ab1ef8ed3814ddfcc99b4b649c0f7f32927
   languageName: node
   linkType: hard
 
@@ -5938,9 +5938,9 @@ fsevents@^2.1.2:
   linkType: hard
 
 "regexpp@npm:^3.0.0":
-  version: 3.0.0
-  resolution: "regexpp@npm:3.0.0"
-  checksum: 94cec86ac5844e1e5046f13ea8b65092c628cec9654d994a51100d320dce40cca9a33053c8dd3feb36707c3e7e05d9e67d91442c650ebf167e269237c9aba023
+  version: 3.1.0
+  resolution: "regexpp@npm:3.1.0"
+  checksum: 43a6fbd6d69fc85710d0b56787af9543597ec59731c3f377d683efb2a1c693434eda76f2833cc137acd9c356b65dc3067b126a74769d550b47a5a9a106f8802f
   languageName: node
   linkType: hard
 
@@ -6930,7 +6930,7 @@ resolve@1.1.7:
     husky: ^4.2.3
     jest: ^25.2.7
     jest-circus: ^25.2.7
-    lint-staged: ^10.1.1
+    lint-staged: ^10.1.2
     npm-run-all: ^4.1.5
     prettier: ^2.0.2
     prettylint: ^1.0.0
