@@ -4596,9 +4596,9 @@ fsevents@^2.1.2:
   languageName: node
   linkType: hard
 
-"lint-staged@npm:^10.1.2":
-  version: 10.1.2
-  resolution: "lint-staged@npm:10.1.2"
+"lint-staged@npm:^10.1.3":
+  version: 10.1.3
+  resolution: "lint-staged@npm:10.1.3"
   dependencies:
     chalk: ^3.0.0
     commander: ^4.0.1
@@ -4615,7 +4615,7 @@ fsevents@^2.1.2:
     stringify-object: ^3.3.0
   bin:
     lint-staged: bin/lint-staged.js
-  checksum: 266da02fd77f89218166f5b3f2e5df86608bc7df35a73e0a466d49b285004024b9eafe4522ba34a7bbf0a103aae78ab1ef8ed3814ddfcc99b4b649c0f7f32927
+  checksum: 80a8c95a9178bf5c9401df90e6e5d8e1af2a0139a50c1773b3215d8b61b53be29d55f53c287c572c2571f0ffaa872baf0fcea525220a9db3a680fc18ff48889f
   languageName: node
   linkType: hard
 
@@ -7044,7 +7044,7 @@ resolve@1.1.7:
     husky: ^4.2.3
     jest: ^25.3.0
     jest-circus: ^25.3.0
-    lint-staged: ^10.1.2
+    lint-staged: ^10.1.3
     npm-run-all: ^4.1.5
     prettier: ^2.0.4
     prettylint: ^1.0.0
