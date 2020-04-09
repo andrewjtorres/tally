@@ -142,7 +142,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["eslint-plugin-promise", "npm:4.2.1"],
             ["eslint-plugin-standard", "virtual:00f4dc5b5716c66b9aa8875c8c4f1330987e76fef068c4603f5f9e455c250cf6e6ff4f903024ff6dc767cbf872b43e1107107a49deabae009044d51254405fbb#npm:4.0.1"],
             ["eslint-plugin-unicorn", "virtual:00f4dc5b5716c66b9aa8875c8c4f1330987e76fef068c4603f5f9e455c250cf6e6ff4f903024ff6dc767cbf872b43e1107107a49deabae009044d51254405fbb#npm:18.0.1"],
-            ["husky", "npm:4.2.3"],
+            ["husky", "npm:4.2.5"],
             ["jest", "npm:25.3.0"],
             ["jest-circus", "npm:25.3.0"],
             ["lint-staged", "npm:10.1.3"],
@@ -1854,6 +1854,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/chalk-npm-3.0.0-e813208025-1.zip/node_modules/chalk/",
           "packageDependencies": [
             ["chalk", "npm:3.0.0"],
+            ["ansi-styles", "npm:4.2.1"],
+            ["supports-color", "npm:7.1.0"]
+          ],
+          "linkType": "HARD"
+        }],
+        ["npm:4.0.0", {
+          "packageLocation": "./.yarn/cache/chalk-npm-4.0.0-50e5418ea0-1.zip/node_modules/chalk/",
+          "packageDependencies": [
+            ["chalk", "npm:4.0.0"],
             ["ansi-styles", "npm:4.2.1"],
             ["supports-color", "npm:7.1.0"]
           ],
@@ -3911,11 +3920,11 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["husky", [
-        ["npm:4.2.3", {
-          "packageLocation": "./.yarn/cache/husky-npm-4.2.3-b5c1a5429e-1.zip/node_modules/husky/",
+        ["npm:4.2.5", {
+          "packageLocation": "./.yarn/cache/husky-npm-4.2.5-30d80a2ef8-1.zip/node_modules/husky/",
           "packageDependencies": [
-            ["husky", "npm:4.2.3"],
-            ["chalk", "npm:3.0.0"],
+            ["husky", "npm:4.2.5"],
+            ["chalk", "npm:4.0.0"],
             ["ci-info", "npm:2.0.0"],
             ["compare-versions", "npm:3.6.0"],
             ["cosmiconfig", "npm:6.0.0"],
@@ -7682,10 +7691,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["string.prototype.trimend", [
-        ["npm:1.0.0", {
-          "packageLocation": "./.yarn/cache/string.prototype.trimend-npm-1.0.0-108b6ffa0d-1.zip/node_modules/string.prototype.trimend/",
+        ["npm:1.0.1", {
+          "packageLocation": "./.yarn/cache/string.prototype.trimend-npm-1.0.1-c110c5981f-1.zip/node_modules/string.prototype.trimend/",
           "packageDependencies": [
-            ["string.prototype.trimend", "npm:1.0.0"],
+            ["string.prototype.trimend", "npm:1.0.1"],
             ["define-properties", "npm:1.1.3"],
             ["es-abstract", "npm:1.17.5"]
           ],
@@ -7699,7 +7708,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["string.prototype.trimleft", "npm:2.1.2"],
             ["define-properties", "npm:1.1.3"],
             ["es-abstract", "npm:1.17.5"],
-            ["string.prototype.trimstart", "npm:1.0.0"]
+            ["string.prototype.trimstart", "npm:1.0.1"]
           ],
           "linkType": "HARD"
         }]
@@ -7711,16 +7720,16 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["string.prototype.trimright", "npm:2.1.2"],
             ["define-properties", "npm:1.1.3"],
             ["es-abstract", "npm:1.17.5"],
-            ["string.prototype.trimend", "npm:1.0.0"]
+            ["string.prototype.trimend", "npm:1.0.1"]
           ],
           "linkType": "HARD"
         }]
       ]],
       ["string.prototype.trimstart", [
-        ["npm:1.0.0", {
-          "packageLocation": "./.yarn/cache/string.prototype.trimstart-npm-1.0.0-105508ab58-1.zip/node_modules/string.prototype.trimstart/",
+        ["npm:1.0.1", {
+          "packageLocation": "./.yarn/cache/string.prototype.trimstart-npm-1.0.1-86888269b6-1.zip/node_modules/string.prototype.trimstart/",
           "packageDependencies": [
-            ["string.prototype.trimstart", "npm:1.0.0"],
+            ["string.prototype.trimstart", "npm:1.0.1"],
             ["define-properties", "npm:1.1.3"],
             ["es-abstract", "npm:1.17.5"]
           ],
@@ -7939,7 +7948,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["eslint-plugin-promise", "npm:4.2.1"],
             ["eslint-plugin-standard", "virtual:00f4dc5b5716c66b9aa8875c8c4f1330987e76fef068c4603f5f9e455c250cf6e6ff4f903024ff6dc767cbf872b43e1107107a49deabae009044d51254405fbb#npm:4.0.1"],
             ["eslint-plugin-unicorn", "virtual:00f4dc5b5716c66b9aa8875c8c4f1330987e76fef068c4603f5f9e455c250cf6e6ff4f903024ff6dc767cbf872b43e1107107a49deabae009044d51254405fbb#npm:18.0.1"],
-            ["husky", "npm:4.2.3"],
+            ["husky", "npm:4.2.5"],
             ["jest", "npm:25.3.0"],
             ["jest-circus", "npm:25.3.0"],
             ["lint-staged", "npm:10.1.3"],
