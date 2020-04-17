@@ -1580,9 +1580,9 @@ __metadata:
   linkType: hard
 
 "cli-width@npm:^2.0.0":
-  version: 2.2.0
-  resolution: "cli-width@npm:2.2.0"
-  checksum: 2d7814cb2f23e9c70a3db5f68e927d942eb6e42dbfc9ad5bb45c82a4c133bd0b53ce4f8f370f11915ccdc2ec00fb6b255c1f2bbf8b1935b45a451dea502a4b68
+  version: 2.2.1
+  resolution: "cli-width@npm:2.2.1"
+  checksum: cf33bc0f01561dbd9937e20854a7fcf1e172b7c499e9745ceea68e24051093cd38c3c2434ff5236d877356fa1ad723dc0c7664fc9d653abb119783609da7c632
   languageName: node
   linkType: hard
 
@@ -2522,11 +2522,11 @@ __metadata:
   linkType: hard
 
 "esquery@npm:^1.0.1":
-  version: 1.2.0
-  resolution: "esquery@npm:1.2.0"
+  version: 1.3.1
+  resolution: "esquery@npm:1.3.1"
   dependencies:
-    estraverse: ^5.0.0
-  checksum: 4a5dc256cf9a604ace0c8c8336d11ccfc948c7bde2f85b58f92e63814c81cd44b8a640e5124965d5936f7fd2cb684cc58c467c3de22d1709b27fffc5c5c3ad7f
+    estraverse: ^5.1.0
+  checksum: 9e68845b62c2b6234fdece44745b677ab8071fb28403e75f0f90765ce3ec8d8e58ae1417a8cd0ea3036614bfae2eddaa1576c2e6f1f303e9ec4a54ff3d0074b1
   languageName: node
   linkType: hard
 
@@ -2546,10 +2546,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"estraverse@npm:^5.0.0":
-  version: 5.0.0
-  resolution: "estraverse@npm:5.0.0"
-  checksum: 5527b5c3c7c483468f5dbaed92f15559f55b13182f054d159354e92c327e60d317b0de7a1a6a6f4efd0ee18f51c9ed0670cbe9b62970a9cc8e63f72bd1dfd969
+"estraverse@npm:^5.1.0":
+  version: 5.1.0
+  resolution: "estraverse@npm:5.1.0"
+  checksum: 2e45cfe458b1f4191621dfab1f23f8b3c661d51fa7d02a3c44e8135124a12c0404a5a5e51af6355d92f1037303b2b1b7f8138b40dca10f9d17584082dfb6664c
   languageName: node
   linkType: hard
 
@@ -6228,11 +6228,11 @@ resolve@1.1.7:
   linkType: hard
 
 "resolve@1.x, resolve@^1.1.6, resolve@^1.10.0, resolve@^1.10.1, resolve@^1.12.0, resolve@^1.13.1, resolve@^1.15.1, resolve@^1.3.2":
-  version: 1.15.1
-  resolution: "resolve@npm:1.15.1"
+  version: 1.16.0
+  resolution: "resolve@npm:1.16.0"
   dependencies:
     path-parse: ^1.0.6
-  checksum: 8d9910fbd8598a172700c8f5f31e487e8c7eb4a3a7297240c77ec7d2d6647c0c5471d5202ce76b2a359ad9fdd56e352619066b2d0cc340065f45c6886e10209c
+  checksum: d38b9090fc162ef759bd5db1070dc6a93b72bff949178a88227a0e0d0c0f717fb04f7cc5de685154ca3e4558427c73b53fe9909c54f8a27579c869fac356cbe1
   languageName: node
   linkType: hard
 
@@ -6244,11 +6244,11 @@ resolve@1.1.7:
   linkType: hard
 
 "resolve@patch:resolve@1.x#builtin<compat/resolve>, resolve@patch:resolve@^1.1.6#builtin<compat/resolve>, resolve@patch:resolve@^1.10.0#builtin<compat/resolve>, resolve@patch:resolve@^1.10.1#builtin<compat/resolve>, resolve@patch:resolve@^1.12.0#builtin<compat/resolve>, resolve@patch:resolve@^1.13.1#builtin<compat/resolve>, resolve@patch:resolve@^1.15.1#builtin<compat/resolve>, resolve@patch:resolve@^1.3.2#builtin<compat/resolve>":
-  version: 1.15.1
-  resolution: "resolve@patch:resolve@npm%3A1.15.1#builtin<compat/resolve>::version=1.15.1&hash=8fccd0"
+  version: 1.16.0
+  resolution: "resolve@patch:resolve@npm%3A1.16.0#builtin<compat/resolve>::version=1.16.0&hash=8fccd0"
   dependencies:
     path-parse: ^1.0.6
-  checksum: b500c7e6383c3f9e70390706827a1bca80115bbc22203a6c2220ba1f5e1fd0fd95fe123685854f4b4db5791bf3147c95e5477c428e97f8d41dec805b957ed6ee
+  checksum: b43d14aa53e838e0c0094399890ca20b7ebd3e613f6fb7097fa7c82123888a7259fb4e9c4c0eb5051a43def2f4254baf71fdfde114f5391274f8b094e5c4501a
   languageName: node
   linkType: hard
 
@@ -6433,11 +6433,11 @@ resolve@1.1.7:
   linkType: hard
 
 "semver@npm:^7.1.3":
-  version: 7.2.2
-  resolution: "semver@npm:7.2.2"
+  version: 7.3.2
+  resolution: "semver@npm:7.3.2"
   bin:
     semver: bin/semver.js
-  checksum: 9683e105acf4ac7362a369d09a1a7dd33dd4082dc4bff2a6ff64854ef678c467e2daaa293736bc6efdb3cb11e1c3fba3474c4dd91f17fca32f5c75af78039621
+  checksum: 948a65eb95e6a1cd311887c66aff98044a2c53a2f4e1609c2e67159782cc211a9f30c084995643a437678e7db520ddd82e834bf699840863e94536a7a8644f69
   languageName: node
   linkType: hard
 
@@ -7059,7 +7059,7 @@ resolve@1.1.7:
     prettier: ^2.0.4
     prettylint: ^1.0.0
     rxjs: ^6.5.5
-    ts-jest: ^25.3.1
+    ts-jest: ^25.4.0
     typescript: ^3.8.3
     utils: "link:src/utils"
   dependenciesMeta:
@@ -7239,9 +7239,9 @@ resolve@1.1.7:
   languageName: node
   linkType: hard
 
-"ts-jest@npm:^25.3.1":
-  version: 25.3.1
-  resolution: "ts-jest@npm:25.3.1"
+"ts-jest@npm:^25.4.0":
+  version: 25.4.0
+  resolution: "ts-jest@npm:25.4.0"
   dependencies:
     bs-logger: 0.x
     buffer-from: 1.x
@@ -7256,9 +7256,10 @@ resolve@1.1.7:
     yargs-parser: 18.x
   peerDependencies:
     jest: ">=25 <26"
+    typescript: ">=3.4 <4.0"
   bin:
     ts-jest: cli.js
-  checksum: aa8127151344f97b4c5f782d48e8c68249af8b3aaab18f63baccf3bdffa12928757a15931abfc72664fa4efff22cc5e9be1db94884fc7db6d5451aa5021673d4
+  checksum: c8854df5a3572ff6b809336460fd93d9780e1da47c47db07ba6b069ecf16a91cbcf2ac650d7dd4d38aca75700a63e066a879e5a3a2121385bc089197853bf35e
   languageName: node
   linkType: hard
 
@@ -7704,12 +7705,12 @@ typescript@^3.8.3:
   linkType: hard
 
 "yargs-parser@npm:18.x, yargs-parser@npm:^18.1.1":
-  version: 18.1.2
-  resolution: "yargs-parser@npm:18.1.2"
+  version: 18.1.3
+  resolution: "yargs-parser@npm:18.1.3"
   dependencies:
     camelcase: ^5.0.0
     decamelize: ^1.2.0
-  checksum: 65b569f52eba07fe84d73973b7bc164e8d79a5dee17b7acb7c23ecb30be8f225451159c01e4a2a29d45aa163815437bd3b2b196c0ab52a5144522a41ce841386
+  checksum: 8cbeaaa267e84f714599b13d2b5d07f6021650f3211a54702282ab3169eb3736754d13c9d1c51a7e211243dc9146fb7743e745959205010bb90c36cb1ee3e9d0
   languageName: node
   linkType: hard
 
