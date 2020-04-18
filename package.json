@@ -79,7 +79,7 @@
   "private": true,
   "husky": {
     "hooks": {
-      "pre-commit": "hook:pre-commit"
+      "pre-commit": "yarn hook:pre-commit"
     }
   },
   "lint-staged": {
