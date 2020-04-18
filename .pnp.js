@@ -127,7 +127,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./",
           "packageDependencies": [
             ["@types/jest", "npm:25.2.1"],
-            ["@types/node", "npm:13.11.1"],
+            ["@types/node", "npm:13.13.0"],
             ["@typescript-eslint/eslint-plugin", "virtual:00f4dc5b5716c66b9aa8875c8c4f1330987e76fef068c4603f5f9e455c250cf6e6ff4f903024ff6dc767cbf872b43e1107107a49deabae009044d51254405fbb#npm:2.28.0"],
             ["@typescript-eslint/parser", "virtual:00f4dc5b5716c66b9aa8875c8c4f1330987e76fef068c4603f5f9e455c250cf6e6ff4f903024ff6dc767cbf872b43e1107107a49deabae009044d51254405fbb#npm:2.28.0"],
             ["cz-conventional-changelog", "npm:3.1.0"],
@@ -145,7 +145,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["husky", "npm:4.2.5"],
             ["jest", "npm:25.3.0"],
             ["jest-circus", "npm:25.3.0"],
-            ["lint-staged", "npm:10.1.4"],
+            ["lint-staged", "npm:10.1.5"],
             ["npm-run-all", "npm:4.1.5"],
             ["prettier", "npm:2.0.4"],
             ["prettylint", "virtual:00f4dc5b5716c66b9aa8875c8c4f1330987e76fef068c4603f5f9e455c250cf6e6ff4f903024ff6dc767cbf872b43e1107107a49deabae009044d51254405fbb#npm:1.0.0"],
@@ -185,7 +185,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["gensync", "npm:1.0.0-beta.1"],
             ["json5", "npm:2.1.3"],
             ["lodash", "npm:4.17.15"],
-            ["resolve", "patch:resolve@npm%3A1.16.0#builtin<compat/resolve>::version=1.16.0&hash=8fccd0"],
+            ["resolve", "patch:resolve@npm%3A1.16.1#builtin<compat/resolve>::version=1.16.1&hash=8fccd0"],
             ["semver", "npm:5.7.1"],
             ["source-map", "npm:0.5.7"]
           ],
@@ -958,10 +958,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["@types/node", [
-        ["npm:13.11.1", {
-          "packageLocation": "./.yarn/cache/@types-node-npm-13.11.1-ea46d1204d-1.zip/node_modules/@types/node/",
+        ["npm:13.13.0", {
+          "packageLocation": "./.yarn/cache/@types-node-npm-13.13.0-247c77d018-1.zip/node_modules/@types/node/",
           "packageDependencies": [
-            ["@types/node", "npm:13.11.1"]
+            ["@types/node", "npm:13.13.0"]
           ],
           "linkType": "HARD"
         }]
@@ -2202,7 +2202,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["import-fresh", "npm:3.2.1"],
             ["parse-json", "npm:5.0.0"],
             ["path-type", "npm:4.0.0"],
-            ["yaml", "npm:1.8.3"]
+            ["yaml", "npm:1.9.0"]
           ],
           "linkType": "HARD"
         }]
@@ -2744,7 +2744,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [
             ["eslint-import-resolver-node", "npm:0.3.3"],
             ["debug", "npm:2.6.9"],
-            ["resolve", "patch:resolve@npm%3A1.16.0#builtin<compat/resolve>::version=1.16.0&hash=8fccd0"]
+            ["resolve", "patch:resolve@npm%3A1.16.1#builtin<compat/resolve>::version=1.16.1&hash=8fccd0"]
           ],
           "linkType": "HARD"
         }]
@@ -2758,7 +2758,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["eslint", "npm:6.8.0"],
             ["eslint-plugin-import", "virtual:00f4dc5b5716c66b9aa8875c8c4f1330987e76fef068c4603f5f9e455c250cf6e6ff4f903024ff6dc767cbf872b43e1107107a49deabae009044d51254405fbb#npm:2.20.2"],
             ["is-glob", "npm:4.0.1"],
-            ["resolve", "patch:resolve@npm%3A1.16.0#builtin<compat/resolve>::version=1.16.0&hash=8fccd0"],
+            ["resolve", "patch:resolve@npm%3A1.16.1#builtin<compat/resolve>::version=1.16.1&hash=8fccd0"],
             ["tiny-glob", "npm:0.2.6"],
             ["tsconfig-paths", "npm:3.9.0"]
           ],
@@ -2812,7 +2812,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["minimatch", "npm:3.0.4"],
             ["object.values", "npm:1.1.1"],
             ["read-pkg-up", "npm:2.0.0"],
-            ["resolve", "patch:resolve@npm%3A1.16.0#builtin<compat/resolve>::version=1.16.0&hash=8fccd0"]
+            ["resolve", "patch:resolve@npm%3A1.16.1#builtin<compat/resolve>::version=1.16.1&hash=8fccd0"]
           ],
           "packagePeers": [
             "eslint"
@@ -2844,7 +2844,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["eslint-utils", "npm:2.0.0"],
             ["ignore", "npm:5.1.4"],
             ["minimatch", "npm:3.0.4"],
-            ["resolve", "patch:resolve@npm%3A1.16.0#builtin<compat/resolve>::version=1.16.0&hash=8fccd0"],
+            ["resolve", "patch:resolve@npm%3A1.16.1#builtin<compat/resolve>::version=1.16.1&hash=8fccd0"],
             ["semver", "npm:6.3.0"]
           ],
           "packagePeers": [
@@ -4886,7 +4886,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["chalk", "npm:3.0.0"],
             ["jest-pnp-resolver", "virtual:2aa5df1fb593b1a6322aa92072fd587b633deb2846201ff283b3422230f36e3774b627e407d104bce7b6944b3f743d9f25b86ec1bbd69693cca044ede53acbde#npm:1.2.1"],
             ["realpath-native", "npm:2.0.0"],
-            ["resolve", "patch:resolve@npm%3A1.16.0#builtin<compat/resolve>::version=1.16.0&hash=8fccd0"]
+            ["resolve", "patch:resolve@npm%3A1.16.1#builtin<compat/resolve>::version=1.16.1&hash=8fccd0"]
           ],
           "linkType": "HARD"
         }]
@@ -5285,10 +5285,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["lint-staged", [
-        ["npm:10.1.4", {
-          "packageLocation": "./.yarn/cache/lint-staged-npm-10.1.4-cc89bfac71-1.zip/node_modules/lint-staged/",
+        ["npm:10.1.5", {
+          "packageLocation": "./.yarn/cache/lint-staged-npm-10.1.5-820f09e971-1.zip/node_modules/lint-staged/",
           "packageDependencies": [
-            ["lint-staged", "npm:10.1.4"],
+            ["lint-staged", "npm:10.1.5"],
             ["chalk", "npm:3.0.0"],
             ["commander", "npm:4.1.1"],
             ["cosmiconfig", "npm:6.0.0"],
@@ -5936,7 +5936,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [
             ["normalize-package-data", "npm:2.5.0"],
             ["hosted-git-info", "npm:2.8.8"],
-            ["resolve", "patch:resolve@npm%3A1.16.0#builtin<compat/resolve>::version=1.16.0&hash=8fccd0"],
+            ["resolve", "patch:resolve@npm%3A1.16.1#builtin<compat/resolve>::version=1.16.1&hash=8fccd0"],
             ["semver", "npm:5.7.1"],
             ["validate-npm-package-license", "npm:3.0.4"]
           ],
@@ -6816,7 +6816,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/rechoir-npm-0.6.2-0df5f171ec-1.zip/node_modules/rechoir/",
           "packageDependencies": [
             ["rechoir", "npm:0.6.2"],
-            ["resolve", "patch:resolve@npm%3A1.16.0#builtin<compat/resolve>::version=1.16.0&hash=8fccd0"]
+            ["resolve", "patch:resolve@npm%3A1.16.1#builtin<compat/resolve>::version=1.16.1&hash=8fccd0"]
           ],
           "linkType": "HARD"
         }]
@@ -7015,10 +7015,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],
           "linkType": "HARD"
         }],
-        ["patch:resolve@npm%3A1.16.0#builtin<compat/resolve>::version=1.16.0&hash=8fccd0", {
-          "packageLocation": "./.yarn/cache/resolve-patch-1e9630ac90-1.zip/node_modules/resolve/",
+        ["patch:resolve@npm%3A1.16.1#builtin<compat/resolve>::version=1.16.1&hash=8fccd0", {
+          "packageLocation": "./.yarn/cache/resolve-patch-70992539da-1.zip/node_modules/resolve/",
           "packageDependencies": [
-            ["resolve", "patch:resolve@npm%3A1.16.0#builtin<compat/resolve>::version=1.16.0&hash=8fccd0"],
+            ["resolve", "patch:resolve@npm%3A1.16.1#builtin<compat/resolve>::version=1.16.1&hash=8fccd0"],
             ["path-parse", "npm:1.0.6"]
           ],
           "linkType": "HARD"
@@ -7933,7 +7933,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [
             ["tally", "workspace:."],
             ["@types/jest", "npm:25.2.1"],
-            ["@types/node", "npm:13.11.1"],
+            ["@types/node", "npm:13.13.0"],
             ["@typescript-eslint/eslint-plugin", "virtual:00f4dc5b5716c66b9aa8875c8c4f1330987e76fef068c4603f5f9e455c250cf6e6ff4f903024ff6dc767cbf872b43e1107107a49deabae009044d51254405fbb#npm:2.28.0"],
             ["@typescript-eslint/parser", "virtual:00f4dc5b5716c66b9aa8875c8c4f1330987e76fef068c4603f5f9e455c250cf6e6ff4f903024ff6dc767cbf872b43e1107107a49deabae009044d51254405fbb#npm:2.28.0"],
             ["cz-conventional-changelog", "npm:3.1.0"],
@@ -7951,7 +7951,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["husky", "npm:4.2.5"],
             ["jest", "npm:25.3.0"],
             ["jest-circus", "npm:25.3.0"],
-            ["lint-staged", "npm:10.1.4"],
+            ["lint-staged", "npm:10.1.5"],
             ["npm-run-all", "npm:4.1.5"],
             ["prettier", "npm:2.0.4"],
             ["prettylint", "virtual:00f4dc5b5716c66b9aa8875c8c4f1330987e76fef068c4603f5f9e455c250cf6e6ff4f903024ff6dc767cbf872b43e1107107a49deabae009044d51254405fbb#npm:1.0.0"],
@@ -8165,7 +8165,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["make-error", "npm:1.3.6"],
             ["micromatch", "npm:4.0.2"],
             ["mkdirp", "npm:1.0.4"],
-            ["resolve", "patch:resolve@npm%3A1.16.0#builtin<compat/resolve>::version=1.16.0&hash=8fccd0"],
+            ["resolve", "patch:resolve@npm%3A1.16.1#builtin<compat/resolve>::version=1.16.1&hash=8fccd0"],
             ["semver", "npm:6.3.0"],
             ["typescript", "patch:typescript@npm%3A3.8.3#builtin<compat/typescript>::version=3.8.3&hash=226bd1"],
             ["yargs-parser", "npm:18.1.3"]
@@ -8669,10 +8669,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["yaml", [
-        ["npm:1.8.3", {
-          "packageLocation": "./.yarn/cache/yaml-npm-1.8.3-89e8b81d4d-1.zip/node_modules/yaml/",
+        ["npm:1.9.0", {
+          "packageLocation": "./.yarn/cache/yaml-npm-1.9.0-08d1e54988-1.zip/node_modules/yaml/",
           "packageDependencies": [
-            ["yaml", "npm:1.8.3"],
+            ["yaml", "npm:1.9.0"],
             ["@babel/runtime", "npm:7.9.2"]
           ],
           "linkType": "HARD"
