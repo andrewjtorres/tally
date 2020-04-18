@@ -297,7 +297,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/runtime@npm:^7.9.0":
+"@babel/runtime@npm:^7.9.2":
   version: 7.9.2
   resolution: "@babel/runtime@npm:7.9.2"
   dependencies:
@@ -2967,7 +2967,7 @@ fsevents@^2.1.2:
   resolution: "fsevents@patch:fsevents@npm%3A2.1.2#builtin<compat/fsevents>::version=2.1.2&hash=e8cd9e"
   dependencies:
     node-gyp: latest
-  checksum: 6451c2e13977f67e69fb53a1734a04bcba523c7b854c8218ec1f9aa42a13462ecae37e9e74f8876db124f73105f1fd30d65ab77e0f7768878ba8b96380aca7d0
+  checksum: 69e5c31cd801e8bb04be9d8983992ec5385c10dcac8d52662a238311a88544d42f9f6b5528ffe15d5a8ef54029c9003c3fdede5cd69b20c23ca48e0a53fe88c6
   languageName: node
   linkType: hard
 
@@ -6239,7 +6239,7 @@ resolve@1.1.7:
 "resolve@patch:resolve@1.1.7#builtin<compat/resolve>":
   version: 1.1.7
   resolution: "resolve@patch:resolve@npm%3A1.1.7#builtin<compat/resolve>::version=1.1.7&hash=8fccd0"
-  checksum: 849d48824e41e4728733a15d0293f152b1c51156a613592740bb214b8bf50310899370aced59e1f54118c98994af5cf352f7ecf02f7a0548bd0da28c65a8d950
+  checksum: b07b71994ebf0c33ab062bd5f02153655b90480d5b57421ff40b250564880fd7a35c440bcf83683ba2e52d11a3853a495c64146120a30641808a4d1c4643a1e2
   languageName: node
   linkType: hard
 
@@ -7371,7 +7371,7 @@ typescript@^3.8.3:
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
-  checksum: 1033769c6cc55dd2ff174a82998fa130c10293bcafcf734375baa92f15e21699d7e5dd726b088b469d093052b02801bc3b53bcd4ff04b24e4e66f1f3cc96d2aa
+  checksum: daa753833e3d10f2a162b934948231546d207db25c974434fd68c6088ea1ebb8a8f0c445f2690c985226cfd149406b335a3f9f452c7c16dd6f81f2bb8d758608
   languageName: node
   linkType: hard
 
@@ -7696,11 +7696,11 @@ typescript@^3.8.3:
   linkType: hard
 
 "yaml@npm:^1.7.2":
-  version: 1.9.0
-  resolution: "yaml@npm:1.9.0"
+  version: 1.9.1
+  resolution: "yaml@npm:1.9.1"
   dependencies:
-    "@babel/runtime": ^7.9.0
-  checksum: 5b2b4ac59f5614d20c6177dec62980efd248969b1626564472ea49f0be33059bbb0994d41106fc68397e76c033ade1fca7341f56cc532d65a2b824465f1e5eb4
+    "@babel/runtime": ^7.9.2
+  checksum: 250c0771e80d0bdff305551199fef781ab0610da012011c2cb8639b34f17c978d5527c1533e3c230f1517875af114d8ecb0e1c6275848c84c4f78859ec77c07e
   languageName: node
   linkType: hard
 
