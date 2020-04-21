@@ -771,10 +771,10 @@ __metadata:
   linkType: hard
 
 "@typescript-eslint/eslint-plugin@npm:^2.28.0":
-  version: 2.28.0
-  resolution: "@typescript-eslint/eslint-plugin@npm:2.28.0"
+  version: 2.29.0
+  resolution: "@typescript-eslint/eslint-plugin@npm:2.29.0"
   dependencies:
-    "@typescript-eslint/experimental-utils": 2.28.0
+    "@typescript-eslint/experimental-utils": 2.29.0
     functional-red-black-tree: ^1.0.1
     regexpp: ^3.0.0
     tsutils: ^3.17.1
@@ -785,31 +785,31 @@ __metadata:
   peerDependenciesMeta:
     typescript:
       optional: true
-  checksum: fee8ebc4161ce68aa786f6da2c13ce846e1656b83894a79be7df667bc023a938fefbc3e6c8dbf7ba34b9257f9385ea1b3d720bb0b3d619cadd61d53c1b625f71
+  checksum: 4a2abfecc3da6d4dc83640dbfc1489fbd1c174d1d98425532f1cf6579a98341b42682123716604f6abb1770611ee330d0f44d70943bb1cc80efd28b56d1670c6
   languageName: node
   linkType: hard
 
-"@typescript-eslint/experimental-utils@npm:2.28.0, @typescript-eslint/experimental-utils@npm:^2.5.0":
-  version: 2.28.0
-  resolution: "@typescript-eslint/experimental-utils@npm:2.28.0"
+"@typescript-eslint/experimental-utils@npm:2.29.0, @typescript-eslint/experimental-utils@npm:^2.5.0":
+  version: 2.29.0
+  resolution: "@typescript-eslint/experimental-utils@npm:2.29.0"
   dependencies:
     "@types/json-schema": ^7.0.3
-    "@typescript-eslint/typescript-estree": 2.28.0
+    "@typescript-eslint/typescript-estree": 2.29.0
     eslint-scope: ^5.0.0
     eslint-utils: ^2.0.0
   peerDependencies:
     eslint: "*"
-  checksum: 15d77d69df1dfd676c5aef0218d825294043743b382e934595c867dd901bfdea9d577e6d45c04f65a9ff19bdc0c8957110be0781b20f1947f3ac36b3acca0f65
+  checksum: d503c6efe6dc45c0426028ae695ff071c82132b6e060264411e38a184185a019d6fe05159c88ce65a87105f0bea48b88708e44fb6151cfa6ad3a55dd818a6e13
   languageName: node
   linkType: hard
 
 "@typescript-eslint/parser@npm:^2.28.0":
-  version: 2.28.0
-  resolution: "@typescript-eslint/parser@npm:2.28.0"
+  version: 2.29.0
+  resolution: "@typescript-eslint/parser@npm:2.29.0"
   dependencies:
     "@types/eslint-visitor-keys": ^1.0.0
-    "@typescript-eslint/experimental-utils": 2.28.0
-    "@typescript-eslint/typescript-estree": 2.28.0
+    "@typescript-eslint/experimental-utils": 2.29.0
+    "@typescript-eslint/typescript-estree": 2.29.0
     eslint-visitor-keys: ^1.1.0
   peerDependencies:
     eslint: ^5.0.0 || ^6.0.0
@@ -817,13 +817,13 @@ __metadata:
   peerDependenciesMeta:
     typescript:
       optional: true
-  checksum: fefe65ddf1153829f0a7d39989d8cea76c3a362d35af8dbf21b84268f7f008fe48623e3c89265b453b2192caa935cf13713174cafebc7cd09adf382471111ef6
+  checksum: 572977ed385f3cde347131648532a0cec0c4bea364315f373885a205938dd4ca1b0134c64f4b570e726c678aaeff5e66343e5e76cfc8bbf60871d919448f33e3
   languageName: node
   linkType: hard
 
-"@typescript-eslint/typescript-estree@npm:2.28.0":
-  version: 2.28.0
-  resolution: "@typescript-eslint/typescript-estree@npm:2.28.0"
+"@typescript-eslint/typescript-estree@npm:2.29.0":
+  version: 2.29.0
+  resolution: "@typescript-eslint/typescript-estree@npm:2.29.0"
   dependencies:
     debug: ^4.1.1
     eslint-visitor-keys: ^1.1.0
@@ -837,7 +837,7 @@ __metadata:
   peerDependenciesMeta:
     typescript:
       optional: true
-  checksum: c3b722881ff997517c955793733b6dcbb293054eb2c34e203f117226e2c9c6b9a30f9460b30c2df4627eefd17f441eb8243b8bf392b8e643961c9dd677cbde9c
+  checksum: de947ebb49250006aacc969ba918c6684dffc420d6d270f1f703bf14fcb4f9be70c7194257de5a6be71faeb5e7336f5a5dd53c6978b7cc82a50f1bfa16b57164
   languageName: node
   linkType: hard
 
@@ -900,14 +900,15 @@ __metadata:
   linkType: hard
 
 "ajv@npm:^6.10.0, ajv@npm:^6.10.2, ajv@npm:^6.5.5":
-  version: 6.12.2
-  resolution: "ajv@npm:6.12.2"
+  version: 6.12.1
+  resolution: "ajv@npm:6.12.1"
   dependencies:
     fast-deep-equal: ^3.1.1
     fast-json-stable-stringify: ^2.0.0
     json-schema-traverse: ^0.4.1
+    opencollective-postinstall: ^2.0.2
     uri-js: ^4.2.2
-  checksum: a40126c49d1e0af45d02060141634427ec3210b3f244e73b6655f7fcc7e452d5bb4f4454a5c20cd157d9b616c20e42ce935af19538d51692248f74a2cbea931d
+  checksum: a35f4ca5c0a6a8ce9d83fa9b10ccc4b577b96fba30cd7c3bce40016656c9b06d46e8f85b9057ab9f07527b747367f1ca3d6de32ce048103205917cfd47c5c399
   languageName: node
   linkType: hard
 
@@ -3964,7 +3965,7 @@ fsevents@^2.1.2:
   languageName: node
   linkType: hard
 
-"jest-circus@npm:^25.3.0":
+"jest-circus@npm:^25.4.0":
   version: 25.4.0
   resolution: "jest-circus@npm:25.4.0"
   dependencies:
@@ -4395,7 +4396,7 @@ fsevents@^2.1.2:
   languageName: node
   linkType: hard
 
-"jest@npm:^25.3.0":
+"jest@npm:^25.4.0":
   version: 25.4.0
   resolution: "jest@npm:25.4.0"
   dependencies:
@@ -4626,9 +4627,9 @@ fsevents@^2.1.2:
   languageName: node
   linkType: hard
 
-"lint-staged@npm:^10.1.5":
-  version: 10.1.6
-  resolution: "lint-staged@npm:10.1.6"
+"lint-staged@npm:^10.1.7":
+  version: 10.1.7
+  resolution: "lint-staged@npm:10.1.7"
   dependencies:
     chalk: ^4.0.0
     commander: ^5.0.0
@@ -4645,7 +4646,7 @@ fsevents@^2.1.2:
     stringify-object: ^3.3.0
   bin:
     lint-staged: bin/lint-staged.js
-  checksum: 9fb169748e4cd2d9b89857437e6c6e22b9685016765c279115d9faf71ff24c44cad2c0d5c1acdd0eeccb3d502c3bccbc666fd80ad6adab5c12cf7c954718ec0a
+  checksum: a682c22ac3f8672c5ea2774f72ceb2daf66e4f473876c3107b895dea573a2037311b92dd78420662bd49df5a6b742dc1881a57b378660fdbcec976089241091b
   languageName: node
   linkType: hard
 
@@ -5815,12 +5816,12 @@ fsevents@^2.1.2:
   languageName: node
   linkType: hard
 
-"prettier@npm:^2.0.4":
-  version: 2.0.4
-  resolution: "prettier@npm:2.0.4"
+"prettier@npm:^2.0.5":
+  version: 2.0.5
+  resolution: "prettier@npm:2.0.5"
   bin:
     prettier: bin-prettier.js
-  checksum: 7918862f0fcce3690e6c51d01a61c583acc7cc140b8546d7374a186b9c091d713262d85d9caa8c48fe6ecb3c61dd6237065062a427b93faac7fcf42dbf7b1417
+  checksum: 5da16d4ba61d8ddfadd82c3e3b1d35dbea03be445ab50cd9166c3484e05d056849b29302f48ee840b6ec50bc23a4a14ebda6d47eda918b60cab83bf7a653d647
   languageName: node
   linkType: hard
 
@@ -6676,9 +6677,9 @@ resolve@1.1.7:
   linkType: hard
 
 "spdx-exceptions@npm:^2.1.0":
-  version: 2.2.0
-  resolution: "spdx-exceptions@npm:2.2.0"
-  checksum: c681ac388e5d7d5e1b5ecc18d4524e2ee81fdf4302091d324aafa907ac458db4b873645681feb9fb645e527a405d41433733636e479e551f15db109c7da1ce85
+  version: 2.3.0
+  resolution: "spdx-exceptions@npm:2.3.0"
+  checksum: e6c3df91207c0660f3209802c942cf61abad3a739b0af0da9ed60410d0a0ee23cd0881ce26727150cb9899bd41256e90363f95f0ac543407fe1a1b486e00a732
   languageName: node
   linkType: hard
 
@@ -7072,17 +7073,19 @@ resolve@1.1.7:
     eslint-plugin-standard: ^4.0.1
     eslint-plugin-unicorn: ^18.0.1
     husky: ^4.2.5
-    jest: ^25.3.0
-    jest-circus: ^25.3.0
-    lint-staged: ^10.1.5
+    jest: ^25.4.0
+    jest-circus: ^25.4.0
+    lint-staged: ^10.1.7
     npm-run-all: ^4.1.5
-    prettier: ^2.0.4
+    prettier: ^2.0.5
     prettylint: ^1.0.0
     rxjs: ^6.5.5
     ts-jest: ^25.4.0
     typescript: ^3.8.3
     utils: "link:src/utils"
   dependenciesMeta:
+    ajv:
+      built: false
     core-js:
       built: false
     husky:
