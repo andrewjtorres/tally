@@ -65,9 +65,6 @@
     "utils": "link:src/utils"
   },
   "dependenciesMeta": {
-    "ajv": {
-      "built": false
-    },
     "core-js": {
       "built": false
     },
