@@ -1185,13 +1185,14 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["ajv", [
-        ["npm:6.12.2", {
-          "packageLocation": "./.yarn/cache/ajv-npm-6.12.2-7ff2bc9f1e-1.zip/node_modules/ajv/",
+        ["npm:6.12.1", {
+          "packageLocation": "./.yarn/cache/ajv-npm-6.12.1-84a126ae5d-1.zip/node_modules/ajv/",
           "packageDependencies": [
-            ["ajv", "npm:6.12.2"],
+            ["ajv", "npm:6.12.1"],
             ["fast-deep-equal", "npm:3.1.1"],
             ["fast-json-stable-stringify", "npm:2.1.0"],
             ["json-schema-traverse", "npm:0.4.1"],
+            ["opencollective-postinstall", "npm:2.0.2"],
             ["uri-js", "npm:4.2.2"]
           ],
           "linkType": "HARD"
@@ -2639,7 +2640,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [
             ["eslint", "npm:6.8.0"],
             ["@babel/code-frame", "npm:7.8.3"],
-            ["ajv", "npm:6.12.2"],
+            ["ajv", "npm:6.12.1"],
             ["chalk", "npm:2.4.2"],
             ["cross-spawn", "npm:6.0.5"],
             ["debug", "npm:4.1.1"],
@@ -3777,7 +3778,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/har-validator-npm-5.1.3-f192d43c41-1.zip/node_modules/har-validator/",
           "packageDependencies": [
             ["har-validator", "npm:5.1.3"],
-            ["ajv", "npm:6.12.2"],
+            ["ajv", "npm:6.12.1"],
             ["har-schema", "npm:2.0.0"]
           ],
           "linkType": "HARD"
@@ -4944,7 +4945,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["jest-runtime", "npm:25.4.0"],
             ["jest-util", "npm:25.4.0"],
             ["jest-worker", "npm:25.4.0"],
-            ["source-map-support", "npm:0.5.18"],
+            ["source-map-support", "npm:0.5.17"],
             ["throat", "npm:5.0.0"]
           ],
           "linkType": "HARD"
@@ -7512,10 +7513,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["source-map-support", [
-        ["npm:0.5.18", {
-          "packageLocation": "./.yarn/cache/source-map-support-npm-0.5.18-2e99a99b67-1.zip/node_modules/source-map-support/",
+        ["npm:0.5.17", {
+          "packageLocation": "./.yarn/cache/source-map-support-npm-0.5.17-afcc0d09fa-1.zip/node_modules/source-map-support/",
           "packageDependencies": [
-            ["source-map-support", "npm:0.5.18"],
+            ["source-map-support", "npm:0.5.17"],
             ["buffer-from", "npm:1.1.1"],
             ["source-map", "npm:0.6.1"]
           ],
@@ -7938,7 +7939,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/table-npm-5.4.6-190b118384-1.zip/node_modules/table/",
           "packageDependencies": [
             ["table", "npm:5.4.6"],
-            ["ajv", "npm:6.12.2"],
+            ["ajv", "npm:6.12.1"],
             ["lodash", "npm:4.17.15"],
             ["slice-ansi", "npm:2.1.0"],
             ["string-width", "npm:3.1.0"]
