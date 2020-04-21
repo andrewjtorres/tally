@@ -5816,12 +5816,12 @@ fsevents@^2.1.2:
   languageName: node
   linkType: hard
 
-"prettier@npm:^2.0.4":
-  version: 2.0.4
-  resolution: "prettier@npm:2.0.4"
+"prettier@npm:^2.0.5":
+  version: 2.0.5
+  resolution: "prettier@npm:2.0.5"
   bin:
     prettier: bin-prettier.js
-  checksum: 7918862f0fcce3690e6c51d01a61c583acc7cc140b8546d7374a186b9c091d713262d85d9caa8c48fe6ecb3c61dd6237065062a427b93faac7fcf42dbf7b1417
+  checksum: 5da16d4ba61d8ddfadd82c3e3b1d35dbea03be445ab50cd9166c3484e05d056849b29302f48ee840b6ec50bc23a4a14ebda6d47eda918b60cab83bf7a653d647
   languageName: node
   linkType: hard
 
@@ -7077,7 +7077,7 @@ resolve@1.1.7:
     jest-circus: ^25.4.0
     lint-staged: ^10.1.7
     npm-run-all: ^4.1.5
-    prettier: ^2.0.4
+    prettier: ^2.0.5
     prettylint: ^1.0.0
     rxjs: ^6.5.5
     ts-jest: ^25.4.0
