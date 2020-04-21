@@ -900,14 +900,15 @@ __metadata:
   linkType: hard
 
 "ajv@npm:^6.10.0, ajv@npm:^6.10.2, ajv@npm:^6.5.5":
-  version: 6.12.2
-  resolution: "ajv@npm:6.12.2"
+  version: 6.12.1
+  resolution: "ajv@npm:6.12.1"
   dependencies:
     fast-deep-equal: ^3.1.1
     fast-json-stable-stringify: ^2.0.0
     json-schema-traverse: ^0.4.1
+    opencollective-postinstall: ^2.0.2
     uri-js: ^4.2.2
-  checksum: a40126c49d1e0af45d02060141634427ec3210b3f244e73b6655f7fcc7e452d5bb4f4454a5c20cd157d9b616c20e42ce935af19538d51692248f74a2cbea931d
+  checksum: a35f4ca5c0a6a8ce9d83fa9b10ccc4b577b96fba30cd7c3bce40016656c9b06d46e8f85b9057ab9f07527b747367f1ca3d6de32ce048103205917cfd47c5c399
   languageName: node
   linkType: hard
 
@@ -3964,7 +3965,7 @@ fsevents@^2.1.2:
   languageName: node
   linkType: hard
 
-"jest-circus@npm:^25.3.0":
+"jest-circus@npm:^25.4.0":
   version: 25.4.0
   resolution: "jest-circus@npm:25.4.0"
   dependencies:
@@ -4395,7 +4396,7 @@ fsevents@^2.1.2:
   languageName: node
   linkType: hard
 
-"jest@npm:^25.3.0":
+"jest@npm:^25.4.0":
   version: 25.4.0
   resolution: "jest@npm:25.4.0"
   dependencies:
@@ -7072,8 +7073,8 @@ resolve@1.1.7:
     eslint-plugin-standard: ^4.0.1
     eslint-plugin-unicorn: ^18.0.1
     husky: ^4.2.5
-    jest: ^25.3.0
-    jest-circus: ^25.3.0
+    jest: ^25.4.0
+    jest-circus: ^25.4.0
     lint-staged: ^10.1.7
     npm-run-all: ^4.1.5
     prettier: ^2.0.4
@@ -7083,6 +7084,8 @@ resolve@1.1.7:
     typescript: ^3.8.3
     utils: "link:src/utils"
   dependenciesMeta:
+    ajv:
+      built: false
     core-js:
       built: false
     husky:
