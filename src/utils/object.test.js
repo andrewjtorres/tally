@@ -13,7 +13,7 @@ describe('flattenArrayDeep', () => {
         a: ['alpha', 'bravo', 'zulu'],
         b: [
           { c: 'lima', a: ['alpha', 'zulu', 'kilo'] },
-          { d: 'hotel', a: null },
+          { d: 'hotel', a: null }, // eslint-disable-line unicorn/no-null
         ],
       })
     ).toStrictEqual(['alpha', 'bravo', 'zulu', 'alpha', 'zulu', 'kilo'])
