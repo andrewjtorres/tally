@@ -17,7 +17,7 @@ fs.readFile = (path, opts, callback) => {
   if (dir) {
     const content = dir[basename(path)]
 
-    return content ? callback(null, content) : callback(error)
+    return content ? callback(undefined, content) : callback(error)
   }
 
   return callback(error)
@@ -32,7 +32,7 @@ fs.readdir = (path, callback) => {
   error.path = path
   error.syscall = 'scandir'
 
-  return dir ? callback(null, Object.keys(dir)) : callback(error)
+  return dir ? callback(undefined, Object.keys(dir)) : callback(error)
 }
 
 fs.resetMockFiles = () => {

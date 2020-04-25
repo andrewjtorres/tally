@@ -8,7 +8,7 @@ const Options = require('./options')
 
 describe('Options', () => {
   describe('get', () => {
-    test('should return null', () =>
+    test('should return undefined', () =>
       new Promise((resolve) => {
         const filename = './file.txt'
         const options = new Options({ filename })
@@ -16,7 +16,7 @@ describe('Options', () => {
         fs.setMockFiles({ [filename]: 'alpha\ntango\nfoxtrot\nzulu\noscar\n' })
 
         options.parse([], () => {
-          expect(options.get('a')).toBeNull()
+          expect(options.get('a')).toBeUndefined()
 
           fs.resetMockFiles()
 

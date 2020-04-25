@@ -22,7 +22,7 @@ const optsFilename = resolve(__dirname, '../data/tags.txt')
 const formatTags = (tags, data) =>
   flattenArrayDeep('tags', data).reduce(
     (acc, value) => ({ ...acc, [value]: value in acc ? acc[value] + 1 : 1 }),
-    tags === null ? {} : tags
+    tags || {}
   )
 
 /**
