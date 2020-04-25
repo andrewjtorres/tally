@@ -2209,16 +2209,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-config-prettier@npm:^6.10.1":
-  version: 6.10.1
-  resolution: "eslint-config-prettier@npm:6.10.1"
+"eslint-config-prettier@npm:^6.11.0":
+  version: 6.11.0
+  resolution: "eslint-config-prettier@npm:6.11.0"
   dependencies:
     get-stdin: ^6.0.0
   peerDependencies:
     eslint: ">=3.14.1"
   bin:
     eslint-config-prettier-check: bin/cli.js
-  checksum: 2/0c3d82e10e0758456668b711968adeb0c306b1375cd7ab5f3f95f70df6c9bdbabf5aaf7d52efbc6e57cf217f556255e282c93f58f7e8afa1a2325972b3773372
+  checksum: 2/59efd906c78d47753a673c205ef515fdab19cd6ea0fd992c9cb2366804861746238244526ab565ccc7448569f5472ce7646a77d0c9998787192e4ebae95df71d
   languageName: node
   linkType: hard
 
@@ -7061,7 +7061,7 @@ resolve@1.1.7:
     "@typescript-eslint/parser": ^2.29.0
     cz-conventional-changelog: ^3.1.0
     eslint: ^6.8.0
-    eslint-config-prettier: ^6.10.1
+    eslint-config-prettier: ^6.11.0
     eslint-config-standard: ^14.1.1
     eslint-import-resolver-typescript: ^2.0.0
     eslint-plugin-import: ^2.20.2
