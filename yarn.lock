@@ -2209,7 +2209,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-config-prettier@npm:^6.10.1":
+"eslint-config-prettier@npm:^6.11.0":
   version: 6.11.0
   resolution: "eslint-config-prettier@npm:6.11.0"
   dependencies:
@@ -7062,7 +7062,7 @@ resolve@1.1.7:
     "@typescript-eslint/parser": ^2.29.0
     cz-conventional-changelog: ^3.1.0
     eslint: ^6.8.0
-    eslint-config-prettier: ^6.10.1
+    eslint-config-prettier: ^6.11.0
     eslint-config-standard: ^14.1.1
     eslint-import-resolver-typescript: ^2.0.0
     eslint-plugin-import: ^2.20.2
