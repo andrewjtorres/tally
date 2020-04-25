@@ -17,17 +17,17 @@ const { flattenArrayDeep } = require('../utils/object')
  * @returns {Array}
  */
 const formatter = (arr, data) => {
-  const acc = arr === null ? [] : arr
+  const acc = arr || []
 
   return acc.concat(flattenArrayDeep('a', data))
 }
 
 describe('Cache', () => {
   describe('get', () => {
-    test('should return null', () => {
+    test('should return undefined', () => {
       const cache = new Cache()
 
-      expect(cache.get('a')).toBeNull()
+      expect(cache.get('a')).toBeUndefined()
     })
 
     test('should return an object containing the key-value pair', () => {

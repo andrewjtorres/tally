@@ -30,7 +30,7 @@ describe('Tags', () => {
       const key = 'india'
       const tags = new Tags()
 
-      expect(tags.get(key)).toBeNull()
+      expect(tags.get(key)).toBeUndefined()
 
       tags.add(key, 9)
 
@@ -52,10 +52,10 @@ describe('Tags', () => {
   })
 
   describe('get', () => {
-    test('should return null', () => {
+    test('should return undefined', () => {
       const tags = new Tags()
 
-      expect(tags.get('juliet')).toBeNull()
+      expect(tags.get('juliet')).toBeUndefined()
     })
 
     test('should return the count associated to key', () => {

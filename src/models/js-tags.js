@@ -32,13 +32,13 @@ class Tags {
   }
 
   /**
-   * Returns the count associated to the provided key, otherwise returns null
+   * Returns the count associated to the provided key, otherwise returns undefined
    *
    * @param {string} key
-   * @returns {number|null}
+   * @returns {number|undefined}
    */
   get(key) {
-    return key in this._data ? this._data[key] : null
+    return key in this._data ? this._data[key] : undefined
   }
 
   /**

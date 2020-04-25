@@ -12,13 +12,13 @@ class Options {
   }
 
   /**
-   * Returns an object containing the key-value pair, otherwise returns null
+   * Returns an object containing the key-value pair, otherwise returns undefined
    *
    * @param {string} key
    * @returns {*}
    */
   get(key) {
-    return key in this._data ? { [key]: this._data[key] } : null
+    return key in this._data ? { [key]: this._data[key] } : undefined
   }
 
   /**
