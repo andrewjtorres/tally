@@ -2385,9 +2385,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-unicorn@npm:^19.0.0":
-  version: 19.0.0
-  resolution: "eslint-plugin-unicorn@npm:19.0.0"
+"eslint-plugin-unicorn@npm:^19.0.1":
+  version: 19.0.1
+  resolution: "eslint-plugin-unicorn@npm:19.0.1"
   dependencies:
     ci-info: ^2.0.0
     clean-regexp: ^1.0.0
@@ -2403,7 +2403,7 @@ __metadata:
     semver: ^7.1.3
   peerDependencies:
     eslint: ">=6.8.0"
-  checksum: 2/ddbe703a8bb5d13e281ea651faebcbcee6286ceec3b6e6e1c55b81d600fd5f151111684d62bd0757454ff6c6d3709f28b88d422c584a9ab026fd9354465a8e94
+  checksum: 2/b50bb5421262496f887a8bfdd1c2d2825b7d8c42fcf6b232669b9010ed21baf868e3ab906388b79c53cafc45164ad205a9c5a30513f9075ff805b0e9b10bd2b9
   languageName: node
   linkType: hard
 
@@ -3783,9 +3783,9 @@ fsevents@^2.1.2:
   linkType: hard
 
 "is-promise@npm:^2.1.0":
-  version: 2.2.0
-  resolution: "is-promise@npm:2.2.0"
-  checksum: 2/e8136b94ec7303f72186ed344b0fee372019440b520c927ea13bd233ceddcf1993b167096d62dee5af8b211c041b7314b3c66b9b2847cb3d820378bca6618a6d
+  version: 2.2.2
+  resolution: "is-promise@npm:2.2.2"
+  checksum: 2/6fe84293b8750d3604a909979a7517a38b1618817f1fbbfdaf4d6138642117c85fbee12927b4d51349a5bcd9bdf8d1bf181f09145ede2d7eb41f4b394ab2ce7d
   languageName: node
   linkType: hard
 
@@ -7071,7 +7071,7 @@ resolve@1.1.7:
     eslint-plugin-prettier: ^3.1.3
     eslint-plugin-promise: ^4.2.1
     eslint-plugin-standard: ^4.0.1
-    eslint-plugin-unicorn: ^19.0.0
+    eslint-plugin-unicorn: ^19.0.1
     husky: ^4.2.5
     jest: ^25.4.0
     jest-circus: ^25.4.0
