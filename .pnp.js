@@ -35,7 +35,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
       ],
       [
         "@types/node",
-        "npm:13.13.2"
+        "npm:13.13.4"
       ],
       [
         "@typescript-eslint/eslint-plugin",
@@ -146,7 +146,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./",
           "packageDependencies": [
             ["@types/jest", "npm:25.2.1"],
-            ["@types/node", "npm:13.13.2"],
+            ["@types/node", "npm:13.13.4"],
             ["@typescript-eslint/eslint-plugin", "virtual:00f4dc5b5716c66b9aa8875c8c4f1330987e76fef068c4603f5f9e455c250cf6e6ff4f903024ff6dc767cbf872b43e1107107a49deabae009044d51254405fbb#npm:2.29.0"],
             ["@typescript-eslint/parser", "virtual:00f4dc5b5716c66b9aa8875c8c4f1330987e76fef068c4603f5f9e455c250cf6e6ff4f903024ff6dc767cbf872b43e1107107a49deabae009044d51254405fbb#npm:2.29.0"],
             ["cz-conventional-changelog", "npm:3.1.0"],
@@ -984,10 +984,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["@types/node", [
-        ["npm:13.13.2", {
-          "packageLocation": "./.yarn/cache/@types-node-npm-13.13.2-15aa70594a-2.zip/node_modules/@types/node/",
+        ["npm:13.13.4", {
+          "packageLocation": "./.yarn/cache/@types-node-npm-13.13.4-1e30c2a062-2.zip/node_modules/@types/node/",
           "packageDependencies": [
-            ["@types/node", "npm:13.13.2"]
+            ["@types/node", "npm:13.13.4"]
           ],
           "linkType": "HARD",
         }]
@@ -7992,7 +7992,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [
             ["tally", "workspace:."],
             ["@types/jest", "npm:25.2.1"],
-            ["@types/node", "npm:13.13.2"],
+            ["@types/node", "npm:13.13.4"],
             ["@typescript-eslint/eslint-plugin", "virtual:00f4dc5b5716c66b9aa8875c8c4f1330987e76fef068c4603f5f9e455c250cf6e6ff4f903024ff6dc767cbf872b43e1107107a49deabae009044d51254405fbb#npm:2.29.0"],
             ["@typescript-eslint/parser", "virtual:00f4dc5b5716c66b9aa8875c8c4f1330987e76fef068c4603f5f9e455c250cf6e6ff4f903024ff6dc767cbf872b43e1107107a49deabae009044d51254405fbb#npm:2.29.0"],
             ["cz-conventional-changelog", "npm:3.1.0"],
