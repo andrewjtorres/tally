@@ -3556,7 +3556,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/fs-extra-npm-8.1.0-197473387f-2.zip/node_modules/fs-extra/",
           "packageDependencies": [
             ["fs-extra", "npm:8.1.0"],
-            ["graceful-fs", "npm:4.2.4"],
+            ["graceful-fs", "npm:4.2.3"],
             ["jsonfile", "npm:4.0.0"],
             ["universalify", "npm:0.1.2"]
           ],
@@ -3831,6 +3831,13 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["graceful-fs", [
+        ["npm:4.2.3", {
+          "packageLocation": "./.yarn/cache/graceful-fs-npm-4.2.3-05a65851d1-2.zip/node_modules/graceful-fs/",
+          "packageDependencies": [
+            ["graceful-fs", "npm:4.2.3"]
+          ],
+          "linkType": "HARD",
+        }],
         ["npm:4.2.4", {
           "packageLocation": "./.yarn/cache/graceful-fs-npm-4.2.4-734467635f-2.zip/node_modules/graceful-fs/",
           "packageDependencies": [
@@ -5279,7 +5286,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/jsonfile-npm-4.0.0-10ce3aea15-2.zip/node_modules/jsonfile/",
           "packageDependencies": [
             ["jsonfile", "npm:4.0.0"],
-            ["graceful-fs", "npm:4.2.4"]
+            ["graceful-fs", "npm:4.2.3"]
           ],
           "linkType": "HARD",
         }]
@@ -5417,7 +5424,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/load-json-file-npm-1.1.0-455d5470c2-2.zip/node_modules/load-json-file/",
           "packageDependencies": [
             ["load-json-file", "npm:1.1.0"],
-            ["graceful-fs", "npm:4.2.4"],
+            ["graceful-fs", "npm:4.2.3"],
             ["parse-json", "npm:2.2.0"],
             ["pify", "npm:2.3.0"],
             ["pinkie-promise", "npm:2.0.1"],
@@ -5429,7 +5436,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/load-json-file-npm-2.0.0-9317df26fa-2.zip/node_modules/load-json-file/",
           "packageDependencies": [
             ["load-json-file", "npm:2.0.0"],
-            ["graceful-fs", "npm:4.2.4"],
+            ["graceful-fs", "npm:4.2.3"],
             ["parse-json", "npm:2.2.0"],
             ["pify", "npm:2.3.0"],
             ["strip-bom", "npm:3.0.0"]
@@ -5440,7 +5447,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/load-json-file-npm-4.0.0-c9f09d85eb-2.zip/node_modules/load-json-file/",
           "packageDependencies": [
             ["load-json-file", "npm:4.0.0"],
-            ["graceful-fs", "npm:4.2.4"],
+            ["graceful-fs", "npm:4.2.3"],
             ["parse-json", "npm:4.0.0"],
             ["pify", "npm:3.0.0"],
             ["strip-bom", "npm:3.0.0"]
@@ -6467,7 +6474,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/path-type-npm-1.1.0-3949afd6c1-2.zip/node_modules/path-type/",
           "packageDependencies": [
             ["path-type", "npm:1.1.0"],
-            ["graceful-fs", "npm:4.2.4"],
+            ["graceful-fs", "npm:4.2.3"],
             ["pify", "npm:2.3.0"],
             ["pinkie-promise", "npm:2.0.1"]
           ],

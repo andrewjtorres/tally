@@ -3237,7 +3237,14 @@ fsevents@^2.1.2:
   languageName: node
   linkType: hard
 
-"graceful-fs@npm:^4.1.2, graceful-fs@npm:^4.1.6, graceful-fs@npm:^4.2.0, graceful-fs@npm:^4.2.2, graceful-fs@npm:^4.2.4":
+"graceful-fs@npm:^4.1.2, graceful-fs@npm:^4.1.6, graceful-fs@npm:^4.2.0":
+  version: 4.2.3
+  resolution: "graceful-fs@npm:4.2.3"
+  checksum: 2/67b7e3f6a687c91287f17a2adfcce462406e2aa16ea4440618e1daaecd579ae6362c0b13303f86c77c165ed8074fa8b0868bb0a73173fa3407c2b747e89353f9
+  languageName: node
+  linkType: hard
+
+"graceful-fs@npm:^4.2.2, graceful-fs@npm:^4.2.4":
   version: 4.2.4
   resolution: "graceful-fs@npm:4.2.4"
   checksum: 2/d095ee4dc6eacc76814cd52d5d185b860119378a6fd4888e7d4e94983095c54d4f6369942a5e3d759cdbdd4e3ee7eaeb27a39ff938c6ee4610894fd9de46b6cb
@@ -4646,7 +4653,7 @@ fsevents@^2.1.2:
   languageName: node
   linkType: hard
 
-"lint-staged@npm:^10.1.7":
+"lint-staged@npm:^10.2.0":
   version: 10.2.0
   resolution: "lint-staged@npm:10.2.0"
   dependencies:
@@ -7064,7 +7071,7 @@ resolve@1.1.7:
     husky: ^4.2.5
     jest: ^25.5.0
     jest-circus: ^25.5.0
-    lint-staged: ^10.1.7
+    lint-staged: ^10.2.0
     npm-run-all: ^4.1.5
     prettier: ^2.0.5
     prettylint: ^1.0.0
