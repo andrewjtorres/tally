@@ -923,7 +923,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@typescript-eslint/parser@npm:^2.29.0":
+"@typescript-eslint/parser@npm:^2.30.0":
   version: 2.30.0
   resolution: "@typescript-eslint/parser@npm:2.30.0"
   dependencies:
@@ -7575,7 +7575,7 @@ resolve@1.1.7:
     "@types/jest": ^25.2.1
     "@types/node": ^13.13.4
     "@typescript-eslint/eslint-plugin": ^2.30.0
-    "@typescript-eslint/parser": ^2.29.0
+    "@typescript-eslint/parser": ^2.30.0
     cz-conventional-changelog: ^3.1.0
     eslint: ^6.8.0
     eslint-config-prettier: ^6.11.0
