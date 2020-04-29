@@ -4147,28 +4147,28 @@ fsevents@^2.1.2:
   languageName: node
   linkType: hard
 
-"jest-circus@npm:^25.4.0":
-  version: 25.4.0
-  resolution: "jest-circus@npm:25.4.0"
+"jest-circus@npm:^25.5.0":
+  version: 25.5.0
+  resolution: "jest-circus@npm:25.5.0"
   dependencies:
     "@babel/traverse": ^7.1.0
-    "@jest/environment": ^25.4.0
-    "@jest/test-result": ^25.4.0
-    "@jest/types": ^25.4.0
+    "@jest/environment": ^25.5.0
+    "@jest/test-result": ^25.5.0
+    "@jest/types": ^25.5.0
     chalk: ^3.0.0
     co: ^4.6.0
-    expect: ^25.4.0
+    expect: ^25.5.0
     is-generator-fn: ^2.0.0
-    jest-each: ^25.4.0
-    jest-matcher-utils: ^25.4.0
-    jest-message-util: ^25.4.0
-    jest-runtime: ^25.4.0
-    jest-snapshot: ^25.4.0
-    jest-util: ^25.4.0
-    pretty-format: ^25.4.0
+    jest-each: ^25.5.0
+    jest-matcher-utils: ^25.5.0
+    jest-message-util: ^25.5.0
+    jest-runtime: ^25.5.0
+    jest-snapshot: ^25.5.0
+    jest-util: ^25.5.0
+    pretty-format: ^25.5.0
     stack-utils: ^1.0.1
     throat: ^5.0.0
-  checksum: 2/7ef1f076d36b18042dd7ed0aa457baf480d926d88288f0633729667c026194ce0f442f176f9b60227d1e5a57e68236d1bf5e216ace6377aa158536f7fb60aa29
+  checksum: 2/24a0e8bd363a470de7d9a4f51609c666b442b4843c7bf05c5d17e608dd590aa2482223203bb26a18f3133466fdb7fed1219efb8b67389fa9641cc776f8be93de
   languageName: node
   linkType: hard
 
@@ -7590,7 +7590,7 @@ resolve@1.1.7:
     eslint-plugin-unicorn: ^19.0.1
     husky: ^4.2.5
     jest: ^25.4.0
-    jest-circus: ^25.4.0
+    jest-circus: ^25.5.0
     lint-staged: ^10.1.7
     npm-run-all: ^4.1.5
     prettier: ^2.0.5
