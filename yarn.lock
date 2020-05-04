@@ -927,11 +927,11 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@typescript-eslint/eslint-plugin@npm:^2.30.0":
-  version: 2.30.0
-  resolution: "@typescript-eslint/eslint-plugin@npm:2.30.0"
+"@typescript-eslint/eslint-plugin@npm:^2.31.0":
+  version: 2.31.0
+  resolution: "@typescript-eslint/eslint-plugin@npm:2.31.0"
   dependencies:
-    "@typescript-eslint/experimental-utils": 2.30.0
+    "@typescript-eslint/experimental-utils": 2.31.0
     functional-red-black-tree: ^1.0.1
     regexpp: ^3.0.0
     tsutils: ^3.17.1
@@ -942,31 +942,31 @@ __metadata:
   peerDependenciesMeta:
     typescript:
       optional: true
-  checksum: 2/802b6ae5dc960100323dbb2c10635c9719685c1d7717ade3a0ca964e962f276589e22cf2c2063c8adf4b4a791cbab55402ee7f88a74e5523140097ee274bc191
+  checksum: 2/6788b7943e9dc90999e20c786232e7d31d36cf0023a8e90419aa31a10dc39a1962ab7b5c80b08a06904f9c756b43b22d22d501039a9a5f845a08c8a467382e71
   languageName: node
   linkType: hard
 
-"@typescript-eslint/experimental-utils@npm:2.30.0, @typescript-eslint/experimental-utils@npm:^2.5.0":
-  version: 2.30.0
-  resolution: "@typescript-eslint/experimental-utils@npm:2.30.0"
+"@typescript-eslint/experimental-utils@npm:2.31.0, @typescript-eslint/experimental-utils@npm:^2.5.0":
+  version: 2.31.0
+  resolution: "@typescript-eslint/experimental-utils@npm:2.31.0"
   dependencies:
     "@types/json-schema": ^7.0.3
-    "@typescript-eslint/typescript-estree": 2.30.0
+    "@typescript-eslint/typescript-estree": 2.31.0
     eslint-scope: ^5.0.0
     eslint-utils: ^2.0.0
   peerDependencies:
     eslint: "*"
-  checksum: 2/bb540a6e8e832b3cd565c5b061470cca941c53921a4df93a3017b6289299b46ef9ef7319c36f7ba73e44d008156e9e48d58ae4e4a7c9864fb2c7b035e041e49e
+  checksum: 2/7e0758b0dde03febbde0b25c4f6356dd8dab4adbf8dcfc91f1ee44f057e63e10e4fcec2156e2d5fa4f1159c4be856e3b0b4a55dfa88b02e7c4ab53748e1c0e01
   languageName: node
   linkType: hard
 
-"@typescript-eslint/parser@npm:^2.30.0":
-  version: 2.30.0
-  resolution: "@typescript-eslint/parser@npm:2.30.0"
+"@typescript-eslint/parser@npm:^2.31.0":
+  version: 2.31.0
+  resolution: "@typescript-eslint/parser@npm:2.31.0"
   dependencies:
     "@types/eslint-visitor-keys": ^1.0.0
-    "@typescript-eslint/experimental-utils": 2.30.0
-    "@typescript-eslint/typescript-estree": 2.30.0
+    "@typescript-eslint/experimental-utils": 2.31.0
+    "@typescript-eslint/typescript-estree": 2.31.0
     eslint-visitor-keys: ^1.1.0
   peerDependencies:
     eslint: ^5.0.0 || ^6.0.0
@@ -974,13 +974,13 @@ __metadata:
   peerDependenciesMeta:
     typescript:
       optional: true
-  checksum: 2/58b9fdedc2d6a7a9ec10bf1465a719198bfc859538ce2f75fbd610c27fd29679815da94751c9b1901f050751d74e69abf8e3ecaf2e23e2f5c903c477c52c25a4
+  checksum: 2/d611601dfad0f54043bc50295a93f03bae436bf20107ccdb5a17e7f59bd53d09aa35dcb4e63d2f9578d60b0b8d53510cd1e51b5e8ae342e9ba4ea2020b0c8d43
   languageName: node
   linkType: hard
 
-"@typescript-eslint/typescript-estree@npm:2.30.0":
-  version: 2.30.0
-  resolution: "@typescript-eslint/typescript-estree@npm:2.30.0"
+"@typescript-eslint/typescript-estree@npm:2.31.0":
+  version: 2.31.0
+  resolution: "@typescript-eslint/typescript-estree@npm:2.31.0"
   dependencies:
     debug: ^4.1.1
     eslint-visitor-keys: ^1.1.0
@@ -994,7 +994,7 @@ __metadata:
   peerDependenciesMeta:
     typescript:
       optional: true
-  checksum: 2/b068d0ce28328d38719c2caec37a3e14ebd15e7d57c23ea66604e3b7995a9d79b1438a80cc53486298c9bbda0f8b27f457ae6a218f5d57687494718984efc6e1
+  checksum: 2/edbe58ebe51902b37cbdc81851f4881b84a4216b438da422aab5b619266cfed23c075f8863e5cc2bf8d17bcd4b2bf3554f21a19b5719483f738a09a5a3d17365
   languageName: node
   linkType: hard
 
@@ -4264,28 +4264,29 @@ fsevents@^2.1.2:
   languageName: node
   linkType: hard
 
-"jest-circus@npm:^25.5.4":
-  version: 25.5.4
-  resolution: "jest-circus@npm:25.5.4"
+"jest-circus@npm:^26.0.0":
+  version: 26.0.0
+  resolution: "jest-circus@npm:26.0.0"
   dependencies:
     "@babel/traverse": ^7.1.0
-    "@jest/environment": ^25.5.0
-    "@jest/test-result": ^25.5.0
-    "@jest/types": ^25.5.0
-    chalk: ^3.0.0
+    "@jest/environment": ^26.0.0
+    "@jest/test-result": ^26.0.0
+    "@jest/types": ^26.0.0
+    chalk: ^4.0.0
     co: ^4.6.0
-    expect: ^25.5.0
+    dedent: ^0.7.0
+    expect: ^26.0.0
     is-generator-fn: ^2.0.0
-    jest-each: ^25.5.0
-    jest-matcher-utils: ^25.5.0
-    jest-message-util: ^25.5.0
-    jest-runtime: ^25.5.4
-    jest-snapshot: ^25.5.1
-    jest-util: ^25.5.0
-    pretty-format: ^25.5.0
-    stack-utils: ^1.0.1
+    jest-each: ^26.0.0
+    jest-matcher-utils: ^26.0.0
+    jest-message-util: ^26.0.0
+    jest-runtime: ^26.0.0
+    jest-snapshot: ^26.0.0
+    jest-util: ^26.0.0
+    pretty-format: ^26.0.0
+    stack-utils: ^2.0.2
     throat: ^5.0.0
-  checksum: 2/397e644076610db350df83ee841ea6fc74000fb5115beb650e22b1598523c722b1c3a0a7a42b1494746f7b907ccba300d93e37fee779436001fe991bd1773617
+  checksum: 2/9521ff3877bd4b3e6e543479d011a19dba813868235f2c576a26b084a58c822ccc9feb2fc8089e18a8324b57ac5089e173b54359164c33316d1e61e7a5bf5f21
   languageName: node
   linkType: hard
 
@@ -7751,8 +7752,8 @@ resolve@1.1.7:
   dependencies:
     "@types/jest": ^25.2.1
     "@types/node": ^13.13.4
-    "@typescript-eslint/eslint-plugin": ^2.30.0
-    "@typescript-eslint/parser": ^2.30.0
+    "@typescript-eslint/eslint-plugin": ^2.31.0
+    "@typescript-eslint/parser": ^2.31.0
     cz-conventional-changelog: ^3.1.0
     eslint: ^6.8.0
     eslint-config-prettier: ^6.11.0
@@ -7767,7 +7768,7 @@ resolve@1.1.7:
     eslint-plugin-unicorn: ^19.0.1
     husky: ^4.2.5
     jest: ^25.5.4
-    jest-circus: ^25.5.4
+    jest-circus: ^26.0.0
     lint-staged: ^10.2.2
     npm-run-all: ^4.1.5
     prettier: ^2.0.5
