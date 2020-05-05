@@ -2098,7 +2098,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"cz-conventional-changelog@npm:3.2.0, cz-conventional-changelog@npm:^3.1.0":
+"cz-conventional-changelog@npm:3.2.0, cz-conventional-changelog@npm:^3.2.0":
   version: 3.2.0
   resolution: "cz-conventional-changelog@npm:3.2.0"
   dependencies:
@@ -7691,7 +7691,7 @@ resolve@1.1.7:
     "@types/node": ^13.13.4
     "@typescript-eslint/eslint-plugin": ^2.31.0
     "@typescript-eslint/parser": ^2.31.0
-    cz-conventional-changelog: ^3.1.0
+    cz-conventional-changelog: ^3.2.0
     eslint: ^6.8.0
     eslint-config-prettier: ^6.11.0
     eslint-config-standard: ^14.1.1
