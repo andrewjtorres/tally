@@ -923,11 +923,11 @@ __metadata:
   linkType: hard
 
 "acorn@npm:^7.1.1":
-  version: 7.1.1
-  resolution: "acorn@npm:7.1.1"
+  version: 7.2.0
+  resolution: "acorn@npm:7.2.0"
   bin:
     acorn: bin/acorn
-  checksum: 2/241b797baf39b876afad81cda3df0c6d73e516a12834d42c7197806642223508c91fd49e6ffec4e40f8e0aa3712587562632cdcfdd48ac8fb5b389154a1c471f
+  checksum: 2/e1d0dcafc16cad859275d8ea63074a227f07a6c21b9d80387dd017d3d413b9776cbb2d67d52b90630cdf8ac42a0deff92000fdded63088d9e159e9f87bf4a8cd
   languageName: node
   linkType: hard
 
@@ -7014,7 +7014,7 @@ fsevents@^2.1.2:
     prettier: ^2.0.5
     prettylint: ^1.0.0
     rxjs: ^6.5.5
-    ts-jest: ^25.4.0
+    ts-jest: ^25.5.1
     typescript: ^3.8.3
     utils: "link:src/utils"
   dependenciesMeta:
@@ -7194,9 +7194,9 @@ fsevents@^2.1.2:
   languageName: node
   linkType: hard
 
-"ts-jest@npm:^25.4.0":
-  version: 25.5.0
-  resolution: "ts-jest@npm:25.5.0"
+"ts-jest@npm:^25.5.1":
+  version: 25.5.1
+  resolution: "ts-jest@npm:25.5.1"
   dependencies:
     bs-logger: 0.x
     buffer-from: 1.x
@@ -7213,7 +7213,7 @@ fsevents@^2.1.2:
     typescript: ">=3.4 <4.0"
   bin:
     ts-jest: cli.js
-  checksum: 2/3f43a19e036617860a85593c3c29fe0fa40496f689265520834736f938d0680a349d4a718327695a3433f966fb9d65e28766edeb7e83638384b6ac84508285ee
+  checksum: 2/438de5a3649597e76d218e025faaecc385ee17e468019324e3833e9f3880ccca2677f43c80dafbfa296490b64ee2a5cb8260d403cdcafff471494e0969dd5c5e
   languageName: node
   linkType: hard
 
