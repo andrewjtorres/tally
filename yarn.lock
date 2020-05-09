@@ -760,7 +760,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:*, @types/node@npm:^13.13.4":
+"@types/node@npm:*, @types/node@npm:^13.13.5":
   version: 13.13.5
   resolution: "@types/node@npm:13.13.5"
   checksum: 2/101f43e900e7df94bf5f8c1a6d5caec16d94e545177e59f7ab6f97c925137377abd9af2cc87d7873c7b9a532c7f38840562d8f2726786e33efa9afa17644f6e4
@@ -6991,7 +6991,7 @@ fsevents@^2.1.2:
   resolution: "tally@workspace:."
   dependencies:
     "@types/jest": ^25.2.1
-    "@types/node": ^13.13.4
+    "@types/node": ^13.13.5
     "@typescript-eslint/eslint-plugin": ^2.31.0
     "@typescript-eslint/parser": ^2.31.0
     cz-conventional-changelog: ^3.2.0
