@@ -811,11 +811,11 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@typescript-eslint/eslint-plugin@npm:^2.31.0":
-  version: 2.32.0
-  resolution: "@typescript-eslint/eslint-plugin@npm:2.32.0"
+"@typescript-eslint/eslint-plugin@npm:^2.33.0":
+  version: 2.33.0
+  resolution: "@typescript-eslint/eslint-plugin@npm:2.33.0"
   dependencies:
-    "@typescript-eslint/experimental-utils": 2.32.0
+    "@typescript-eslint/experimental-utils": 2.33.0
     functional-red-black-tree: ^1.0.1
     regexpp: ^3.0.0
     tsutils: ^3.17.1
@@ -826,31 +826,31 @@ __metadata:
   peerDependenciesMeta:
     typescript:
       optional: true
-  checksum: 2/5223a3823c12303c3c5c9dac4a8ae934f78abad9c8d8f65941a01d22a6f234f377859d0d51b26897248ad85d28672f6be28178a0372081c13bacd71385c058ff
+  checksum: 2/fbac64a9ebf0c7dd61fb2b7bb8cd721116560d78aa5edfed517eea2d68e5e93f86953f99733f0db203a9b5363a53bf6944b23df63242d74ea7184fd2a0f76b3b
   languageName: node
   linkType: hard
 
-"@typescript-eslint/experimental-utils@npm:2.32.0, @typescript-eslint/experimental-utils@npm:^2.5.0":
-  version: 2.32.0
-  resolution: "@typescript-eslint/experimental-utils@npm:2.32.0"
+"@typescript-eslint/experimental-utils@npm:2.33.0, @typescript-eslint/experimental-utils@npm:^2.5.0":
+  version: 2.33.0
+  resolution: "@typescript-eslint/experimental-utils@npm:2.33.0"
   dependencies:
     "@types/json-schema": ^7.0.3
-    "@typescript-eslint/typescript-estree": 2.32.0
+    "@typescript-eslint/typescript-estree": 2.33.0
     eslint-scope: ^5.0.0
     eslint-utils: ^2.0.0
   peerDependencies:
     eslint: "*"
-  checksum: 2/6ea45e3443547570e58350af19a9229babde219218340a2b0c2568834484d9a5683c317f565cab0e90c1dff2f9ef46105407dd9474e1448643049feb79e4bfa6
+  checksum: 2/d4e084287045b2c7bb9b0762010e7c538fec45492d6e83464181a7f73d1616644655e09eb30948c6e82a908b6859cbec85e3da27b4d5914218030485a99e5252
   languageName: node
   linkType: hard
 
-"@typescript-eslint/parser@npm:^2.31.0":
-  version: 2.32.0
-  resolution: "@typescript-eslint/parser@npm:2.32.0"
+"@typescript-eslint/parser@npm:^2.33.0":
+  version: 2.33.0
+  resolution: "@typescript-eslint/parser@npm:2.33.0"
   dependencies:
     "@types/eslint-visitor-keys": ^1.0.0
-    "@typescript-eslint/experimental-utils": 2.32.0
-    "@typescript-eslint/typescript-estree": 2.32.0
+    "@typescript-eslint/experimental-utils": 2.33.0
+    "@typescript-eslint/typescript-estree": 2.33.0
     eslint-visitor-keys: ^1.1.0
   peerDependencies:
     eslint: ^5.0.0 || ^6.0.0
@@ -858,13 +858,13 @@ __metadata:
   peerDependenciesMeta:
     typescript:
       optional: true
-  checksum: 2/813a5876956f65aead19cc82684cfcd0d69df3a53f501e7aad18f44762d8d45ab988c8f21e734bd9827f8c1d572fbe74dc206e092f0dd75a2a442e56cc842cbe
+  checksum: 2/dfbe4d5bd7187d98c95a33a8875222af550fd690f5b4d922f6b8ac27dc3113349d81144dc1a6ad7d737289eaf183162eeae2b5a62cf724bf415ed574af99cc67
   languageName: node
   linkType: hard
 
-"@typescript-eslint/typescript-estree@npm:2.32.0":
-  version: 2.32.0
-  resolution: "@typescript-eslint/typescript-estree@npm:2.32.0"
+"@typescript-eslint/typescript-estree@npm:2.33.0":
+  version: 2.33.0
+  resolution: "@typescript-eslint/typescript-estree@npm:2.33.0"
   dependencies:
     debug: ^4.1.1
     eslint-visitor-keys: ^1.1.0
@@ -878,7 +878,7 @@ __metadata:
   peerDependenciesMeta:
     typescript:
       optional: true
-  checksum: 2/e287263037bad621ef188144b3d9d2d5f8ba7ea9a046a0e969b9f94d4092bd2513a9f9c6708569e53a21f4f4d294803fd86e0ca4c47b838354312ea360af61e3
+  checksum: 2/d917169d05f709fd5ae4e5b7b336b832f59eeb4a5ecd2a812f63a5c68dd4212366ff321c8c8444cad687047a37454feafa2400652d87022e51d85e6b9cb1621f
   languageName: node
   linkType: hard
 
@@ -2374,7 +2374,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-jest@npm:^23.10.0":
+"eslint-plugin-jest@npm:^23.11.0":
   version: 23.11.0
   resolution: "eslint-plugin-jest@npm:23.11.0"
   dependencies:
@@ -6989,15 +6989,15 @@ fsevents@^2.1.2:
   dependencies:
     "@types/jest": ^25.2.1
     "@types/node": ^13.13.5
-    "@typescript-eslint/eslint-plugin": ^2.31.0
-    "@typescript-eslint/parser": ^2.31.0
+    "@typescript-eslint/eslint-plugin": ^2.33.0
+    "@typescript-eslint/parser": ^2.33.0
     cz-conventional-changelog: ^3.2.0
     eslint: ^6.8.0
     eslint-config-prettier: ^6.11.0
     eslint-config-standard: ^14.1.1
     eslint-import-resolver-typescript: ^2.0.0
     eslint-plugin-import: ^2.20.2
-    eslint-plugin-jest: ^23.10.0
+    eslint-plugin-jest: ^23.11.0
     eslint-plugin-node: ^11.1.0
     eslint-plugin-prettier: ^3.1.3
     eslint-plugin-promise: ^4.2.1
