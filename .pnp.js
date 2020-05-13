@@ -35,7 +35,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
       ],
       [
         "@types/node",
-        "npm:13.13.5"
+        "npm:14.0.1"
       ],
       [
         "@typescript-eslint/eslint-plugin",
@@ -146,7 +146,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./",
           "packageDependencies": [
             ["@types/jest", "npm:25.2.1"],
-            ["@types/node", "npm:13.13.5"],
+            ["@types/node", "npm:14.0.1"],
             ["@typescript-eslint/eslint-plugin", "virtual:00f4dc5b5716c66b9aa8875c8c4f1330987e76fef068c4603f5f9e455c250cf6e6ff4f903024ff6dc767cbf872b43e1107107a49deabae009044d51254405fbb#npm:2.33.0"],
             ["@typescript-eslint/parser", "virtual:00f4dc5b5716c66b9aa8875c8c4f1330987e76fef068c4603f5f9e455c250cf6e6ff4f903024ff6dc767cbf872b43e1107107a49deabae009044d51254405fbb#npm:2.33.0"],
             ["cz-conventional-changelog", "npm:3.2.0"],
@@ -962,7 +962,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/@types-graceful-fs-npm-4.1.3-fa91c32dd0-2.zip/node_modules/@types/graceful-fs/",
           "packageDependencies": [
             ["@types/graceful-fs", "npm:4.1.3"],
-            ["@types/node", "npm:13.13.5"]
+            ["@types/node", "npm:14.0.1"]
           ],
           "linkType": "HARD",
         }]
@@ -1027,10 +1027,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["@types/node", [
-        ["npm:13.13.5", {
-          "packageLocation": "./.yarn/cache/@types-node-npm-13.13.5-addc076b74-2.zip/node_modules/@types/node/",
+        ["npm:14.0.1", {
+          "packageLocation": "./.yarn/cache/@types-node-npm-14.0.1-1942cab116-2.zip/node_modules/@types/node/",
           "packageDependencies": [
-            ["@types/node", "npm:13.13.5"]
+            ["@types/node", "npm:14.0.1"]
           ],
           "linkType": "HARD",
         }]
@@ -7929,7 +7929,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [
             ["tally", "workspace:."],
             ["@types/jest", "npm:25.2.1"],
-            ["@types/node", "npm:13.13.5"],
+            ["@types/node", "npm:14.0.1"],
             ["@typescript-eslint/eslint-plugin", "virtual:00f4dc5b5716c66b9aa8875c8c4f1330987e76fef068c4603f5f9e455c250cf6e6ff4f903024ff6dc767cbf872b43e1107107a49deabae009044d51254405fbb#npm:2.33.0"],
             ["@typescript-eslint/parser", "virtual:00f4dc5b5716c66b9aa8875c8c4f1330987e76fef068c4603f5f9e455c250cf6e6ff4f903024ff6dc767cbf872b43e1107107a49deabae009044d51254405fbb#npm:2.33.0"],
             ["cz-conventional-changelog", "npm:3.2.0"],
