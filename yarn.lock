@@ -4023,7 +4023,7 @@ fsevents@^2.1.2:
   languageName: node
   linkType: hard
 
-"jest-config@npm:*, jest-config@npm:^26.0.1":
+"jest-config@npm:^26.0.1":
   version: 26.0.1
   resolution: "jest-config@npm:26.0.1"
   dependencies:
@@ -4312,7 +4312,7 @@ fsevents@^2.1.2:
   languageName: node
   linkType: hard
 
-"jest-runtime@npm:*, jest-runtime@npm:^26.0.1":
+"jest-runtime@npm:^26.0.1":
   version: 26.0.1
   resolution: "jest-runtime@npm:26.0.1"
   dependencies:
