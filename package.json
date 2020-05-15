@@ -60,7 +60,7 @@
     "prettier": "^2.0.5",
     "prettylint": "^1.0.0",
     "rxjs": "^6.5.5",
-    "ts-jest": "^25.5.1",
+    "ts-jest": "^26.0.0",
     "typescript": "^3.9.2",
     "utils": "link:src/utils"
   },
