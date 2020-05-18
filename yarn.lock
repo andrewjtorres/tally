@@ -297,15 +297,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/runtime@npm:^7.9.2":
-  version: 7.9.6
-  resolution: "@babel/runtime@npm:7.9.6"
-  dependencies:
-    regenerator-runtime: ^0.13.4
-  checksum: 3/ff94d6861daea1c6e4639f2e6d22992539fab45ce6ef468de37e0dd0df109aee94276f72fc962b48946dde0b8554a71343fc398ea5a565cab59c596829ccc2ad
-  languageName: node
-  linkType: hard
-
 "@babel/template@npm:^7.3.3, @babel/template@npm:^7.8.3, @babel/template@npm:^7.8.6":
   version: 7.8.6
   resolution: "@babel/template@npm:7.8.6"
@@ -2374,14 +2365,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-jest@npm:^23.11.0":
-  version: 23.11.0
-  resolution: "eslint-plugin-jest@npm:23.11.0"
+"eslint-plugin-jest@npm:^23.13.1":
+  version: 23.13.1
+  resolution: "eslint-plugin-jest@npm:23.13.1"
   dependencies:
     "@typescript-eslint/experimental-utils": ^2.5.0
   peerDependencies:
     eslint: ">=5"
-  checksum: 3/13bb92eaa7de2f6bd374b95fee2ffe8af384461ef563e15a07f57ff2c7afa2dcb58a72d9dbfa5a6207df09ebe22f8d7a68c69694f6a2f1c2cbcf0bd7f53709a0
+  checksum: 3/f171d8e0a9aa4a8d4fd3735421f1dd829f976c21a19bccceb3ba4d4e336cd0449e487006fa20ff68ae1ff0b0ec8013f344f0388ed6ca78637a1b7ba24398a652
   languageName: node
   linkType: hard
 
@@ -6015,13 +6006,6 @@ fsevents@^2.1.2:
   languageName: node
   linkType: hard
 
-"regenerator-runtime@npm:^0.13.4":
-  version: 0.13.5
-  resolution: "regenerator-runtime@npm:0.13.5"
-  checksum: 3/8d8ee0eca26e0491085033caf2b1b95379c4db21e38d79cde52bbd4014a3865eee26ec0f4f958682e8600f185f2f5dbcd8c6685b9b9261639767929c19b5bcd2
-  languageName: node
-  linkType: hard
-
 "regex-not@npm:^1.0.0, regex-not@npm:^1.0.2":
   version: 1.0.2
   resolution: "regex-not@npm:1.0.2"
@@ -7006,7 +6990,7 @@ fsevents@^2.1.2:
     eslint-config-standard: ^14.1.1
     eslint-import-resolver-typescript: ^2.0.0
     eslint-plugin-import: ^2.20.2
-    eslint-plugin-jest: ^23.11.0
+    eslint-plugin-jest: ^23.13.1
     eslint-plugin-node: ^11.1.0
     eslint-plugin-prettier: ^3.1.3
     eslint-plugin-promise: ^4.2.1
@@ -7669,11 +7653,9 @@ typescript@^3.9.2:
   linkType: hard
 
 "yaml@npm:^1.7.2":
-  version: 1.9.2
-  resolution: "yaml@npm:1.9.2"
-  dependencies:
-    "@babel/runtime": ^7.9.2
-  checksum: 3/098baa974d33f13c3a93efba4e83c8992f533e78463010afc41a9c2ae574890fa670d91e8d18ffaf9af616c3a0683a4e93b69057bd143f53306570a117ebcb7f
+  version: 1.10.0
+  resolution: "yaml@npm:1.10.0"
+  checksum: 3/d4cc9f9724f8d0aebc2cf52e4e6aa7059f12d50deb54b5225d103462fb2af36e5c0bb419101ca4b1f0cd3b4db9e4139cf2c690e863ac6227648d39d6f4e2522c
   languageName: node
   linkType: hard
 
