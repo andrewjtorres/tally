@@ -7014,7 +7014,7 @@ fsevents@^2.1.2:
     prettylint: ^1.0.0
     rxjs: ^6.5.5
     ts-jest: ^26.0.0
-    typescript: ^3.9.2
+    typescript: ^3.9.3
     utils: "link:src/utils"
   dependenciesMeta:
     core-js:
@@ -7308,7 +7308,7 @@ fsevents@^2.1.2:
   languageName: node
   linkType: hard
 
-typescript@^3.9.2:
+typescript@^3.9.3:
   version: 3.9.3
   resolution: "typescript@npm:3.9.3"
   bin:
@@ -7318,7 +7318,7 @@ typescript@^3.9.2:
   languageName: node
   linkType: hard
 
-"typescript@patch:typescript@^3.9.2#builtin<compat/typescript>":
+"typescript@patch:typescript@^3.9.3#builtin<compat/typescript>":
   version: 3.9.3
   resolution: "typescript@patch:typescript@npm%3A3.9.3#builtin<compat/typescript>::version=3.9.3&hash=8cac75"
   bin:
