@@ -390,14 +390,15 @@ __metadata:
   linkType: hard
 
 "@istanbuljs/load-nyc-config@npm:^1.0.0":
-  version: 1.0.0
-  resolution: "@istanbuljs/load-nyc-config@npm:1.0.0"
+  version: 1.1.0
+  resolution: "@istanbuljs/load-nyc-config@npm:1.1.0"
   dependencies:
     camelcase: ^5.3.1
     find-up: ^4.1.0
+    get-package-type: ^0.1.0
     js-yaml: ^3.13.1
     resolve-from: ^5.0.0
-  checksum: 3/ef4e27e6fdf192aceadca2e92ce9c930c43c574930afd45853efd31ba3bfdaff5627d62deecdb2520df5582e860184a1097ddf64b27cc886f85679bbb6a0e956
+  checksum: 3/f7f3b1c922bf5e36a7f747b2a80fedc9c2e1ebd7e03dc73082fca7c1066cc4e2e2ac39827aded6a087c32294e9c032ff3e50bc9041fcf757b4a38ca97418b652
   languageName: node
   linkType: hard
 
@@ -620,11 +621,11 @@ __metadata:
   linkType: hard
 
 "@sinonjs/commons@npm:^1.7.0":
-  version: 1.7.2
-  resolution: "@sinonjs/commons@npm:1.7.2"
+  version: 1.8.0
+  resolution: "@sinonjs/commons@npm:1.8.0"
   dependencies:
     type-detect: 4.0.8
-  checksum: 3/3155d046f2540bd8d13a2fb77c8526c17b9d9eb964f0f4b82f250d20787b30e79db622c7ba9a1cb36f7340e99ba47f64bc91f56ca95eecad09e83066ddcf3da3
+  checksum: 3/57e07458d899a3f09bd46e79445b4210837c37cbd9c9e5be9dd7746be0a02a0f9897f8dcde5e89836b1af7e2fc6cb6765626a37066747e8acc863c1b8b6fdccb
   languageName: node
   linkType: hard
 
@@ -751,10 +752,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:*, @types/node@npm:^14.0.4":
-  version: 14.0.4
-  resolution: "@types/node@npm:14.0.4"
-  checksum: 3/ea723cbd063ab777920a624002d3caaa274482e055d29d92247bd39b4c826f0a62d3badb173f360a9d6fe03ff607ce27310a0b8a4c9835ecb91fa17d9627aecd
+"@types/node@npm:*, @types/node@npm:^14.0.5":
+  version: 14.0.5
+  resolution: "@types/node@npm:14.0.5"
+  checksum: 3/38a9f9b66c2657b4ba520e40073369d4a33438dd45f9c001d98a7cda40e88a5ea28485c320fa00fc706b5473b549cacc9a8b9796e4d69681c032619e12f73f7d
   languageName: node
   linkType: hard
 
@@ -773,9 +774,9 @@ __metadata:
   linkType: hard
 
 "@types/prettier@npm:^2.0.0":
-  version: 2.0.0
-  resolution: "@types/prettier@npm:2.0.0"
-  checksum: 3/aee539015e8c815b211ffdb1a4b6e6aab24bd5665b3c71cc1aa95b9b65b3452f3e2b8541146577ba25535317532e6c8d9626e27568a89fad1888f248142a19bb
+  version: 2.0.1
+  resolution: "@types/prettier@npm:2.0.1"
+  checksum: 3/fba408d98574b9790446bd5d5f1200a1baf164beea676eaad139320a1d1cdf54f2e411a865b253fc75fbadd1a096bb7eacbf13083fa7d26785e98dca57932b47
   languageName: node
   linkType: hard
 
@@ -3060,6 +3061,13 @@ fsevents@^2.1.2:
   languageName: node
   linkType: hard
 
+"get-package-type@npm:^0.1.0":
+  version: 0.1.0
+  resolution: "get-package-type@npm:0.1.0"
+  checksum: 3/a5b8beaf68d8bcdb507e23b3d2b6458e54b9061e84e2a8a94b846c8e1d794beb47fdcbda895da16ae59225bb3ea1608c0719e4f986e8a987ec2f228eaf00d78b
+  languageName: node
+  linkType: hard
+
 "get-stdin@npm:^4.0.1":
   version: 4.0.1
   resolution: "get-stdin@npm:4.0.1"
@@ -4677,8 +4685,8 @@ fsevents@^2.1.2:
   linkType: hard
 
 "listr2@npm:^2.0.2":
-  version: 2.0.3
-  resolution: "listr2@npm:2.0.3"
+  version: 2.0.4
+  resolution: "listr2@npm:2.0.4"
   dependencies:
     "@samverschueren/stream-to-observable": ^0.3.0
     chalk: ^4.0.0
@@ -4689,12 +4697,12 @@ fsevents@^2.1.2:
     figures: ^3.2.0
     indent-string: ^4.0.0
     log-update: ^4.0.0
-    nanoid: ^3.1.9
     p-map: ^4.0.0
     pad: ^3.2.0
     rxjs: ^6.5.5
     through: ^2.3.8
-  checksum: 3/9e33111bee83cfdeb43198f5dfcef53661e1f1010cdccd6c5aac7f4fe9c77f48d2777bc20b4c32401716d11f230b798b7f4b679e4dc75f1f918741a8b52147c4
+    uuid: ^7.0.2
+  checksum: 3/b2e8d285671f95b64d0d7fc283cf6f17240638e22e7eac6b607a818476f9ee08422e9776de77bb7b1a0030c2560bf0d91993d4f90d63a532bf37e16703b6d4b5
   languageName: node
   linkType: hard
 
@@ -5088,15 +5096,6 @@ fsevents@^2.1.2:
   version: 0.0.8
   resolution: "mute-stream@npm:0.0.8"
   checksum: 3/315c40f463ec31deee54c5b8779207feb6b63dd4c58fe0f84ad46abdd6dac1ada578d53efde4a47b0ae4d29d453d35bb39ecdd98ee9ebf538929039a3a9945df
-  languageName: node
-  linkType: hard
-
-"nanoid@npm:^3.1.9":
-  version: 3.1.9
-  resolution: "nanoid@npm:3.1.9"
-  bin:
-    nanoid: bin/nanoid.cjs
-  checksum: 3/05f32569dcb931c21fca4a62a1c65b65acb1608319a46da4b7dbb717edcf45b1a0405bcd08dd90ca850a8c85ea3cfe2027738d135bc73b5345e66411ff7a9def
   languageName: node
   linkType: hard
 
@@ -6990,7 +6989,7 @@ fsevents@^2.1.2:
   resolution: "tally@workspace:."
   dependencies:
     "@types/jest": ^25.2.3
-    "@types/node": ^14.0.4
+    "@types/node": ^14.0.5
     "@typescript-eslint/eslint-plugin": ^2.33.0
     "@typescript-eslint/parser": ^2.33.0
     cz-conventional-changelog: ^3.2.0
@@ -7402,7 +7401,7 @@ typescript@^3.9.3:
   languageName: node
   linkType: hard
 
-"uuid@npm:^7.0.3":
+"uuid@npm:^7.0.2, uuid@npm:^7.0.3":
   version: 7.0.3
   resolution: "uuid@npm:7.0.3"
   bin:
