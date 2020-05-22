@@ -1606,7 +1606,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"cli-truncate@npm:^2.1.0":
+"cli-truncate@npm:2.1.0, cli-truncate@npm:^2.1.0":
   version: 2.1.0
   resolution: "cli-truncate@npm:2.1.0"
   dependencies:
@@ -4661,11 +4661,12 @@ fsevents@^2.1.2:
   languageName: node
   linkType: hard
 
-"lint-staged@npm:^10.2.4":
-  version: 10.2.4
-  resolution: "lint-staged@npm:10.2.4"
+"lint-staged@npm:^10.2.6":
+  version: 10.2.6
+  resolution: "lint-staged@npm:10.2.6"
   dependencies:
     chalk: ^4.0.0
+    cli-truncate: 2.1.0
     commander: ^5.1.0
     cosmiconfig: ^6.0.0
     debug: ^4.1.1
@@ -4680,7 +4681,7 @@ fsevents@^2.1.2:
     stringify-object: ^3.3.0
   bin:
     lint-staged: bin/lint-staged.js
-  checksum: 3/3df6ef007b2f13783d36a15bc54e69be5601346522f903ef226074f4061bd7a36758dd480fedc0589a1e5abdef6f9e025a40b8d7716b496b9022e22aa2f04760
+  checksum: 3/5d67182bb79ec19fe426871c126cfdc4d06da83f11808db0172ce84460ff58cbaed4237e05fd6c66faa7f47cfd99c381054bfb8efda78160416f60a9575ccdb5
   languageName: node
   linkType: hard
 
@@ -7007,7 +7008,7 @@ fsevents@^2.1.2:
     husky: ^4.2.5
     jest: ^26.0.1
     jest-circus: ^26.0.1
-    lint-staged: ^10.2.4
+    lint-staged: ^10.2.6
     npm-run-all: ^4.1.5
     prettier: ^2.0.5
     prettylint: ^1.0.0

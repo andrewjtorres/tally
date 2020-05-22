@@ -107,7 +107,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
       ],
       [
         "lint-staged",
-        "npm:10.2.4"
+        "npm:10.2.6"
       ],
       [
         "npm-run-all",
@@ -164,7 +164,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["husky", "npm:4.2.5"],
             ["jest", "npm:26.0.1"],
             ["jest-circus", "npm:26.0.1"],
-            ["lint-staged", "npm:10.2.4"],
+            ["lint-staged", "npm:10.2.6"],
             ["npm-run-all", "npm:4.1.5"],
             ["prettier", "npm:2.0.5"],
             ["prettylint", "virtual:00f4dc5b5716c66b9aa8875c8c4f1330987e76fef068c4603f5f9e455c250cf6e6ff4f903024ff6dc767cbf872b43e1107107a49deabae009044d51254405fbb#npm:1.0.0"],
@@ -5393,11 +5393,12 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["lint-staged", [
-        ["npm:10.2.4", {
-          "packageLocation": "./.yarn/cache/lint-staged-npm-10.2.4-c791d3e9d2-3.zip/node_modules/lint-staged/",
+        ["npm:10.2.6", {
+          "packageLocation": "./.yarn/cache/lint-staged-npm-10.2.6-48ce50dbc7-3.zip/node_modules/lint-staged/",
           "packageDependencies": [
-            ["lint-staged", "npm:10.2.4"],
+            ["lint-staged", "npm:10.2.6"],
             ["chalk", "npm:4.0.0"],
+            ["cli-truncate", "npm:2.1.0"],
             ["commander", "npm:5.1.0"],
             ["cosmiconfig", "npm:6.0.0"],
             ["debug", "virtual:d27045f313cae7cbc212b229738d5843f6d2265eba3ea36069f78075a79d301bc17e702a21a7b811ca9aa59de4cb7943fb27cda91a0e7d8a8ad547668124b185#npm:4.1.1"],
@@ -7947,7 +7948,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["husky", "npm:4.2.5"],
             ["jest", "npm:26.0.1"],
             ["jest-circus", "npm:26.0.1"],
-            ["lint-staged", "npm:10.2.4"],
+            ["lint-staged", "npm:10.2.6"],
             ["npm-run-all", "npm:4.1.5"],
             ["prettier", "npm:2.0.5"],
             ["prettylint", "virtual:00f4dc5b5716c66b9aa8875c8c4f1330987e76fef068c4603f5f9e455c250cf6e6ff4f903024ff6dc767cbf872b43e1107107a49deabae009044d51254405fbb#npm:1.0.0"],
