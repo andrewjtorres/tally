@@ -759,7 +759,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:*, @types/node@npm:^14.0.5":
+"@types/node@npm:*, @types/node@npm:^14.0.9":
   version: 14.0.9
   resolution: "@types/node@npm:14.0.9"
   checksum: 3/4166fd08927bbf73c6de360519e1eae4c032f419c2c5cd9abd939d3f258cac8059cca4add61c7f129cc850b2e28af6565862b67f1142147e8e2498f0fc6b2aff
@@ -6903,7 +6903,7 @@ fsevents@^2.1.2:
   resolution: "tally@workspace:."
   dependencies:
     "@types/jest": ^25.2.3
-    "@types/node": ^14.0.5
+    "@types/node": ^14.0.9
     "@typescript-eslint/eslint-plugin": ^2.33.0
     "@typescript-eslint/parser": ^2.33.0
     cz-conventional-changelog: ^3.2.0
@@ -6926,7 +6926,7 @@ fsevents@^2.1.2:
     prettier: ^2.0.5
     prettylint: ^1.0.0
     rxjs: ^6.5.5
-    ts-jest: ^26.0.0
+    ts-jest: ^26.1.0
     typescript: ^3.9.3
     utils: "link:src/utils"
   bin:
@@ -7101,7 +7101,7 @@ fsevents@^2.1.2:
   languageName: node
   linkType: hard
 
-"ts-jest@npm:^26.0.0":
+"ts-jest@npm:^26.1.0":
   version: 26.1.0
   resolution: "ts-jest@npm:26.1.0"
   dependencies:
