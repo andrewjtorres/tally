@@ -64,14 +64,6 @@
     "typescript": "^3.9.3",
     "utils": "link:src/utils"
   },
-  "dependenciesMeta": {
-    "core-js": {
-      "built": false
-    },
-    "husky": {
-      "built": false
-    }
-  },
   "engines": {
     "node": ">=12.16",
     "yarn": ">=1.22"
