@@ -639,15 +639,15 @@ __metadata:
   linkType: hard
 
 "@types/babel__core@npm:^7.1.7":
-  version: 7.1.7
-  resolution: "@types/babel__core@npm:7.1.7"
+  version: 7.1.8
+  resolution: "@types/babel__core@npm:7.1.8"
   dependencies:
     "@babel/parser": ^7.1.0
     "@babel/types": ^7.0.0
     "@types/babel__generator": "*"
     "@types/babel__template": "*"
     "@types/babel__traverse": "*"
-  checksum: 3/f440303059ca39cf036ddbb13a86dd23ca427c2631f4482f73de9f5a518ef62ebc7d407de727fea1845fabbbec62f8dea00fd559b0c8894f92d920a2c376ded4
+  checksum: 3/297877649dfa507ed7d8b67930b72115164f044b7615aa5f5f10111bdc96064f4c9e0b8679b54a892b2aaa839a50fafd28a206368e215e7a4afc8669b91a3162
   languageName: node
   linkType: hard
 
@@ -671,11 +671,11 @@ __metadata:
   linkType: hard
 
 "@types/babel__traverse@npm:*, @types/babel__traverse@npm:^7.0.6":
-  version: 7.0.11
-  resolution: "@types/babel__traverse@npm:7.0.11"
+  version: 7.0.12
+  resolution: "@types/babel__traverse@npm:7.0.12"
   dependencies:
     "@babel/types": ^7.3.0
-  checksum: 3/0d5653c39dd42af7d1056cf1221a99a5ba5848315c369e802a1afd0daf17df96cfde3098b5376d578c07e7275e11b8230d496185c1bb90943052dc989bd5e1fb
+  checksum: 3/b59b0c196d7b37966b49471b517bbbe227705ba6a939d4a9d30a9667dd9aae8683bf2abf17ebdf6791a118da461d90fbc1c044f0c0a71271e17ae1d3b8dc05d7
   languageName: node
   linkType: hard
 
@@ -752,10 +752,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:*, @types/node@npm:^14.0.5":
-  version: 14.0.6
-  resolution: "@types/node@npm:14.0.6"
-  checksum: 3/14c184ce392941d016aa94479eca2d33517756a9e48d0b03ba6e258128b513dc28dc524f85cc0591e12be9d804beff6aadc4b3159555c6ffdd1d1ab8f46d41da
+"@types/node@npm:*, @types/node@npm:^14.0.9":
+  version: 14.0.9
+  resolution: "@types/node@npm:14.0.9"
+  checksum: 3/4166fd08927bbf73c6de360519e1eae4c032f419c2c5cd9abd939d3f258cac8059cca4add61c7f129cc850b2e28af6565862b67f1142147e8e2498f0fc6b2aff
   languageName: node
   linkType: hard
 
@@ -6990,7 +6990,7 @@ fsevents@^2.1.2:
   resolution: "tally@workspace:."
   dependencies:
     "@types/jest": ^25.2.3
-    "@types/node": ^14.0.5
+    "@types/node": ^14.0.9
     "@typescript-eslint/eslint-plugin": ^2.33.0
     "@typescript-eslint/parser": ^2.33.0
     cz-conventional-changelog: ^3.2.0
@@ -7412,9 +7412,9 @@ typescript@^3.9.3:
   linkType: hard
 
 "v8-compile-cache@npm:^2.0.3":
-  version: 2.1.0
-  resolution: "v8-compile-cache@npm:2.1.0"
-  checksum: 3/b7490d548401f6f4cadeb94da33b2d65473fb931e1f7c28fba02889c19adf1cfff884fb933c6282fc7e82e400f35eddc9d8fc577fa1e4998cc3797c4aaf6246c
+  version: 2.1.1
+  resolution: "v8-compile-cache@npm:2.1.1"
+  checksum: 3/1290922fe1501a732155206f2d516f91bdfd7acf318542ffe2813ff06465cf49051fae7e1a40f3e0a56cf78b41f799473f6e389fec0534e4ecc62eb4105cf22f
   languageName: node
   linkType: hard
 
