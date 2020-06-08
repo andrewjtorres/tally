@@ -743,14 +743,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:*":
-  version: 14.0.11
-  resolution: "@types/node@npm:14.0.11"
-  checksum: 3/96b1a437ff7d1bbd20d8cfc54b94c865e934906db13d20ac9e3d2d86509433a4433abe7fd4e091f894633d5728c5c7e25b5ef1e641e4c165bfb66de38da9a609
-  languageName: node
-  linkType: hard
-
-"@types/node@npm:^14.0.12":
+"@types/node@npm:*, @types/node@npm:^14.0.12":
   version: 14.0.12
   resolution: "@types/node@npm:14.0.12"
   checksum: 3/3b5066456c3caeb3650cc991a61886e781560b1f18d113d9afd57be2c1d8876850e8c8977516ff28d60cfe148bfe5087256414b75f67a1648f5d40d697fe14d0
@@ -2312,7 +2305,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-import@npm:^2.20.2":
+"eslint-plugin-import@npm:^2.21.1":
   version: 2.21.1
   resolution: "eslint-plugin-import@npm:2.21.1"
   dependencies:
@@ -6954,7 +6947,7 @@ fsevents@^2.1.2:
     eslint-config-prettier: ^6.11.0
     eslint-config-standard: ^14.1.1
     eslint-import-resolver-typescript: ^2.0.0
-    eslint-plugin-import: ^2.20.2
+    eslint-plugin-import: ^2.21.1
     eslint-plugin-jest: ^23.13.2
     eslint-plugin-node: ^11.1.0
     eslint-plugin-prettier: ^3.1.3

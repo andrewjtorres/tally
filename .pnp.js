@@ -937,7 +937,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/@types-graceful-fs-npm-4.1.3-fa91c32dd0-3.zip/node_modules/@types/graceful-fs/",
           "packageDependencies": [
             ["@types/graceful-fs", "npm:4.1.3"],
-            ["@types/node", "npm:14.0.11"]
+            ["@types/node", "npm:14.0.12"]
           ],
           "linkType": "HARD",
         }]
@@ -1002,13 +1002,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["@types/node", [
-        ["npm:14.0.11", {
-          "packageLocation": "./.yarn/cache/@types-node-npm-14.0.11-ebbe18e962-3.zip/node_modules/@types/node/",
-          "packageDependencies": [
-            ["@types/node", "npm:14.0.11"]
-          ],
-          "linkType": "HARD",
-        }],
         ["npm:14.0.12", {
           "packageLocation": "./.yarn/cache/@types-node-npm-14.0.12-3fd4923407-3.zip/node_modules/@types/node/",
           "packageDependencies": [
