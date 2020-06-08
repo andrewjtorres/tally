@@ -743,10 +743,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:*, @types/node@npm:^14.0.9":
+"@types/node@npm:*":
   version: 14.0.10
   resolution: "@types/node@npm:14.0.10"
   checksum: 3/9ab21029e6bc6888e3f93c54bd75d4868e33dfd9aa77e5a061e89035089c79421a603025ad98e47c1eed7b8f98916aa4fa44977b113bd5100cbb62712916c8e7
+  languageName: node
+  linkType: hard
+
+"@types/node@npm:^14.0.12":
+  version: 14.0.12
+  resolution: "@types/node@npm:14.0.12"
+  checksum: 3/3b5066456c3caeb3650cc991a61886e781560b1f18d113d9afd57be2c1d8876850e8c8977516ff28d60cfe148bfe5087256414b75f67a1648f5d40d697fe14d0
   languageName: node
   linkType: hard
 
@@ -1087,7 +1094,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"array-includes@npm:^3.0.3":
+"array-includes@npm:^3.1.1":
   version: 3.1.1
   resolution: "array-includes@npm:3.1.1"
   dependencies:
@@ -1121,7 +1128,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"array.prototype.flat@npm:^1.2.1":
+"array.prototype.flat@npm:^1.2.3":
   version: 1.2.3
   resolution: "array.prototype.flat@npm:1.2.3"
   dependencies:
@@ -2257,7 +2264,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-import-resolver-node@npm:^0.3.2":
+"eslint-import-resolver-node@npm:^0.3.3":
   version: 0.3.3
   resolution: "eslint-import-resolver-node@npm:0.3.3"
   dependencies:
@@ -2283,7 +2290,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-module-utils@npm:^2.4.1":
+"eslint-module-utils@npm:^2.6.0":
   version: 2.6.0
   resolution: "eslint-module-utils@npm:2.6.0"
   dependencies:
@@ -2305,25 +2312,26 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-import@npm:^2.20.2":
-  version: 2.20.2
-  resolution: "eslint-plugin-import@npm:2.20.2"
+"eslint-plugin-import@npm:^2.21.1":
+  version: 2.21.1
+  resolution: "eslint-plugin-import@npm:2.21.1"
   dependencies:
-    array-includes: ^3.0.3
-    array.prototype.flat: ^1.2.1
+    array-includes: ^3.1.1
+    array.prototype.flat: ^1.2.3
     contains-path: ^0.1.0
     debug: ^2.6.9
     doctrine: 1.5.0
-    eslint-import-resolver-node: ^0.3.2
-    eslint-module-utils: ^2.4.1
+    eslint-import-resolver-node: ^0.3.3
+    eslint-module-utils: ^2.6.0
     has: ^1.0.3
     minimatch: ^3.0.4
-    object.values: ^1.1.0
+    object.values: ^1.1.1
     read-pkg-up: ^2.0.0
-    resolve: ^1.12.0
+    resolve: ^1.17.0
+    tsconfig-paths: ^3.9.0
   peerDependencies:
-    eslint: 2.x - 6.x
-  checksum: 3/be55da3d409d24a5b21b9d999271c7c9080bc9c3547743d5897663a1d59a14ceac6be70f3d89ef5a997009d3c661189c63d7c9e8889c140b3cef0dbe03b37eea
+    eslint: ^2 || ^3 || ^4 || ^5 || ^6 || ^7.2.0
+  checksum: 3/202478052be79676af3b4bc20304bf9ddc8bd2bf9e1e72e4aceadcb72e1a98c2b5c57cdee001b4c44b2318ed6717c4a177849a5368962f10c6e5baf679dd184d
   languageName: node
   linkType: hard
 
@@ -2723,9 +2731,9 @@ __metadata:
   linkType: hard
 
 "fast-deep-equal@npm:^3.1.1":
-  version: 3.1.1
-  resolution: "fast-deep-equal@npm:3.1.1"
-  checksum: 3/38fe57c5ea7dbb42cf84f5d94166358b930beb49345619205ff16c4a0c896f8679a444f0fbd0f352a633f2ea800673173e2a150d81d3d85933d714d24498c688
+  version: 3.1.3
+  resolution: "fast-deep-equal@npm:3.1.3"
+  checksum: 3/451526766b219503131d11e823eaadd1533080b0be4860e316670b039dcaf31cd1007c2fe036a9b922abba7c040dfad5e942ed79d21f2ff849e50049f36e0fb7
   languageName: node
   linkType: hard
 
@@ -4648,8 +4656,8 @@ fsevents@^2.1.2:
   linkType: hard
 
 "listr2@npm:^2.1.0":
-  version: 2.1.0
-  resolution: "listr2@npm:2.1.0"
+  version: 2.1.3
+  resolution: "listr2@npm:2.1.3"
   dependencies:
     chalk: ^4.0.0
     cli-truncate: ^2.1.0
@@ -4661,7 +4669,7 @@ fsevents@^2.1.2:
     through: ^2.3.8
   peerDependencies:
     enquirer: ">= 2.3.0 < 3"
-  checksum: 3/25d8229fafba560c392cb8fad72c2b8cc1936e8e34a8902299b485e0f41934ba99319c461f3a69b6bc8b9ffabe608e44c1aa2f736fa3b691229ecbf34a838069
+  checksum: 3/1e63fc12fec77a3f3451a7496f96a8e06494b52b28c022e148e9ec65d01c7f4f223549842eba93a55f7be3e5eed30e330ec9062960edcf412c1b340f0d5d5124
   languageName: node
   linkType: hard
 
@@ -5313,7 +5321,7 @@ fsevents@^2.1.2:
   languageName: node
   linkType: hard
 
-"object.values@npm:^1.1.0":
+"object.values@npm:^1.1.1":
   version: 1.1.1
   resolution: "object.values@npm:1.1.1"
   dependencies:
@@ -6938,7 +6946,7 @@ fsevents@^2.1.2:
   resolution: "tally@workspace:."
   dependencies:
     "@types/jest": ^25.2.3
-    "@types/node": ^14.0.9
+    "@types/node": ^14.0.12
     "@typescript-eslint/eslint-plugin": ^2.33.0
     "@typescript-eslint/parser": ^2.33.0
     cz-conventional-changelog: ^3.2.0
@@ -6946,7 +6954,7 @@ fsevents@^2.1.2:
     eslint-config-prettier: ^6.11.0
     eslint-config-standard: ^14.1.1
     eslint-import-resolver-typescript: ^2.0.0
-    eslint-plugin-import: ^2.20.2
+    eslint-plugin-import: ^2.21.1
     eslint-plugin-jest: ^23.13.2
     eslint-plugin-node: ^11.1.0
     eslint-plugin-prettier: ^3.1.3
@@ -6962,7 +6970,7 @@ fsevents@^2.1.2:
     prettylint: ^1.0.0
     rxjs: ^6.5.5
     ts-jest: ^26.1.0
-    typescript: ^3.9.3
+    typescript: ^3.9.5
     utils: "link:src/utils"
   bin:
     tally: ./cli.js
@@ -7250,23 +7258,23 @@ fsevents@^2.1.2:
   languageName: node
   linkType: hard
 
-typescript@^3.9.3:
-  version: 3.9.3
-  resolution: "typescript@npm:3.9.3"
+typescript@^3.9.5:
+  version: 3.9.5
+  resolution: "typescript@npm:3.9.5"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
-  checksum: 3/f05e6f1c50c635bd7afc95fbc9eb704042b5bec9a77b9c86ddc0c56650c928617d608b9ec9aa468d7b4cf14ac1ea5f540c540c725005a179b54a86665abd9a55
+  checksum: 3/15618435493667083eb43dc7b36c4d3dd47fd9e9c8a14f0ac4019bbf6124b6cc518b6ed506400913db1bf50831207ee8201b5d827680076930b562923f4f18a0
   languageName: node
   linkType: hard
 
-"typescript@patch:typescript@^3.9.3#builtin<compat/typescript>":
-  version: 3.9.3
-  resolution: "typescript@patch:typescript@npm%3A3.9.3#builtin<compat/typescript>::version=3.9.3&hash=8cac75"
+"typescript@patch:typescript@^3.9.5#builtin<compat/typescript>":
+  version: 3.9.5
+  resolution: "typescript@patch:typescript@npm%3A3.9.5#builtin<compat/typescript>::version=3.9.5&hash=8cac75"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
-  checksum: 3/a3780f6fdf0502bb152a3ad56cd004db46f70496f1b8317657d9e89dd93c911483625fd25867d6aec1cd2854ccf036ecc614989c9f1b36bec2d5daffa9bfc230
+  checksum: 3/347b57e017c6f6c956eb7fc3c392e764bb924b1758103207cfb9c465210d4134212a164a064c259d524f055b86b023ebecc3e3ab5b5d666c1c0d96e1397149f6
   languageName: node
   linkType: hard
 
