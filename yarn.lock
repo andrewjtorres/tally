@@ -743,7 +743,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:*, @types/node@npm:^14.0.9":
+"@types/node@npm:*, @types/node@npm:^14.0.12":
   version: 14.0.12
   resolution: "@types/node@npm:14.0.12"
   checksum: 3/3b5066456c3caeb3650cc991a61886e781560b1f18d113d9afd57be2c1d8876850e8c8977516ff28d60cfe148bfe5087256414b75f67a1648f5d40d697fe14d0
@@ -6939,7 +6939,7 @@ fsevents@^2.1.2:
   resolution: "tally@workspace:."
   dependencies:
     "@types/jest": ^25.2.3
-    "@types/node": ^14.0.9
+    "@types/node": ^14.0.12
     "@typescript-eslint/eslint-plugin": ^2.33.0
     "@typescript-eslint/parser": ^2.33.0
     cz-conventional-changelog: ^3.2.0
@@ -6963,7 +6963,7 @@ fsevents@^2.1.2:
     prettylint: ^1.0.0
     rxjs: ^6.5.5
     ts-jest: ^26.1.0
-    typescript: ^3.9.3
+    typescript: ^3.9.5
     utils: "link:src/utils"
   bin:
     tally: ./cli.js
@@ -7251,7 +7251,7 @@ fsevents@^2.1.2:
   languageName: node
   linkType: hard
 
-typescript@^3.9.3:
+typescript@^3.9.5:
   version: 3.9.5
   resolution: "typescript@npm:3.9.5"
   bin:
@@ -7261,7 +7261,7 @@ typescript@^3.9.3:
   languageName: node
   linkType: hard
 
-"typescript@patch:typescript@^3.9.3#builtin<compat/typescript>":
+"typescript@patch:typescript@^3.9.5#builtin<compat/typescript>":
   version: 3.9.5
   resolution: "typescript@patch:typescript@npm%3A3.9.5#builtin<compat/typescript>::version=3.9.5&hash=8cac75"
   bin:
