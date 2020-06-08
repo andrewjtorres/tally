@@ -743,7 +743,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:*, @types/node@npm:^14.0.12":
+"@types/node@npm:*":
+  version: 14.0.10
+  resolution: "@types/node@npm:14.0.10"
+  checksum: 3/9ab21029e6bc6888e3f93c54bd75d4868e33dfd9aa77e5a061e89035089c79421a603025ad98e47c1eed7b8f98916aa4fa44977b113bd5100cbb62712916c8e7
+  languageName: node
+  linkType: hard
+
+"@types/node@npm:^14.0.12":
   version: 14.0.12
   resolution: "@types/node@npm:14.0.12"
   checksum: 3/3b5066456c3caeb3650cc991a61886e781560b1f18d113d9afd57be2c1d8876850e8c8977516ff28d60cfe148bfe5087256414b75f67a1648f5d40d697fe14d0
@@ -4623,7 +4630,7 @@ fsevents@^2.1.2:
   languageName: node
   linkType: hard
 
-"lint-staged@npm:^10.2.7":
+"lint-staged@npm:^10.2.9":
   version: 10.2.9
   resolution: "lint-staged@npm:10.2.9"
   dependencies:
@@ -6957,7 +6964,7 @@ fsevents@^2.1.2:
     husky: ^4.2.5
     jest: ^26.0.1
     jest-circus: ^26.0.1
-    lint-staged: ^10.2.7
+    lint-staged: ^10.2.9
     npm-run-all: ^4.1.5
     prettier: ^2.0.5
     prettylint: ^1.0.0
