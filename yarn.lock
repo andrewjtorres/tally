@@ -694,9 +694,9 @@ __metadata:
   linkType: hard
 
 "@types/istanbul-lib-coverage@npm:*, @types/istanbul-lib-coverage@npm:^2.0.0, @types/istanbul-lib-coverage@npm:^2.0.1":
-  version: 2.0.2
-  resolution: "@types/istanbul-lib-coverage@npm:2.0.2"
-  checksum: 3/4a57a6749c68c0ef6377d213b9681fc18ff0aea8e5867ce8fb976a9409efe3608ef692cfdd5a64d54e428b8bc44ddc1b8f919f638821f615d9d9cdee6b60f300
+  version: 2.0.3
+  resolution: "@types/istanbul-lib-coverage@npm:2.0.3"
+  checksum: 3/d6f6dbf66d2d2d7d80d093329f0428ac279440510030bfd0080545bba6882433444430905e6e31eba299b890e50ccf2b6a7de9345d7d0ed52ff174f8ead48855
   languageName: node
   linkType: hard
 
@@ -719,13 +719,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/jest@npm:^25.2.3":
-  version: 25.2.3
-  resolution: "@types/jest@npm:25.2.3"
+"@types/jest@npm:^26.0.0":
+  version: 26.0.0
+  resolution: "@types/jest@npm:26.0.0"
   dependencies:
     jest-diff: ^25.2.1
     pretty-format: ^25.2.1
-  checksum: 3/fe92624fd7b3b5358ffba8e59108b484de1d01df08dfc66bb597d59d09900db1950717adb8d42ce5f81ba615fa0b8de55fd5446808d92f75b45e08fcbe4cec6e
+  checksum: 3/6c482e91e8ac3850a1db50d086900c810951eab7514d6b705a616934afd362f606b638a2967edad1ff716aa2ec7cc7631f68774fe9c19e3576ceb90c8df68f7b
   languageName: node
   linkType: hard
 
@@ -743,14 +743,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:*":
-  version: 14.0.10
-  resolution: "@types/node@npm:14.0.10"
-  checksum: 3/9ab21029e6bc6888e3f93c54bd75d4868e33dfd9aa77e5a061e89035089c79421a603025ad98e47c1eed7b8f98916aa4fa44977b113bd5100cbb62712916c8e7
-  languageName: node
-  linkType: hard
-
-"@types/node@npm:^14.0.12":
+"@types/node@npm:*, @types/node@npm:^14.0.12":
   version: 14.0.12
   resolution: "@types/node@npm:14.0.12"
   checksum: 3/3b5066456c3caeb3650cc991a61886e781560b1f18d113d9afd57be2c1d8876850e8c8977516ff28d60cfe148bfe5087256414b75f67a1648f5d40d697fe14d0
@@ -1514,12 +1507,12 @@ __metadata:
   linkType: hard
 
 "chalk@npm:^4.0.0":
-  version: 4.0.0
-  resolution: "chalk@npm:4.0.0"
+  version: 4.1.0
+  resolution: "chalk@npm:4.1.0"
   dependencies:
     ansi-styles: ^4.1.0
     supports-color: ^7.1.0
-  checksum: 3/12b01a228b5ca2f03a82684c62d54c06e2ba2f7b81dd08fac56c5b9288958dd24f9cae866e140df5c29cb736059cb4be0165157ebb0b15039cc1ea511a2dab60
+  checksum: 3/f860285b419f9e925c2db0f45ffa88aa8794c14b80cc5d01ff30930bcfc384996606362706f0829cf557f6d36152a5fb2d227ad63c4bc90e2ec9e9dbed4a3c07
   languageName: node
   linkType: hard
 
@@ -6945,7 +6938,7 @@ fsevents@^2.1.2:
   version: 0.0.0-use.local
   resolution: "tally@workspace:."
   dependencies:
-    "@types/jest": ^25.2.3
+    "@types/jest": ^26.0.0
     "@types/node": ^14.0.12
     "@typescript-eslint/eslint-plugin": ^2.33.0
     "@typescript-eslint/parser": ^2.33.0
