@@ -730,9 +730,9 @@ __metadata:
   linkType: hard
 
 "@types/json-schema@npm:^7.0.3":
-  version: 7.0.4
-  resolution: "@types/json-schema@npm:7.0.4"
-  checksum: 3/5094037431e4b29d5cc9d6938ea596d1145cc46d305d8d302a477a54d0a7a83ba4629abbf52fcabc3ffdb31cf94647bc366a7bcc544770cbb80212d903018e2b
+  version: 7.0.5
+  resolution: "@types/json-schema@npm:7.0.5"
+  checksum: 3/6290f9fe93ac957b244262d5ff56cfd3045c63da6ed88dcc2d5b84131e6284c8e6213bf0cb81423a4f940182647bcd69057309c982f8db64dfff8f65f800ef80
   languageName: node
   linkType: hard
 
@@ -744,9 +744,9 @@ __metadata:
   linkType: hard
 
 "@types/node@npm:*, @types/node@npm:^14.0.12":
-  version: 14.0.12
-  resolution: "@types/node@npm:14.0.12"
-  checksum: 3/3b5066456c3caeb3650cc991a61886e781560b1f18d113d9afd57be2c1d8876850e8c8977516ff28d60cfe148bfe5087256414b75f67a1648f5d40d697fe14d0
+  version: 14.0.13
+  resolution: "@types/node@npm:14.0.13"
+  checksum: 3/2f2be6f7f1a916b0f4d58949bd934a8e41c0dcb15c493c17c3eaf78da3065c09650030f0dfe2e8c11880d597ee001d7cd925129218037fdb4432e80f7d895673
   languageName: node
   linkType: hard
 
@@ -2305,9 +2305,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-import@npm:^2.21.1":
-  version: 2.21.1
-  resolution: "eslint-plugin-import@npm:2.21.1"
+"eslint-plugin-import@npm:^2.21.2":
+  version: 2.21.2
+  resolution: "eslint-plugin-import@npm:2.21.2"
   dependencies:
     array-includes: ^3.1.1
     array.prototype.flat: ^1.2.3
@@ -2324,7 +2324,7 @@ __metadata:
     tsconfig-paths: ^3.9.0
   peerDependencies:
     eslint: ^2 || ^3 || ^4 || ^5 || ^6 || ^7.2.0
-  checksum: 3/202478052be79676af3b4bc20304bf9ddc8bd2bf9e1e72e4aceadcb72e1a98c2b5c57cdee001b4c44b2318ed6717c4a177849a5368962f10c6e5baf679dd184d
+  checksum: 3/7568b049460079e439a282bc5daeed9cb908a7a63f8f55570940a0e84f59f2813d6ce3a20aeece3cef793a5e87d9e998df4e9f859a056d2020bd757d20571fe5
   languageName: node
   linkType: hard
 
@@ -6947,7 +6947,7 @@ fsevents@^2.1.2:
     eslint-config-prettier: ^6.11.0
     eslint-config-standard: ^14.1.1
     eslint-import-resolver-typescript: ^2.0.0
-    eslint-plugin-import: ^2.21.1
+    eslint-plugin-import: ^2.21.2
     eslint-plugin-jest: ^23.13.2
     eslint-plugin-node: ^11.1.0
     eslint-plugin-prettier: ^3.1.3
