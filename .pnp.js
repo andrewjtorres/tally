@@ -107,7 +107,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
       ],
       [
         "lint-staged",
-        "npm:10.2.9"
+        "npm:10.2.10"
       ],
       [
         "npm-run-all",
@@ -164,7 +164,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["husky", "npm:4.2.5"],
             ["jest", "npm:26.0.1"],
             ["jest-circus", "npm:26.0.1"],
-            ["lint-staged", "npm:10.2.9"],
+            ["lint-staged", "npm:10.2.10"],
             ["npm-run-all", "npm:4.1.5"],
             ["prettier", "npm:2.0.5"],
             ["prettylint", "virtual:00f4dc5b5716c66b9aa8875c8c4f1330987e76fef068c4603f5f9e455c250cf6e6ff4f903024ff6dc767cbf872b43e1107107a49deabae009044d51254405fbb#npm:1.0.0"],
@@ -1179,10 +1179,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["acorn", [
-        ["npm:7.2.0", {
-          "packageLocation": "./.yarn/cache/acorn-npm-7.2.0-b4d63d132a-3.zip/node_modules/acorn/",
+        ["npm:7.3.1", {
+          "packageLocation": "./.yarn/cache/acorn-npm-7.3.1-422605b2d6-3.zip/node_modules/acorn/",
           "packageDependencies": [
-            ["acorn", "npm:7.2.0"]
+            ["acorn", "npm:7.3.1"]
           ],
           "linkType": "HARD",
         }]
@@ -1192,7 +1192,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/acorn-globals-npm-6.0.0-acbec28ad5-3.zip/node_modules/acorn-globals/",
           "packageDependencies": [
             ["acorn-globals", "npm:6.0.0"],
-            ["acorn", "npm:7.2.0"],
+            ["acorn", "npm:7.3.1"],
             ["acorn-walk", "npm:7.1.1"]
           ],
           "linkType": "HARD",
@@ -1203,7 +1203,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/$$virtual/acorn-jsx-virtual-150a37b7b0/0/cache/acorn-jsx-npm-5.2.0-4c0af33483-3.zip/node_modules/acorn-jsx/",
           "packageDependencies": [
             ["acorn-jsx", "virtual:c3370c80228526bdc823c77589727bb12f010d7080bccc27a33a2dcce9848e6a7ca68b55a7a8ca98362554ae73296d381ef1ad94f002f07e2a08c76d959b5bbf#npm:5.2.0"],
-            ["acorn", "npm:7.2.0"]
+            ["acorn", "npm:7.3.1"]
           ],
           "packagePeers": [
             "acorn"
@@ -3034,7 +3034,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/espree-npm-6.2.1-c3370c8022-3.zip/node_modules/espree/",
           "packageDependencies": [
             ["espree", "npm:6.2.1"],
-            ["acorn", "npm:7.2.0"],
+            ["acorn", "npm:7.3.1"],
             ["acorn-jsx", "virtual:c3370c80228526bdc823c77589727bb12f010d7080bccc27a33a2dcce9848e6a7ca68b55a7a8ca98362554ae73296d381ef1ad94f002f07e2a08c76d959b5bbf#npm:5.2.0"],
             ["eslint-visitor-keys", "npm:1.2.0"]
           ],
@@ -5136,7 +5136,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [
             ["jsdom", "virtual:cb8d5b0375dc18902a2ec8160a6264a401f7cf27353fbeda5798c17ddcfc36f9aa268bde2fcdcf6275c36c016cfa0ad548376b6dd4f27fbe8fafac18f5c94a36#npm:16.2.2"],
             ["abab", "npm:2.0.3"],
-            ["acorn", "npm:7.2.0"],
+            ["acorn", "npm:7.3.1"],
             ["acorn-globals", "npm:6.0.0"],
             ["canvas", null],
             ["cssom", "npm:0.4.4"],
@@ -5335,10 +5335,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["lint-staged", [
-        ["npm:10.2.9", {
-          "packageLocation": "./.yarn/cache/lint-staged-npm-10.2.9-67cfdc8087-3.zip/node_modules/lint-staged/",
+        ["npm:10.2.10", {
+          "packageLocation": "./.yarn/cache/lint-staged-npm-10.2.10-c2256b93d3-3.zip/node_modules/lint-staged/",
           "packageDependencies": [
-            ["lint-staged", "npm:10.2.9"],
+            ["lint-staged", "npm:10.2.10"],
             ["chalk", "npm:4.1.0"],
             ["cli-truncate", "npm:2.1.0"],
             ["commander", "npm:5.1.0"],
@@ -5347,7 +5347,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["dedent", "npm:0.7.0"],
             ["enquirer", "npm:2.3.5"],
             ["execa", "npm:4.0.2"],
-            ["listr2", "virtual:67cfdc808746f9eedc956d475c7543ec0aa90dcc7bf74a6345b8626731482d384143d83cfeff941f4da647ed312897414700e5037bbebb82627685fd7fbe3246#npm:2.1.3"],
+            ["listr2", "virtual:c2256b93d3160c56fd54d48b1947f6458456c5cab4b0e9be36ee2be5b0ad91774e5b4c15a1d02d9099603d65e96e90610ab82fa8ba93df0300bb98fc3d3784f6#npm:2.1.3"],
             ["log-symbols", "npm:4.0.0"],
             ["micromatch", "npm:4.0.2"],
             ["normalize-path", "npm:3.0.0"],
@@ -5359,10 +5359,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["listr2", [
-        ["virtual:67cfdc808746f9eedc956d475c7543ec0aa90dcc7bf74a6345b8626731482d384143d83cfeff941f4da647ed312897414700e5037bbebb82627685fd7fbe3246#npm:2.1.3", {
-          "packageLocation": "./.yarn/$$virtual/listr2-virtual-d4ece8d5c1/0/cache/listr2-npm-2.1.3-957194925f-3.zip/node_modules/listr2/",
+        ["virtual:c2256b93d3160c56fd54d48b1947f6458456c5cab4b0e9be36ee2be5b0ad91774e5b4c15a1d02d9099603d65e96e90610ab82fa8ba93df0300bb98fc3d3784f6#npm:2.1.3", {
+          "packageLocation": "./.yarn/$$virtual/listr2-virtual-418ab01db8/0/cache/listr2-npm-2.1.3-957194925f-3.zip/node_modules/listr2/",
           "packageDependencies": [
-            ["listr2", "virtual:67cfdc808746f9eedc956d475c7543ec0aa90dcc7bf74a6345b8626731482d384143d83cfeff941f4da647ed312897414700e5037bbebb82627685fd7fbe3246#npm:2.1.3"],
+            ["listr2", "virtual:c2256b93d3160c56fd54d48b1947f6458456c5cab4b0e9be36ee2be5b0ad91774e5b4c15a1d02d9099603d65e96e90610ab82fa8ba93df0300bb98fc3d3784f6#npm:2.1.3"],
             ["chalk", "npm:4.1.0"],
             ["cli-truncate", "npm:2.1.0"],
             ["enquirer", "npm:2.3.5"],
@@ -7878,7 +7878,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["husky", "npm:4.2.5"],
             ["jest", "npm:26.0.1"],
             ["jest-circus", "npm:26.0.1"],
-            ["lint-staged", "npm:10.2.9"],
+            ["lint-staged", "npm:10.2.10"],
             ["npm-run-all", "npm:4.1.5"],
             ["prettier", "npm:2.0.5"],
             ["prettylint", "virtual:00f4dc5b5716c66b9aa8875c8c4f1330987e76fef068c4603f5f9e455c250cf6e6ff4f903024ff6dc767cbf872b43e1107107a49deabae009044d51254405fbb#npm:1.0.0"],

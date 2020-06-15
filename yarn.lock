@@ -906,11 +906,11 @@ __metadata:
   linkType: hard
 
 "acorn@npm:^7.1.1":
-  version: 7.2.0
-  resolution: "acorn@npm:7.2.0"
+  version: 7.3.1
+  resolution: "acorn@npm:7.3.1"
   bin:
     acorn: bin/acorn
-  checksum: 3/e1d0dcafc16cad859275d8ea63074a227f07a6c21b9d80387dd017d3d413b9776cbb2d67d52b90630cdf8ac42a0deff92000fdded63088d9e159e9f87bf4a8cd
+  checksum: 3/3fa70393843c3fd4af691f449563e983e064c5c3f655fd943f5f77fb767257623f8afc0a2454b0037aa0c4dd95374c75a9e0e6c54a5f497fc63e63449ad6327c
   languageName: node
   linkType: hard
 
@@ -4623,9 +4623,9 @@ fsevents@^2.1.2:
   languageName: node
   linkType: hard
 
-"lint-staged@npm:^10.2.9":
-  version: 10.2.9
-  resolution: "lint-staged@npm:10.2.9"
+"lint-staged@npm:^10.2.10":
+  version: 10.2.10
+  resolution: "lint-staged@npm:10.2.10"
   dependencies:
     chalk: ^4.0.0
     cli-truncate: 2.1.0
@@ -4644,7 +4644,7 @@ fsevents@^2.1.2:
     stringify-object: ^3.3.0
   bin:
     lint-staged: bin/lint-staged.js
-  checksum: 3/5b34de94781244687bc3a1513f79e5ed9879aa7bd8609cffa9ea04f2e27e2967bf4a51d25164621762cb0f604aa01d20e1df188b0dc279cf8a6778f80f2b0b13
+  checksum: 3/2d31c76675aee3edd037a75153f9c7cf125e20bf89ea922b5cce420d9fc231ddecc41135b7210fbba5d516f54d15b202eb2ce790831da9db34efd5639fd7e37b
   languageName: node
   linkType: hard
 
@@ -6957,7 +6957,7 @@ fsevents@^2.1.2:
     husky: ^4.2.5
     jest: ^26.0.1
     jest-circus: ^26.0.1
-    lint-staged: ^10.2.9
+    lint-staged: ^10.2.10
     npm-run-all: ^4.1.5
     prettier: ^2.0.5
     prettylint: ^1.0.0
