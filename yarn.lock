@@ -220,6 +220,17 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@babel/plugin-syntax-import-meta@npm:^7.8.3":
+  version: 7.10.1
+  resolution: "@babel/plugin-syntax-import-meta@npm:7.10.1"
+  dependencies:
+    "@babel/helper-plugin-utils": ^7.10.1
+  peerDependencies:
+    "@babel/core": ^7.0.0-0
+  checksum: 3/bd22403c0c090a7257d082d9a98ae0acad44e4ef0f8728f8aca01fa2aeaee767292a3827fa275ae83af65f8b79b399563d34c28a82c289afdd261ae0a9ab4781
+  languageName: node
+  linkType: hard
+
 "@babel/plugin-syntax-json-strings@npm:^7.8.3":
   version: 7.8.3
   resolution: "@babel/plugin-syntax-json-strings@npm:7.8.3"
@@ -1241,12 +1252,13 @@ __metadata:
   linkType: hard
 
 "babel-preset-current-node-syntax@npm:^0.1.2":
-  version: 0.1.2
-  resolution: "babel-preset-current-node-syntax@npm:0.1.2"
+  version: 0.1.3
+  resolution: "babel-preset-current-node-syntax@npm:0.1.3"
   dependencies:
     "@babel/plugin-syntax-async-generators": ^7.8.4
     "@babel/plugin-syntax-bigint": ^7.8.3
     "@babel/plugin-syntax-class-properties": ^7.8.3
+    "@babel/plugin-syntax-import-meta": ^7.8.3
     "@babel/plugin-syntax-json-strings": ^7.8.3
     "@babel/plugin-syntax-logical-assignment-operators": ^7.8.3
     "@babel/plugin-syntax-nullish-coalescing-operator": ^7.8.3
@@ -1256,7 +1268,7 @@ __metadata:
     "@babel/plugin-syntax-optional-chaining": ^7.8.3
   peerDependencies:
     "@babel/core": ^7.0.0
-  checksum: 3/f31cbcbf7ac867c6ebeafc26155fa273702c273734baeb561e7c9a9fec4078ee0048b843a821118d8bd4def3bf3091c2b412b0b27f93f13a77b79fc8e36b9c5c
+  checksum: 3/35ed34f14d3ebcf9b31275040434ac34224fe019f113290e00e5ff580322a9b8b3cc597267cda2eff02dce943745d8735f7664e17159ab569c51c2804258c340
   languageName: node
   linkType: hard
 
@@ -2146,21 +2158,21 @@ __metadata:
   linkType: hard
 
 "es-abstract@npm:^1.17.0, es-abstract@npm:^1.17.0-next.1, es-abstract@npm:^1.17.5":
-  version: 1.17.5
-  resolution: "es-abstract@npm:1.17.5"
+  version: 1.17.6
+  resolution: "es-abstract@npm:1.17.6"
   dependencies:
     es-to-primitive: ^1.2.1
     function-bind: ^1.1.1
     has: ^1.0.3
     has-symbols: ^1.0.1
-    is-callable: ^1.1.5
-    is-regex: ^1.0.5
+    is-callable: ^1.2.0
+    is-regex: ^1.1.0
     object-inspect: ^1.7.0
     object-keys: ^1.1.1
     object.assign: ^4.1.0
-    string.prototype.trimleft: ^2.1.1
-    string.prototype.trimright: ^2.1.1
-  checksum: 3/83b0ce528072f37174182548d73e18d1b02fa6bddf0d675e81de77b23f4c6f4908f4d1bd5835fcae9f5d91051533afafd841482dafa21b111eaf52160a08b837
+    string.prototype.trimend: ^1.0.1
+    string.prototype.trimstart: ^1.0.1
+  checksum: 3/637ad488bdcbc538dfb35ee30cdbe5e48ecf68c5145a368c8f1be346e83d2555e416709e9382eb9902e542da94763cdd2152d87dbbb01b5b39919c1329bd0bb4
   languageName: node
   linkType: hard
 
@@ -2367,15 +2379,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-prettier@npm:^3.1.3":
-  version: 3.1.3
-  resolution: "eslint-plugin-prettier@npm:3.1.3"
+"eslint-plugin-prettier@npm:^3.1.4":
+  version: 3.1.4
+  resolution: "eslint-plugin-prettier@npm:3.1.4"
   dependencies:
     prettier-linter-helpers: ^1.0.0
   peerDependencies:
-    eslint: ">= 5.0.0"
-    prettier: ">= 1.13.0"
-  checksum: 3/fcaf7c783309145f46611b43156fc51c31b02055d0eb09d7ab29d9ad085d34ad492bf2e611804396fcebf0122b259019b6ec24c3d60a4c7a316db9e45f952c32
+    eslint: ">=5.0.0"
+    prettier: ">=1.13.0"
+  checksum: 3/4e4df155790a20a7ceef9008bbc22a677a8f7e790e9ef613a049a78dfe0b5dc3726afcd4bfd2a8ce41abc88c9a11db029819a722f70b940da32a03629e7f7832
   languageName: node
   linkType: hard
 
@@ -2450,11 +2462,11 @@ __metadata:
   linkType: hard
 
 "eslint-utils@npm:^2.0.0":
-  version: 2.0.0
-  resolution: "eslint-utils@npm:2.0.0"
+  version: 2.1.0
+  resolution: "eslint-utils@npm:2.1.0"
   dependencies:
     eslint-visitor-keys: ^1.1.0
-  checksum: 3/37962274e6a40937f2cb95431d1ee241cef8a85867aad389a353825caad2df307cc23c13c5f63cb4c5868f40fc932330ed395f6827f79edcd0181b927d5fadb2
+  checksum: 3/a43892372a4205374982ac9d4c8edc5fe180cba76535ab9184c48f18a3d931b7ffdd6862cb2f8ca4305c47eface0e614e39884a75fbf169fcc55a6131af2ec48
   languageName: node
   linkType: hard
 
@@ -3507,8 +3519,8 @@ fsevents@^2.1.2:
   linkType: hard
 
 "inquirer@npm:^7.0.0":
-  version: 7.1.0
-  resolution: "inquirer@npm:7.1.0"
+  version: 7.2.0
+  resolution: "inquirer@npm:7.2.0"
   dependencies:
     ansi-escapes: ^4.2.1
     chalk: ^3.0.0
@@ -3523,7 +3535,7 @@ fsevents@^2.1.2:
     string-width: ^4.1.0
     strip-ansi: ^6.0.0
     through: ^2.3.6
-  checksum: 3/651838e841b5850a10edb5232d8fda9b119f71b9aa53ff8e52457c29729d86338d52175b8c50f77d9311c4b5b367f9d2090acfc4c54b6d643df59130d66b197a
+  checksum: 3/d1b1a7a96241656431573acc08799dc61736e2b8b01f852e4a6c7740f9520242ea281812c45b388b51e4ade264153415ef95442741a858d051c000af3d1be6ed
   languageName: node
   linkType: hard
 
@@ -3573,7 +3585,7 @@ fsevents@^2.1.2:
   languageName: node
   linkType: hard
 
-"is-callable@npm:^1.1.4, is-callable@npm:^1.1.5":
+"is-callable@npm:^1.1.4, is-callable@npm:^1.2.0":
   version: 1.2.0
   resolution: "is-callable@npm:1.2.0"
   checksum: 3/8a5e68b7c3a95159c98595789015da72e71432e638c4bc0aad4722ea6a1ffeca178838cfb6012f5b9cc1a8c61b737704bd658d8f588959a46a899961667e99f5
@@ -3760,7 +3772,7 @@ fsevents@^2.1.2:
   languageName: node
   linkType: hard
 
-"is-regex@npm:^1.0.5":
+"is-regex@npm:^1.1.0":
   version: 1.1.0
   resolution: "is-regex@npm:1.1.0"
   dependencies:
@@ -4649,8 +4661,8 @@ fsevents@^2.1.2:
   linkType: hard
 
 "listr2@npm:^2.1.0":
-  version: 2.1.3
-  resolution: "listr2@npm:2.1.3"
+  version: 2.1.7
+  resolution: "listr2@npm:2.1.7"
   dependencies:
     chalk: ^4.0.0
     cli-truncate: ^2.1.0
@@ -4662,7 +4674,7 @@ fsevents@^2.1.2:
     through: ^2.3.8
   peerDependencies:
     enquirer: ">= 2.3.0 < 3"
-  checksum: 3/1e63fc12fec77a3f3451a7496f96a8e06494b52b28c022e148e9ec65d01c7f4f223549842eba93a55f7be3e5eed30e330ec9062960edcf412c1b340f0d5d5124
+  checksum: 3/042d27b9d142d70d200c67623a1d01cc65ef16d0d5fe3306396f0d6ae813a6391e2d15ef6c10a25f59044fd3440f1cc73655d51e9442f512b46e4d1c2b4a49fe
   languageName: node
   linkType: hard
 
@@ -6727,7 +6739,7 @@ fsevents@^2.1.2:
   languageName: node
   linkType: hard
 
-"string.prototype.trimend@npm:^1.0.0":
+"string.prototype.trimend@npm:^1.0.1":
   version: 1.0.1
   resolution: "string.prototype.trimend@npm:1.0.1"
   dependencies:
@@ -6737,29 +6749,7 @@ fsevents@^2.1.2:
   languageName: node
   linkType: hard
 
-"string.prototype.trimleft@npm:^2.1.1":
-  version: 2.1.2
-  resolution: "string.prototype.trimleft@npm:2.1.2"
-  dependencies:
-    define-properties: ^1.1.3
-    es-abstract: ^1.17.5
-    string.prototype.trimstart: ^1.0.0
-  checksum: 3/c0b749c23b0f8621b1901e6aed83c1338af8fb5293a367e4b1065667e00ab07aa5248f19a6f5b9cb85f01c686987e0378153c066cd6901c3ea9a71d1133daaba
-  languageName: node
-  linkType: hard
-
-"string.prototype.trimright@npm:^2.1.1":
-  version: 2.1.2
-  resolution: "string.prototype.trimright@npm:2.1.2"
-  dependencies:
-    define-properties: ^1.1.3
-    es-abstract: ^1.17.5
-    string.prototype.trimend: ^1.0.0
-  checksum: 3/2c7b83c4cf487646d56ec7cd5d24dab112a0c34409b79d2fec4db111fb492ebeac507d993e228451eb56589e24b4c4cdfdcf335ff38bad85e0c34a94a74b7f6b
-  languageName: node
-  linkType: hard
-
-"string.prototype.trimstart@npm:^1.0.0":
+"string.prototype.trimstart@npm:^1.0.1":
   version: 1.0.1
   resolution: "string.prototype.trimstart@npm:1.0.1"
   dependencies:
@@ -6950,7 +6940,7 @@ fsevents@^2.1.2:
     eslint-plugin-import: ^2.21.2
     eslint-plugin-jest: ^23.13.2
     eslint-plugin-node: ^11.1.0
-    eslint-plugin-prettier: ^3.1.3
+    eslint-plugin-prettier: ^3.1.4
     eslint-plugin-promise: ^4.2.1
     eslint-plugin-standard: ^4.0.1
     eslint-plugin-unicorn: ^19.0.1
