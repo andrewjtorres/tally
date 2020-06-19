@@ -107,7 +107,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
       ],
       [
         "lint-staged",
-        "npm:10.2.10"
+        "npm:10.2.11"
       ],
       [
         "npm-run-all",
@@ -164,7 +164,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["husky", "npm:4.2.5"],
             ["jest", "npm:26.0.1"],
             ["jest-circus", "npm:26.0.1"],
-            ["lint-staged", "npm:10.2.10"],
+            ["lint-staged", "npm:10.2.11"],
             ["npm-run-all", "npm:4.1.5"],
             ["prettier", "npm:2.0.5"],
             ["prettylint", "virtual:00f4dc5b5716c66b9aa8875c8c4f1330987e76fef068c4603f5f9e455c250cf6e6ff4f903024ff6dc767cbf872b43e1107107a49deabae009044d51254405fbb#npm:1.0.0"],
@@ -1207,7 +1207,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [
             ["acorn-globals", "npm:6.0.0"],
             ["acorn", "npm:7.3.1"],
-            ["acorn-walk", "npm:7.1.1"]
+            ["acorn-walk", "npm:7.2.0"]
           ],
           "linkType": "HARD",
         }]
@@ -1226,10 +1226,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["acorn-walk", [
-        ["npm:7.1.1", {
-          "packageLocation": "./.yarn/cache/acorn-walk-npm-7.1.1-492300a130-3.zip/node_modules/acorn-walk/",
+        ["npm:7.2.0", {
+          "packageLocation": "./.yarn/cache/acorn-walk-npm-7.2.0-5f8b515308-3.zip/node_modules/acorn-walk/",
           "packageDependencies": [
-            ["acorn-walk", "npm:7.1.1"]
+            ["acorn-walk", "npm:7.2.0"]
           ],
           "linkType": "HARD",
         }]
@@ -2799,10 +2799,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["eslint-import-resolver-node", [
-        ["npm:0.3.3", {
-          "packageLocation": "./.yarn/cache/eslint-import-resolver-node-npm-0.3.3-9648418358-3.zip/node_modules/eslint-import-resolver-node/",
+        ["npm:0.3.4", {
+          "packageLocation": "./.yarn/cache/eslint-import-resolver-node-npm-0.3.4-fa0173d267-3.zip/node_modules/eslint-import-resolver-node/",
           "packageDependencies": [
-            ["eslint-import-resolver-node", "npm:0.3.3"],
+            ["eslint-import-resolver-node", "npm:0.3.4"],
             ["debug", "virtual:2bcc47d217f870e3d52f0e55493dc34fd3da852877f7db32fa2940cc320151746026495daf6a34a974488cf5a949d93be1e2dc1ffba036faf081a9b15fcd2252#npm:2.6.9"],
             ["resolve", "patch:resolve@npm%3A1.17.0#builtin<compat/resolve>::version=1.17.0&hash=e7677c"]
           ],
@@ -2866,7 +2866,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["debug", "virtual:2bcc47d217f870e3d52f0e55493dc34fd3da852877f7db32fa2940cc320151746026495daf6a34a974488cf5a949d93be1e2dc1ffba036faf081a9b15fcd2252#npm:2.6.9"],
             ["doctrine", "npm:1.5.0"],
             ["eslint", "npm:6.8.0"],
-            ["eslint-import-resolver-node", "npm:0.3.3"],
+            ["eslint-import-resolver-node", "npm:0.3.4"],
             ["eslint-module-utils", "npm:2.6.0"],
             ["has", "npm:1.0.3"],
             ["minimatch", "npm:3.0.4"],
@@ -5350,10 +5350,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["lint-staged", [
-        ["npm:10.2.10", {
-          "packageLocation": "./.yarn/cache/lint-staged-npm-10.2.10-c2256b93d3-3.zip/node_modules/lint-staged/",
+        ["npm:10.2.11", {
+          "packageLocation": "./.yarn/cache/lint-staged-npm-10.2.11-8bc771b5a3-3.zip/node_modules/lint-staged/",
           "packageDependencies": [
-            ["lint-staged", "npm:10.2.10"],
+            ["lint-staged", "npm:10.2.11"],
             ["chalk", "npm:4.1.0"],
             ["cli-truncate", "npm:2.1.0"],
             ["commander", "npm:5.1.0"],
@@ -5362,7 +5362,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["dedent", "npm:0.7.0"],
             ["enquirer", "npm:2.3.5"],
             ["execa", "npm:4.0.2"],
-            ["listr2", "virtual:c2256b93d3160c56fd54d48b1947f6458456c5cab4b0e9be36ee2be5b0ad91774e5b4c15a1d02d9099603d65e96e90610ab82fa8ba93df0300bb98fc3d3784f6#npm:2.1.7"],
+            ["listr2", "virtual:8bc771b5a3e8eb7211ba21a9a094aff5f2cc0f45e60e3b4716f7d0b3dcd4680c514153a13904c9174df576f30dab1ca2cdfdc68b323a750ba9a8ca69eab3577c#npm:2.1.7"],
             ["log-symbols", "npm:4.0.0"],
             ["micromatch", "npm:4.0.2"],
             ["normalize-path", "npm:3.0.0"],
@@ -5374,10 +5374,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["listr2", [
-        ["virtual:c2256b93d3160c56fd54d48b1947f6458456c5cab4b0e9be36ee2be5b0ad91774e5b4c15a1d02d9099603d65e96e90610ab82fa8ba93df0300bb98fc3d3784f6#npm:2.1.7", {
-          "packageLocation": "./.yarn/$$virtual/listr2-virtual-b3c21c6837/0/cache/listr2-npm-2.1.7-ceb5491716-3.zip/node_modules/listr2/",
+        ["virtual:8bc771b5a3e8eb7211ba21a9a094aff5f2cc0f45e60e3b4716f7d0b3dcd4680c514153a13904c9174df576f30dab1ca2cdfdc68b323a750ba9a8ca69eab3577c#npm:2.1.7", {
+          "packageLocation": "./.yarn/$$virtual/listr2-virtual-2fa1c0ab8a/0/cache/listr2-npm-2.1.7-ceb5491716-3.zip/node_modules/listr2/",
           "packageDependencies": [
-            ["listr2", "virtual:c2256b93d3160c56fd54d48b1947f6458456c5cab4b0e9be36ee2be5b0ad91774e5b4c15a1d02d9099603d65e96e90610ab82fa8ba93df0300bb98fc3d3784f6#npm:2.1.7"],
+            ["listr2", "virtual:8bc771b5a3e8eb7211ba21a9a094aff5f2cc0f45e60e3b4716f7d0b3dcd4680c514153a13904c9174df576f30dab1ca2cdfdc68b323a750ba9a8ca69eab3577c#npm:2.1.7"],
             ["chalk", "npm:4.1.0"],
             ["cli-truncate", "npm:2.1.0"],
             ["enquirer", "npm:2.3.5"],
@@ -7869,7 +7869,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["husky", "npm:4.2.5"],
             ["jest", "npm:26.0.1"],
             ["jest-circus", "npm:26.0.1"],
-            ["lint-staged", "npm:10.2.10"],
+            ["lint-staged", "npm:10.2.11"],
             ["npm-run-all", "npm:4.1.5"],
             ["prettier", "npm:2.0.5"],
             ["prettylint", "virtual:00f4dc5b5716c66b9aa8875c8c4f1330987e76fef068c4603f5f9e455c250cf6e6ff4f903024ff6dc767cbf872b43e1107107a49deabae009044d51254405fbb#npm:1.0.0"],

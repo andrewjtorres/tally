@@ -910,9 +910,9 @@ __metadata:
   linkType: hard
 
 "acorn-walk@npm:^7.1.1":
-  version: 7.1.1
-  resolution: "acorn-walk@npm:7.1.1"
-  checksum: 3/7d465101e67cee78a8e0ddec0e553638d9df6fce3009d7a08f4680d6b6cabdd3c89e6893f748ee14ba49580e4721d25cc5fa37cd76b7569d361b07f4e0b038b6
+  version: 7.2.0
+  resolution: "acorn-walk@npm:7.2.0"
+  checksum: 3/7b52d5d6397f2d395ca878bdb0f56e583e69bc875521876d05fe2b6e293c21aca918b288c01bd18ac99b46b55a0f00a8d0e30fbdfb53c8e36e78ad1a65f73a4a
   languageName: node
   linkType: hard
 
@@ -2270,12 +2270,12 @@ __metadata:
   linkType: hard
 
 "eslint-import-resolver-node@npm:^0.3.3":
-  version: 0.3.3
-  resolution: "eslint-import-resolver-node@npm:0.3.3"
+  version: 0.3.4
+  resolution: "eslint-import-resolver-node@npm:0.3.4"
   dependencies:
     debug: ^2.6.9
     resolve: ^1.13.1
-  checksum: 3/05700934524b9ea1fea24b5de61fe7c3ae61070b67d5a42da5df3f11d8b0c3e21eff5be92a324d4ba813c16b0d0701bb99e7ca9385d5dd9788d3823c127b41bd
+  checksum: 3/825e34e662c988ece8229e6956a95f12d2fa19265b429e3e3db14e58bfe72e270c999cda0cfc690793ed6e6a3e49ffa8df0e0a8842d668a1f0f7de5ae1aa36f9
   languageName: node
   linkType: hard
 
@@ -4635,9 +4635,9 @@ fsevents@^2.1.2:
   languageName: node
   linkType: hard
 
-"lint-staged@npm:^10.2.10":
-  version: 10.2.10
-  resolution: "lint-staged@npm:10.2.10"
+"lint-staged@npm:^10.2.11":
+  version: 10.2.11
+  resolution: "lint-staged@npm:10.2.11"
   dependencies:
     chalk: ^4.0.0
     cli-truncate: 2.1.0
@@ -4656,7 +4656,7 @@ fsevents@^2.1.2:
     stringify-object: ^3.3.0
   bin:
     lint-staged: bin/lint-staged.js
-  checksum: 3/2d31c76675aee3edd037a75153f9c7cf125e20bf89ea922b5cce420d9fc231ddecc41135b7210fbba5d516f54d15b202eb2ce790831da9db34efd5639fd7e37b
+  checksum: 3/0d1c408dfea1173b6a691b223228db5a617365bd3ee6b7151fc3cd0b69ecbc1a48ced6675163baa67851c1492ab9025490932d9bf0597dc496638c5a1b4b68ab
   languageName: node
   linkType: hard
 
@@ -6947,7 +6947,7 @@ fsevents@^2.1.2:
     husky: ^4.2.5
     jest: ^26.0.1
     jest-circus: ^26.0.1
-    lint-staged: ^10.2.10
+    lint-staged: ^10.2.11
     npm-run-all: ^4.1.5
     prettier: ^2.0.5
     prettylint: ^1.0.0
