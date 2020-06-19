@@ -5362,7 +5362,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["dedent", "npm:0.7.0"],
             ["enquirer", "npm:2.3.5"],
             ["execa", "npm:4.0.2"],
-            ["listr2", "virtual:8bc771b5a3e8eb7211ba21a9a094aff5f2cc0f45e60e3b4716f7d0b3dcd4680c514153a13904c9174df576f30dab1ca2cdfdc68b323a750ba9a8ca69eab3577c#npm:2.1.8"],
+            ["listr2", "virtual:8bc771b5a3e8eb7211ba21a9a094aff5f2cc0f45e60e3b4716f7d0b3dcd4680c514153a13904c9174df576f30dab1ca2cdfdc68b323a750ba9a8ca69eab3577c#npm:2.1.7"],
             ["log-symbols", "npm:4.0.0"],
             ["micromatch", "npm:4.0.2"],
             ["normalize-path", "npm:3.0.0"],
@@ -5374,10 +5374,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["listr2", [
-        ["virtual:8bc771b5a3e8eb7211ba21a9a094aff5f2cc0f45e60e3b4716f7d0b3dcd4680c514153a13904c9174df576f30dab1ca2cdfdc68b323a750ba9a8ca69eab3577c#npm:2.1.8", {
-          "packageLocation": "./.yarn/$$virtual/listr2-virtual-8c27445a4e/0/cache/listr2-npm-2.1.8-4aa1d804ae-3.zip/node_modules/listr2/",
+        ["virtual:8bc771b5a3e8eb7211ba21a9a094aff5f2cc0f45e60e3b4716f7d0b3dcd4680c514153a13904c9174df576f30dab1ca2cdfdc68b323a750ba9a8ca69eab3577c#npm:2.1.7", {
+          "packageLocation": "./.yarn/$$virtual/listr2-virtual-2fa1c0ab8a/0/cache/listr2-npm-2.1.7-ceb5491716-3.zip/node_modules/listr2/",
           "packageDependencies": [
-            ["listr2", "virtual:8bc771b5a3e8eb7211ba21a9a094aff5f2cc0f45e60e3b4716f7d0b3dcd4680c514153a13904c9174df576f30dab1ca2cdfdc68b323a750ba9a8ca69eab3577c#npm:2.1.8"],
+            ["listr2", "virtual:8bc771b5a3e8eb7211ba21a9a094aff5f2cc0f45e60e3b4716f7d0b3dcd4680c514153a13904c9174df576f30dab1ca2cdfdc68b323a750ba9a8ca69eab3577c#npm:2.1.7"],
             ["chalk", "npm:4.1.0"],
             ["cli-truncate", "npm:2.1.0"],
             ["enquirer", "npm:2.3.5"],
