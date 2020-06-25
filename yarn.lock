@@ -738,12 +738,12 @@ __metadata:
   linkType: hard
 
 "@types/jest@npm:^26.0.0":
-  version: 26.0.0
-  resolution: "@types/jest@npm:26.0.0"
+  version: 26.0.3
+  resolution: "@types/jest@npm:26.0.3"
   dependencies:
     jest-diff: ^25.2.1
     pretty-format: ^25.2.1
-  checksum: 3/6c482e91e8ac3850a1db50d086900c810951eab7514d6b705a616934afd362f606b638a2967edad1ff716aa2ec7cc7631f68774fe9c19e3576ceb90c8df68f7b
+  checksum: 3/8a8a98865cce9d454bc0b5332e9caa5d7cfb3f9f608dfb355c12a5e5eb14ce0626854329d5046015098dcb5fb022cf9fe18c5ad72d7b4563ad3f44ad1ab84050
   languageName: node
   linkType: hard
 
@@ -761,10 +761,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:*, @types/node@npm:^14.0.13":
-  version: 14.0.13
-  resolution: "@types/node@npm:14.0.13"
-  checksum: 3/2f2be6f7f1a916b0f4d58949bd934a8e41c0dcb15c493c17c3eaf78da3065c09650030f0dfe2e8c11880d597ee001d7cd925129218037fdb4432e80f7d895673
+"@types/node@npm:*, @types/node@npm:^14.0.14":
+  version: 14.0.14
+  resolution: "@types/node@npm:14.0.14"
+  checksum: 3/0a2072aa7de32e6535ce6bc7383965fc0a4b7bbf6d76f69027db72e86381921c820a8a2173f75fa210d9fb3286c707079d3804ef33c76a065bcb890858e50ee9
   languageName: node
   linkType: hard
 
@@ -4150,14 +4150,14 @@ fsevents@^2.1.2:
   linkType: hard
 
 "jest-pnp-resolver@npm:^1.2.1":
-  version: 1.2.1
-  resolution: "jest-pnp-resolver@npm:1.2.1"
+  version: 1.2.2
+  resolution: "jest-pnp-resolver@npm:1.2.2"
   peerDependencies:
     jest-resolve: "*"
   peerDependenciesMeta:
     jest-resolve:
       optional: true
-  checksum: 3/ab48e45c3985a8ea89dceba6c7867017addb38a6da6121211fb533000207c56e4de1a662c3d5715524e7e3b25faaeaf242c5749a1257aecbd2d9343cbc2ddf04
+  checksum: 3/d91c86e3899f35ac1a6d40fa29e94212fc9b8e5e70d31d77ff281413441c844ec44a3673a3860f9b2155fed6738548f52eee9e63845e8d5f8550a890533c78cc
   languageName: node
   linkType: hard
 
@@ -6852,7 +6852,7 @@ fsevents@^2.1.2:
   resolution: "tally@workspace:."
   dependencies:
     "@types/jest": ^26.0.0
-    "@types/node": ^14.0.13
+    "@types/node": ^14.0.14
     "@typescript-eslint/eslint-plugin": ^2.33.0
     "@typescript-eslint/parser": ^2.33.0
     cz-conventional-changelog: ^3.2.0
