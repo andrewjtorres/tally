@@ -38,6 +38,8 @@ jobs:
       - name: Install Node dependencies
         run: yarn install --immutable --immutable-cache
       - name: Test units
-        run: yarn test:units --coverage --runInBand
+        run: yarn test:units --coverage --run-in-band
       - name: Publish code coverage results
         uses: codecov/codecov-action@v1.0.7
+        with:
+          file: coverage

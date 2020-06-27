@@ -77,7 +77,7 @@
   "lint-staged": {
     "*.{js,ts}": [
       "eslint --fix",
-      "jest --bail --findRelatedTests"
+      "jest --bail --find-related-tests"
     ],
     "*.{json,md,yml}": [
       "prettylint --fix"
