@@ -65,7 +65,7 @@
     "utils": "link:src/utils"
   },
   "engines": {
-    "node": ">=12.16",
+    "node": ">=12.18",
     "yarn": ">=1.22"
   },
   "private": true,
