@@ -8,6 +8,7 @@
 *.zip   binary
 
 .*      text eol=lf
+*.cjs   text eol=lf
 *.js    text eol=lf
 *.json  text eol=lf
 *.lock  text eol=lf
