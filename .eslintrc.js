@@ -5,17 +5,16 @@ const prettierTypescriptConfig = require('eslint-config-prettier/@typescript-esl
 const jestPlugin = require('eslint-plugin-jest')
 
 module.exports = {
-  plugins: ['import', 'prettier', 'promise', 'standard', 'unicorn'],
+  plugins: ['import', 'prettier', 'promise', 'unicorn'],
+  env: { node: true },
   extends: [
-    'standard',
+    'eslint:recommended',
     'plugin:import/recommended',
     'plugin:promise/recommended',
     'plugin:unicorn/recommended',
     'prettier',
-    'prettier/standard',
     'prettier/unicorn',
   ],
-  ignorePatterns: ['!**/.*', '.git', '.yarn', '.pnp.js'],
   rules: {
     'no-console': ['error', { allow: ['error', 'info', 'warn'] }],
     'no-param-reassign': ['error', { props: true }],
@@ -34,7 +33,7 @@ module.exports = {
   },
   overrides: [
     {
-      files: ['**/*.ts', '**/.*/**/*.ts'],
+      files: ['*.ts'],
       parser: typescriptPlugin.configs.base.parser,
       parserOptions: { project: 'tsconfig.?(jest|node).json' },
       plugins: typescriptPlugin.configs.base.plugins,

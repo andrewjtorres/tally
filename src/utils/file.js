@@ -14,7 +14,7 @@ const fs = require('fs')
  */
 const readFiles = (paths, opts, callback) => {
   if (paths.length === 0) {
-    return callback([]) // eslint-disable-line standard/no-callback-literal
+    return callback([])
   }
 
   const results = []

@@ -1,0 +1,9 @@
+# Miscellaneous
+!**/.*
+
+# Dependencies
+.yarn
+.pnp.js
+
+# Version Control
+.git
