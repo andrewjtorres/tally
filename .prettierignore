@@ -1,18 +1,17 @@
+# Miscellaneous
+!**/.*
+.all-contributorsrc
+cache.json
+invalid.json
+
 # Compiled Output
 lib
 
 # Dependencies
-.yarn/unplugged
-.yarn/build-state.yml
-.pnp.js
+.yarn
 
 # Test and Code Coverage
 coverage
 
-# Logs
-*.log*
-
-# Miscellaneous
-.all-contributorsrc
-cache.json
-invalid.json
+# Version Control
+.git
