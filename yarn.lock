@@ -772,10 +772,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:*, @types/node@npm:^14.0.14":
-  version: 14.0.18
-  resolution: "@types/node@npm:14.0.18"
-  checksum: c82eecd0bb3a0653a03f4b72d1a838c2e54b4c8ae31b14ef8ce12e7da718e6437a934344348df3fab96d563defcbee91935a0eeeb0b304698135c90f5ec41962
+"@types/node@npm:*, @types/node@npm:^14.0.20":
+  version: 14.0.20
+  resolution: "@types/node@npm:14.0.20"
+  checksum: a5a13825cdd5d10a0f841216325023bb6924a56c468d86943fae9f3d6c350b9e41746960006cf71cb427df662cdeff205ea1b25827738859e5de747147c00bef
   languageName: node
   linkType: hard
 
@@ -2399,7 +2399,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint@npm:^7.3.1":
+"eslint@npm:^7.4.0":
   version: 7.4.0
   resolution: "eslint@npm:7.4.0"
   dependencies:
@@ -2539,8 +2539,8 @@ __metadata:
   linkType: hard
 
 "execa@npm:^4.0.0, execa@npm:^4.0.1":
-  version: 4.0.2
-  resolution: "execa@npm:4.0.2"
+  version: 4.0.3
+  resolution: "execa@npm:4.0.3"
   dependencies:
     cross-spawn: ^7.0.0
     get-stream: ^5.0.0
@@ -2551,7 +2551,7 @@ __metadata:
     onetime: ^5.1.0
     signal-exit: ^3.0.2
     strip-final-newline: ^2.0.0
-  checksum: c48f3d6a044daa1bb5d93486e1c8eee12a8724b439b7f8c270c556a37cf7e2ffd528a86d2ef08adcbe78b485956cfca56c6027ec15d8370bef959097b9ba23ba
+  checksum: 65b237d178b468045ee57af6aa4e4124807b28aec9573d9b3b16b02a7e41bd65996236e0c5575d053d3888585ffc795cbed38847c6c9669e9c8481fc44ac05e4
   languageName: node
   linkType: hard
 
@@ -4666,10 +4666,17 @@ fsevents@^2.1.2:
   languageName: node
   linkType: hard
 
-"lodash@npm:4.17.15, lodash@npm:^4.17.12, lodash@npm:^4.17.13, lodash@npm:^4.17.14, lodash@npm:^4.17.15":
+"lodash@npm:4.17.15":
   version: 4.17.15
   resolution: "lodash@npm:4.17.15"
   checksum: aec3fbb7570aa67bda500b8299b1b1821d60646bede87f76a74dfcc7666ab3445267d734ec71424d70809d52ad67a1356fab5ab694a3faa1908d68e9d48f00f5
+  languageName: node
+  linkType: hard
+
+"lodash@npm:^4.17.12, lodash@npm:^4.17.13, lodash@npm:^4.17.14, lodash@npm:^4.17.15":
+  version: 4.17.19
+  resolution: "lodash@npm:4.17.19"
+  checksum: ff2b7a95f0129dba9101e346d44e0eda0f159d76bbbf23721eec1969b87a32bde3de0cfef0733218c64620e9be08040a973278d46a686540233b356115f3527c
   languageName: node
   linkType: hard
 
@@ -6826,11 +6833,11 @@ fsevents@^2.1.2:
   resolution: "tally@workspace:."
   dependencies:
     "@types/jest": ^26.0.4
-    "@types/node": ^14.0.14
+    "@types/node": ^14.0.20
     "@typescript-eslint/eslint-plugin": ^2.34.0
     "@typescript-eslint/parser": ^2.34.0
     cz-conventional-changelog: ^3.2.0
-    eslint: ^7.3.1
+    eslint: ^7.4.0
     eslint-config-prettier: ^6.11.0
     eslint-import-resolver-typescript: ^2.0.0
     eslint-plugin-import: ^2.22.0
