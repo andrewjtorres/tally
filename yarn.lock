@@ -6819,7 +6819,7 @@ fsevents@^2.1.2:
     npm-run-all: ^4.1.5
     prettier: ^2.0.5
     prettylint: ^1.0.0
-    ts-jest: ^26.1.1
+    ts-jest: ^26.1.2
     typescript: ^3.9.6
     utils: "link:src/utils"
   dependenciesMeta:
@@ -6996,7 +6996,7 @@ fsevents@^2.1.2:
   languageName: node
   linkType: hard
 
-"ts-jest@npm:^26.1.1":
+"ts-jest@npm:^26.1.2":
   version: 26.1.2
   resolution: "ts-jest@npm:26.1.2"
   dependencies:
