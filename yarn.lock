@@ -15,38 +15,37 @@ __metadata:
   linkType: hard
 
 "@babel/core@npm:^7.1.0, @babel/core@npm:^7.7.5":
-  version: 7.10.4
-  resolution: "@babel/core@npm:7.10.4"
+  version: 7.10.5
+  resolution: "@babel/core@npm:7.10.5"
   dependencies:
     "@babel/code-frame": ^7.10.4
-    "@babel/generator": ^7.10.4
-    "@babel/helper-module-transforms": ^7.10.4
+    "@babel/generator": ^7.10.5
+    "@babel/helper-module-transforms": ^7.10.5
     "@babel/helpers": ^7.10.4
-    "@babel/parser": ^7.10.4
+    "@babel/parser": ^7.10.5
     "@babel/template": ^7.10.4
-    "@babel/traverse": ^7.10.4
-    "@babel/types": ^7.10.4
+    "@babel/traverse": ^7.10.5
+    "@babel/types": ^7.10.5
     convert-source-map: ^1.7.0
     debug: ^4.1.0
     gensync: ^1.0.0-beta.1
     json5: ^2.1.2
-    lodash: ^4.17.13
+    lodash: ^4.17.19
     resolve: ^1.3.2
     semver: ^5.4.1
     source-map: ^0.5.0
-  checksum: 80c60ba01a30e779ca39988932b4f776e58aee0c01c171f46222d6cdfc7808fb01906070666fd306db6258b1f18ad8121c682de83ef44f7d195486fffe7f23f6
+  checksum: 1b7ddcb578a937245e63889b4648b44c28e04257ef52bf506f61c751ec2def9c9c586883b669be2e66a2b829037a1d78e19ee23a371966c94e0728f9598799e1
   languageName: node
   linkType: hard
 
-"@babel/generator@npm:^7.10.4":
-  version: 7.10.4
-  resolution: "@babel/generator@npm:7.10.4"
+"@babel/generator@npm:^7.10.5":
+  version: 7.10.5
+  resolution: "@babel/generator@npm:7.10.5"
   dependencies:
-    "@babel/types": ^7.10.4
+    "@babel/types": ^7.10.5
     jsesc: ^2.5.1
-    lodash: ^4.17.13
     source-map: ^0.5.0
-  checksum: c5d6f986489e98de4594fbe7f8daa665b4fc8eaa9fba6875436fd44197dbf1584bae76b352282de6736e94b111951bf6c60c58d50f0c6f663dc54188bd37c21d
+  checksum: 6e3fd8065268e1ef128bfd6ccb3053d98816f09f130f26ed12101ce6de39801b3b422605bcf0f8f4011ea39ff2ccf14e0ff1d2b9ecf70941319660e15cb0e82b
   languageName: node
   linkType: hard
 
@@ -71,11 +70,11 @@ __metadata:
   linkType: hard
 
 "@babel/helper-member-expression-to-functions@npm:^7.10.4":
-  version: 7.10.4
-  resolution: "@babel/helper-member-expression-to-functions@npm:7.10.4"
+  version: 7.10.5
+  resolution: "@babel/helper-member-expression-to-functions@npm:7.10.5"
   dependencies:
-    "@babel/types": ^7.10.4
-  checksum: 512a2008f61ab676f08f6fc6a88a0a1060c3e77bdfa71a2d8e6aba6a1afcb53cff1da74eb7836a2fa1ca66d5019bff9394acbfada0b4fb299eea15e09f57d44e
+    "@babel/types": ^7.10.5
+  checksum: f239d2dfdbbace14aaef6b1acf38e94e126682a739462b0b5ee1aafa86d58c3aeb082cf8913fd03ad184e0b4b222a09f7c6010fc70d7571209a5bcda47f15626
   languageName: node
   linkType: hard
 
@@ -88,18 +87,18 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/helper-module-transforms@npm:^7.10.4":
-  version: 7.10.4
-  resolution: "@babel/helper-module-transforms@npm:7.10.4"
+"@babel/helper-module-transforms@npm:^7.10.5":
+  version: 7.10.5
+  resolution: "@babel/helper-module-transforms@npm:7.10.5"
   dependencies:
     "@babel/helper-module-imports": ^7.10.4
     "@babel/helper-replace-supers": ^7.10.4
     "@babel/helper-simple-access": ^7.10.4
     "@babel/helper-split-export-declaration": ^7.10.4
     "@babel/template": ^7.10.4
-    "@babel/types": ^7.10.4
-    lodash: ^4.17.13
-  checksum: 97de2b22b0be4f6af990a8c0bcd9dba078dc2d980aa7804f16c0e79fadd94f056ec73baf29917ad820b4f93056c2f432846f9360604a1e65a6a307752d0e3a38
+    "@babel/types": ^7.10.5
+    lodash: ^4.17.19
+  checksum: 02a2b607058da060cc704583025a9c6585503ed40ba346f0630c017c0042c1cc5ab6887fa5f549f4a0b3d728ac89b9388dc224ba1e4601ae75b2286e16f8336f
   languageName: node
   linkType: hard
 
@@ -179,12 +178,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/parser@npm:^7.1.0, @babel/parser@npm:^7.10.4":
-  version: 7.10.4
-  resolution: "@babel/parser@npm:7.10.4"
+"@babel/parser@npm:^7.1.0, @babel/parser@npm:^7.10.4, @babel/parser@npm:^7.10.5":
+  version: 7.10.5
+  resolution: "@babel/parser@npm:7.10.5"
   bin:
     parser: ./bin/babel-parser.js
-  checksum: d56ba930b09e67e6d2b61a2300a8afba31cdf9596ff921a1a4dfa5dfe73df1e171305e11b1bfc013acb258cb8871c74d196b0a241ce4ffe23f27186e9ddd0d9b
+  checksum: c7b4d7183fb89a6b74a4d6c690a9ffd0c33942814ae902a909642fb77495b9ca9ab5420d7f86c2a82e6721469477830e42c7e9f5a49f7471d4ba13819f7913b6
   languageName: node
   linkType: hard
 
@@ -320,31 +319,31 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/traverse@npm:^7.1.0, @babel/traverse@npm:^7.10.4":
-  version: 7.10.4
-  resolution: "@babel/traverse@npm:7.10.4"
+"@babel/traverse@npm:^7.1.0, @babel/traverse@npm:^7.10.4, @babel/traverse@npm:^7.10.5":
+  version: 7.10.5
+  resolution: "@babel/traverse@npm:7.10.5"
   dependencies:
     "@babel/code-frame": ^7.10.4
-    "@babel/generator": ^7.10.4
+    "@babel/generator": ^7.10.5
     "@babel/helper-function-name": ^7.10.4
     "@babel/helper-split-export-declaration": ^7.10.4
-    "@babel/parser": ^7.10.4
-    "@babel/types": ^7.10.4
+    "@babel/parser": ^7.10.5
+    "@babel/types": ^7.10.5
     debug: ^4.1.0
     globals: ^11.1.0
-    lodash: ^4.17.13
-  checksum: 4e4592a1d9f316e537884a927c3bd1ddccb91dba4a8bbc9a590f569bb7d77c23e7a741e9c93c4e430564abb296c94b8c9ed6cfdb367ffd1052502af81e843862
+    lodash: ^4.17.19
+  checksum: 4292255a99167d215294c1b8bfb0ac94e721d7792ffb65fd1bba9b54a59a7ce0657b0889b22cfe0078e0d33cf2f71b097dda351f44341e83523074dd4440b50c
   languageName: node
   linkType: hard
 
-"@babel/types@npm:^7.0.0, @babel/types@npm:^7.10.4, @babel/types@npm:^7.3.0, @babel/types@npm:^7.3.3":
-  version: 7.10.4
-  resolution: "@babel/types@npm:7.10.4"
+"@babel/types@npm:^7.0.0, @babel/types@npm:^7.10.4, @babel/types@npm:^7.10.5, @babel/types@npm:^7.3.0, @babel/types@npm:^7.3.3":
+  version: 7.10.5
+  resolution: "@babel/types@npm:7.10.5"
   dependencies:
     "@babel/helper-validator-identifier": ^7.10.4
-    lodash: ^4.17.13
+    lodash: ^4.17.19
     to-fast-properties: ^2.0.0
-  checksum: 2ed310279e90e299d0ea9ef875bcf8ad8385c55b039b53b72dc9625e333c798c4de70d2dc409d89b16b1417b56cd4019e3518fa5e36b5eccc9ff4a51bec646fe
+  checksum: 00bdeb6f4687357750252f27d6f1a597596c6f727992df7b0c3d8f7ca6347a656f687c000e3ac141d7fc75f0171aa137126ecbe899f87b4ae5dd903bdccc1f01
   languageName: node
   linkType: hard
 
@@ -4647,7 +4646,7 @@ fsevents@^2.1.2:
   languageName: node
   linkType: hard
 
-"lodash@npm:^4.17.12, lodash@npm:^4.17.13, lodash@npm:^4.17.14, lodash@npm:^4.17.15":
+"lodash@npm:^4.17.12, lodash@npm:^4.17.14, lodash@npm:^4.17.15, lodash@npm:^4.17.19":
   version: 4.17.19
   resolution: "lodash@npm:4.17.19"
   checksum: ff2b7a95f0129dba9101e346d44e0eda0f159d76bbbf23721eec1969b87a32bde3de0cfef0733218c64620e9be08040a973278d46a686540233b356115f3527c
@@ -6820,7 +6819,7 @@ fsevents@^2.1.2:
     prettier: ^2.0.5
     prettylint: ^1.0.0
     ts-jest: ^26.1.2
-    typescript: ^3.9.6
+    typescript: ^3.9.7
     utils: "link:src/utils"
   dependenciesMeta:
     husky:
@@ -6997,8 +6996,8 @@ fsevents@^2.1.2:
   linkType: hard
 
 "ts-jest@npm:^26.1.2":
-  version: 26.1.2
-  resolution: "ts-jest@npm:26.1.2"
+  version: 26.1.3
+  resolution: "ts-jest@npm:26.1.3"
   dependencies:
     bs-logger: 0.x
     buffer-from: 1.x
@@ -7015,7 +7014,7 @@ fsevents@^2.1.2:
     typescript: ">=3.8 <4.0"
   bin:
     ts-jest: cli.js
-  checksum: 338ea127831642e82e724f10b98f6882a3ffef29a4c3df1c3fde69a2f637f00dec91b8e4a15191a89f693cc8059613b4f7806fb56242d808063d542bb2bcfc85
+  checksum: f47aa8a9766a80158f428c44c9dea4cda1d6376826c4a704590fa1e636112b523a8c739f28aa9fc58d3fd33e18b6222951312fab181a84d40ef1827a47758460
   languageName: node
   linkType: hard
 
@@ -7120,23 +7119,23 @@ fsevents@^2.1.2:
   languageName: node
   linkType: hard
 
-typescript@^3.9.6:
-  version: 3.9.6
-  resolution: "typescript@npm:3.9.6"
+typescript@^3.9.7:
+  version: 3.9.7
+  resolution: "typescript@npm:3.9.7"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
-  checksum: 75d8e3610ca435b0feaa3eb714ef3aa9060ec72621da3c62c45ceee1d8d0ddcbd8ff2a816de2d24ab28dcd2249953edb640d34595d59e491656156da4c2903fc
+  checksum: 10848a9c35fd8c70a8792b8bd9485317534bcd58768793d3b7d9c7486e9fd30cf345f83fa2a324e0bf6088bc8a4d8d061d58fda38b18c2ff187cf01fbbff6267
   languageName: node
   linkType: hard
 
-"typescript@patch:typescript@^3.9.6#builtin<compat/typescript>":
-  version: 3.9.6
-  resolution: "typescript@patch:typescript@npm%3A3.9.6#builtin<compat/typescript>::version=3.9.6&hash=64df9d"
+"typescript@patch:typescript@^3.9.7#builtin<compat/typescript>":
+  version: 3.9.7
+  resolution: "typescript@patch:typescript@npm%3A3.9.7#builtin<compat/typescript>::version=3.9.7&hash=64df9d"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
-  checksum: 74cb55c847841e1aeea9c78bdf0156cf6ba311eb353e555ba70cb6df120e9b4c4a7feff2a153f04fda3d6b7124496fd4d444be62f3d2d448e77c667ea5beaa0b
+  checksum: 251a760b5a4d44481d04edaa35a6526841a9878cdfc72a0aee52b18187bd7304e91d467827f3f71b8046faf05d0f35ce1357cd3298b2b172410ccf731660a85f
   languageName: node
   linkType: hard
 
