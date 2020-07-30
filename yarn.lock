@@ -738,12 +738,12 @@ __metadata:
   linkType: hard
 
 "@types/jest@npm:^26.0.5":
-  version: 26.0.5
-  resolution: "@types/jest@npm:26.0.5"
+  version: 26.0.7
+  resolution: "@types/jest@npm:26.0.7"
   dependencies:
     jest-diff: ^25.2.1
     pretty-format: ^25.2.1
-  checksum: ffe129cacd0b1472ab8018d1cd5e88cd66f31223d1cc02f2366143e792eba59031432065c37199d7351da5c2b4a6cea21c4a6d30075f925dff3a9f32ba8dc04d
+  checksum: 9c54f6cdcef19a570151aa0b3257219beffa11f4aeae501e5a41211e7ea4edde9acd90a59b38595b09f34e525879b8bd557436d7ac365aa5e8f31ed2de190e29
   languageName: node
   linkType: hard
 
@@ -762,9 +762,9 @@ __metadata:
   linkType: hard
 
 "@types/node@npm:*, @types/node@npm:^14.0.23":
-  version: 14.0.23
-  resolution: "@types/node@npm:14.0.23"
-  checksum: 35415a294f536c2b14d29ec02a733af23405f4e7e87dace5b4392a69358aae7a14d28805a528b6e9a5f55cfbd9e035bd817e4db0325945fe0332db40ecabdf84
+  version: 14.0.26
+  resolution: "@types/node@npm:14.0.26"
+  checksum: fe900b9e9441d5c48ca854a5d6680689025767d0a4b6236512bcff44f443e380d1757ca2c6d5e96eac2a4a360be0af446b4d50b8f94348c1942e5cd7865a2499
   languageName: node
   linkType: hard
 
@@ -1470,7 +1470,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"chalk@npm:4.1.0, chalk@npm:^4.0.0":
+"chalk@npm:4.1.0, chalk@npm:^4.0.0, chalk@npm:^4.1.0":
   version: 4.1.0
   resolution: "chalk@npm:4.1.0"
   dependencies:
@@ -2269,14 +2269,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-jest@npm:^23.18.0":
-  version: 23.18.0
-  resolution: "eslint-plugin-jest@npm:23.18.0"
+"eslint-plugin-jest@npm:^23.19.0":
+  version: 23.19.0
+  resolution: "eslint-plugin-jest@npm:23.19.0"
   dependencies:
     "@typescript-eslint/experimental-utils": ^2.5.0
   peerDependencies:
     eslint: ">=5"
-  checksum: 56bb63ff745c228288407e820369587b88bb47077139f425892a3629591c5e0d28372a17cfb976e2413b748521b01df05bde196017f9dcdd79902a182828b96b
+  checksum: 111d9291de56c3142b38dc98e40f5c472b7a5c7b6d39f88998eda845754f81a0b1ecc884934011deabf9056961e95a72c5198d3af3ac4c6fa18db2481e722877
   languageName: node
   linkType: hard
 
@@ -3699,7 +3699,7 @@ fsevents@^2.1.2:
   languageName: node
   linkType: hard
 
-"is-wsl@npm:^2.1.1":
+"is-wsl@npm:^2.2.0":
   version: 2.2.0
   resolution: "is-wsl@npm:2.2.0"
   dependencies:
@@ -4531,20 +4531,20 @@ fsevents@^2.1.2:
   linkType: hard
 
 "listr2@npm:^2.1.0":
-  version: 2.2.1
-  resolution: "listr2@npm:2.2.1"
+  version: 2.4.0
+  resolution: "listr2@npm:2.4.0"
   dependencies:
-    chalk: ^4.0.0
+    chalk: ^4.1.0
     cli-truncate: ^2.1.0
     figures: ^3.2.0
     indent-string: ^4.0.0
     log-update: ^4.0.0
     p-map: ^4.0.0
-    rxjs: ^6.5.5
+    rxjs: ^6.6.0
     through: ^2.3.8
   peerDependencies:
     enquirer: ">= 2.3.0 < 3"
-  checksum: 798c4cc87c4c1b77bb3f087538e161e36a711d727d89cd0213ea4ada7967205eadcfbf050cf8105cf8be3b34201690e98ca0841d78732ca98159d2300ee883a2
+  checksum: 23a9265bc0db25f6d64b4da1ae07dd088e97dfc988d8f83271a9e5bd8331e0993caf4aba9a42a62c17ef5f7fbda3b58d43d5ec4c628dff986b91d8ec629dbc14
   languageName: node
   linkType: hard
 
@@ -5009,16 +5009,16 @@ fsevents@^2.1.2:
   linkType: hard
 
 "node-notifier@npm:^7.0.0":
-  version: 7.0.1
-  resolution: "node-notifier@npm:7.0.1"
+  version: 7.0.2
+  resolution: "node-notifier@npm:7.0.2"
   dependencies:
     growly: ^1.3.0
-    is-wsl: ^2.1.1
-    semver: ^7.2.1
+    is-wsl: ^2.2.0
+    semver: ^7.3.2
     shellwords: ^0.1.1
-    uuid: ^7.0.3
+    uuid: ^8.2.0
     which: ^2.0.2
-  checksum: d851b89ba6e6cbab7803370516ff25424b95d2fa0d0a15c01c199447502cd959f2153d2976674eb297a01faff64a85598297e54da362c933c3fb199ecfc39118
+  checksum: 61d77d6c98454235efdd9bb278ec6fa044e4e4d9066c60c46ca801d9022f9888e7a52d8b90bb2fd34c7e8c71e7c14660eb7de319df37923b8944a408562065dc
   languageName: node
   linkType: hard
 
@@ -5398,14 +5398,14 @@ fsevents@^2.1.2:
   linkType: hard
 
 "parse-json@npm:^5.0.0":
-  version: 5.0.0
-  resolution: "parse-json@npm:5.0.0"
+  version: 5.0.1
+  resolution: "parse-json@npm:5.0.1"
   dependencies:
     "@babel/code-frame": ^7.0.0
     error-ex: ^1.3.1
     json-parse-better-errors: ^1.0.1
     lines-and-columns: ^1.1.6
-  checksum: 9c46eb0c388df4333eaa4feb996deae32f32ab447723abe48fdc6756bce863cf46009d56485fde0178bfe3ac9002ef0c3540ff4b278ad3ada2abc12186413eb8
+  checksum: 051a5ebaed679acc1cea7248b96bdab4eaa02bf7c1043ab79cfc2099dd64a137a2b5320b1111e40562bf2912832dd2b58220c36a4c6557906de8bce43a491196
   languageName: node
   linkType: hard
 
@@ -5916,27 +5916,27 @@ fsevents@^2.1.2:
   languageName: node
   linkType: hard
 
-"request-promise-core@npm:1.1.3":
-  version: 1.1.3
-  resolution: "request-promise-core@npm:1.1.3"
+"request-promise-core@npm:1.1.4":
+  version: 1.1.4
+  resolution: "request-promise-core@npm:1.1.4"
   dependencies:
-    lodash: ^4.17.15
+    lodash: ^4.17.19
   peerDependencies:
     request: ^2.34
-  checksum: 1235a6071b8a59c771d7c006dcc16e13ef0069a1248c9d5c95ab2f510fe42c9889e99b49a43fdeb331a47be0b93c85fb69a40ea72ed6c0011713026dfc0453ca
+  checksum: 7c9c90bf00158f6669e7167425cd113edadaca44b5aebc7c6a7969d9f50d93bfae8275038bdf6389b4e94f1cacacca7e5830d28701692818bdfba353eeb2ddfd
   languageName: node
   linkType: hard
 
 "request-promise-native@npm:^1.0.8":
-  version: 1.0.8
-  resolution: "request-promise-native@npm:1.0.8"
+  version: 1.0.9
+  resolution: "request-promise-native@npm:1.0.9"
   dependencies:
-    request-promise-core: 1.1.3
+    request-promise-core: 1.1.4
     stealthy-require: ^1.1.1
     tough-cookie: ^2.3.3
   peerDependencies:
     request: ^2.34
-  checksum: 29986fe3ccd11e644d60175ea81c7fbadcbe943ee6f551cad062024e6f92a5a2163d3f3af1c9e5a573641d1625377c8c716245b3a4a4e5b3811e8558126720e7
+  checksum: 532570f00559f826ad372d36a152c3cf1aa184d0876b04ed7c18a9fa391fa2108978eca837ae1fb681d2dab63bd6c74c6660022b82ecdb2682d77859314d0b6e
   languageName: node
   linkType: hard
 
@@ -6119,7 +6119,7 @@ fsevents@^2.1.2:
   languageName: node
   linkType: hard
 
-"rxjs@npm:^6.4.0, rxjs@npm:^6.5.5":
+"rxjs@npm:^6.4.0, rxjs@npm:^6.6.0":
   version: 6.6.0
   resolution: "rxjs@npm:6.6.0"
   dependencies:
@@ -6807,7 +6807,7 @@ fsevents@^2.1.2:
     eslint-config-prettier: ^6.11.0
     eslint-import-resolver-typescript: ^2.0.0
     eslint-plugin-import: ^2.22.0
-    eslint-plugin-jest: ^23.18.0
+    eslint-plugin-jest: ^23.19.0
     eslint-plugin-prettier: ^3.1.4
     eslint-plugin-promise: ^4.2.1
     eslint-plugin-unicorn: ^19.0.1
@@ -7213,12 +7213,12 @@ typescript@^3.9.7:
   languageName: node
   linkType: hard
 
-"uuid@npm:^7.0.3":
-  version: 7.0.3
-  resolution: "uuid@npm:7.0.3"
+"uuid@npm:^8.2.0":
+  version: 8.3.0
+  resolution: "uuid@npm:8.3.0"
   bin:
     uuid: dist/bin/uuid
-  checksum: a56be8a5bbf2bae755d749d0693637274935b5ae250dfaaaf79241391cf1a7c142a202492196363ec62ec51a476e5e3fc4de2944d854abf2e9b35a33e0e31d4c
+  checksum: a2bdb8a3eb80a53506e9657e7e1f70d7600562bf43fa010a645fd1deb7de1686df61c496c6f9826bac4be8db4d1ac1b976dd6fdf3bd083207eec1674507936fb
   languageName: node
   linkType: hard
 
