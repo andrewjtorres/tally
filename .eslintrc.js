@@ -63,7 +63,7 @@ module.exports = {
     'import/resolver': {
       typescript: {
         alwaysTryTypes: true,
-        directory: 'tsconfig.?(jest|node).json',
+        project: 'tsconfig.?(jest|node).json',
       },
     },
   },
