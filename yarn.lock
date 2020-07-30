@@ -762,9 +762,9 @@ __metadata:
   linkType: hard
 
 "@types/node@npm:*, @types/node@npm:^14.0.23":
-  version: 14.0.25
-  resolution: "@types/node@npm:14.0.25"
-  checksum: cb872904d38367d4dfa7904a2c1b3e429546bff8bc5c2e18846768aa7fd4408e06076ee1d9775f4ef629c6aef51c757978491c108069c67346848495fdaee876
+  version: 14.0.26
+  resolution: "@types/node@npm:14.0.26"
+  checksum: fe900b9e9441d5c48ca854a5d6680689025767d0a4b6236512bcff44f443e380d1757ca2c6d5e96eac2a4a360be0af446b4d50b8f94348c1942e5cd7865a2499
   languageName: node
   linkType: hard
 
@@ -1470,7 +1470,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"chalk@npm:4.1.0, chalk@npm:^4.0.0":
+"chalk@npm:4.1.0, chalk@npm:^4.0.0, chalk@npm:^4.1.0":
   version: 4.1.0
   resolution: "chalk@npm:4.1.0"
   dependencies:
@@ -2269,14 +2269,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-jest@npm:^23.18.0":
-  version: 23.18.0
-  resolution: "eslint-plugin-jest@npm:23.18.0"
+"eslint-plugin-jest@npm:^23.19.0":
+  version: 23.19.0
+  resolution: "eslint-plugin-jest@npm:23.19.0"
   dependencies:
     "@typescript-eslint/experimental-utils": ^2.5.0
   peerDependencies:
     eslint: ">=5"
-  checksum: 56bb63ff745c228288407e820369587b88bb47077139f425892a3629591c5e0d28372a17cfb976e2413b748521b01df05bde196017f9dcdd79902a182828b96b
+  checksum: 111d9291de56c3142b38dc98e40f5c472b7a5c7b6d39f88998eda845754f81a0b1ecc884934011deabf9056961e95a72c5198d3af3ac4c6fa18db2481e722877
   languageName: node
   linkType: hard
 
@@ -4531,20 +4531,20 @@ fsevents@^2.1.2:
   linkType: hard
 
 "listr2@npm:^2.1.0":
-  version: 2.3.2
-  resolution: "listr2@npm:2.3.2"
+  version: 2.4.0
+  resolution: "listr2@npm:2.4.0"
   dependencies:
-    chalk: ^4.0.0
+    chalk: ^4.1.0
     cli-truncate: ^2.1.0
     figures: ^3.2.0
     indent-string: ^4.0.0
     log-update: ^4.0.0
     p-map: ^4.0.0
-    rxjs: ^6.5.5
+    rxjs: ^6.6.0
     through: ^2.3.8
   peerDependencies:
     enquirer: ">= 2.3.0 < 3"
-  checksum: 4bed0e930d5d21caf3cd06bdd9153425edd62a92870aafe09441c73c13d4458c4a824a267be8296aab3ca1f2d7f87cfca06b0eea5c9a4e60ce6499b3764b425e
+  checksum: 23a9265bc0db25f6d64b4da1ae07dd088e97dfc988d8f83271a9e5bd8331e0993caf4aba9a42a62c17ef5f7fbda3b58d43d5ec4c628dff986b91d8ec629dbc14
   languageName: node
   linkType: hard
 
@@ -6119,7 +6119,7 @@ fsevents@^2.1.2:
   languageName: node
   linkType: hard
 
-"rxjs@npm:^6.4.0, rxjs@npm:^6.5.5":
+"rxjs@npm:^6.4.0, rxjs@npm:^6.6.0":
   version: 6.6.0
   resolution: "rxjs@npm:6.6.0"
   dependencies:
@@ -6807,7 +6807,7 @@ fsevents@^2.1.2:
     eslint-config-prettier: ^6.11.0
     eslint-import-resolver-typescript: ^2.0.0
     eslint-plugin-import: ^2.22.0
-    eslint-plugin-jest: ^23.18.0
+    eslint-plugin-jest: ^23.19.0
     eslint-plugin-prettier: ^3.1.4
     eslint-plugin-promise: ^4.2.1
     eslint-plugin-unicorn: ^19.0.1
@@ -7214,11 +7214,11 @@ typescript@^3.9.7:
   linkType: hard
 
 "uuid@npm:^8.2.0":
-  version: 8.2.0
-  resolution: "uuid@npm:8.2.0"
+  version: 8.3.0
+  resolution: "uuid@npm:8.3.0"
   bin:
     uuid: dist/bin/uuid
-  checksum: 6059ba10c32a42897af628b9e434ff523713614714d93845c76ee153f0d9c7e88ab47b8d03cadbe5f4c39a57abc4fbff46ae533fff6318cc6c907e4cd626fcb2
+  checksum: a2bdb8a3eb80a53506e9657e7e1f70d7600562bf43fa010a645fd1deb7de1686df61c496c6f9826bac4be8db4d1ac1b976dd6fdf3bd083207eec1674507936fb
   languageName: node
   linkType: hard
 
