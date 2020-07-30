@@ -761,10 +761,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:*, @types/node@npm:^14.0.23":
-  version: 14.0.26
-  resolution: "@types/node@npm:14.0.26"
-  checksum: fe900b9e9441d5c48ca854a5d6680689025767d0a4b6236512bcff44f443e380d1757ca2c6d5e96eac2a4a360be0af446b4d50b8f94348c1942e5cd7865a2499
+"@types/node@npm:*, @types/node@npm:^14.0.27":
+  version: 14.0.27
+  resolution: "@types/node@npm:14.0.27"
+  checksum: 54ecf408eb94f44685e12ef395d8d9d5789cb9e209f171153b6b951272af6b8da099778d09d66454aa5d35ce246f3922ebd7476ed768bf3bd4267306c12a6703
   languageName: node
   linkType: hard
 
@@ -6799,7 +6799,7 @@ fsevents@^2.1.2:
   resolution: "tally@workspace:."
   dependencies:
     "@types/jest": ^26.0.7
-    "@types/node": ^14.0.23
+    "@types/node": ^14.0.27
     "@typescript-eslint/eslint-plugin": ^2.34.0
     "@typescript-eslint/parser": ^2.34.0
     cz-conventional-changelog: ^3.2.0
@@ -6996,8 +6996,8 @@ fsevents@^2.1.2:
   linkType: hard
 
 "ts-jest@npm:^26.1.3":
-  version: 26.1.3
-  resolution: "ts-jest@npm:26.1.3"
+  version: 26.1.4
+  resolution: "ts-jest@npm:26.1.4"
   dependencies:
     bs-logger: 0.x
     buffer-from: 1.x
@@ -7014,7 +7014,7 @@ fsevents@^2.1.2:
     typescript: ">=3.8 <4.0"
   bin:
     ts-jest: cli.js
-  checksum: f47aa8a9766a80158f428c44c9dea4cda1d6376826c4a704590fa1e636112b523a8c739f28aa9fc58d3fd33e18b6222951312fab181a84d40ef1827a47758460
+  checksum: e69d84f07e4c2fe8ccb7556c00ff5f72fa41c18cb0ba38544265a62702556309d1cea59cef6297a2deef8042b45dcbd8b8493e3f8449372db563f2c4cef5b1d6
   languageName: node
   linkType: hard
 
