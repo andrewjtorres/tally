@@ -742,7 +742,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/jest@npm:^26.0.7":
+"@types/jest@npm:^26.0.8":
   version: 26.0.8
   resolution: "@types/jest@npm:26.0.8"
   dependencies:
@@ -2281,7 +2281,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-jest@npm:^23.19.0":
+"eslint-plugin-jest@npm:^23.20.0":
   version: 23.20.0
   resolution: "eslint-plugin-jest@npm:23.20.0"
   dependencies:
@@ -2384,7 +2384,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint@npm:^7.5.0":
+"eslint@npm:^7.6.0":
   version: 7.6.0
   resolution: "eslint@npm:7.6.0"
   dependencies:
@@ -6810,16 +6810,16 @@ fsevents@^2.1.2:
   version: 0.0.0-use.local
   resolution: "tally@workspace:."
   dependencies:
-    "@types/jest": ^26.0.7
+    "@types/jest": ^26.0.8
     "@types/node": ^14.0.27
     "@typescript-eslint/eslint-plugin": ^2.34.0
     "@typescript-eslint/parser": ^2.34.0
     cz-conventional-changelog: ^3.2.0
-    eslint: ^7.5.0
+    eslint: ^7.6.0
     eslint-config-prettier: ^6.11.0
     eslint-import-resolver-typescript: ^2.2.0
     eslint-plugin-import: ^2.22.0
-    eslint-plugin-jest: ^23.19.0
+    eslint-plugin-jest: ^23.20.0
     eslint-plugin-prettier: ^3.1.4
     eslint-plugin-promise: ^4.2.1
     eslint-plugin-unicorn: ^19.0.1
