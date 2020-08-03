@@ -742,7 +742,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/jest@npm:^26.0.7":
+"@types/jest@npm:^26.0.8":
   version: 26.0.8
   resolution: "@types/jest@npm:26.0.8"
   dependencies:
@@ -6810,7 +6810,7 @@ fsevents@^2.1.2:
   version: 0.0.0-use.local
   resolution: "tally@workspace:."
   dependencies:
-    "@types/jest": ^26.0.7
+    "@types/jest": ^26.0.8
     "@types/node": ^14.0.27
     "@typescript-eslint/eslint-plugin": ^2.34.0
     "@typescript-eslint/parser": ^2.34.0
