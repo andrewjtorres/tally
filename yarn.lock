@@ -5685,7 +5685,7 @@ fsevents@^2.1.2:
   languageName: node
   linkType: hard
 
-"prettier@npm:^2.0.5":
+"prettier@npm:^2.1.0":
   version: 2.1.0
   resolution: "prettier@npm:2.1.0"
   bin:
@@ -6856,7 +6856,7 @@ fsevents@^2.1.2:
     jest-circus: ^26.4.1
     lint-staged: ^10.2.11
     npm-run-all: ^4.1.5
-    prettier: ^2.0.5
+    prettier: ^2.1.0
     prettylint: ^1.0.0
     ts-jest: ^26.2.0
     typescript: ^3.9.7
