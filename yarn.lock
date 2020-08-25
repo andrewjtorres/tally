@@ -1697,8 +1697,8 @@ __metadata:
   linkType: hard
 
 "commitizen@npm:^4.0.3":
-  version: 4.1.5
-  resolution: "commitizen@npm:4.1.5"
+  version: 4.2.0
+  resolution: "commitizen@npm:4.2.0"
   dependencies:
     cachedir: 2.2.0
     cz-conventional-changelog: 3.2.0
@@ -1716,8 +1716,9 @@ __metadata:
     strip-json-comments: 3.0.1
   bin:
     commitizen: bin/commitizen
+    cz: bin/git-cz
     git-cz: bin/git-cz
-  checksum: f9de8f234ae0982f05b7cf04c60ee6df83cfc1193a16062b9bd3e6fd33e71462b8d1a76afe2c19f70ae77950b9d51efc48ee79ed24321c45eda10fa6b4eedf24
+  checksum: 8c0bb6f0c6511cb11fe7d5c9549e470a519e8ef7399ae4a2766aac694af73da7d62e209a31dc073c9a03994df1e621fdaec41eb46135b3eb4dd3908bc3b2c436
   languageName: node
   linkType: hard
 
@@ -1855,7 +1856,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"cz-conventional-changelog@npm:3.2.0, cz-conventional-changelog@npm:^3.2.0":
+"cz-conventional-changelog@npm:3.2.0":
   version: 3.2.0
   resolution: "cz-conventional-changelog@npm:3.2.0"
   dependencies:
@@ -1870,6 +1871,24 @@ __metadata:
     "@commitlint/load":
       optional: true
   checksum: 8fce253c2c99181994ea16f52606ec1e23d710fc04f928560c5918ae686b07b58384fd49173212a378643397c2b05008fc55fc27a865412a1771bc4377957f3f
+  languageName: node
+  linkType: hard
+
+"cz-conventional-changelog@npm:^3.2.1":
+  version: 3.2.1
+  resolution: "cz-conventional-changelog@npm:3.2.1"
+  dependencies:
+    "@commitlint/load": ">6.1.1"
+    chalk: ^2.4.1
+    commitizen: ^4.0.3
+    conventional-commit-types: ^3.0.0
+    lodash.map: ^4.5.1
+    longest: ^2.0.1
+    word-wrap: ^1.0.3
+  dependenciesMeta:
+    "@commitlint/load":
+      optional: true
+  checksum: 8dd00a2e0bc29abcaa9b65f00d8dffda01409f13679a7306776358fe188e310ba70600cff3604ede1fc0c7bb8ee7b29f8a94f23e9906cbe8dad9ebda18a7c2b7
   languageName: node
   linkType: hard
 
@@ -4285,7 +4304,7 @@ fsevents@^2.1.2:
   languageName: node
   linkType: hard
 
-"jest@npm:^26.4.1":
+"jest@npm:^26.4.2":
   version: 26.4.2
   resolution: "jest@npm:26.4.2"
   dependencies:
@@ -5666,12 +5685,12 @@ fsevents@^2.1.2:
   languageName: node
   linkType: hard
 
-"prettier@npm:^2.0.5":
-  version: 2.0.5
-  resolution: "prettier@npm:2.0.5"
+"prettier@npm:^2.1.0":
+  version: 2.1.0
+  resolution: "prettier@npm:2.1.0"
   bin:
     prettier: bin-prettier.js
-  checksum: d249d89361870a29b20e8b268cb09e908490b8c9e21f70393d12a213701f29ba7e95b7f9ce0ad63929c16ce475176742481911737ae3da4a498873e4a3b90990
+  checksum: f955d380d2892284c28bbfe32b1601cfcd7a24d8b310832937773b9e733f624e38ff70cbafee80e9553bdb3c55783d019163667bf9a69df4e6f7c2acdcf54c06
   languageName: node
   linkType: hard
 
@@ -6823,7 +6842,7 @@ fsevents@^2.1.2:
     "@types/node": ^14.6.0
     "@typescript-eslint/eslint-plugin": ^2.34.0
     "@typescript-eslint/parser": ^2.34.0
-    cz-conventional-changelog: ^3.2.0
+    cz-conventional-changelog: ^3.2.1
     eslint: ^7.7.0
     eslint-config-prettier: ^6.11.0
     eslint-import-resolver-typescript: ^2.2.1
@@ -6833,11 +6852,11 @@ fsevents@^2.1.2:
     eslint-plugin-promise: ^4.2.1
     eslint-plugin-unicorn: ^19.0.1
     husky: ^4.2.5
-    jest: ^26.4.1
+    jest: ^26.4.2
     jest-circus: ^26.4.2
     lint-staged: ^10.2.11
     npm-run-all: ^4.1.5
-    prettier: ^2.0.5
+    prettier: ^2.1.0
     prettylint: ^1.0.0
     ts-jest: ^26.2.0
     typescript: ^3.9.7
@@ -7331,13 +7350,13 @@ typescript@^3.9.7:
   linkType: hard
 
 "whatwg-url@npm:^8.0.0":
-  version: 8.1.0
-  resolution: "whatwg-url@npm:8.1.0"
+  version: 8.2.0
+  resolution: "whatwg-url@npm:8.2.0"
   dependencies:
     lodash.sortby: ^4.7.0
     tr46: ^2.0.2
-    webidl-conversions: ^5.0.0
-  checksum: 1cc612b2733d71bd9db47537836440aac8ce016e57d33d4f1e5f5cfb6952fccca9085507812f4374920a6835f09125ee359e41ce550b7ca83b9f560a544c14b8
+    webidl-conversions: ^6.1.0
+  checksum: 2a0dd8d810cd7a4ae4c3cacfc8423b6e1ce9c9c2560cd3cb6d586f996efbc4676bde928fb5481603aa8d5e19a6c2bb21d9512002a2d626d369dc6954a7e21e03
   languageName: node
   linkType: hard
 
