@@ -1874,7 +1874,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"cz-conventional-changelog@npm:^3.2.0":
+"cz-conventional-changelog@npm:^3.2.1":
   version: 3.2.1
   resolution: "cz-conventional-changelog@npm:3.2.1"
   dependencies:
@@ -6842,7 +6842,7 @@ fsevents@^2.1.2:
     "@types/node": ^14.6.0
     "@typescript-eslint/eslint-plugin": ^2.34.0
     "@typescript-eslint/parser": ^2.34.0
-    cz-conventional-changelog: ^3.2.0
+    cz-conventional-changelog: ^3.2.1
     eslint: ^7.7.0
     eslint-config-prettier: ^6.11.0
     eslint-import-resolver-typescript: ^2.2.1
