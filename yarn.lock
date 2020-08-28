@@ -4565,7 +4565,7 @@ fsevents@^2.1.2:
   languageName: node
   linkType: hard
 
-"lint-staged@npm:^10.2.11":
+"lint-staged@npm:^10.2.13":
   version: 10.2.13
   resolution: "lint-staged@npm:10.2.13"
   dependencies:
@@ -5698,7 +5698,7 @@ fsevents@^2.1.2:
   languageName: node
   linkType: hard
 
-"prettier@npm:^2.1.0":
+"prettier@npm:^2.1.1":
   version: 2.1.1
   resolution: "prettier@npm:2.1.1"
   bin:
@@ -6867,12 +6867,12 @@ fsevents@^2.1.2:
     husky: ^4.2.5
     jest: ^26.4.2
     jest-circus: ^26.4.2
-    lint-staged: ^10.2.11
+    lint-staged: ^10.2.13
     npm-run-all: ^4.1.5
-    prettier: ^2.1.0
+    prettier: ^2.1.1
     prettylint: ^1.0.0
     ts-jest: ^26.3.0
-    typescript: ^3.9.7
+    typescript: ^4.0.2
     utils: "link:src/utils"
   dependenciesMeta:
     husky:
@@ -7163,23 +7163,23 @@ fsevents@^2.1.2:
   languageName: node
   linkType: hard
 
-typescript@^3.9.7:
-  version: 3.9.7
-  resolution: "typescript@npm:3.9.7"
+typescript@^4.0.2:
+  version: 4.0.2
+  resolution: "typescript@npm:4.0.2"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
-  checksum: 10848a9c35fd8c70a8792b8bd9485317534bcd58768793d3b7d9c7486e9fd30cf345f83fa2a324e0bf6088bc8a4d8d061d58fda38b18c2ff187cf01fbbff6267
+  checksum: cc0e7806eee7997a1b4b2990badacc4a8d089893ed0a377f35c9658e2ac392503cb340d0187203ed82e36e427dda94b0fb7107e44a71cca99efac86be26e16ee
   languageName: node
   linkType: hard
 
-"typescript@patch:typescript@^3.9.7#builtin<compat/typescript>":
-  version: 3.9.7
-  resolution: "typescript@patch:typescript@npm%3A3.9.7#builtin<compat/typescript>::version=3.9.7&hash=64df9d"
+"typescript@patch:typescript@^4.0.2#builtin<compat/typescript>":
+  version: 4.0.2
+  resolution: "typescript@patch:typescript@npm%3A4.0.2#builtin<compat/typescript>::version=4.0.2&hash=64df9d"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
-  checksum: 251a760b5a4d44481d04edaa35a6526841a9878cdfc72a0aee52b18187bd7304e91d467827f3f71b8046faf05d0f35ce1357cd3298b2b172410ccf731660a85f
+  checksum: 74d6a894bd7c82e6786d0ded6c313298ee51b18efbdf0687ba1580f3fcd2f28be54045698029aa59d2b0a9f02541e90f065023e205bb8ddf5a1e4a6c07a6b111
   languageName: node
   linkType: hard
 
