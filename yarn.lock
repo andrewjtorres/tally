@@ -2296,7 +2296,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-import-resolver-typescript@npm:^2.2.1":
+"eslint-import-resolver-typescript@npm:^2.3.0":
   version: 2.3.0
   resolution: "eslint-import-resolver-typescript@npm:2.3.0"
   dependencies:
@@ -6868,7 +6868,7 @@ fsevents@^2.1.2:
     cz-conventional-changelog: ^3.3.0
     eslint: ^7.8.0
     eslint-config-prettier: ^6.11.0
-    eslint-import-resolver-typescript: ^2.2.1
+    eslint-import-resolver-typescript: ^2.3.0
     eslint-plugin-import: ^2.22.0
     eslint-plugin-jest: ^23.20.0
     eslint-plugin-prettier: ^3.1.4
