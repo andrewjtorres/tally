@@ -3,7 +3,7 @@
 
 __metadata:
   version: 4
-  cacheKey: 4
+  cacheKey: 6
 
 "@babel/code-frame@npm:^7.0.0, @babel/code-frame@npm:^7.10.4":
   version: 7.10.4
@@ -2952,10 +2952,10 @@ fsevents@^2.1.2:
 
 "fsevents@patch:fsevents@^2.1.2#builtin<compat/fsevents>":
   version: 2.1.3
-  resolution: "fsevents@patch:fsevents@npm%3A2.1.3#builtin<compat/fsevents>::version=2.1.3&hash=495457"
+  resolution: "fsevents@patch:fsevents@npm%3A2.1.3#builtin<compat/fsevents>::version=2.1.3&hash=87eb42"
   dependencies:
     node-gyp: latest
-  checksum: b2c7c3576498b568fcc9e932d6ad10774abffb4668450de2d0afb64531f3aef35016bef0880a74f71b0fee99925301430634698d59c68781c337ba6e28ec038c
+  checksum: d8ae862048fc127cdbd00d02b2feb7c25946c3ce4cbc44e958134be87e239577a16dafafa1c270d010b8624e1b1e0372e23f7865c55c6f83e83fc9f68b0a30d2
   languageName: node
   linkType: hard
 
@@ -6122,7 +6122,7 @@ fsevents@^2.1.2:
   resolution: "resolve@patch:resolve@npm%3A1.17.0#builtin<compat/resolve>::version=1.17.0&hash=3388aa"
   dependencies:
     path-parse: ^1.0.6
-  checksum: 99df12ab341fb8e96c6bce2ea521d3a1294c5c56f85524369808f7294fbf6f01d6f6c7f4408a1f6cd4fb5762b800a889629ff64abc08f12bcc8c3553e3564ab8
+  checksum: 4bcfb568860d0c361fd16c26b6fce429711138ff0de7dd353bdd73fcb5c7eede2f4602d40ccfa08ff45ec7ef9830845eab2021a46036af0a6e5b58bab1ff6399
   languageName: node
   linkType: hard
 
@@ -7185,11 +7185,11 @@ typescript@^4.0.2:
 
 "typescript@patch:typescript@^4.0.2#builtin<compat/typescript>":
   version: 4.0.2
-  resolution: "typescript@patch:typescript@npm%3A4.0.2#builtin<compat/typescript>::version=4.0.2&hash=64df9d"
+  resolution: "typescript@patch:typescript@npm%3A4.0.2#builtin<compat/typescript>::version=4.0.2&hash=5b02a2"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
-  checksum: 74d6a894bd7c82e6786d0ded6c313298ee51b18efbdf0687ba1580f3fcd2f28be54045698029aa59d2b0a9f02541e90f065023e205bb8ddf5a1e4a6c07a6b111
+  checksum: b8b689ef994cce4fe59950d56ddfffce3c4bdda8edb85b72e752d4a6d27bf7df8a318e76ccde25cbe6e642058f2f4ccf47187db4b243bbc98278a2844db9461b
   languageName: node
   linkType: hard
 
