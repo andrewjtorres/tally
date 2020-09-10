@@ -2,7 +2,7 @@
 
 const { basename, dirname } = require('path')
 
-const fs = jest.genMockFromModule('fs')
+const fs = jest.createMockFromModule('fs')
 let mockFiles = Object.freeze(Object.create(null))
 
 fs.readFile = (path, opts, callback) => {
