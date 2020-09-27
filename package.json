@@ -41,8 +41,8 @@
     "@typescript-eslint/eslint-plugin": "^2.34.0",
     "@typescript-eslint/parser": "^2.34.0",
     "cz-conventional-changelog": "^3.3.0",
-    "eslint": "^7.9.0",
-    "eslint-config-prettier": "^6.11.0",
+    "eslint": "^7.10.0",
+    "eslint-config-prettier": "^6.12.0",
     "eslint-import-resolver-typescript": "^2.3.0",
     "eslint-plugin-import": "^2.22.0",
     "eslint-plugin-jest": "^24.0.2",
@@ -57,7 +57,7 @@
     "prettier": "^2.1.2",
     "prettylint": "^1.0.0",
     "ts-jest": "^26.3.0",
-    "typescript": "^4.0.2",
+    "typescript": "^4.0.3",
     "utils": "link:src/utils"
   },
   "dependenciesMeta": {
