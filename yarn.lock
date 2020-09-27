@@ -7081,7 +7081,7 @@ fsevents@^2.1.2:
     prettier: ^2.1.2
     prettylint: ^1.0.0
     ts-jest: ^26.3.0
-    typescript: ^4.0.2
+    typescript: ^4.0.3
     utils: "link:src/utils"
   dependenciesMeta:
     husky:
@@ -7372,7 +7372,7 @@ fsevents@^2.1.2:
   languageName: node
   linkType: hard
 
-typescript@^4.0.2:
+typescript@^4.0.3:
   version: 4.0.3
   resolution: "typescript@npm:4.0.3"
   bin:
@@ -7382,7 +7382,7 @@ typescript@^4.0.2:
   languageName: node
   linkType: hard
 
-"typescript@patch:typescript@^4.0.2#builtin<compat/typescript>":
+"typescript@patch:typescript@^4.0.3#builtin<compat/typescript>":
   version: 4.0.3
   resolution: "typescript@patch:typescript@npm%3A4.0.3#builtin<compat/typescript>::version=4.0.3&hash=5b02a2"
   bin:
