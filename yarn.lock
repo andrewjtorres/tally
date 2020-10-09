@@ -652,6 +652,19 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@jest/types@npm:^26.5.2":
+  version: 26.5.2
+  resolution: "@jest/types@npm:26.5.2"
+  dependencies:
+    "@types/istanbul-lib-coverage": ^2.0.0
+    "@types/istanbul-reports": ^3.0.0
+    "@types/node": "*"
+    "@types/yargs": ^15.0.0
+    chalk: ^4.0.0
+  checksum: 8f6352547f040b84adf5dad41a2c5e3ff95be1f81c79b278f7a80d52f62eeafd5daa5032cf85ba89067c8a5b3bb7d2ab25c7b420506a4a6554e4f87e465d43f1
+  languageName: node
+  linkType: hard
+
 "@nodelib/fs.scandir@npm:2.1.3":
   version: 2.1.3
   resolution: "@nodelib/fs.scandir@npm:2.1.3"
@@ -813,10 +826,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:*, @types/node@npm:^14.11.2":
-  version: 14.11.4
-  resolution: "@types/node@npm:14.11.4"
-  checksum: 27c793b33ad29e3ca709c389fb4d3ee3ecdc304e997af9bceaed9aebb27ebc0082b11c709483990827de35d6d1505b0a273951e0f11fbad847e7a6e9b0fbb353
+"@types/node@npm:*, @types/node@npm:^14.11.8":
+  version: 14.11.8
+  resolution: "@types/node@npm:14.11.8"
+  checksum: 5139c07ba76d791b4930fa02ec746656dacf78b43c431d56a7514a8285962d0511bf356bee870968a541033c14967b58f7b2a58c48ac81646ce4eb28d2ff433d
   languageName: node
   linkType: hard
 
@@ -856,11 +869,11 @@ __metadata:
   linkType: hard
 
 "@types/yargs@npm:^15.0.0":
-  version: 15.0.7
-  resolution: "@types/yargs@npm:15.0.7"
+  version: 15.0.8
+  resolution: "@types/yargs@npm:15.0.8"
   dependencies:
     "@types/yargs-parser": "*"
-  checksum: df076111e3564fb2e92dc11fe0b32b096bb3ed8e241dd70205159c83d32a0ba281ea73108a995679cb29c6a2fa434c5a90237e33ba9cdcba2e98165e35a74440
+  checksum: f3a946ef2ffefdd396998f97d9a9ad89b3e57aa8886c4529f754b72834f9ee5b797d779e27d1e9b639552c4bea8eb7cc852faa150773e7277fdae02bfea9aa38
   languageName: node
   linkType: hard
 
@@ -2561,8 +2574,8 @@ __metadata:
   linkType: hard
 
 "eslint@npm:^7.10.0":
-  version: 7.10.0
-  resolution: "eslint@npm:7.10.0"
+  version: 7.11.0
+  resolution: "eslint@npm:7.11.0"
   dependencies:
     "@babel/code-frame": ^7.0.0
     "@eslint/eslintrc": ^0.1.3
@@ -2574,7 +2587,7 @@ __metadata:
     enquirer: ^2.3.5
     eslint-scope: ^5.1.1
     eslint-utils: ^2.1.0
-    eslint-visitor-keys: ^1.3.0
+    eslint-visitor-keys: ^2.0.0
     espree: ^7.3.0
     esquery: ^1.2.0
     esutils: ^2.0.2
@@ -2603,7 +2616,7 @@ __metadata:
     v8-compile-cache: ^2.0.3
   bin:
     eslint: bin/eslint.js
-  checksum: a136b9e01c956b97b1705517ecf71de082d7758b5871c97f4ca6a33a6f364f8be42a75f045ed74c3ae85e42e333269c4db5ad8b793f0ceeb10975726808a1514
+  checksum: 45ef6dc7b31684ca0f383ed9c6224e763197e1d49745542f4440e37286c947973388a6a7ebbf103eeee91ddb4af2652c5d22718f4130bfbbf4bd16a04103f82a
   languageName: node
   linkType: hard
 
@@ -4452,7 +4465,21 @@ fsevents@^2.1.2:
   languageName: node
   linkType: hard
 
-"jest-util@npm:^26.1.0, jest-util@npm:^26.5.0":
+"jest-util@npm:^26.1.0":
+  version: 26.5.2
+  resolution: "jest-util@npm:26.5.2"
+  dependencies:
+    "@jest/types": ^26.5.2
+    "@types/node": "*"
+    chalk: ^4.0.0
+    graceful-fs: ^4.2.4
+    is-ci: ^2.0.0
+    micromatch: ^4.0.2
+  checksum: 114207232754a81b6e8a4e729d1789a58a7acf1de348b87df6374dcdf3085684a18c01e45cdb7d1b981c3cd03b3da8a7cbbd8a02747e23fb72733555d5d2aa80
+  languageName: node
+  linkType: hard
+
+"jest-util@npm:^26.5.0":
   version: 26.5.0
   resolution: "jest-util@npm:26.5.0"
   dependencies:
@@ -7055,7 +7082,7 @@ fsevents@^2.1.2:
   resolution: "tally@workspace:."
   dependencies:
     "@types/jest": ^26.0.14
-    "@types/node": ^14.11.2
+    "@types/node": ^14.11.8
     "@typescript-eslint/eslint-plugin": ^2.34.0
     "@typescript-eslint/parser": ^2.34.0
     cz-conventional-changelog: ^3.3.0
@@ -7278,9 +7305,9 @@ fsevents@^2.1.2:
   linkType: hard
 
 "tslib@npm:^1.8.0, tslib@npm:^1.8.1, tslib@npm:^1.9.0":
-  version: 1.13.0
-  resolution: "tslib@npm:1.13.0"
-  checksum: 5dc3bdaea3b67c76ef4a14c28fcb2171da7bcf292fd9c59a260098729626b1ce766c52b588f08e324ed9a0c52ea8a93a815920f980d75981abc9d850fbf310fb
+  version: 1.14.0
+  resolution: "tslib@npm:1.14.0"
+  checksum: dfbb39a7f241f952ada0f1b148ad88b736e2030a2d44de2aad0723ac7527a3fdda1f710859e66495fd46659cf227727f74d6a10410d5562b7b23dbdc92e66c98
   languageName: node
   linkType: hard
 
