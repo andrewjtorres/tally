@@ -814,7 +814,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:*, @types/node@npm:^14.11.8":
+"@types/node@npm:*, @types/node@npm:^14.11.10":
   version: 14.11.10
   resolution: "@types/node@npm:14.11.10"
   checksum: 74c50cfd07b5e4bbc4303c063acf8524048f5035161f009ea2ceeb12001d278fd43a1e399d03f6277caa5c67c61a785bf406f0541b8fc2252e1bcaaa2f2d414b
@@ -4505,7 +4505,7 @@ fsevents@^2.1.2:
   languageName: node
   linkType: hard
 
-"jest@npm:^26.5.3":
+"jest@npm:^26.6.0":
   version: 26.6.0
   resolution: "jest@npm:26.6.0"
   dependencies:
@@ -7043,7 +7043,7 @@ fsevents@^2.1.2:
   resolution: "tally@workspace:."
   dependencies:
     "@types/jest": ^26.0.14
-    "@types/node": ^14.11.8
+    "@types/node": ^14.11.10
     "@typescript-eslint/eslint-plugin": ^2.34.0
     "@typescript-eslint/parser": ^2.34.0
     cz-conventional-changelog: ^3.3.0
@@ -7056,7 +7056,7 @@ fsevents@^2.1.2:
     eslint-plugin-promise: ^4.2.1
     eslint-plugin-unicorn: ^19.0.1
     husky: ^4.3.0
-    jest: ^26.5.3
+    jest: ^26.6.0
     jest-circus: ^26.5.3
     lint-staged: ^10.4.0
     npm-run-all: ^4.1.5
