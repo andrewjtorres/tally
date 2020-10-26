@@ -53,7 +53,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["husky", "npm:4.3.0"],
             ["jest", "npm:26.6.1"],
             ["jest-circus", "npm:26.6.1"],
-            ["lint-staged", "npm:10.4.2"],
+            ["lint-staged", "npm:10.5.0"],
             ["npm-run-all", "npm:4.1.5"],
             ["prettier", "npm:2.1.2"],
             ["prettylint", "virtual:00f4dc5b5716c66b9aa8875c8c4f1330987e76fef068c4603f5f9e455c250cf6e6ff4f903024ff6dc767cbf872b43e1107107a49deabae009044d51254405fbb#npm:1.0.0"],
@@ -5362,10 +5362,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["lint-staged", [
-        ["npm:10.4.2", {
-          "packageLocation": "./.yarn/cache/lint-staged-npm-10.4.2-55a84facd7-bbd94e1dbf.zip/node_modules/lint-staged/",
+        ["npm:10.5.0", {
+          "packageLocation": "./.yarn/cache/lint-staged-npm-10.5.0-0c8e0379ec-cb86aaee3b.zip/node_modules/lint-staged/",
           "packageDependencies": [
-            ["lint-staged", "npm:10.4.2"],
+            ["lint-staged", "npm:10.5.0"],
             ["chalk", "npm:4.1.0"],
             ["cli-truncate", "npm:2.1.0"],
             ["commander", "npm:6.2.0"],
@@ -5374,7 +5374,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["dedent", "npm:0.7.0"],
             ["enquirer", "npm:2.3.6"],
             ["execa", "npm:4.0.3"],
-            ["listr2", "virtual:55a84facd72074e953826b351ed20515903931a8f9c0395fcae97bf432227038269c316d17b1fb33558ff269580e9b378d5f6b5e41a2f9b2c38d9b1dab1e71e8#npm:2.6.2"],
+            ["listr2", "virtual:0c8e0379ec8a1481a10bad93fb756fee75c510ebe0ce5d0e2e7b7a05da09af700dd22aab2d3ded301fdf9404d28d639ceab3175d92e1b759ba088d2f9960a9eb#npm:2.6.2"],
             ["log-symbols", "npm:4.0.0"],
             ["micromatch", "npm:4.0.2"],
             ["normalize-path", "npm:3.0.0"],
@@ -5386,10 +5386,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["listr2", [
-        ["virtual:55a84facd72074e953826b351ed20515903931a8f9c0395fcae97bf432227038269c316d17b1fb33558ff269580e9b378d5f6b5e41a2f9b2c38d9b1dab1e71e8#npm:2.6.2", {
-          "packageLocation": "./.yarn/$$virtual/listr2-virtual-6f9317e739/0/cache/listr2-npm-2.6.2-31e2c78a29-4d5fd1bc8f.zip/node_modules/listr2/",
+        ["virtual:0c8e0379ec8a1481a10bad93fb756fee75c510ebe0ce5d0e2e7b7a05da09af700dd22aab2d3ded301fdf9404d28d639ceab3175d92e1b759ba088d2f9960a9eb#npm:2.6.2", {
+          "packageLocation": "./.yarn/$$virtual/listr2-virtual-b89e5a344a/0/cache/listr2-npm-2.6.2-31e2c78a29-4d5fd1bc8f.zip/node_modules/listr2/",
           "packageDependencies": [
-            ["listr2", "virtual:55a84facd72074e953826b351ed20515903931a8f9c0395fcae97bf432227038269c316d17b1fb33558ff269580e9b378d5f6b5e41a2f9b2c38d9b1dab1e71e8#npm:2.6.2"],
+            ["listr2", "virtual:0c8e0379ec8a1481a10bad93fb756fee75c510ebe0ce5d0e2e7b7a05da09af700dd22aab2d3ded301fdf9404d28d639ceab3175d92e1b759ba088d2f9960a9eb#npm:2.6.2"],
             ["@types/enquirer", null],
             ["chalk", "npm:4.1.0"],
             ["cli-truncate", "npm:2.1.0"],
@@ -7872,7 +7872,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["husky", "npm:4.3.0"],
             ["jest", "npm:26.6.1"],
             ["jest-circus", "npm:26.6.1"],
-            ["lint-staged", "npm:10.4.2"],
+            ["lint-staged", "npm:10.5.0"],
             ["npm-run-all", "npm:4.1.5"],
             ["prettier", "npm:2.1.2"],
             ["prettylint", "virtual:00f4dc5b5716c66b9aa8875c8c4f1330987e76fef068c4603f5f9e455c250cf6e6ff4f903024ff6dc767cbf872b43e1107107a49deabae009044d51254405fbb#npm:1.0.0"],
