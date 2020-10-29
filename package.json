@@ -42,7 +42,7 @@
     "@typescript-eslint/parser": "^2.34.0",
     "cz-conventional-changelog": "^3.3.0",
     "eslint": "^7.12.0",
-    "eslint-config-prettier": "^6.14.0",
+    "eslint-config-prettier": "^6.15.0",
     "eslint-import-resolver-typescript": "^2.3.0",
     "eslint-plugin-import": "^2.22.1",
     "eslint-plugin-jest": "^24.1.0",
@@ -57,7 +57,7 @@
     "prettier": "^2.1.2",
     "prettylint": "^1.0.0",
     "ts-jest": "^26.4.3",
-    "typescript": "^4.0.3",
+    "typescript": "^4.0.5",
     "utils": "link:src/utils"
   },
   "dependenciesMeta": {
