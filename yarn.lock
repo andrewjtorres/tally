@@ -2316,16 +2316,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-config-prettier@npm:^6.14.0":
-  version: 6.14.0
-  resolution: "eslint-config-prettier@npm:6.14.0"
+"eslint-config-prettier@npm:^6.15.0":
+  version: 6.15.0
+  resolution: "eslint-config-prettier@npm:6.15.0"
   dependencies:
     get-stdin: ^6.0.0
   peerDependencies:
     eslint: ">=3.14.1"
   bin:
     eslint-config-prettier-check: bin/cli.js
-  checksum: 8d478429bb6c63a538270b8d2fae13a2ffe5c5bd8401d2f478e9a65e1bc94ed6e0f6ca3d063a8decd0003ad91ef26ca32fadf2d08f3e2d7dd4c76ee8efea6711
+  checksum: a790bc61699e43a2edc5453488576cd977fad3b3cf99c129c10760ce6970d422923fddf80b65b2b10a93c00af0180a854e4b7824cc268e5957826cbe5b969e90
   languageName: node
   linkType: hard
 
@@ -2511,7 +2511,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint@npm:^7.12.0":
+"eslint@npm:^7.12.1":
   version: 7.12.1
   resolution: "eslint@npm:7.12.1"
   dependencies:
@@ -3083,9 +3083,9 @@ fsevents@^2.1.2:
   linkType: hard
 
 "gensync@npm:^1.0.0-beta.1":
-  version: 1.0.0-beta.1
-  resolution: "gensync@npm:1.0.0-beta.1"
-  checksum: 3d14f7c34fc903dd52c36d0879de2c4afde8315edccd630e97919c365819b32c06d98770ef87f7ba45686ee5d2bd5818354920187659b42828319f7cc3352fdb
+  version: 1.0.0-beta.2
+  resolution: "gensync@npm:1.0.0-beta.2"
+  checksum: d523437689c97b3aba9c5cdeca4677d5fff9a29d620db693fea40d852bad63563110f16979d0170248439dbcd2ecee0780fb2533d3f0519f019081aa10767c60
   languageName: node
   linkType: hard
 
@@ -6985,8 +6985,8 @@ fsevents@^2.1.2:
     "@typescript-eslint/eslint-plugin": ^2.34.0
     "@typescript-eslint/parser": ^2.34.0
     cz-conventional-changelog: ^3.3.0
-    eslint: ^7.12.0
-    eslint-config-prettier: ^6.14.0
+    eslint: ^7.12.1
+    eslint-config-prettier: ^6.15.0
     eslint-import-resolver-typescript: ^2.3.0
     eslint-plugin-import: ^2.22.1
     eslint-plugin-jest: ^24.1.0
@@ -7000,8 +7000,8 @@ fsevents@^2.1.2:
     npm-run-all: ^4.1.5
     prettier: ^2.1.2
     prettylint: ^1.0.0
-    ts-jest: ^26.4.2
-    typescript: ^4.0.3
+    ts-jest: ^26.4.3
+    typescript: ^4.0.5
     utils: "link:src/utils"
   dependenciesMeta:
     husky:
@@ -7167,7 +7167,7 @@ fsevents@^2.1.2:
   languageName: node
   linkType: hard
 
-"ts-jest@npm:^26.4.2":
+"ts-jest@npm:^26.4.3":
   version: 26.4.3
   resolution: "ts-jest@npm:26.4.3"
   dependencies:
@@ -7293,7 +7293,7 @@ fsevents@^2.1.2:
   languageName: node
   linkType: hard
 
-typescript@^4.0.3:
+typescript@^4.0.5:
   version: 4.0.5
   resolution: "typescript@npm:4.0.5"
   bin:
@@ -7303,7 +7303,7 @@ typescript@^4.0.3:
   languageName: node
   linkType: hard
 
-"typescript@patch:typescript@^4.0.3#builtin<compat/typescript>":
+"typescript@patch:typescript@^4.0.5#builtin<compat/typescript>":
   version: 4.0.5
   resolution: "typescript@patch:typescript@npm%3A4.0.5#builtin<compat/typescript>::version=4.0.5&hash=5b02a2"
   bin:
