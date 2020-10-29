@@ -37,7 +37,7 @@
   },
   "devDependencies": {
     "@types/jest": "^26.0.15",
-    "@types/node": "^14.14.5",
+    "@types/node": "^14.14.6",
     "@typescript-eslint/eslint-plugin": "^2.34.0",
     "@typescript-eslint/parser": "^2.34.0",
     "cz-conventional-changelog": "^3.3.0",
@@ -66,8 +66,8 @@
     }
   },
   "engines": {
-    "node": ">=12.18",
-    "yarn": ">=1.22"
+    "node": ">=12.19",
+    "yarn": ">=2.3"
   },
   "private": true,
   "husky": {
