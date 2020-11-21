@@ -4033,7 +4033,7 @@ fsevents@2.1.2:
   languageName: node
   linkType: hard
 
-"jest-circus@npm:^26.6.2":
+"jest-circus@npm:^26.6.3":
   version: 26.6.3
   resolution: "jest-circus@npm:26.6.3"
   dependencies:
@@ -7034,7 +7034,7 @@ fsevents@2.1.2:
     eslint-plugin-unicorn: ^19.0.1
     husky: ^4.3.0
     jest: ^26.6.3
-    jest-circus: ^26.6.2
+    jest-circus: ^26.6.3
     lint-staged: ^10.5.1
     npm-run-all: ^4.1.5
     prettier: ^2.1.2
