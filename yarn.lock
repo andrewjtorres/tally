@@ -2428,7 +2428,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-jest@npm:^24.1.0":
+"eslint-plugin-jest@npm:^24.1.3":
   version: 24.1.3
   resolution: "eslint-plugin-jest@npm:24.1.3"
   dependencies:
@@ -7028,7 +7028,7 @@ fsevents@2.1.2:
     eslint-config-prettier: ^6.15.0
     eslint-import-resolver-typescript: ^2.3.0
     eslint-plugin-import: ^2.22.1
-    eslint-plugin-jest: ^24.1.0
+    eslint-plugin-jest: ^24.1.3
     eslint-plugin-prettier: ^3.1.4
     eslint-plugin-promise: ^4.2.1
     eslint-plugin-unicorn: ^19.0.1
