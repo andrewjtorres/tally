@@ -38,7 +38,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./",
           "packageDependencies": [
             ["@types/jest", "npm:26.0.15"],
-            ["@types/node", "npm:14.14.6"],
+            ["@types/node", "npm:14.14.9"],
             ["@typescript-eslint/eslint-plugin", "virtual:00f4dc5b5716c66b9aa8875c8c4f1330987e76fef068c4603f5f9e455c250cf6e6ff4f903024ff6dc767cbf872b43e1107107a49deabae009044d51254405fbb#npm:2.34.0"],
             ["@typescript-eslint/parser", "virtual:00f4dc5b5716c66b9aa8875c8c4f1330987e76fef068c4603f5f9e455c250cf6e6ff4f903024ff6dc767cbf872b43e1107107a49deabae009044d51254405fbb#npm:2.34.0"],
             ["cz-conventional-changelog", "npm:3.3.0"],
@@ -46,7 +46,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["eslint-config-prettier", "virtual:00f4dc5b5716c66b9aa8875c8c4f1330987e76fef068c4603f5f9e455c250cf6e6ff4f903024ff6dc767cbf872b43e1107107a49deabae009044d51254405fbb#npm:6.15.0"],
             ["eslint-import-resolver-typescript", "virtual:00f4dc5b5716c66b9aa8875c8c4f1330987e76fef068c4603f5f9e455c250cf6e6ff4f903024ff6dc767cbf872b43e1107107a49deabae009044d51254405fbb#npm:2.3.0"],
             ["eslint-plugin-import", "virtual:00f4dc5b5716c66b9aa8875c8c4f1330987e76fef068c4603f5f9e455c250cf6e6ff4f903024ff6dc767cbf872b43e1107107a49deabae009044d51254405fbb#npm:2.22.1"],
-            ["eslint-plugin-jest", "virtual:00f4dc5b5716c66b9aa8875c8c4f1330987e76fef068c4603f5f9e455c250cf6e6ff4f903024ff6dc767cbf872b43e1107107a49deabae009044d51254405fbb#npm:24.1.0"],
+            ["eslint-plugin-jest", "virtual:00f4dc5b5716c66b9aa8875c8c4f1330987e76fef068c4603f5f9e455c250cf6e6ff4f903024ff6dc767cbf872b43e1107107a49deabae009044d51254405fbb#npm:24.1.3"],
             ["eslint-plugin-prettier", "virtual:00f4dc5b5716c66b9aa8875c8c4f1330987e76fef068c4603f5f9e455c250cf6e6ff4f903024ff6dc767cbf872b43e1107107a49deabae009044d51254405fbb#npm:3.1.4"],
             ["eslint-plugin-promise", "npm:4.2.1"],
             ["eslint-plugin-unicorn", "virtual:00f4dc5b5716c66b9aa8875c8c4f1330987e76fef068c4603f5f9e455c250cf6e6ff4f903024ff6dc767cbf872b43e1107107a49deabae009044d51254405fbb#npm:19.0.1"],
@@ -55,10 +55,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["jest-circus", "npm:26.6.3"],
             ["lint-staged", "npm:10.5.1"],
             ["npm-run-all", "npm:4.1.5"],
-            ["prettier", "npm:2.1.2"],
+            ["prettier", "npm:2.2.0"],
             ["prettylint", "virtual:00f4dc5b5716c66b9aa8875c8c4f1330987e76fef068c4603f5f9e455c250cf6e6ff4f903024ff6dc767cbf872b43e1107107a49deabae009044d51254405fbb#npm:1.0.0"],
             ["ts-jest", "virtual:00f4dc5b5716c66b9aa8875c8c4f1330987e76fef068c4603f5f9e455c250cf6e6ff4f903024ff6dc767cbf872b43e1107107a49deabae009044d51254405fbb#npm:26.4.4"],
-            ["typescript", "patch:typescript@npm%3A4.0.5#builtin<compat/typescript>::version=4.0.5&hash=5bf698"],
+            ["typescript", "patch:typescript@npm%3A4.1.2#builtin<compat/typescript>::version=4.1.2&hash=5bf698"],
             ["utils", "link:src/utils::locator=tally%40workspace%3A."]
           ],
           "linkType": "SOFT",
@@ -88,11 +88,11 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@babel/traverse", "npm:7.12.5"],
             ["@babel/types", "npm:7.12.6"],
             ["convert-source-map", "npm:1.7.0"],
-            ["debug", "virtual:88318143fb6d80d1f55c54ae799fe6cfcf29c86ca9b9dae7a485ec5bdb22c3a20f79119854bb9696c57b5a03879e8671e3e9d39fcd8ca2cec3e6655f73233a79#npm:4.2.0"],
+            ["debug", "virtual:88318143fb6d80d1f55c54ae799fe6cfcf29c86ca9b9dae7a485ec5bdb22c3a20f79119854bb9696c57b5a03879e8671e3e9d39fcd8ca2cec3e6655f73233a79#npm:4.3.1"],
             ["gensync", "npm:1.0.0-beta.2"],
             ["json5", "npm:2.1.3"],
             ["lodash", "npm:4.17.20"],
-            ["resolve", "patch:resolve@npm%3A1.18.1#builtin<compat/resolve>::version=1.18.1&hash=3388aa"],
+            ["resolve", "patch:resolve@npm%3A1.19.0#builtin<compat/resolve>::version=1.19.0&hash=3388aa"],
             ["semver", "npm:5.7.1"],
             ["source-map", "npm:0.5.7"]
           ],
@@ -261,7 +261,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/@babel-parser-npm-7.12.5-b4b95a4abd-ff03d2389e.zip/node_modules/@babel/parser/",
           "packageDependencies": [
             ["@babel/parser", "npm:7.12.5"],
-            ["@babel/types", "npm:7.12.6"]
+            ["@babel/types", "npm:7.12.7"]
           ],
           "linkType": "HARD",
         }]
@@ -481,7 +481,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@babel/helper-split-export-declaration", "npm:7.11.0"],
             ["@babel/parser", "npm:7.12.5"],
             ["@babel/types", "npm:7.12.6"],
-            ["debug", "virtual:88318143fb6d80d1f55c54ae799fe6cfcf29c86ca9b9dae7a485ec5bdb22c3a20f79119854bb9696c57b5a03879e8671e3e9d39fcd8ca2cec3e6655f73233a79#npm:4.2.0"],
+            ["debug", "virtual:88318143fb6d80d1f55c54ae799fe6cfcf29c86ca9b9dae7a485ec5bdb22c3a20f79119854bb9696c57b5a03879e8671e3e9d39fcd8ca2cec3e6655f73233a79#npm:4.3.1"],
             ["globals", "npm:11.12.0"],
             ["lodash", "npm:4.17.20"]
           ],
@@ -493,6 +493,16 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/@babel-types-npm-7.12.6-e7874d6590-e8d02f859c.zip/node_modules/@babel/types/",
           "packageDependencies": [
             ["@babel/types", "npm:7.12.6"],
+            ["@babel/helper-validator-identifier", "npm:7.10.4"],
+            ["lodash", "npm:4.17.20"],
+            ["to-fast-properties", "npm:2.0.0"]
+          ],
+          "linkType": "HARD",
+        }],
+        ["npm:7.12.7", {
+          "packageLocation": "./.yarn/cache/@babel-types-npm-7.12.7-e698f7394b-1536350797.zip/node_modules/@babel/types/",
+          "packageDependencies": [
+            ["@babel/types", "npm:7.12.7"],
             ["@babel/helper-validator-identifier", "npm:7.10.4"],
             ["lodash", "npm:4.17.20"],
             ["to-fast-properties", "npm:2.0.0"]
@@ -573,7 +583,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [
             ["@eslint/eslintrc", "npm:0.2.1"],
             ["ajv", "npm:6.12.6"],
-            ["debug", "virtual:88318143fb6d80d1f55c54ae799fe6cfcf29c86ca9b9dae7a485ec5bdb22c3a20f79119854bb9696c57b5a03879e8671e3e9d39fcd8ca2cec3e6655f73233a79#npm:4.2.0"],
+            ["debug", "virtual:88318143fb6d80d1f55c54ae799fe6cfcf29c86ca9b9dae7a485ec5bdb22c3a20f79119854bb9696c57b5a03879e8671e3e9d39fcd8ca2cec3e6655f73233a79#npm:4.3.1"],
             ["espree", "npm:7.3.0"],
             ["globals", "npm:12.4.0"],
             ["ignore", "npm:4.0.6"],
@@ -615,7 +625,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [
             ["@jest/console", "npm:26.6.2"],
             ["@jest/types", "npm:26.6.2"],
-            ["@types/node", "npm:14.14.6"],
+            ["@types/node", "npm:14.14.9"],
             ["chalk", "npm:4.1.0"],
             ["jest-message-util", "npm:26.6.2"],
             ["jest-util", "npm:26.6.2"],
@@ -634,7 +644,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@jest/test-result", "npm:26.6.2"],
             ["@jest/transform", "npm:26.6.2"],
             ["@jest/types", "npm:26.6.2"],
-            ["@types/node", "npm:14.14.6"],
+            ["@types/node", "npm:14.14.9"],
             ["ansi-escapes", "npm:4.3.1"],
             ["chalk", "npm:4.1.0"],
             ["exit", "npm:0.1.2"],
@@ -653,7 +663,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["jest-validate", "npm:26.6.2"],
             ["jest-watcher", "npm:26.6.2"],
             ["micromatch", "npm:4.0.2"],
-            ["p-each-series", "npm:2.1.0"],
+            ["p-each-series", "npm:2.2.0"],
             ["rimraf", "npm:3.0.2"],
             ["slash", "npm:3.0.0"],
             ["strip-ansi", "npm:6.0.0"]
@@ -668,7 +678,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@jest/environment", "npm:26.6.2"],
             ["@jest/fake-timers", "npm:26.6.2"],
             ["@jest/types", "npm:26.6.2"],
-            ["@types/node", "npm:14.14.6"],
+            ["@types/node", "npm:14.14.9"],
             ["jest-mock", "npm:26.6.2"]
           ],
           "linkType": "HARD",
@@ -681,7 +691,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@jest/fake-timers", "npm:26.6.2"],
             ["@jest/types", "npm:26.6.2"],
             ["@sinonjs/fake-timers", "npm:6.0.1"],
-            ["@types/node", "npm:14.14.6"],
+            ["@types/node", "npm:14.14.9"],
             ["jest-message-util", "npm:26.6.2"],
             ["jest-mock", "npm:26.6.2"],
             ["jest-util", "npm:26.6.2"]
@@ -805,8 +815,8 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@jest/types", "npm:26.6.2"],
             ["@types/istanbul-lib-coverage", "npm:2.0.3"],
             ["@types/istanbul-reports", "npm:3.0.0"],
-            ["@types/node", "npm:14.14.6"],
-            ["@types/yargs", "npm:15.0.9"],
+            ["@types/node", "npm:14.14.9"],
+            ["@types/yargs", "npm:15.0.10"],
             ["chalk", "npm:4.1.0"]
           ],
           "linkType": "HARD",
@@ -871,7 +881,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@babel/parser", "npm:7.12.5"],
             ["@babel/types", "npm:7.12.6"],
             ["@types/babel__generator", "npm:7.6.2"],
-            ["@types/babel__template", "npm:7.0.3"],
+            ["@types/babel__template", "npm:7.4.0"],
             ["@types/babel__traverse", "npm:7.0.15"]
           ],
           "linkType": "HARD",
@@ -888,10 +898,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["@types/babel__template", [
-        ["npm:7.0.3", {
-          "packageLocation": "./.yarn/cache/@types-babel__template-npm-7.0.3-7d9695a7d2-936119303a.zip/node_modules/@types/babel__template/",
+        ["npm:7.4.0", {
+          "packageLocation": "./.yarn/cache/@types-babel__template-npm-7.4.0-e906ff43dc-7a81a59f85.zip/node_modules/@types/babel__template/",
           "packageDependencies": [
-            ["@types/babel__template", "npm:7.0.3"],
+            ["@types/babel__template", "npm:7.4.0"],
             ["@babel/parser", "npm:7.12.5"],
             ["@babel/types", "npm:7.12.6"]
           ],
@@ -922,7 +932,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/@types-graceful-fs-npm-4.1.4-6e2b33ed9f-acffaa4f4b.zip/node_modules/@types/graceful-fs/",
           "packageDependencies": [
             ["@types/graceful-fs", "npm:4.1.4"],
-            ["@types/node", "npm:14.14.6"]
+            ["@types/node", "npm:14.14.9"]
           ],
           "linkType": "HARD",
         }]
@@ -986,10 +996,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["@types/node", [
-        ["npm:14.14.6", {
-          "packageLocation": "./.yarn/cache/@types-node-npm-14.14.6-6c20289547-9b06b04ab2.zip/node_modules/@types/node/",
+        ["npm:14.14.9", {
+          "packageLocation": "./.yarn/cache/@types-node-npm-14.14.9-7ed4d3e449-df0405c708.zip/node_modules/@types/node/",
           "packageDependencies": [
-            ["@types/node", "npm:14.14.6"]
+            ["@types/node", "npm:14.14.9"]
           ],
           "linkType": "HARD",
         }]
@@ -1031,10 +1041,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["@types/yargs", [
-        ["npm:15.0.9", {
-          "packageLocation": "./.yarn/cache/@types-yargs-npm-15.0.9-b209c123e3-643069491a.zip/node_modules/@types/yargs/",
+        ["npm:15.0.10", {
+          "packageLocation": "./.yarn/cache/@types-yargs-npm-15.0.10-dc61489546-151fc79f81.zip/node_modules/@types/yargs/",
           "packageDependencies": [
-            ["@types/yargs", "npm:15.0.9"],
+            ["@types/yargs", "npm:15.0.10"],
             ["@types/yargs-parser", "npm:15.0.0"]
           ],
           "linkType": "HARD",
@@ -1062,7 +1072,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["functional-red-black-tree", "npm:1.0.1"],
             ["regexpp", "npm:3.1.0"],
             ["tsutils", "virtual:62aa599b3a47c5a6471964dd0b0541099ae7844a3bbec001c389d1f7bc01f993993195e7d5705a5f564259ca849feb57ecc5df4cc66bb5c9d2dca956b8f2aa3a#npm:3.17.1"],
-            ["typescript", "patch:typescript@npm%3A4.0.5#builtin<compat/typescript>::version=4.0.5&hash=5bf698"]
+            ["typescript", "patch:typescript@npm%3A4.1.2#builtin<compat/typescript>::version=4.1.2&hash=5bf698"]
           ],
           "packagePeers": [
             "@types/eslint",
@@ -1075,13 +1085,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["@typescript-eslint/experimental-utils", [
-        ["virtual:62aa599b3a47c5a6471964dd0b0541099ae7844a3bbec001c389d1f7bc01f993993195e7d5705a5f564259ca849feb57ecc5df4cc66bb5c9d2dca956b8f2aa3a#npm:2.34.0", {
-          "packageLocation": "./.yarn/$$virtual/@typescript-eslint-experimental-utils-virtual-90a13a8040/0/cache/@typescript-eslint-experimental-utils-npm-2.34.0-c95189aa27-53cbbcfe67.zip/node_modules/@typescript-eslint/experimental-utils/",
+        ["virtual:327bcb8233f8b82dd126195bb539e01f8cc44b72ed54148f381e576103a502f36042a8991f6830f064405e96fbf157eee1d34642e6ea11673592c24113ff0a1e#npm:4.6.1", {
+          "packageLocation": "./.yarn/$$virtual/@typescript-eslint-experimental-utils-virtual-71e8de9c4a/0/cache/@typescript-eslint-experimental-utils-npm-4.6.1-5e56c427ac-d3db49afd5.zip/node_modules/@typescript-eslint/experimental-utils/",
           "packageDependencies": [
-            ["@typescript-eslint/experimental-utils", "virtual:62aa599b3a47c5a6471964dd0b0541099ae7844a3bbec001c389d1f7bc01f993993195e7d5705a5f564259ca849feb57ecc5df4cc66bb5c9d2dca956b8f2aa3a#npm:2.34.0"],
+            ["@typescript-eslint/experimental-utils", "virtual:327bcb8233f8b82dd126195bb539e01f8cc44b72ed54148f381e576103a502f36042a8991f6830f064405e96fbf157eee1d34642e6ea11673592c24113ff0a1e#npm:4.6.1"],
             ["@types/eslint", null],
             ["@types/json-schema", "npm:7.0.6"],
-            ["@typescript-eslint/typescript-estree", "virtual:90a13a80407db71692f23286fcc6a0265c760bc1482821662bbc56deb5c3151f6e0cfa24b54773c8781443d83b7480c8d89dc1391fa26b006ef6b81b8bea77f8#npm:2.34.0"],
+            ["@typescript-eslint/scope-manager", "npm:4.6.1"],
+            ["@typescript-eslint/types", "npm:4.6.1"],
+            ["@typescript-eslint/typescript-estree", "virtual:71e8de9c4a2fa6fe7b31c7b46879b5135e4b5d1c3ab8df64181ab7b25ff5fecbd6bd197b80bde58a97f34b48a9e87dde0d6acf192c8f175af8774ba09ca7d6f5#npm:4.6.1"],
             ["eslint", "npm:7.13.0"],
             ["eslint-scope", "npm:5.1.1"],
             ["eslint-utils", "npm:2.1.0"]
@@ -1092,15 +1104,13 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],
           "linkType": "HARD",
         }],
-        ["virtual:64c0e97943b74adb774d3de500c82e8942b089364cd0ad33bf3301c5d42f5002fb2d4987f95c9a37be48153f1a8c7d8dc353599c207b2196a49a5021beae1688#npm:4.6.1", {
-          "packageLocation": "./.yarn/$$virtual/@typescript-eslint-experimental-utils-virtual-8648336ef3/0/cache/@typescript-eslint-experimental-utils-npm-4.6.1-5e56c427ac-d3db49afd5.zip/node_modules/@typescript-eslint/experimental-utils/",
+        ["virtual:62aa599b3a47c5a6471964dd0b0541099ae7844a3bbec001c389d1f7bc01f993993195e7d5705a5f564259ca849feb57ecc5df4cc66bb5c9d2dca956b8f2aa3a#npm:2.34.0", {
+          "packageLocation": "./.yarn/$$virtual/@typescript-eslint-experimental-utils-virtual-90a13a8040/0/cache/@typescript-eslint-experimental-utils-npm-2.34.0-c95189aa27-53cbbcfe67.zip/node_modules/@typescript-eslint/experimental-utils/",
           "packageDependencies": [
-            ["@typescript-eslint/experimental-utils", "virtual:64c0e97943b74adb774d3de500c82e8942b089364cd0ad33bf3301c5d42f5002fb2d4987f95c9a37be48153f1a8c7d8dc353599c207b2196a49a5021beae1688#npm:4.6.1"],
+            ["@typescript-eslint/experimental-utils", "virtual:62aa599b3a47c5a6471964dd0b0541099ae7844a3bbec001c389d1f7bc01f993993195e7d5705a5f564259ca849feb57ecc5df4cc66bb5c9d2dca956b8f2aa3a#npm:2.34.0"],
             ["@types/eslint", null],
             ["@types/json-schema", "npm:7.0.6"],
-            ["@typescript-eslint/scope-manager", "npm:4.6.1"],
-            ["@typescript-eslint/types", "npm:4.6.1"],
-            ["@typescript-eslint/typescript-estree", "virtual:8648336ef30f0292256bf2c4a9cb775a046a757cd3b05b62727e796608779db060b8d11432b5d6b9ede9fd307738553b00d147f40ddf794e3c5742eb5f72e3e6#npm:4.6.1"],
+            ["@typescript-eslint/typescript-estree", "virtual:90a13a80407db71692f23286fcc6a0265c760bc1482821662bbc56deb5c3151f6e0cfa24b54773c8781443d83b7480c8d89dc1391fa26b006ef6b81b8bea77f8#npm:2.34.0"],
             ["eslint", "npm:7.13.0"],
             ["eslint-scope", "npm:5.1.1"],
             ["eslint-utils", "npm:2.1.0"]
@@ -1123,7 +1133,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@typescript-eslint/typescript-estree", "virtual:d6113948ce250d02267a60ed69d8f8b22027a1cd5fdcab827a52075f7f5497d0a3b6848f6568a11a0f69a99b93fb353c2786cf2dc64a22f7b3ebf96a4e8941ea#npm:2.34.0"],
             ["eslint", "npm:7.13.0"],
             ["eslint-visitor-keys", "npm:1.3.0"],
-            ["typescript", "patch:typescript@npm%3A4.0.5#builtin<compat/typescript>::version=4.0.5&hash=5bf698"]
+            ["typescript", "patch:typescript@npm%3A4.1.2#builtin<compat/typescript>::version=4.1.2&hash=5bf698"]
           ],
           "packagePeers": [
             "@types/eslint",
@@ -1154,13 +1164,13 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["@typescript-eslint/typescript-estree", [
-        ["virtual:8648336ef30f0292256bf2c4a9cb775a046a757cd3b05b62727e796608779db060b8d11432b5d6b9ede9fd307738553b00d147f40ddf794e3c5742eb5f72e3e6#npm:4.6.1", {
-          "packageLocation": "./.yarn/$$virtual/@typescript-eslint-typescript-estree-virtual-7b51b3ad80/0/cache/@typescript-eslint-typescript-estree-npm-4.6.1-78925c4ef4-68765299b5.zip/node_modules/@typescript-eslint/typescript-estree/",
+        ["virtual:71e8de9c4a2fa6fe7b31c7b46879b5135e4b5d1c3ab8df64181ab7b25ff5fecbd6bd197b80bde58a97f34b48a9e87dde0d6acf192c8f175af8774ba09ca7d6f5#npm:4.6.1", {
+          "packageLocation": "./.yarn/$$virtual/@typescript-eslint-typescript-estree-virtual-73116ef9e1/0/cache/@typescript-eslint-typescript-estree-npm-4.6.1-78925c4ef4-68765299b5.zip/node_modules/@typescript-eslint/typescript-estree/",
           "packageDependencies": [
-            ["@typescript-eslint/typescript-estree", "virtual:8648336ef30f0292256bf2c4a9cb775a046a757cd3b05b62727e796608779db060b8d11432b5d6b9ede9fd307738553b00d147f40ddf794e3c5742eb5f72e3e6#npm:4.6.1"],
+            ["@typescript-eslint/typescript-estree", "virtual:71e8de9c4a2fa6fe7b31c7b46879b5135e4b5d1c3ab8df64181ab7b25ff5fecbd6bd197b80bde58a97f34b48a9e87dde0d6acf192c8f175af8774ba09ca7d6f5#npm:4.6.1"],
             ["@typescript-eslint/types", "npm:4.6.1"],
             ["@typescript-eslint/visitor-keys", "npm:4.6.1"],
-            ["debug", "virtual:88318143fb6d80d1f55c54ae799fe6cfcf29c86ca9b9dae7a485ec5bdb22c3a20f79119854bb9696c57b5a03879e8671e3e9d39fcd8ca2cec3e6655f73233a79#npm:4.2.0"],
+            ["debug", "virtual:88318143fb6d80d1f55c54ae799fe6cfcf29c86ca9b9dae7a485ec5bdb22c3a20f79119854bb9696c57b5a03879e8671e3e9d39fcd8ca2cec3e6655f73233a79#npm:4.3.1"],
             ["globby", "npm:11.0.1"],
             ["is-glob", "npm:4.0.1"],
             ["lodash", "npm:4.17.20"],
@@ -1177,7 +1187,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/$$virtual/@typescript-eslint-typescript-estree-virtual-fc3d3a2c34/0/cache/@typescript-eslint-typescript-estree-npm-2.34.0-c6a349caae-77d1a758df.zip/node_modules/@typescript-eslint/typescript-estree/",
           "packageDependencies": [
             ["@typescript-eslint/typescript-estree", "virtual:90a13a80407db71692f23286fcc6a0265c760bc1482821662bbc56deb5c3151f6e0cfa24b54773c8781443d83b7480c8d89dc1391fa26b006ef6b81b8bea77f8#npm:2.34.0"],
-            ["debug", "virtual:88318143fb6d80d1f55c54ae799fe6cfcf29c86ca9b9dae7a485ec5bdb22c3a20f79119854bb9696c57b5a03879e8671e3e9d39fcd8ca2cec3e6655f73233a79#npm:4.2.0"],
+            ["debug", "virtual:88318143fb6d80d1f55c54ae799fe6cfcf29c86ca9b9dae7a485ec5bdb22c3a20f79119854bb9696c57b5a03879e8671e3e9d39fcd8ca2cec3e6655f73233a79#npm:4.3.1"],
             ["eslint-visitor-keys", "npm:1.3.0"],
             ["glob", "npm:7.1.6"],
             ["is-glob", "npm:4.0.1"],
@@ -1195,14 +1205,14 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/$$virtual/@typescript-eslint-typescript-estree-virtual-59501ed4c2/0/cache/@typescript-eslint-typescript-estree-npm-2.34.0-c6a349caae-77d1a758df.zip/node_modules/@typescript-eslint/typescript-estree/",
           "packageDependencies": [
             ["@typescript-eslint/typescript-estree", "virtual:d6113948ce250d02267a60ed69d8f8b22027a1cd5fdcab827a52075f7f5497d0a3b6848f6568a11a0f69a99b93fb353c2786cf2dc64a22f7b3ebf96a4e8941ea#npm:2.34.0"],
-            ["debug", "virtual:88318143fb6d80d1f55c54ae799fe6cfcf29c86ca9b9dae7a485ec5bdb22c3a20f79119854bb9696c57b5a03879e8671e3e9d39fcd8ca2cec3e6655f73233a79#npm:4.2.0"],
+            ["debug", "virtual:88318143fb6d80d1f55c54ae799fe6cfcf29c86ca9b9dae7a485ec5bdb22c3a20f79119854bb9696c57b5a03879e8671e3e9d39fcd8ca2cec3e6655f73233a79#npm:4.3.1"],
             ["eslint-visitor-keys", "npm:1.3.0"],
             ["glob", "npm:7.1.6"],
             ["is-glob", "npm:4.0.1"],
             ["lodash", "npm:4.17.20"],
             ["semver", "npm:7.3.2"],
             ["tsutils", "virtual:62aa599b3a47c5a6471964dd0b0541099ae7844a3bbec001c389d1f7bc01f993993195e7d5705a5f564259ca849feb57ecc5df4cc66bb5c9d2dca956b8f2aa3a#npm:3.17.1"],
-            ["typescript", "patch:typescript@npm%3A4.0.5#builtin<compat/typescript>::version=4.0.5&hash=5bf698"]
+            ["typescript", "patch:typescript@npm%3A4.1.2#builtin<compat/typescript>::version=4.1.2&hash=5bf698"]
           ],
           "packagePeers": [
             "typescript"
@@ -1522,12 +1532,13 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["array.prototype.flat", [
-        ["npm:1.2.3", {
-          "packageLocation": "./.yarn/cache/array.prototype.flat-npm-1.2.3-1da18d2561-f88a474d1c.zip/node_modules/array.prototype.flat/",
+        ["npm:1.2.4", {
+          "packageLocation": "./.yarn/cache/array.prototype.flat-npm-1.2.4-7b3397fc11-b4936e68f8.zip/node_modules/array.prototype.flat/",
           "packageDependencies": [
-            ["array.prototype.flat", "npm:1.2.3"],
+            ["array.prototype.flat", "npm:1.2.4"],
+            ["call-bind", "npm:1.0.0"],
             ["define-properties", "npm:1.1.3"],
-            ["es-abstract", "npm:1.17.7"]
+            ["es-abstract", "npm:1.18.0-next.1"]
           ],
           "linkType": "HARD",
         }]
@@ -2384,10 +2395,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],
           "linkType": "HARD",
         }],
-        ["virtual:88318143fb6d80d1f55c54ae799fe6cfcf29c86ca9b9dae7a485ec5bdb22c3a20f79119854bb9696c57b5a03879e8671e3e9d39fcd8ca2cec3e6655f73233a79#npm:4.2.0", {
-          "packageLocation": "./.yarn/$$virtual/debug-virtual-a6d8e6212f/0/cache/debug-npm-4.2.0-9392baba7e-dcfb8ede26.zip/node_modules/debug/",
+        ["virtual:88318143fb6d80d1f55c54ae799fe6cfcf29c86ca9b9dae7a485ec5bdb22c3a20f79119854bb9696c57b5a03879e8671e3e9d39fcd8ca2cec3e6655f73233a79#npm:4.3.1", {
+          "packageLocation": "./.yarn/$$virtual/debug-virtual-91dca6aa8e/0/cache/debug-npm-4.3.1-22e08d605e-0d41ba5177.zip/node_modules/debug/",
           "packageDependencies": [
-            ["debug", "virtual:88318143fb6d80d1f55c54ae799fe6cfcf29c86ca9b9dae7a485ec5bdb22c3a20f79119854bb9696c57b5a03879e8671e3e9d39fcd8ca2cec3e6655f73233a79#npm:4.2.0"],
+            ["debug", "virtual:88318143fb6d80d1f55c54ae799fe6cfcf29c86ca9b9dae7a485ec5bdb22c3a20f79119854bb9696c57b5a03879e8671e3e9d39fcd8ca2cec3e6655f73233a79#npm:4.3.1"],
             ["ms", "npm:2.1.2"],
             ["supports-color", null]
           ],
@@ -2747,7 +2758,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["ajv", "npm:6.12.6"],
             ["chalk", "npm:4.1.0"],
             ["cross-spawn", "npm:7.0.3"],
-            ["debug", "virtual:88318143fb6d80d1f55c54ae799fe6cfcf29c86ca9b9dae7a485ec5bdb22c3a20f79119854bb9696c57b5a03879e8671e3e9d39fcd8ca2cec3e6655f73233a79#npm:4.2.0"],
+            ["debug", "virtual:88318143fb6d80d1f55c54ae799fe6cfcf29c86ca9b9dae7a485ec5bdb22c3a20f79119854bb9696c57b5a03879e8671e3e9d39fcd8ca2cec3e6655f73233a79#npm:4.3.1"],
             ["doctrine", "npm:3.0.0"],
             ["enquirer", "npm:2.3.6"],
             ["eslint-scope", "npm:5.1.1"],
@@ -2830,7 +2841,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [
             ["eslint-import-resolver-node", "npm:0.3.4"],
             ["debug", "virtual:2bcc47d217f870e3d52f0e55493dc34fd3da852877f7db32fa2940cc320151746026495daf6a34a974488cf5a949d93be1e2dc1ffba036faf081a9b15fcd2252#npm:2.6.9"],
-            ["resolve", "patch:resolve@npm%3A1.18.1#builtin<compat/resolve>::version=1.18.1&hash=3388aa"]
+            ["resolve", "patch:resolve@npm%3A1.19.0#builtin<compat/resolve>::version=1.19.0&hash=3388aa"]
           ],
           "linkType": "HARD",
         }]
@@ -2842,12 +2853,12 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["eslint-import-resolver-typescript", "virtual:00f4dc5b5716c66b9aa8875c8c4f1330987e76fef068c4603f5f9e455c250cf6e6ff4f903024ff6dc767cbf872b43e1107107a49deabae009044d51254405fbb#npm:2.3.0"],
             ["@types/eslint", null],
             ["@types/eslint-plugin-import", null],
-            ["debug", "virtual:88318143fb6d80d1f55c54ae799fe6cfcf29c86ca9b9dae7a485ec5bdb22c3a20f79119854bb9696c57b5a03879e8671e3e9d39fcd8ca2cec3e6655f73233a79#npm:4.2.0"],
+            ["debug", "virtual:88318143fb6d80d1f55c54ae799fe6cfcf29c86ca9b9dae7a485ec5bdb22c3a20f79119854bb9696c57b5a03879e8671e3e9d39fcd8ca2cec3e6655f73233a79#npm:4.3.1"],
             ["eslint", "npm:7.13.0"],
             ["eslint-plugin-import", "virtual:00f4dc5b5716c66b9aa8875c8c4f1330987e76fef068c4603f5f9e455c250cf6e6ff4f903024ff6dc767cbf872b43e1107107a49deabae009044d51254405fbb#npm:2.22.1"],
             ["glob", "npm:7.1.6"],
             ["is-glob", "npm:4.0.1"],
-            ["resolve", "patch:resolve@npm%3A1.18.1#builtin<compat/resolve>::version=1.18.1&hash=3388aa"],
+            ["resolve", "patch:resolve@npm%3A1.19.0#builtin<compat/resolve>::version=1.19.0&hash=3388aa"],
             ["tsconfig-paths", "npm:3.9.0"]
           ],
           "packagePeers": [
@@ -2877,7 +2888,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["eslint-plugin-import", "virtual:00f4dc5b5716c66b9aa8875c8c4f1330987e76fef068c4603f5f9e455c250cf6e6ff4f903024ff6dc767cbf872b43e1107107a49deabae009044d51254405fbb#npm:2.22.1"],
             ["@types/eslint", null],
             ["array-includes", "npm:3.1.1"],
-            ["array.prototype.flat", "npm:1.2.3"],
+            ["array.prototype.flat", "npm:1.2.4"],
             ["contains-path", "npm:0.1.0"],
             ["debug", "virtual:2bcc47d217f870e3d52f0e55493dc34fd3da852877f7db32fa2940cc320151746026495daf6a34a974488cf5a949d93be1e2dc1ffba036faf081a9b15fcd2252#npm:2.6.9"],
             ["doctrine", "npm:1.5.0"],
@@ -2888,7 +2899,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["minimatch", "npm:3.0.4"],
             ["object.values", "npm:1.1.1"],
             ["read-pkg-up", "npm:2.0.0"],
-            ["resolve", "patch:resolve@npm%3A1.18.1#builtin<compat/resolve>::version=1.18.1&hash=3388aa"],
+            ["resolve", "patch:resolve@npm%3A1.19.0#builtin<compat/resolve>::version=1.19.0&hash=3388aa"],
             ["tsconfig-paths", "npm:3.9.0"]
           ],
           "packagePeers": [
@@ -2899,12 +2910,12 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["eslint-plugin-jest", [
-        ["virtual:00f4dc5b5716c66b9aa8875c8c4f1330987e76fef068c4603f5f9e455c250cf6e6ff4f903024ff6dc767cbf872b43e1107107a49deabae009044d51254405fbb#npm:24.1.0", {
-          "packageLocation": "./.yarn/$$virtual/eslint-plugin-jest-virtual-64c0e97943/0/cache/eslint-plugin-jest-npm-24.1.0-d843bfd778-17aa55e6e5.zip/node_modules/eslint-plugin-jest/",
+        ["virtual:00f4dc5b5716c66b9aa8875c8c4f1330987e76fef068c4603f5f9e455c250cf6e6ff4f903024ff6dc767cbf872b43e1107107a49deabae009044d51254405fbb#npm:24.1.3", {
+          "packageLocation": "./.yarn/$$virtual/eslint-plugin-jest-virtual-327bcb8233/0/cache/eslint-plugin-jest-npm-24.1.3-1e47e03786-d1b8f14d75.zip/node_modules/eslint-plugin-jest/",
           "packageDependencies": [
-            ["eslint-plugin-jest", "virtual:00f4dc5b5716c66b9aa8875c8c4f1330987e76fef068c4603f5f9e455c250cf6e6ff4f903024ff6dc767cbf872b43e1107107a49deabae009044d51254405fbb#npm:24.1.0"],
+            ["eslint-plugin-jest", "virtual:00f4dc5b5716c66b9aa8875c8c4f1330987e76fef068c4603f5f9e455c250cf6e6ff4f903024ff6dc767cbf872b43e1107107a49deabae009044d51254405fbb#npm:24.1.3"],
             ["@types/eslint", null],
-            ["@typescript-eslint/experimental-utils", "virtual:64c0e97943b74adb774d3de500c82e8942b089364cd0ad33bf3301c5d42f5002fb2d4987f95c9a37be48153f1a8c7d8dc353599c207b2196a49a5021beae1688#npm:4.6.1"],
+            ["@typescript-eslint/experimental-utils", "virtual:327bcb8233f8b82dd126195bb539e01f8cc44b72ed54148f381e576103a502f36042a8991f6830f064405e96fbf157eee1d34642e6ea11673592c24113ff0a1e#npm:4.6.1"],
             ["eslint", "npm:7.13.0"]
           ],
           "packagePeers": [
@@ -2922,7 +2933,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/eslint", null],
             ["@types/prettier", null],
             ["eslint", "npm:7.13.0"],
-            ["prettier", "npm:2.1.2"],
+            ["prettier", "npm:2.2.0"],
             ["prettier-linter-helpers", "npm:1.0.0"]
           ],
           "packagePeers": [
@@ -2940,7 +2951,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/prettier", null],
             ["fast-diff", "npm:1.2.0"],
             ["jest-docblock", "npm:21.2.0"],
-            ["prettier", "npm:2.1.2"]
+            ["prettier", "npm:2.2.0"]
           ],
           "packagePeers": [
             "@types/prettier",
@@ -4615,7 +4626,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/istanbul-lib-source-maps-npm-4.0.0-def3895674-018b5feeb4.zip/node_modules/istanbul-lib-source-maps/",
           "packageDependencies": [
             ["istanbul-lib-source-maps", "npm:4.0.0"],
-            ["debug", "virtual:88318143fb6d80d1f55c54ae799fe6cfcf29c86ca9b9dae7a485ec5bdb22c3a20f79119854bb9696c57b5a03879e8671e3e9d39fcd8ca2cec3e6655f73233a79#npm:4.2.0"],
+            ["debug", "virtual:88318143fb6d80d1f55c54ae799fe6cfcf29c86ca9b9dae7a485ec5bdb22c3a20f79119854bb9696c57b5a03879e8671e3e9d39fcd8ca2cec3e6655f73233a79#npm:4.3.1"],
             ["istanbul-lib-coverage", "npm:3.0.0"],
             ["source-map", "npm:0.6.1"]
           ],
@@ -4667,7 +4678,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@jest/test-result", "npm:26.6.2"],
             ["@jest/types", "npm:26.6.2"],
             ["@types/babel__traverse", "npm:7.0.15"],
-            ["@types/node", "npm:14.14.6"],
+            ["@types/node", "npm:14.14.9"],
             ["chalk", "npm:4.1.0"],
             ["co", "npm:4.6.0"],
             ["dedent", "npm:0.7.0"],
@@ -4681,7 +4692,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["jest-snapshot", "npm:26.6.2"],
             ["jest-util", "npm:26.6.2"],
             ["pretty-format", "npm:26.6.2"],
-            ["stack-utils", "npm:2.0.2"],
+            ["stack-utils", "npm:2.0.3"],
             ["throat", "npm:5.0.0"]
           ],
           "linkType": "HARD",
@@ -4794,7 +4805,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@jest/environment", "npm:26.6.2"],
             ["@jest/fake-timers", "npm:26.6.2"],
             ["@jest/types", "npm:26.6.2"],
-            ["@types/node", "npm:14.14.6"],
+            ["@types/node", "npm:14.14.9"],
             ["jest-mock", "npm:26.6.2"],
             ["jest-util", "npm:26.6.2"],
             ["jsdom", "virtual:defa486869c88441047200a53b3aa18d79743b272095f3ee31b5b7b80b2c93d87f722added867470dcb94104504489a1a89040ea8fd89dffb9cfb1864d4bf54e#npm:16.4.0"]
@@ -4810,7 +4821,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@jest/environment", "npm:26.6.2"],
             ["@jest/fake-timers", "npm:26.6.2"],
             ["@jest/types", "npm:26.6.2"],
-            ["@types/node", "npm:14.14.6"],
+            ["@types/node", "npm:14.14.9"],
             ["jest-mock", "npm:26.6.2"],
             ["jest-util", "npm:26.6.2"]
           ],
@@ -4833,7 +4844,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["jest-haste-map", "npm:26.6.2"],
             ["@jest/types", "npm:26.6.2"],
             ["@types/graceful-fs", "npm:4.1.4"],
-            ["@types/node", "npm:14.14.6"],
+            ["@types/node", "npm:14.14.9"],
             ["anymatch", "npm:3.1.1"],
             ["fb-watchman", "npm:2.0.1"],
             ["fsevents", "patch:fsevents@npm%3A2.1.2#builtin<compat/fsevents>::version=2.1.2&hash=127e8e"],
@@ -4859,7 +4870,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@jest/source-map", "npm:26.6.2"],
             ["@jest/test-result", "npm:26.6.2"],
             ["@jest/types", "npm:26.6.2"],
-            ["@types/node", "npm:14.14.6"],
+            ["@types/node", "npm:14.14.9"],
             ["chalk", "npm:4.1.0"],
             ["co", "npm:4.6.0"],
             ["expect", "npm:26.6.2"],
@@ -4913,7 +4924,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["micromatch", "npm:4.0.2"],
             ["pretty-format", "npm:26.6.2"],
             ["slash", "npm:3.0.0"],
-            ["stack-utils", "npm:2.0.2"]
+            ["stack-utils", "npm:2.0.3"]
           ],
           "linkType": "HARD",
         }]
@@ -4924,7 +4935,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [
             ["jest-mock", "npm:26.6.2"],
             ["@jest/types", "npm:26.6.2"],
-            ["@types/node", "npm:14.14.6"]
+            ["@types/node", "npm:14.14.9"]
           ],
           "linkType": "HARD",
         }]
@@ -4964,7 +4975,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["jest-pnp-resolver", "virtual:6ad3c87f852a744f0ca052ddcf60cfb1d20f148e44c4d3bc933aed1297626798d738b65c746a40d5eb58079971d680449b7c0894918212fabb0b9f5575e9f921#npm:1.2.2"],
             ["jest-util", "npm:26.6.2"],
             ["read-pkg-up", "npm:7.0.1"],
-            ["resolve", "patch:resolve@npm%3A1.18.1#builtin<compat/resolve>::version=1.18.1&hash=3388aa"],
+            ["resolve", "patch:resolve@npm%3A1.19.0#builtin<compat/resolve>::version=1.19.0&hash=3388aa"],
             ["slash", "npm:3.0.0"]
           ],
           "linkType": "HARD",
@@ -4991,7 +5002,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@jest/environment", "npm:26.6.2"],
             ["@jest/test-result", "npm:26.6.2"],
             ["@jest/types", "npm:26.6.2"],
-            ["@types/node", "npm:14.14.6"],
+            ["@types/node", "npm:14.14.9"],
             ["chalk", "npm:4.1.0"],
             ["emittery", "npm:0.7.2"],
             ["exit", "npm:0.1.2"],
@@ -5024,7 +5035,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@jest/test-result", "npm:26.6.2"],
             ["@jest/transform", "npm:26.6.2"],
             ["@jest/types", "npm:26.6.2"],
-            ["@types/yargs", "npm:15.0.9"],
+            ["@types/yargs", "npm:15.0.10"],
             ["chalk", "npm:4.1.0"],
             ["cjs-module-lexer", "npm:0.6.0"],
             ["collect-v8-coverage", "npm:1.0.1"],
@@ -5052,7 +5063,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/jest-serializer-npm-26.6.2-0907990487-62802ac809.zip/node_modules/jest-serializer/",
           "packageDependencies": [
             ["jest-serializer", "npm:26.6.2"],
-            ["@types/node", "npm:14.14.6"],
+            ["@types/node", "npm:14.14.9"],
             ["graceful-fs", "npm:4.2.4"]
           ],
           "linkType": "HARD",
@@ -5089,7 +5100,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [
             ["jest-util", "npm:26.6.2"],
             ["@jest/types", "npm:26.6.2"],
-            ["@types/node", "npm:14.14.6"],
+            ["@types/node", "npm:14.14.9"],
             ["chalk", "npm:4.1.0"],
             ["graceful-fs", "npm:4.2.4"],
             ["is-ci", "npm:2.0.0"],
@@ -5120,7 +5131,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["jest-watcher", "npm:26.6.2"],
             ["@jest/test-result", "npm:26.6.2"],
             ["@jest/types", "npm:26.6.2"],
-            ["@types/node", "npm:14.14.6"],
+            ["@types/node", "npm:14.14.9"],
             ["ansi-escapes", "npm:4.3.1"],
             ["chalk", "npm:4.1.0"],
             ["jest-util", "npm:26.6.2"],
@@ -5134,7 +5145,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/jest-worker-npm-26.6.2-46cbcd449f-5eb349833b.zip/node_modules/jest-worker/",
           "packageDependencies": [
             ["jest-worker", "npm:26.6.2"],
-            ["@types/node", "npm:14.14.6"],
+            ["@types/node", "npm:14.14.9"],
             ["merge-stream", "npm:2.0.0"],
             ["supports-color", "npm:7.2.0"]
           ],
@@ -5403,7 +5414,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["cli-truncate", "npm:2.1.0"],
             ["commander", "npm:6.2.0"],
             ["cosmiconfig", "npm:7.0.0"],
-            ["debug", "virtual:88318143fb6d80d1f55c54ae799fe6cfcf29c86ca9b9dae7a485ec5bdb22c3a20f79119854bb9696c57b5a03879e8671e3e9d39fcd8ca2cec3e6655f73233a79#npm:4.2.0"],
+            ["debug", "virtual:88318143fb6d80d1f55c54ae799fe6cfcf29c86ca9b9dae7a485ec5bdb22c3a20f79119854bb9696c57b5a03879e8671e3e9d39fcd8ca2cec3e6655f73233a79#npm:4.3.1"],
             ["dedent", "npm:0.7.0"],
             ["enquirer", "npm:2.3.6"],
             ["execa", "npm:4.1.0"],
@@ -5987,7 +5998,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [
             ["normalize-package-data", "npm:2.5.0"],
             ["hosted-git-info", "npm:2.8.8"],
-            ["resolve", "patch:resolve@npm%3A1.18.1#builtin<compat/resolve>::version=1.18.1&hash=3388aa"],
+            ["resolve", "patch:resolve@npm%3A1.19.0#builtin<compat/resolve>::version=1.19.0&hash=3388aa"],
             ["semver", "npm:5.7.1"],
             ["validate-npm-package-license", "npm:3.0.4"]
           ],
@@ -6247,10 +6258,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["p-each-series", [
-        ["npm:2.1.0", {
-          "packageLocation": "./.yarn/cache/p-each-series-npm-2.1.0-345e6f9034-cc7516dbb8.zip/node_modules/p-each-series/",
+        ["npm:2.2.0", {
+          "packageLocation": "./.yarn/cache/p-each-series-npm-2.2.0-b9907a1ae6-d5a0896eb7.zip/node_modules/p-each-series/",
           "packageDependencies": [
-            ["p-each-series", "npm:2.1.0"]
+            ["p-each-series", "npm:2.2.0"]
           ],
           "linkType": "HARD",
         }]
@@ -6622,10 +6633,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["prettier", [
-        ["npm:2.1.2", {
-          "packageLocation": "./.yarn/cache/prettier-npm-2.1.2-9d456ef3cd-bedc24c568.zip/node_modules/prettier/",
+        ["npm:2.2.0", {
+          "packageLocation": "./.yarn/cache/prettier-npm-2.2.0-9fa8f01d1a-fe7e2ac725.zip/node_modules/prettier/",
           "packageDependencies": [
-            ["prettier", "npm:2.1.2"]
+            ["prettier", "npm:2.2.0"]
           ],
           "linkType": "HARD",
         }]
@@ -6665,7 +6676,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["ignore", "npm:3.3.10"],
             ["lines-and-columns", "npm:1.1.6"],
             ["meow", "npm:3.7.0"],
-            ["prettier", "npm:2.1.2"],
+            ["prettier", "npm:2.2.0"],
             ["tslib", "npm:1.14.1"]
           ],
           "packagePeers": [
@@ -7008,10 +7019,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["resolve", [
-        ["patch:resolve@npm%3A1.18.1#builtin<compat/resolve>::version=1.18.1&hash=3388aa", {
-          "packageLocation": "./.yarn/cache/resolve-patch-af4189aea7-9e62d2803a.zip/node_modules/resolve/",
+        ["patch:resolve@npm%3A1.19.0#builtin<compat/resolve>::version=1.19.0&hash=3388aa", {
+          "packageLocation": "./.yarn/cache/resolve-patch-46f4fba2f6-188d5167e8.zip/node_modules/resolve/",
           "packageDependencies": [
-            ["resolve", "patch:resolve@npm%3A1.18.1#builtin<compat/resolve>::version=1.18.1&hash=3388aa"],
+            ["resolve", "patch:resolve@npm%3A1.19.0#builtin<compat/resolve>::version=1.19.0&hash=3388aa"],
             ["is-core-module", "npm:2.1.0"],
             ["path-parse", "npm:1.0.6"]
           ],
@@ -7586,10 +7597,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["stack-utils", [
-        ["npm:2.0.2", {
-          "packageLocation": "./.yarn/cache/stack-utils-npm-2.0.2-2ae6e16cf5-a9fa702767.zip/node_modules/stack-utils/",
+        ["npm:2.0.3", {
+          "packageLocation": "./.yarn/cache/stack-utils-npm-2.0.3-e255395afd-65fe92891b.zip/node_modules/stack-utils/",
           "packageDependencies": [
-            ["stack-utils", "npm:2.0.2"],
+            ["stack-utils", "npm:2.0.3"],
             ["escape-string-regexp", "npm:2.0.0"]
           ],
           "linkType": "HARD",
@@ -7890,7 +7901,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [
             ["tally", "workspace:."],
             ["@types/jest", "npm:26.0.15"],
-            ["@types/node", "npm:14.14.6"],
+            ["@types/node", "npm:14.14.9"],
             ["@typescript-eslint/eslint-plugin", "virtual:00f4dc5b5716c66b9aa8875c8c4f1330987e76fef068c4603f5f9e455c250cf6e6ff4f903024ff6dc767cbf872b43e1107107a49deabae009044d51254405fbb#npm:2.34.0"],
             ["@typescript-eslint/parser", "virtual:00f4dc5b5716c66b9aa8875c8c4f1330987e76fef068c4603f5f9e455c250cf6e6ff4f903024ff6dc767cbf872b43e1107107a49deabae009044d51254405fbb#npm:2.34.0"],
             ["cz-conventional-changelog", "npm:3.3.0"],
@@ -7898,7 +7909,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["eslint-config-prettier", "virtual:00f4dc5b5716c66b9aa8875c8c4f1330987e76fef068c4603f5f9e455c250cf6e6ff4f903024ff6dc767cbf872b43e1107107a49deabae009044d51254405fbb#npm:6.15.0"],
             ["eslint-import-resolver-typescript", "virtual:00f4dc5b5716c66b9aa8875c8c4f1330987e76fef068c4603f5f9e455c250cf6e6ff4f903024ff6dc767cbf872b43e1107107a49deabae009044d51254405fbb#npm:2.3.0"],
             ["eslint-plugin-import", "virtual:00f4dc5b5716c66b9aa8875c8c4f1330987e76fef068c4603f5f9e455c250cf6e6ff4f903024ff6dc767cbf872b43e1107107a49deabae009044d51254405fbb#npm:2.22.1"],
-            ["eslint-plugin-jest", "virtual:00f4dc5b5716c66b9aa8875c8c4f1330987e76fef068c4603f5f9e455c250cf6e6ff4f903024ff6dc767cbf872b43e1107107a49deabae009044d51254405fbb#npm:24.1.0"],
+            ["eslint-plugin-jest", "virtual:00f4dc5b5716c66b9aa8875c8c4f1330987e76fef068c4603f5f9e455c250cf6e6ff4f903024ff6dc767cbf872b43e1107107a49deabae009044d51254405fbb#npm:24.1.3"],
             ["eslint-plugin-prettier", "virtual:00f4dc5b5716c66b9aa8875c8c4f1330987e76fef068c4603f5f9e455c250cf6e6ff4f903024ff6dc767cbf872b43e1107107a49deabae009044d51254405fbb#npm:3.1.4"],
             ["eslint-plugin-promise", "npm:4.2.1"],
             ["eslint-plugin-unicorn", "virtual:00f4dc5b5716c66b9aa8875c8c4f1330987e76fef068c4603f5f9e455c250cf6e6ff4f903024ff6dc767cbf872b43e1107107a49deabae009044d51254405fbb#npm:19.0.1"],
@@ -7907,10 +7918,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["jest-circus", "npm:26.6.3"],
             ["lint-staged", "npm:10.5.1"],
             ["npm-run-all", "npm:4.1.5"],
-            ["prettier", "npm:2.1.2"],
+            ["prettier", "npm:2.2.0"],
             ["prettylint", "virtual:00f4dc5b5716c66b9aa8875c8c4f1330987e76fef068c4603f5f9e455c250cf6e6ff4f903024ff6dc767cbf872b43e1107107a49deabae009044d51254405fbb#npm:1.0.0"],
             ["ts-jest", "virtual:00f4dc5b5716c66b9aa8875c8c4f1330987e76fef068c4603f5f9e455c250cf6e6ff4f903024ff6dc767cbf872b43e1107107a49deabae009044d51254405fbb#npm:26.4.4"],
-            ["typescript", "patch:typescript@npm%3A4.0.5#builtin<compat/typescript>::version=4.0.5&hash=5bf698"],
+            ["typescript", "patch:typescript@npm%3A4.1.2#builtin<compat/typescript>::version=4.1.2&hash=5bf698"],
             ["utils", "link:src/utils::locator=tally%40workspace%3A."]
           ],
           "linkType": "SOFT",
@@ -8108,7 +8119,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["make-error", "npm:1.3.6"],
             ["mkdirp", "npm:1.0.4"],
             ["semver", "npm:7.3.2"],
-            ["typescript", "patch:typescript@npm%3A4.0.5#builtin<compat/typescript>::version=4.0.5&hash=5bf698"],
+            ["typescript", "patch:typescript@npm%3A4.1.2#builtin<compat/typescript>::version=4.1.2&hash=5bf698"],
             ["yargs-parser", "npm:20.2.4"]
           ],
           "packagePeers": [
@@ -8149,7 +8160,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["tsutils", "virtual:62aa599b3a47c5a6471964dd0b0541099ae7844a3bbec001c389d1f7bc01f993993195e7d5705a5f564259ca849feb57ecc5df4cc66bb5c9d2dca956b8f2aa3a#npm:3.17.1"],
             ["@types/typescript", null],
             ["tslib", "npm:1.14.1"],
-            ["typescript", "patch:typescript@npm%3A4.0.5#builtin<compat/typescript>::version=4.0.5&hash=5bf698"]
+            ["typescript", "patch:typescript@npm%3A4.1.2#builtin<compat/typescript>::version=4.1.2&hash=5bf698"]
           ],
           "packagePeers": [
             "@types/typescript",
@@ -8252,10 +8263,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["typescript", [
-        ["patch:typescript@npm%3A4.0.5#builtin<compat/typescript>::version=4.0.5&hash=5bf698", {
-          "packageLocation": "./.yarn/cache/typescript-patch-e9b928397c-d4be0bd2a2.zip/node_modules/typescript/",
+        ["patch:typescript@npm%3A4.1.2#builtin<compat/typescript>::version=4.1.2&hash=5bf698", {
+          "packageLocation": "./.yarn/cache/typescript-patch-c0a12d4f54-acfc7be6a0.zip/node_modules/typescript/",
           "packageDependencies": [
-            ["typescript", "patch:typescript@npm%3A4.0.5#builtin<compat/typescript>::version=4.0.5&hash=5bf698"]
+            ["typescript", "patch:typescript@npm%3A4.1.2#builtin<compat/typescript>::version=4.1.2&hash=5bf698"]
           ],
           "linkType": "HARD",
         }]
