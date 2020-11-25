@@ -53,7 +53,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["husky", "npm:4.3.0"],
             ["jest", "npm:26.6.3"],
             ["jest-circus", "npm:26.6.3"],
-            ["lint-staged", "npm:10.5.1"],
+            ["lint-staged", "npm:10.5.2"],
             ["npm-run-all", "npm:4.1.5"],
             ["prettier", "npm:2.2.0"],
             ["prettylint", "virtual:00f4dc5b5716c66b9aa8875c8c4f1330987e76fef068c4603f5f9e455c250cf6e6ff4f903024ff6dc767cbf872b43e1107107a49deabae009044d51254405fbb#npm:1.0.0"],
@@ -164,7 +164,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@babel/helper-split-export-declaration", "npm:7.11.0"],
             ["@babel/helper-validator-identifier", "npm:7.10.4"],
             ["@babel/template", "npm:7.12.7"],
-            ["@babel/traverse", "npm:7.12.7"],
+            ["@babel/traverse", "npm:7.12.8"],
             ["@babel/types", "npm:7.12.7"],
             ["lodash", "npm:4.17.20"]
           ],
@@ -197,7 +197,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@babel/helper-replace-supers", "npm:7.12.5"],
             ["@babel/helper-member-expression-to-functions", "npm:7.12.7"],
             ["@babel/helper-optimise-call-expression", "npm:7.12.7"],
-            ["@babel/traverse", "npm:7.12.7"],
+            ["@babel/traverse", "npm:7.12.8"],
             ["@babel/types", "npm:7.12.7"]
           ],
           "linkType": "HARD",
@@ -238,7 +238,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [
             ["@babel/helpers", "npm:7.12.5"],
             ["@babel/template", "npm:7.12.7"],
-            ["@babel/traverse", "npm:7.12.7"],
+            ["@babel/traverse", "npm:7.12.8"],
             ["@babel/types", "npm:7.12.7"]
           ],
           "linkType": "HARD",
@@ -475,6 +475,22 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/@babel-traverse-npm-7.12.7-11198aab04-b87488f31b.zip/node_modules/@babel/traverse/",
           "packageDependencies": [
             ["@babel/traverse", "npm:7.12.7"],
+            ["@babel/code-frame", "npm:7.10.4"],
+            ["@babel/generator", "npm:7.12.5"],
+            ["@babel/helper-function-name", "npm:7.10.4"],
+            ["@babel/helper-split-export-declaration", "npm:7.11.0"],
+            ["@babel/parser", "npm:7.12.7"],
+            ["@babel/types", "npm:7.12.7"],
+            ["debug", "virtual:88318143fb6d80d1f55c54ae799fe6cfcf29c86ca9b9dae7a485ec5bdb22c3a20f79119854bb9696c57b5a03879e8671e3e9d39fcd8ca2cec3e6655f73233a79#npm:4.3.1"],
+            ["globals", "npm:11.12.0"],
+            ["lodash", "npm:4.17.20"]
+          ],
+          "linkType": "HARD",
+        }],
+        ["npm:7.12.8", {
+          "packageLocation": "./.yarn/cache/@babel-traverse-npm-7.12.8-e80e0b6873-880ac0894f.zip/node_modules/@babel/traverse/",
+          "packageDependencies": [
+            ["@babel/traverse", "npm:7.12.8"],
             ["@babel/code-frame", "npm:7.10.4"],
             ["@babel/generator", "npm:7.12.5"],
             ["@babel/helper-function-name", "npm:7.10.4"],
@@ -4663,7 +4679,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/jest-circus-npm-26.6.3-b5c16d78c9-8ef70b1ccd.zip/node_modules/jest-circus/",
           "packageDependencies": [
             ["jest-circus", "npm:26.6.3"],
-            ["@babel/traverse", "npm:7.12.7"],
+            ["@babel/traverse", "npm:7.12.8"],
             ["@jest/environment", "npm:26.6.2"],
             ["@jest/test-result", "npm:26.6.2"],
             ["@jest/types", "npm:26.6.2"],
@@ -4855,7 +4871,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/jest-jasmine2-npm-26.6.3-aba0c11c28-18b15901f8.zip/node_modules/jest-jasmine2/",
           "packageDependencies": [
             ["jest-jasmine2", "npm:26.6.3"],
-            ["@babel/traverse", "npm:7.12.7"],
+            ["@babel/traverse", "npm:7.12.8"],
             ["@jest/environment", "npm:26.6.2"],
             ["@jest/source-map", "npm:26.6.2"],
             ["@jest/test-result", "npm:26.6.2"],
@@ -5396,10 +5412,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["lint-staged", [
-        ["npm:10.5.1", {
-          "packageLocation": "./.yarn/cache/lint-staged-npm-10.5.1-157822e544-d22748dde5.zip/node_modules/lint-staged/",
+        ["npm:10.5.2", {
+          "packageLocation": "./.yarn/cache/lint-staged-npm-10.5.2-32fefebd0b-285a0da521.zip/node_modules/lint-staged/",
           "packageDependencies": [
-            ["lint-staged", "npm:10.5.1"],
+            ["lint-staged", "npm:10.5.2"],
             ["chalk", "npm:4.1.0"],
             ["cli-truncate", "npm:2.1.0"],
             ["commander", "npm:6.2.0"],
@@ -5408,7 +5424,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["dedent", "npm:0.7.0"],
             ["enquirer", "npm:2.3.6"],
             ["execa", "npm:4.1.0"],
-            ["listr2", "virtual:157822e544031a7f77b6dea0a305d1050613b7dac8343fe938ae04e966f280b6f46e07d912d9857c8cddd542d16d9c27d5d05da7aed9bac69bbb23439295431a#npm:3.2.2"],
+            ["listr2", "virtual:32fefebd0bb795ba3de29cc354984cf6cbc7a7a11ea607dd6233a1aef04e50c70070f939156cbd8fca974daeaceceb361ae84657ffefd945d90cc474f253a5e4#npm:3.2.2"],
             ["log-symbols", "npm:4.0.0"],
             ["micromatch", "npm:4.0.2"],
             ["normalize-path", "npm:3.0.0"],
@@ -5420,10 +5436,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["listr2", [
-        ["virtual:157822e544031a7f77b6dea0a305d1050613b7dac8343fe938ae04e966f280b6f46e07d912d9857c8cddd542d16d9c27d5d05da7aed9bac69bbb23439295431a#npm:3.2.2", {
-          "packageLocation": "./.yarn/$$virtual/listr2-virtual-e433398d7f/0/cache/listr2-npm-3.2.2-277a88f06e-e4cccac610.zip/node_modules/listr2/",
+        ["virtual:32fefebd0bb795ba3de29cc354984cf6cbc7a7a11ea607dd6233a1aef04e50c70070f939156cbd8fca974daeaceceb361ae84657ffefd945d90cc474f253a5e4#npm:3.2.2", {
+          "packageLocation": "./.yarn/$$virtual/listr2-virtual-bf28378cd9/0/cache/listr2-npm-3.2.2-277a88f06e-e4cccac610.zip/node_modules/listr2/",
           "packageDependencies": [
-            ["listr2", "virtual:157822e544031a7f77b6dea0a305d1050613b7dac8343fe938ae04e966f280b6f46e07d912d9857c8cddd542d16d9c27d5d05da7aed9bac69bbb23439295431a#npm:3.2.2"],
+            ["listr2", "virtual:32fefebd0bb795ba3de29cc354984cf6cbc7a7a11ea607dd6233a1aef04e50c70070f939156cbd8fca974daeaceceb361ae84657ffefd945d90cc474f253a5e4#npm:3.2.2"],
             ["@types/enquirer", null],
             ["chalk", "npm:4.1.0"],
             ["cli-truncate", "npm:2.1.0"],
@@ -7907,7 +7923,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["husky", "npm:4.3.0"],
             ["jest", "npm:26.6.3"],
             ["jest-circus", "npm:26.6.3"],
-            ["lint-staged", "npm:10.5.1"],
+            ["lint-staged", "npm:10.5.2"],
             ["npm-run-all", "npm:4.1.5"],
             ["prettier", "npm:2.2.0"],
             ["prettylint", "virtual:00f4dc5b5716c66b9aa8875c8c4f1330987e76fef068c4603f5f9e455c250cf6e6ff4f903024ff6dc767cbf872b43e1107107a49deabae009044d51254405fbb#npm:1.0.0"],
