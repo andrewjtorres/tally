@@ -2,10 +2,7 @@
 lib
 
 # Dependencies
-.yarn/sdks
-.yarn/unplugged
-.yarn/build-state.yml
-.yarn/install-state.gz
+node_modules
 
 # Test and Code Coverage
 coverage

@@ -8,7 +8,7 @@ invalid.json
 lib
 
 # Dependencies
-.yarn
+node_modules
 
 # Test and Code Coverage
 coverage
