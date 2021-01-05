@@ -58,4 +58,4 @@ jobs:
       - name: Test units
         run: yarn --silent test:units --coverage --run-in-band
       - name: Publish code coverage report
-        uses: codecov/codecov-action@v1.1.1
+        uses: codecov/codecov-action@v1.2.0
