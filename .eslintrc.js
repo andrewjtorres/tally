@@ -1,7 +1,7 @@
 'use strict'
 
 const typescriptPlugin = require('@typescript-eslint/eslint-plugin')
-const prettierTypescriptConfig = require('eslint-config-prettier/@typescript-eslint')
+const prettierConfig = require('eslint-config-prettier')
 const jestPlugin = require('eslint-plugin-jest')
 
 module.exports = {
@@ -12,9 +12,9 @@ module.exports = {
     'plugin:import/recommended',
     'plugin:promise/recommended',
     'plugin:unicorn/recommended',
-    'prettier',
-    'prettier/unicorn',
+    'plugin:prettier/recommended',
   ],
+  ignorePatterns: ['!**/.*', '.git'],
   rules: {
     'no-console': ['error', { allow: ['error', 'info', 'warn'] }],
     'no-param-reassign': ['error', { props: true }],
@@ -39,11 +39,12 @@ module.exports = {
       plugins: typescriptPlugin.configs.base.plugins,
       rules: {
         ...typescriptPlugin.configs.recommended.rules,
+        ...typescriptPlugin.configs['eslint-recommended'].overrides[0].rules,
         ...typescriptPlugin.configs['recommended-requiring-type-checking']
           .rules,
         '@typescript-eslint/explicit-function-return-type': 'off',
         'import/named': 'off',
-        ...prettierTypescriptConfig.rules,
+        ...prettierConfig.rules,
       },
     },
     {
