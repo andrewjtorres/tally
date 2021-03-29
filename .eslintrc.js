@@ -29,6 +29,13 @@ module.exports = {
       },
     ],
     'unicorn/prevent-abbreviations': 'off',
+
+    // TODO: Enable the following rules
+    'unicorn/import-style': 'off',
+    'unicorn/no-array-reduce': 'off',
+    'unicorn/no-useless-undefined': 'off',
+    'unicorn/prefer-spread': 'off',
+
     'prettier/prettier': 'error',
   },
   overrides: [
@@ -44,6 +51,10 @@ module.exports = {
           .rules,
         '@typescript-eslint/explicit-function-return-type': 'off',
         'import/named': 'off',
+
+        // TODO: Enable the following rules
+        '@typescript-eslint/explicit-module-boundary-types': 'off',
+
         ...prettierConfig.rules,
       },
     },
