@@ -27,6 +27,7 @@
     "lint:files": "prettylint \"**/*.{json,md,yml}\"",
     "lint:scripts": "eslint --ignore-path .gitignore \"**/*.{js,ts}\"",
     "lint:types": "tsc --noEmit --project tsconfig.jest.json && tsc --noEmit --project tsconfig.node.json",
+    "prepare": "husky install",
     "test": "npm-run-all --parallel \"test:*\"",
     "test:units": "jest"
   },
@@ -60,21 +61,11 @@
     "typescript": "^4.2.3",
     "utils": "link:src/utils"
   },
-  "dependenciesMeta": {
-    "husky": {
-      "built": false
-    }
-  },
   "engines": {
     "node": ">=14.15",
     "yarn": ">=1.22"
   },
   "private": true,
-  "husky": {
-    "hooks": {
-      "pre-commit": "yarn hook:pre-commit"
-    }
-  },
   "lint-staged": {
     "*.{js,ts}": [
       "eslint --fix",
