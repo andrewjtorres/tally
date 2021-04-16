@@ -8,7 +8,7 @@ module.exports = {
   },
   errorOnDeprecated: true,
   globals: {
-    'ts-jest': { packageJson: 'package.json', tsConfig: 'tsconfig.jest.json' },
+    'ts-jest': { tsconfig: 'tsconfig.jest.json' },
   },
   modulePathIgnorePatterns: ['<rootDir>/lib'],
   restoreMocks: true,
