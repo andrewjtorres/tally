@@ -14,7 +14,6 @@ module.exports = {
     'plugin:unicorn/recommended',
     'plugin:prettier/recommended',
   ],
-  ignorePatterns: ['!**/.*', '.git'],
   rules: {
     'no-console': ['error', { allow: ['error', 'info', 'warn'] }],
     'no-param-reassign': ['error', { props: true }],
@@ -28,6 +27,8 @@ module.exports = {
         'newlines-between': 'always',
       },
     ],
+    'unicorn/prefer-module': 'off',
+    'unicorn/prefer-node-protocol': 'off',
     'unicorn/prevent-abbreviations': 'off',
 
     // TODO: Enable the following rules
