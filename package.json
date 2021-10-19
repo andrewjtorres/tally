@@ -52,7 +52,7 @@
     "eslint-plugin-unicorn": "^37.0.1",
     "husky": "^7.0.2",
     "jest": "^27.3.1",
-    "jest-circus": "^27.2.5",
+    "jest-circus": "^27.3.1",
     "lint-staged": "^11.2.3",
     "npm-run-all": "^4.1.5",
     "prettier": "^2.4.1",
