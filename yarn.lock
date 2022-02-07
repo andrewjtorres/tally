@@ -2923,12 +2923,12 @@ jest-jasmine2@^27.4.6:
     throat "^6.0.1"
 
 jest-leak-detector@^27.4.6:
-  version "27.4.6"
-  resolved "https://registry.yarnpkg.com/jest-leak-detector/-/jest-leak-detector-27.4.6.tgz#ed9bc3ce514b4c582637088d9faf58a33bd59bf4"
-  integrity sha512-kkaGixDf9R7CjHm2pOzfTxZTQQQ2gHTIWKY/JZSiYTc90bZp8kSZnUMS3uLAfwTZwc0tcMRoEX74e14LG1WapA==
+  version "27.5.0"
+  resolved "https://registry.yarnpkg.com/jest-leak-detector/-/jest-leak-detector-27.5.0.tgz#c98c02e64eab4da9a8b91f058d2b7473272272ee"
+  integrity sha512-Ak3k+DD3ao5d4/zzJrxAQ5UV5wiCrp47jH94ZD4/vXSzQgE6WBVDfg83VtculLILO7Y6/Q/7yzKSrtN9Na8luA==
   dependencies:
-    jest-get-type "^27.4.0"
-    pretty-format "^27.4.6"
+    jest-get-type "^27.5.0"
+    pretty-format "^27.5.0"
 
 jest-matcher-utils@^27.4.6:
   version "27.4.6"
@@ -3934,16 +3934,7 @@ prettier@^2.5.1:
   resolved "https://registry.yarnpkg.com/prettier/-/prettier-2.5.1.tgz#fff75fa9d519c54cf0fce328c1017d94546bc56a"
   integrity sha512-vBZcPRUR5MZJwoyi3ZoyQlc1rXeEck8KgeC9AwwOn+exuxLxq5toTRDTSaVrXHxelDMHy9zlicw8u66yxoSUFg==
 
-pretty-format@^27.0.0, pretty-format@^27.4.6:
-  version "27.4.6"
-  resolved "https://registry.yarnpkg.com/pretty-format/-/pretty-format-27.4.6.tgz#1b784d2f53c68db31797b2348fa39b49e31846b7"
-  integrity sha512-NblstegA1y/RJW2VyML+3LlpFjzx62cUrtBIKIWDXEDkjNeleA7Od7nrzcs/VLQvAeV4CgSYhrN39DRN88Qi/g==
-  dependencies:
-    ansi-regex "^5.0.1"
-    ansi-styles "^5.0.0"
-    react-is "^17.0.1"
-
-pretty-format@^27.5.0:
+pretty-format@^27.0.0, pretty-format@^27.4.6, pretty-format@^27.5.0:
   version "27.5.0"
   resolved "https://registry.yarnpkg.com/pretty-format/-/pretty-format-27.5.0.tgz#71e1af7a4b587d259fa4668dcd3e94af077767cb"
   integrity sha512-xEi6BRPZ+J1AIS4BAtFC/+rh5jXlXObGZjx5+OSpM95vR/PGla78bFVHMy5GdZjP9wk3AHAMHROXq/r69zXltw==
