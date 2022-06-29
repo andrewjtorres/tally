@@ -2236,9 +2236,9 @@ get-symbol-description@^1.0.0:
     get-intrinsic "^1.1.1"
 
 get-tsconfig@^4.0.6:
-  version "4.0.7"
-  resolved "https://registry.yarnpkg.com/get-tsconfig/-/get-tsconfig-4.0.7.tgz#fa6314dfdd43f693605379e9f4717332d5f93e46"
-  integrity sha512-hI0ikvRti9TmxszXtfRaVxSU0yQ2HJK03MU14dG/exX/RrELbMTYJW0xOzGR6c2FsddZ3eZHZxDotEIPOw4D+A==
+  version "4.1.0"
+  resolved "https://registry.yarnpkg.com/get-tsconfig/-/get-tsconfig-4.1.0.tgz#325fd5a58ee94596037263ce8b7db0ce8ac7b925"
+  integrity sha512-bhshxJhpfmeQ8x4fAvDqJV2VfGp5TfHdLpmBpNZZhMoVyfIrOippBW4mayC3DT9Sxuhcyl56Efw61qL28hG4EQ==
 
 glob-parent@^5.1.2:
   version "5.1.2"
