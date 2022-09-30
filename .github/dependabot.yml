@@ -8,6 +8,7 @@ updates:
       - dependency-type: all
     labels:
       - ':horse: chore'
+      - ':rocket: automerge'
     open-pull-requests-limit: 10
     reviewers:
       - ajtorres9
@@ -19,6 +20,7 @@ updates:
       - dependency-type: all
     labels:
       - ':horse: chore'
+      - ':rocket: automerge'
     open-pull-requests-limit: 10
     reviewers:
       - ajtorres9
